@@ -1,0 +1,17 @@
+{
+  "runtime": "vanilla-eds",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "blockWrapperClass": "block",
+  "blockDom": "div.<name>.block[data-block-name] inside div.<name>-wrapper; section gains .<name>-container",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonRules": "strong>a = primary, em>a = secondary, strong+em = accent; a link alone in its <p>; links whose text equals their URL and links holding an <img> are skipped",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "wrapTextNodes": true,
+  "autoBlocks": ["fragment links (/fragments/)", "widget links (/widgets/)"],
+  "chrome": "header/footer blocks load /nav and /footer via loadFragment (nav/footer metadata overrides)",
+  "fonts": "styles/fonts.css via loadFonts() (eager >=900px or fonts-loaded flag; always in loadLazy); proxima-nova from the owner's Adobe Fonts kit linked in head.html (R-01)",
+  "martech": "scripts/martech.js loadConsent() in loadEager, consent-check.js in loadDelayed — all disabled, kept as scaffolded",
+  "probedAt": "2026-11-22"
+}

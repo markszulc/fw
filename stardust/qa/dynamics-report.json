@@ -1,0 +1,131 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-22T10:57:06.905Z",
+  "origin": "https://main--94144fc1--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "header mega menus (5 hover panels)",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × header .site-nav-menu .mega (min 4)",
+   "thirdParty": "use.typekit.net:200×6 p.typekit.net:200×1",
+   "ms": 2467,
+   "environmentLimit": null
+  },
+  {
+   "feature": "mobile drawer, nested levels",
+   "id": "chrome-drawer",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header input#mobile-menu (min 1)",
+   "thirdParty": "use.typekit.net:200×6 p.typekit.net:200×1",
+   "ms": 1857,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header search box (GET /allSearch?q)",
+   "id": "chrome-search",
+   "class": "S",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × form.header-search[action*=\"allSearch\"] (min 2)",
+   "thirdParty": "use.typekit.net:200×6 p.typekit.net:200×1",
+   "ms": 1840,
+   "environmentLimit": null
+  },
+  {
+   "feature": "newsletter form (email, country, opt-in)",
+   "id": "f-newsletter",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .newsletter form input[name=email] (min 1)",
+   "thirdParty": "use.typekit.net:200×6 p.typekit.net:200×1",
+   "ms": 1838,
+   "environmentLimit": null
+  },
+  {
+   "feature": "newsletter form (email, country, opt-in)",
+   "id": "f-newsletter",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "228 × .newsletter form select[name=country] option (min 100)",
+   "thirdParty": "use.typekit.net:200×6 p.typekit.net:200×1",
+   "ms": 1844,
+   "environmentLimit": null
+  },
+  {
+   "feature": "form confirmation copy",
+   "id": "cr-eloqua-confirm",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .newsletter .newsletter-confirm (min 1)",
+   "thirdParty": "use.typekit.net:200×6 p.typekit.net:200×1",
+   "ms": 1869,
+   "environmentLimit": null
+  },
+  {
+   "feature": "events photo carousel (dots, autoplay)",
+   "id": "fbs-img-carousel",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "7 × .carousel .carousel-dots li (min 7)",
+   "thirdParty": "use.typekit.net:200×6 p.typekit.net:200×1",
+   "ms": 1845,
+   "environmentLimit": null
+  },
+  {
+   "feature": "sign-in / account links",
+   "id": "x-sign-in",
+   "class": "X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × header a[href*=\"forrester.com/login\"] (min 1)",
+   "thirdParty": "use.typekit.net:200×6 p.typekit.net:200×1",
+   "ms": 1853,
+   "environmentLimit": null
+  },
+  {
+   "feature": "no uncaught errors",
+   "id": "page-health",
+   "class": "—",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 2 page(s)",
+   "thirdParty": "",
+   "ms": 3710,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (2 gated · 1 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6109,
+   "environmentLimit": null
+  }
+ ]
+}

@@ -1,0 +1,1270 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-22T09:16:25.753Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.forrester.com/bold/"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/bold/": {
+   "url": "https://www.forrester.com/bold/",
+   "status": 200,
+   "host": "www.forrester.com",
+   "title": "Forrester Helps Organizations Thrive Through Volatility",
+   "forms": [
+    {
+     "name": "header-search",
+     "action": "https://www.forrester.com/allSearch",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "header-search",
+     "action": "https://www.forrester.com/allSearch",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "LEAD3.0Wordpress",
+     "action": null,
+     "method": "post",
+     "role": "",
+     "inChrome": false,
+     "fields": 3,
+     "signature": [
+      "email:email",
+      "select:country",
+      "checkbox:optin"
+     ],
+     "hidden": [
+      "elqFormName",
+      "elqSiteId",
+      "elqCustomerGUID",
+      "elqCookieWrite",
+      "eloquahtmlformname",
+      "src",
+      "formsource",
+      "notes",
+      "scid",
+      "leadtype",
+      "leadcontext",
+      "blindsubmit"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "alertdialog",
+     "heading": "Cookie Settings",
+     "textLen": 1509,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 18,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/messenger?uuid=0ae3ce1e-7046-4965-b9a3-ad7c91aa5e76",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/messenger?uuid=0ae3ce1e-7046-4965-b9a3-ad7c91aa5e76",
+     "title": "Qualified Messenger",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.forrester.com/login",
+    "https://www.forrester.com/login"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://www.forrester.com/ai/",
+     "https://www.forrester.com/ai/"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag",
+    "dtrum"
+   ],
+   "clientRendered": [
+    {
+     "cls": "eloqua-form__form col-md-6 js-eloqua-form",
+     "attrs": [],
+     "text": "Business Email Address* Country* CountryUnited StatesÅland I"
+    },
+    {
+     "cls": "eloqua-form__confirm col-md-6 js-eloqua-confirm",
+     "attrs": [],
+     "text": "Thanks for signing up. Stay tuned for updates from the Forre"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 33,
+   "inlineFetch": true,
+   "mainText": 10022,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.forrester.com": 4,
+    "stg-go.forrester.com": 1,
+    "cdn-0.d41.co": 1,
+    "go.forrester.com": 32,
+    "use.typekit.net": 6,
+    "p.typekit.net": 1,
+    "cdn.jsdelivr.net": 1,
+    "www.googletagmanager.com": 4,
+    "img.en25.com": 3,
+    "cdn.cookielaw.org": 10,
+    "geolocation.onetrust.com": 1,
+    "elq.forrester.com": 6,
+    "www.redditstatic.com": 1,
+    "cdn.quantummetric.com": 1,
+    "live.rezync.com": 4,
+    "js.qualified.com": 7,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 12,
+    "pixel-config.reddit.com": 1,
+    "app.qualified.com": 21,
+    "ws.zoominfo.com": 1,
+    "alb.reddit.com": 2,
+    "c1.rfihub.net": 1,
+    "cdn.boomtrain.com": 1,
+    "ingest.quantummetric.com": 15,
+    "snap.licdn.com": 1,
+    "collect.forrester.com": 5,
+    "20877077p.rfihub.com": 1,
+    "px.ads.linkedin.com": 4,
+    "analytics.google.com": 3,
+    "googleads.g.doubleclick.net": 4,
+    "assets.qualified.com": 5,
+    "stats.g.doubleclick.net": 1,
+    "people.api.zetaglobal.net": 1,
+    "www.linkedin.com": 1,
+    "image2.pubmatic.com": 1,
+    "p.rfihub.com": 3,
+    "cm.g.doubleclick.net": 1,
+    "us-u.openx.net": 2,
+    "dpm.demdex.net": 2,
+    "static.cloudflareinsights.com": 1,
+    "ib.adnxs.com": 2,
+    "wt.rqtrk.eu": 1,
+    "dsum-sec.casalemedia.com": 2,
+    "contextual.media.net": 1,
+    "px4.ads.linkedin.com": 1,
+    "i.liadm.com": 5,
+    "aa.agkn.com": 1,
+    "idsync.rlcdn.com": 1,
+    "a.rfihub.com": 1,
+    "sync-tm.everesttech.net": 2,
+    "ps.eyeota.net": 2,
+    "events.api.boomtrain.com": 1,
+    "partners.tremorhub.com": 1,
+    "x.bidswitch.net": 2,
+    "pippio.com": 2,
+    "o209747.ingest.us.sentry.io": 1,
+    "messenger-assets.qualified.com": 3
+   },
+   "thirdPartyHosts": [
+    "cdn-0.d41.co",
+    "use.typekit.net",
+    "p.typekit.net",
+    "cdn.jsdelivr.net",
+    "www.googletagmanager.com",
+    "img.en25.com",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "www.redditstatic.com",
+    "cdn.quantummetric.com",
+    "live.rezync.com",
+    "js.qualified.com",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "pixel-config.reddit.com",
+    "app.qualified.com",
+    "ws.zoominfo.com",
+    "alb.reddit.com",
+    "c1.rfihub.net",
+    "cdn.boomtrain.com",
+    "ingest.quantummetric.com",
+    "snap.licdn.com",
+    "20877077p.rfihub.com",
+    "px.ads.linkedin.com",
+    "analytics.google.com",
+    "googleads.g.doubleclick.net",
+    "assets.qualified.com",
+    "stats.g.doubleclick.net",
+    "people.api.zetaglobal.net",
+    "www.linkedin.com",
+    "image2.pubmatic.com",
+    "p.rfihub.com",
+    "cm.g.doubleclick.net",
+    "us-u.openx.net",
+    "dpm.demdex.net",
+    "static.cloudflareinsights.com",
+    "ib.adnxs.com",
+    "wt.rqtrk.eu",
+    "dsum-sec.casalemedia.com",
+    "contextual.media.net",
+    "px4.ads.linkedin.com",
+    "i.liadm.com",
+    "aa.agkn.com",
+    "idsync.rlcdn.com",
+    "a.rfihub.com",
+    "sync-tm.everesttech.net",
+    "ps.eyeota.net",
+    "events.api.boomtrain.com",
+    "partners.tremorhub.com",
+    "x.bidswitch.net",
+    "pippio.com",
+    "o209747.ingest.us.sentry.io",
+    "messenger-assets.qualified.com"
+   ],
+   "scripts": [
+    "https://www.forrester.com/ruxitagentjs_ICANVfqru_10349261020121938.js",
+    "https://cdn-0.d41.co/tags/ff/ff-4.min.js",
+    "https://go.forrester.com/wp-content/themes/forrester/assets/dist/js/client-side-redirects.min.js?v=1795207692",
+    "https://go.forrester.com/wp-content/themes/forrester/assets/vendor/slick.min.js?ver=1.8.1",
+    "https://go.forrester.com/wp-content/themes/forrester/assets/vendor/jquery.min.js?ver=3.6.1",
+    "https://go.forrester.com/wp-content/themes/forrester/assets/vendor/jquery.validate.min.js?ver=7.1.5",
+    "https://go.forrester.com/wp-content/themes/forrester/assets/dist/js/core.min.js?ver=1795207692",
+    "https://go.forrester.com/wp-content/plugins/duracelltomi-google-tag-manager/build/gtm4wp-form-move-tracker.js?ver=2.1.1",
+    "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-T4HT5SN",
+    "https://go.forrester.com/wp-content/themes/forrester/assets/vendor/country-state-json.js?callback=regionData&_=1795338986426",
+    "https://img.en25.com/i/elqCfg.min.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+    "https://www.redditstatic.com/ads/pixel.js",
+    "https://elq.forrester.com/visitor/v200/svrGP?pps=70&siteid=332&ms=662&firstPartyCookieDomain=elq.forrester.com",
+    "https://cdn.quantummetric.com/qscripts/quantum-forrester.js",
+    "https://live.rezync.com/sync?c=16b6410431b6374e780104abb0443ca8&p=8de566aaa2ebb42777219b17a7cded08&k=forrester-research-ltd-pixel-1462&zmpID=forrester-research-ltd&cache_buster=1795338986777&PageUrl=h",
+    "https://js.qualified.com/qualified.js?token=c2pm6UmLFpqKykqE",
+    "https://www.googletagmanager.com/gtag/js?id=G-PMXYWTHPVN&cx=c&gtm=4e6bh1",
+    "https://ws.zoominfo.com/pixel/e3J097ANLBb3HGh8RG8K",
+    "https://www.googletagmanager.com/gtag/js?id=AW-1050577862&cx=c&gtm=4e6bh1",
+    "https://c1.rfihub.net/js/tc.min.js",
+    "https://cdn.boomtrain.com/p13n/forrester-research-ltd/p13n.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://elq.forrester.com/visitor/v200/svrGP?pps=50&siteid=332&DLKey=8cf7536e-bf0a-4854-8a8b-f3a233f4d0fe&DLLookup=&ms=662&firstPartyCookieDomain=elq.forrester.com",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-17413863709&cx=c&gtm=4e6bh1",
+    "https://elq.forrester.com/visitor/v200/svrGP?pps=50&siteid=332&DLKey=8cf7536e-bf0a-4854-8a8b-f3a233f4d0fe&DLLookup=&ms=662&elq1pcGUID=F307FC0C74964BC986264F184AA39CFB",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1050577862/?random=1795338987105&cv=11&fst=1795338987105&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bh1v9168637344za20ozb8544210",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1050577862/?random=1795338987128&cv=11&fst=1795338987128&bg=ffffff&guid=ON&async=1&gtm=45be6bh1v9168637344z8854421006za20gzb854421006zd",
+    "https://js.qualified.com/packs/js/analytics-45b9b757.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17413863709/?random=1795338987233&cv=11&fst=1795338987233&bg=ffffff&guid=ON&async=1&gtm=45be6bh1z8854421006za20gzb854421006zd854421006x",
+    "https://js.qualified.com/packs/js/multimodal_v2-b33b1240.js",
+    "https://js.qualified.com/packs/js/9925-ecbf0170.js",
+    "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+    "https://assets.qualified.com/packs/js/widget/sandboxed/messenger-dccd8871.js",
+    "https://img.en25.com/Web/Forrester/%7B23c79f58-08a9-49f2-a2ec-2e63b7e11d4d%7D_zipsicdata.js?callback=zipsicdata&_=1795338986427",
+    "https://js.qualified.com/packs/js/9977-47a42916.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "collect.forrester.com",
+     "path": "/g/collect",
+     "query": [
+      "_et",
+      "_eu",
+      "_fplc",
+      "_ng",
+      "_p",
+      "_s",
+      "_tu",
+      "cid",
+      "dl",
+      "dma",
+      "dt",
+      "ec_mode",
+      "ecid",
+      "en",
+      "ep.onetrust_active_groups",
+      "ep.page_platform",
+      "ep.post_author",
+      "ep.post_date",
+      "ep.post_subtype",
+      "ep.post_type",
+      "ep.user_data._tag_mode",
+      "frm",
+      "gaf",
+      "gap.sstd",
+      "gcd",
+      "gdid",
+      "gtm",
+      "ir",
+      "npa",
+      "pscdl",
+      "rcb",
+      "richsstsse",
+      "sct",
+      "seg",
+      "sid",
+      "sr",
+      "sst.gch",
+      "sst.lpc",
+      "sst.navt",
+      "sst.sw_exp",
+      "sst.tft",
+      "sst.ude",
+      "tag_exp",
+      "tfd",
+      "tid",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uam",
+      "uamb",
+      "uap",
+      "uapv",
+      "uaw",
+      "ul",
+      "up.ga_client_id",
+      "ur",
+      "v"
+     ],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://collect.forrester.com/g/collect"
+    },
+    {
+     "method": "POST",
+     "host": "www.forrester.com",
+     "path": "/rb_bf34414eoq",
+     "query": [
+      "app",
+      "bp",
+      "crc",
+      "en",
+      "end",
+      "flavor",
+      "modifiedSince",
+      "sn",
+      "svrid",
+      "type",
+      "vi"
+     ],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://www.forrester.com/rb_bf34414eoq"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/9aaa5c19-25f5-4113-a95b-17bcd8c33295/9aaa5c19-25f5-4113-a95b-17bcd8c332",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/9aaa5c19-25f5-4113-a95b-17bcd8c33295/018deae7-fe7b-7e30-b38b-e35ecdc47f",
+    "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/v2/otPcCenter.json",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "GET pixel-config.reddit.com/pixels/a2_hh0g9sfjwqfw/config",
+    "GET app.qualified.com/w/1/c2pm6UmLFpqKykqE/cookie_consent_policy",
+    "POST alb.reddit.com/rp",
+    "POST app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events",
+    "HEAD ingest.quantummetric.com/horizon/d",
+    "POST www.google.com/rmkt/collect/1050577862/",
+    "POST px.ads.linkedin.com/wa/",
+    "POST www.google.com/rmkt/collect/17413863709/",
+    "GET people.api.zetaglobal.net/identify/resolve",
+    "POST events.api.boomtrain.com/event/track",
+    "POST o209747.ingest.us.sentry.io/api/4508915056574464/envelope/",
+    "POST app.qualified.com/cdn-cgi/rum",
+    "POST ingest.quantummetric.com/horizon/forrester",
+    "POST ingest.quantummetric.com/resource-loader/forrester/hash-check",
+    "POST app.qualified.com/w/1/c2pm6UmLFpqKykqE/messages"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&_ng=1&frm=0&apvc=1&ae=g&auid=1895701105.1795338987&dt=Forrester%20Helps%20Organizations%20Thrive%20Through%20Volatility&en=page_view&dl=https%3A%2F%2Fwww.forre",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1895701105.1795338987&gtm=45He6bh1v854421006za200zd854421006xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events?",
+     "body": "{\"event\":\"script_time_to_start_ms\",\"type\":\"log\",\"extra\":{\"method\":\"dist\",\"operand\":938.4000000001397,\"tags\":{\"consumer\":\"hosted\",\"load_channel\":\"cdn\"}}}"
+    },
+    {
+     "url": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events?",
+     "body": "{\"event\":\"widget_time_to_domready_ms\",\"type\":\"log\",\"extra\":{\"method\":\"dist\",\"operand\":2.6000000000931323}}"
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=a2_hh0g9sfjwqfw&event=PageVisit",
+     "body": "ts=1795338986885&id=a2_hh0g9sfjwqfw&event=PageVisit&uuid=854c3d50-5bde-408f-8979-b7ab62e18b56&integration=gtm&partner_version=1.0.2&opt_out=0&sh=1440&sw=900&v=rdt_c9bc64c3&esurl=https%3A%2F%2Fwww.forrester.com%2Fbold%2F&db=tsc-0.iframe-0.isc-0.pp-0.mo-1.srv_cfg-0.src_pid-0.pms-2&mthd=POST"
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=a2_iexldb9l1ypa&event=PageVisit",
+     "body": "ts=1795338986888&id=a2_iexldb9l1ypa&event=PageVisit&uuid=854c3d50-5bde-408f-8979-b7ab62e18b56&integration=gtm&partner_version=1.0.2&opt_out=0&sh=1440&sw=900&v=rdt_c9bc64c3&esurl=https%3A%2F%2Fwww.forrester.com%2Fbold%2F&db=tsc-0.iframe-0.isc-0.pp-0.mo-1.src_pid-0.mpx-1.pms-7&mthd=POST"
+    },
+    {
+     "url": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events?",
+     "body": "{\"event\":\"widget_cookie_consent_policy_ms\",\"type\":\"log\",\"extra\":{\"method\":\"dist\",\"operand\":78.20000000018626,\"tags\":{\"consumer\":\"hosted\",\"outcome\":\"ok\",\"pending_at_init\":\"true\"}}}"
+    },
+    {
+     "url": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events?wu=181fa54a-7fd3-4ca2-a8fd-e1e3d2222404&uuid=0ae3ce1e-7046-4965-b9a3-ad7c91aa5e76",
+     "body": "{\"event\":\"widget_time_to_visitor_ready_ms\",\"type\":\"log\",\"extra\":{\"method\":\"dist\",\"operand\":73.70000000018626}}"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1050577862/?random=1795338987105&cv=11&fst=1795338987105&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bh1v9168637344za20ozb854421006zd854421006xecxf1&gcd",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1050577862/?random=1795338987128&cv=11&fst=1795338987128&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6bh1v9168637344z8854421006za20gzb854421006zd854421006xeaxf1&gcd=13l",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=6&_ng=1&frm=0&apvc=0&auid=1895701105.1795338987&dt=Forrester%20Helps%20Organizations%20Thrive%20Through%20Volatility&tid=AW-1050577862&en=page_view&dl=https%3A%2",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=6&_ng=1&frm=0&apvc=0&ae=g&auid=1895701105.1795338987&dt=Forrester%20Helps%20Organizations%20Thrive%20Through%20Volatility&tid=AW-1050577862&dl=https%3A%2F%2Fwww.",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 10008,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-pixel-config-reddit-com",
+   "class": "A",
+   "feature": "unknown third-party host pixel-config.reddit.com",
+   "hint": "inspect",
+   "evidence": [
+    "pixel-config.reddit.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-app-qualified-com",
+   "class": "A",
+   "feature": "unknown third-party host app.qualified.com",
+   "hint": "inspect",
+   "evidence": [
+    "app.qualified.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-alb-reddit-com",
+   "class": "A",
+   "feature": "unknown third-party host alb.reddit.com",
+   "hint": "inspect",
+   "evidence": [
+    "alb.reddit.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "A",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-people-api-zetaglobal-net",
+   "class": "A",
+   "feature": "unknown third-party host people.api.zetaglobal.net",
+   "hint": "inspect",
+   "evidence": [
+    "people.api.zetaglobal.net"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-events-api-boomtrain-com",
+   "class": "A",
+   "feature": "unknown third-party host events.api.boomtrain.com",
+   "hint": "inspect",
+   "evidence": [
+    "events.api.boomtrain.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-eloqua-form-form-col-md-6-js-eloqua-",
+   "class": "CR",
+   "feature": "client-rendered slot eloqua-form__form col-md-6 js-eloqua-form",
+   "hint": "client-rendered",
+   "evidence": [
+    "Business Email Address* Country* CountryUnited StatesÅland I"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-eloqua-form-confirm-col-md-6-js-eloq",
+   "class": "CR",
+   "feature": "client-rendered slot eloqua-form__confirm col-md-6 js-eloqua-confirm",
+   "hint": "client-rendered",
+   "evidence": [
+    "Thanks for signing up. Stay tuned for updates from the Forre"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "f-form-lead3-0wordpress-no-action-js-wired-3-fields",
+   "class": "F",
+   "feature": "form \"LEAD3.0Wordpress\" → no action (JS-wired) (3 fields)",
+   "signature": [
+    "email:email",
+    "select:country",
+    "checkbox:optin"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "email:email,select:country,checkbox:optin",
+    "elqFormName,elqSiteId,elqCustomerGUID,elqCookieWrite,eloquahtmlformname,src,formsource,notes,scid,leadtype,leadcontext,blindsubmit"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-ai-ai",
+   "class": "I18N",
+   "feature": "locale variants ai,ai",
+   "hint": "locale",
+   "evidence": [
+    "https://www.forrester.com/ai/"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Filter Icon"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "s-site-search-form-allsearch",
+   "class": "S",
+   "feature": "site search form → /allSearch",
+   "hint": "search",
+   "evidence": [
+    "search:q"
+   ],
+   "pages": [
+    "/bold/"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 2
+   }
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-0-d41-co",
+   "class": "T",
+   "feature": "unknown third-party host cdn-0.d41.co",
+   "hint": "inspect",
+   "evidence": [
+    "cdn-0.d41.co"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-img-en25-com",
+   "class": "T",
+   "feature": "unknown third-party host img.en25.com",
+   "hint": "inspect",
+   "evidence": [
+    "img.en25.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-redditstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host www.redditstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.redditstatic.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "role": "analytics: session replay",
+   "hint": "tags",
+   "evidence": [
+    "cdn.quantummetric.com",
+    "ingest.quantummetric.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-live-rezync-com",
+   "class": "T",
+   "feature": "unknown third-party host live.rezync.com",
+   "hint": "inspect",
+   "evidence": [
+    "live.rezync.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-js-qualified-com",
+   "class": "T",
+   "feature": "unknown third-party host js.qualified.com",
+   "hint": "inspect",
+   "evidence": [
+    "js.qualified.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "ad.doubleclick.net",
+    "snap.licdn.com",
+    "googleads.g.doubleclick.net",
+    "stats.g.doubleclick.net",
+    "cm.g.doubleclick.net",
+    "ib.adnxs.com",
+    "sync-tm.everesttech.net"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-ws-zoominfo-com",
+   "class": "T",
+   "feature": "unknown third-party host ws.zoominfo.com",
+   "hint": "inspect",
+   "evidence": [
+    "ws.zoominfo.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-c1-rfihub-net",
+   "class": "T",
+   "feature": "unknown third-party host c1.rfihub.net",
+   "hint": "inspect",
+   "evidence": [
+    "c1.rfihub.net"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-boomtrain-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.boomtrain.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.boomtrain.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-20877077p-rfihub-com",
+   "class": "T",
+   "feature": "unknown third-party host 20877077p.rfihub.com",
+   "hint": "inspect",
+   "evidence": [
+    "20877077p.rfihub.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "analytics.google.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-assets-qualified-com",
+   "class": "T",
+   "feature": "unknown third-party host assets.qualified.com",
+   "hint": "inspect",
+   "evidence": [
+    "assets.qualified.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host www.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.linkedin.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-image2-pubmatic-com",
+   "class": "T",
+   "feature": "unknown third-party host image2.pubmatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "image2.pubmatic.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-p-rfihub-com",
+   "class": "T",
+   "feature": "unknown third-party host p.rfihub.com",
+   "hint": "inspect",
+   "evidence": [
+    "p.rfihub.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-us-u-openx-net",
+   "class": "T",
+   "feature": "unknown third-party host us-u.openx.net",
+   "hint": "inspect",
+   "evidence": [
+    "us-u.openx.net"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "dpm.demdex.net"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-cloudflareinsights-com",
+   "class": "T",
+   "feature": "unknown third-party host static.cloudflareinsights.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.cloudflareinsights.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-wt-rqtrk-eu",
+   "class": "T",
+   "feature": "unknown third-party host wt.rqtrk.eu",
+   "hint": "inspect",
+   "evidence": [
+    "wt.rqtrk.eu"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-dsum-sec-casalemedia-com",
+   "class": "T",
+   "feature": "unknown third-party host dsum-sec.casalemedia.com",
+   "hint": "inspect",
+   "evidence": [
+    "dsum-sec.casalemedia.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-contextual-media-net",
+   "class": "T",
+   "feature": "unknown third-party host contextual.media.net",
+   "hint": "inspect",
+   "evidence": [
+    "contextual.media.net"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-px4-ads-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host px4.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px4.ads.linkedin.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-i-liadm-com",
+   "class": "T",
+   "feature": "unknown third-party host i.liadm.com",
+   "hint": "inspect",
+   "evidence": [
+    "i.liadm.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-aa-agkn-com",
+   "class": "T",
+   "feature": "unknown third-party host aa.agkn.com",
+   "hint": "inspect",
+   "evidence": [
+    "aa.agkn.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-idsync-rlcdn-com",
+   "class": "T",
+   "feature": "unknown third-party host idsync.rlcdn.com",
+   "hint": "inspect",
+   "evidence": [
+    "idsync.rlcdn.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-a-rfihub-com",
+   "class": "T",
+   "feature": "unknown third-party host a.rfihub.com",
+   "hint": "inspect",
+   "evidence": [
+    "a.rfihub.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-ps-eyeota-net",
+   "class": "T",
+   "feature": "unknown third-party host ps.eyeota.net",
+   "hint": "inspect",
+   "evidence": [
+    "ps.eyeota.net"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-partners-tremorhub-com",
+   "class": "T",
+   "feature": "unknown third-party host partners.tremorhub.com",
+   "hint": "inspect",
+   "evidence": [
+    "partners.tremorhub.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-x-bidswitch-net",
+   "class": "T",
+   "feature": "unknown third-party host x.bidswitch.net",
+   "hint": "inspect",
+   "evidence": [
+    "x.bidswitch.net"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-pippio-com",
+   "class": "T",
+   "feature": "unknown third-party host pippio.com",
+   "hint": "inspect",
+   "evidence": [
+    "pippio.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-rum-error-monitoring",
+   "class": "T",
+   "feature": "RUM: error monitoring",
+   "role": "RUM: error monitoring",
+   "hint": "tags",
+   "evidence": [
+    "o209747.ingest.us.sentry.io"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-messenger-assets-qualified-com",
+   "class": "T",
+   "feature": "unknown third-party host messenger-assets.qualified.com",
+   "hint": "inspect",
+   "evidence": [
+    "messenger-assets.qualified.com"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "onetrust-text-resize",
+    "0×0"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.forrester.com/login"
+   ],
+   "pages": [
+    "/bold/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 2,
+  "of": 2,
+  "endpoints": {
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}.json": 2,
+   "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location": 2,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/en.json": 2,
+   "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/v2/otPcCenter.json": 2,
+   "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCommonStyles.css": 2,
+   "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otFlat.json": 2,
+   "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg": 2,
+   "POST www.google.com/ccm/collect": 2,
+   "GET pixel-config.reddit.com/pixels/a2_hh0g9sfjwqfw/config": 2,
+   "POST app.qualified.com/w/{n}/c2pm6UmLFpqKykqE/visitor_events": 2,
+   "POST alb.reddit.com/rp": 2,
+   "GET app.qualified.com/w/{n}/c2pm6UmLFpqKykqE/cookie_consent_policy": 2,
+   "HEAD ingest.quantummetric.com/horizon/d": 2,
+   "GET collect.forrester.com/g/collect": 2,
+   "POST www.google.com/rmkt/collect/{n}/": 2,
+   "POST events.api.boomtrain.com/event/track": 2,
+   "POST px.ads.linkedin.com/wa/": 2,
+   "POST o209747.ingest.us.sentry.io/api/{hash}/envelope/": 2,
+   "POST app.qualified.com/cdn-cgi/rum": 2,
+   "POST ingest.quantummetric.com/horizon/forrester": 2,
+   "POST ingest.quantummetric.com/resource-loader/forrester/hash-check": 2,
+   "POST www.forrester.com/rb_bf34414eoq": 2,
+   "POST app.qualified.com/w/{n}/c2pm6UmLFpqKykqE/messages": 2
+  },
+  "searchFormPages": 2,
+  "formPages": 2,
+  "triggerPages": {}
+ }
+}

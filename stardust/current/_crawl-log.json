@@ -1,0 +1,723 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 2,
+    "concurrency": 2
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": null,
+  "crawl": {
+    "failures": [],
+    "degraded": [],
+    "pageTimeoutMs": 60000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 2,
+    "pagesWithSameSiteData": 2,
+    "pagesWithSearchForm": 2,
+    "pagesHydrated": 2,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/9aaa5c19-25f5-4113-a95b-17bcd8c33295/9aaa5c19-25f5-4113-a95b-17bcd8c33295.json",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/9aaa5c19-25f5-4113-a95b-17bcd8c33295/018deae7-fe7b-7e30-b38b-e35ecdc47f6f/en.json",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202401.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/v2/otPcCenter.json",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202401.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCommonStyles.css",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202401.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otFlat.json",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_ng",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pixel-config.reddit.com",
+        "path": "/pixels/a2_hh0g9sfjwqfw/config",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://pixel-config.reddit.com/pixels/a2_hh0g9sfjwqfw/config",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "app.qualified.com",
+        "path": "/w/{n}/c2pm6UmLFpqKykqE/visitor_events",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://alb.reddit.com/rp",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app.qualified.com",
+        "path": "/w/{n}/c2pm6UmLFpqKykqE/cookie_consent_policy",
+        "query": [
+          "hostname"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/cookie_consent_policy",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "HEAD",
+        "host": "ingest.quantummetric.com",
+        "path": "/horizon/d",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ingest.quantummetric.com/horizon/d",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "collect.forrester.com",
+        "path": "/g/collect",
+        "query": [
+          "_et",
+          "_eu",
+          "_ng",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "ep.device_type",
+          "ep.onetrust_active_groups",
+          "ep.page_platform",
+          "ep.post_author",
+          "ep.post_date",
+          "ep.post_subtype",
+          "ep.post_type",
+          "ep.user_data._tag_mode",
+          "frm",
+          "gaf",
+          "gap.sstd",
+          "gcd",
+          "gdid",
+          "gtm",
+          "ir",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://collect.forrester.com/g/collect",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_ng",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/1050577862/",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "events.api.boomtrain.com",
+        "path": "/event/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://events.api.boomtrain.com/event/track",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "o209747.ingest.us.sentry.io",
+        "path": "/api/{hash}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://o209747.ingest.us.sentry.io/api/4508915056574464/envelope/",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "app.qualified.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://app.qualified.com/cdn-cgi/rum",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ingest.quantummetric.com",
+        "path": "/horizon/forrester",
+        "query": [
+          "N",
+          "P",
+          "S",
+          "T",
+          "U",
+          "b",
+          "s",
+          "t",
+          "u",
+          "v",
+          "z"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://ingest.quantummetric.com/horizon/forrester",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ingest.quantummetric.com",
+        "path": "/resource-loader/forrester/hash-check",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://ingest.quantummetric.com/resource-loader/forrester/hash-check",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.forrester.com",
+        "path": "/rb_bf34414eoq",
+        "query": [
+          "app",
+          "bp",
+          "crc",
+          "en",
+          "end",
+          "flavor",
+          "modifiedSince",
+          "sn",
+          "svrid",
+          "type",
+          "vi"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.forrester.com/rb_bf34414eoq",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "app.qualified.com",
+        "path": "/w/{n}/c2pm6UmLFpqKykqE/messages",
+        "query": [
+          "uuid"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/messages",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "js.qualified.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "img.en25.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn-0.d41.co",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "www.redditstatic.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "live.rezync.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.quantummetric.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "c1.rfihub.net",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "ws.zoominfo.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.boomtrain.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "host": "assets.qualified.com",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "wordpress",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.forrester.com/allSearch",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      },
+      {
+        "action": "https://www.forrester.com/bold/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "email",
+          "country",
+          "optin"
+        ],
+        "pages": 2,
+        "examples": [
+          "bold",
+          "index"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "bold",
+      "verdict": "ok",
+      "notes": "hero, logo, sections and footer present; a third-party chat card overlays the hero top-right; events carousel overflows the viewport horizontally"
+    },
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "/ answers 302 → /bold; same page as bold (duplicateOf bold)"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-22T10:58:35.399Z",
+  "url": "https://www.forrester.com/",
+  "width": 1440,
+  "vh": 900,
+  "height": 8976,
+  "settle": true,
+  "chunks": 10,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 6,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 17,
+    "intervals": 7,
+    "chains": 10,
+    "delays": [
+      2000,
+      3500,
+      5000,
+      11570.081471504258,
+      20000,
+      30000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 8981,
+    "pct": 3.23,
+    "heightDelta": 5
+  },
+  "captures": 2,
+  "heights": [
+    8976,
+    8976
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-22T10:59:17.625Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

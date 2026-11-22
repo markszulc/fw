@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-22T09:09:58.349Z",
+  "title": "Design System: Forrester",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "text"
+      },
+      "signal-yellow": {
+        "role": "primary"
+      },
+      "forrester-green": {
+        "role": "surface"
+      },
+      "mist": {
+        "role": "background"
+      },
+      "lime": {
+        "role": "accent"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero h1"
+      },
+      "quote": {
+        "displayName": "Quote",
+        "purpose": "Pull quotes (Ivar Display)"
+      }
+    },
+    "fonts": {
+      "kit": "https://use.typekit.net/hks2ljb.css",
+      "selfHosted": [
+        "ivartext-regular",
+        "ivardisplay-italic",
+        "ivardisplay-medium",
+        "ivardisplay-regular"
+      ]
+    },
+    "modules": [
+      {
+        "id": "hero-banner",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Green hero with headline, lede, CTA and side image"
+      },
+      {
+        "id": "two-column-intro",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Intro text + lead paragraph + stat"
+      },
+      {
+        "id": "quote",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Ivar serif testimonial quote"
+      },
+      {
+        "id": "three-col-features",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Value At Every Altitude three columns"
+      },
+      {
+        "id": "ai-band",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Purple Forrester AI band with image"
+      },
+      {
+        "id": "trusted-by",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Image + text two-column"
+      },
+      {
+        "id": "eyebrow-tab",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Lime section label tab (RESEARCH/CONSULTING/EVENTS)"
+      },
+      {
+        "id": "three-card-grid",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Image cards with link lists"
+      },
+      {
+        "id": "event-list",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Two-column list of events with dates"
+      },
+      {
+        "id": "image-carousel",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Events photo carousel"
+      },
+      {
+        "id": "newsletter-form",
+        "status": "candidate",
+        "instances": [
+          "bold"
+        ],
+        "description": "Green newsletter signup band"
+      }
+    ],
+    "componentStyle": [],
+    "motifs": [],
+    "voice": {
+      "heroHeadline": "Explore Our 2027 Predictions"
+    },
+    "breakpoints": {
+      "containerMaxWidth": "1200px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1200,
+          "via": "max-width",
+          "selector": "#main > section.page-block.page-block--two_columns > div.two-column-content > div.container",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1100,
+          "via": "fixed",
+          "selector": "div.row.align-items-center > div.two-column__item.col-md-12 > div.two-column__fwrow.row > div.col-md-11",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1070,
+          "via": "fixed",
+          "selector": "section.page-block.page-block--img_carousel > div.fbs-img-carousel.container > div.fbs-img-carousel__slick.js-fbs-img-carousel > ul.slick-dots",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 900,
+          "via": "fixed",
+          "selector": "div.row.align-items-start > div.two-column__item.col-md-12 > div.two-column__fwrow.row > div.col-md-9",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 820,
+          "via": "fixed",
+          "selector": "div.two-column-content > div.container > div.row.align-items-center > div.two-column__item.two-column__item--text_block",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 650,
+          "via": "fixed",
+          "selector": "div.fbs-img-carousel__slick.js-fbs-img-carousel > div.slick-list.draggable > div.slick-track > div.fbs-img-carousel__img.slick-slide",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 600,
+          "via": "fixed",
+          "selector": "div.twocol-stacked__row.mt-default > div.col-md-12 > div.row > div.twocol-stacked__col.col-md-6",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 550,
+          "via": "fixed",
+          "selector": "div.two-column__item.two-column__item--text_block > div.two-column__body.two-column__body--lead-p > p > strong",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 500,
+          "via": "fixed",
+          "selector": "div.two-column__item.two-column__item--text_block > div.forr-ctas > div.forr-ctas__row > a.forr-cta.id-",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 474,
+          "via": "fixed",
+          "selector": "div.twocol-stacked__col.col-md-6 > div.twocol-stacked__block > blockquote.two-col-quote > cite.two-col-quote__cite",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 410,
+          "via": "fixed",
+          "selector": "div.two-column-content > div.container > div.row.align-items-center > div.two-column__item.two-column__item--text_block",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 371,
+          "via": "fixed",
+          "selector": "div.two-column__item.two-column__item--text_block > div.forr-ctas > div.forr-ctas__row > a.forr-cta.id-",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 328,
+          "via": "fixed",
+          "selector": "div.row.align-items-center > div.two-column__item.two-column__item--quote_block > blockquote.two-col-quote > cite.two-col-quote__cite",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 300,
+          "via": "fixed",
+          "selector": "div.event-cal.container > div.event-cal__list > a.event-cal__event > div.event-cal__event-body",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 260,
+          "via": "fixed",
+          "selector": "div.two-column__item.two-column__item--text_block > div.forr-ctas > div.forr-ctas__row > a.forr-cta.id-",
+          "pages": [
+            "https://www.forrester.com/bold/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 0,
+          "selector": "#main > header.forr-banner.core-banner",
+          "px": null
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 1,
+          "selector": "#main > section.page-block.page-block--two_columns",
+          "px": 1200
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 2,
+          "selector": "#main > section.page-block.page-block--two_col_stacked",
+          "px": 1200
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 3,
+          "selector": "#main > section.page-block.page-block--two_columns",
+          "px": 1200
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 4,
+          "selector": "#main > section.page-block.page-block--two_columns",
+          "px": 1200
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 5,
+          "selector": "#main > section.page-block.page-block--two_columns",
+          "px": 1200
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 6,
+          "selector": "#main > section.page-block.page-block--two_columns",
+          "px": 1200
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 7,
+          "selector": "#main > section.page-block.page-block--two_columns",
+          "px": 1200
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 8,
+          "selector": "#main > section.page-block.page-block--two_columns",
+          "px": 1200
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 9,
+          "selector": "#main > section.page-block.page-block--event_calendar",
+          "px": 1200
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 10,
+          "selector": "#main > section.page-block.page-block--img_carousel",
+          "px": 1200
+        },
+        {
+          "url": "https://www.forrester.com/bold/",
+          "section": 11,
+          "selector": "#main > section.page-block.page-block--eloqua_form",
+          "px": 1200
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-22T09:15:51.721Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.forrester.com/bold/"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary CTA",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Yellow uppercase CTA",
+      "html": "<a class=\"forr-cta -primary\"><span>Visit The Hub</span></a>",
+      "css": ".forr-cta.-primary{display:flex;align-items:center;justify-content:center;min-width:188px;min-height:60px;padding:20px;background:#ffde00;color:#000;transition:transform .15s}.forr-cta.-primary:hover{transform:scale(1.05)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Forrester as captured",
+    "overview": "Descriptive snapshot of the live site.",
+    "keyCharacteristics": [],
+    "rules": [],
+    "dos": [],
+    "donts": []
+  }
+}

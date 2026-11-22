@@ -1,0 +1,98 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-22T09:52:30.613Z",
+      "endedAt": "2026-11-22T10:16:55.310Z",
+      "verdict": "foundation: 18 files frozen, nav/footer live, header parity exit 2 (1440 passes; 390 has 10 open-state crop errors: 7 are the Qualified chat overlay drawn over the source captures (R-02), 3 at 2.3–3.0% vs 2% bar), lint not run (no node_modules; breakpoint-lint clean)",
+      "gates": {
+        "headerParity": {
+          "390": "10 crop errors, 7 R-02 overlay",
+          "1440": "pass"
+        }
+      }
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-22T10:17:00.506Z",
+      "endedAt": "2026-11-22T10:37:18.414Z",
+      "blocks": 5,
+      "verdict": "archetype-landing: pages 1/1 live, blocks 5, gate 1440 2.18% / 360 5.81% (aligned; offsets over bound, accept-residual at the 3-round cap), redirect / → /bold ok (301 then 200); block-roundtrip --ew and qa-gate not run",
+      "gates": {
+        "360": {
+          "pixelAligned": 5.81,
+          "dh": 8,
+          "footerBand": 11.33,
+          "headerBand": 0
+        },
+        "1440": {
+          "pixelAligned": 2.18,
+          "dh": -34,
+          "footerBand": 4.58,
+          "headerBand": 0.51
+        }
+      }
+    },
+    "landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-22T10:37:18.414Z",
+      "endedAt": "2026-11-22T10:37:18.414Z",
+      "verdict": "landing: no siblings — the only other planned URL (/) is a redirect to the archetype, delivered in the redirects sheet"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-22T10:38:01.675Z",
+      "endedAt": "2026-11-22T10:55:00.033Z",
+      "gates": {
+        "360": {
+          "pixelAligned": 5.81,
+          "unaligned": 16.94,
+          "dh": 8,
+          "clipped": 0,
+          "offsets": "204px/150"
+        },
+        "1440": {
+          "pixelAligned": 2.85,
+          "unaligned": 9.24,
+          "dh": -28,
+          "clipped": 0,
+          "offsets": "110px/90"
+        },
+        "crop": "n/a",
+        "chrome": "footer icons eager (request applied)"
+      },
+      "verdict": "gate-all: 1/1 delivered (bold, documented override: offsets + unit-pairing artifacts, accept-residual at the cap) — 1440 aligned 2.85% Δh -28, 360 aligned 5.81% Δh +8, clipped 0, content 0; wide 2560px: 0 pages over 10% or off in height (bold aligned 2.61% Δh -28); foundation request (footer icons eager) applied; units.json eds selectors added"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-11-22T10:55:06.776Z",
+      "pages": 1,
+      "endedAt": "2026-11-22T10:55:09.846Z",
+      "verdict": "final: foundation unchanged (18 files), 1 request applied; /bold 200, nav/footer/redirects.json live, / 301 → /bold; coverage from gate tables 1440+360 (bold pass with documented override)"
+    }
+  }
+}

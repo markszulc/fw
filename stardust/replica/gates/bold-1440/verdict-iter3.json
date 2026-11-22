@@ -1,0 +1,82 @@
+{
+  "round": "iter3",
+  "width": 1440,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/bold-1440/diff-iter3.png",
+    "json": "stardust/replica/gates/bold-1440/pixel-iter3.json",
+    "pct": 7.88,
+    "alignedPct": 5.87,
+    "alignedUsed": true,
+    "totalShift": 17,
+    "steps": [
+      {
+        "y": 3411,
+        "shift": -6,
+        "cumulative": -6
+      },
+      {
+        "y": 4372,
+        "shift": 2,
+        "cumulative": -4
+      },
+      {
+        "y": 5995,
+        "shift": 3,
+        "cumulative": -1
+      },
+      {
+        "y": 6525,
+        "shift": 2,
+        "cumulative": 1
+      },
+      {
+        "y": 6586,
+        "shift": 2,
+        "cumulative": 3
+      },
+      {
+        "y": 8976,
+        "shift": 2,
+        "cumulative": 5
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": null,
+    "reason": "offsets: 6 step(s), 17px total — −6px at y=3411, +2px at y=4372, +3px at y=5995, +2px at y=6525, +2px at y=6586, +2px at y=8976 (bound 8px)"
+  },
+  "reference": {
+    "origin": "live"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/content-diff-iter3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/visual-diff-iter3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/chrome-parity-iter3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/clip-iter3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/units-iter3.txt"
+    },
+    "header-contract": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-1440/header-contract-iter3.txt"
+    }
+  },
+  "structural": 3,
+  "nothingLost": 0,
+  "at": "2026-11-22T09:43:39.138Z"
+}

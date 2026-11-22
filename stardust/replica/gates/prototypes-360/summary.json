@@ -1,0 +1,188 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-22T09:50:46.877Z",
+    "stage": "prototype",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "8px",
+    "originReference": "live",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": false
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance)",
+    "origin": "https://www.forrester.com",
+    "eds": "http://localhost:8791",
+    "edsHostOverride": null,
+    "only": null
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 1,
+    "referenceUnstable": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "bold",
+      "path": "/bold-proposed.html",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 7.58,
+      "textPct": null,
+      "heightDelta": -2,
+      "originH": 14992,
+      "edsH": 14994,
+      "alignedPct": 4.33,
+      "alignedUsed": true,
+      "totalShift": 32,
+      "steps": [
+        {
+          "y": 115,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 2028,
+          "shift": 1,
+          "cumulative": 2
+        },
+        {
+          "y": 2720,
+          "shift": -2,
+          "cumulative": 0
+        },
+        {
+          "y": 5383,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 5418,
+          "shift": -1,
+          "cumulative": -2
+        },
+        {
+          "y": 5453,
+          "shift": -1,
+          "cumulative": -3
+        },
+        {
+          "y": 5488,
+          "shift": -1,
+          "cumulative": -4
+        },
+        {
+          "y": 5524,
+          "shift": -1,
+          "cumulative": -5
+        },
+        {
+          "y": 5773,
+          "shift": -1,
+          "cumulative": -6
+        },
+        {
+          "y": 5931,
+          "shift": -1,
+          "cumulative": -7
+        },
+        {
+          "y": 6023,
+          "shift": -1,
+          "cumulative": -8
+        },
+        {
+          "y": 7229,
+          "shift": 2,
+          "cumulative": -6
+        }
+      ],
+      "offsetBound": 8,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": null,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 25 step(s), 32px total — +1px at y=115, +1px at y=2028, −2px at y=2720, −1px at y=5383, −1px at y=5418, −1px at y=5453, … 19 more (bound 8px)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": null,
+      "unitsDeclared": 5,
+      "unitsRecorded": null,
+      "units": {
+        "units": 34,
+        "within": 71,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": null,
+      "noiseFloor": null,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "500-1000:20.4%",
+        "4000-4500:15.9%",
+        "8500-9000:17.5%",
+        "13000-13500:19.9%",
+        "14500-14992:21.3%"
+      ],
+      "error": null
+    }
+  ]
+}

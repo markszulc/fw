@@ -1,0 +1,1320 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-22T09:07:26.400Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "bold",
+  "url": "https://www.forrester.com/bold/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-22T09:07:26.400Z",
+  "finalUrl": "https://www.forrester.com/bold/",
+  "title": "Forrester Helps Organizations Thrive Through Volatility",
+  "description": "Forrester is a leading global market research company that helps organizations exceed customer demands and excel with technology. Learn how Forrester can help.",
+  "og": {
+    "title": "Forrester",
+    "description": "Forrester is a leading global market research company that helps organizations exceed customer demands and excel with technology. Learn how Forrester can help.",
+    "image": "https://go.forrester.com/wp-content/uploads/2022/03/FMK_FORR_GenericSocialImage_220314.jpg",
+    "type": "article"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Explore Our 2027 Predictions"
+    },
+    {
+      "tag": "h2",
+      "text": "Empowering Leaders. Driving Results. Together."
+    },
+    {
+      "tag": "h2",
+      "text": "Value At Every Altitude"
+    },
+    {
+      "tag": "h3",
+      "text": "Enterprise Alignment"
+    },
+    {
+      "tag": "h3",
+      "text": "Functional Acceleration"
+    },
+    {
+      "tag": "h3",
+      "text": "Individual Advancement"
+    },
+    {
+      "tag": "h3",
+      "text": "Bring Forrester AI Into The Way You Work"
+    },
+    {
+      "tag": "h2",
+      "text": "Trusted By Industry Leaders"
+    },
+    {
+      "tag": "h2",
+      "text": "Research"
+    },
+    {
+      "tag": "h2",
+      "text": "Forrester Decisions: Deliver Better Outcomes Faster"
+    },
+    {
+      "tag": "h2",
+      "text": "Inform Your Perspective"
+    },
+    {
+      "tag": "h2",
+      "text": "Sharpen Your Skills"
+    },
+    {
+      "tag": "h2",
+      "text": "Develop Authentic Connections"
+    },
+    {
+      "tag": "h2",
+      "text": "Consulting"
+    },
+    {
+      "tag": "h2",
+      "text": "Turn Insights Into Measurable Outcomes"
+    },
+    {
+      "tag": "h2",
+      "text": "Events"
+    },
+    {
+      "tag": "h2",
+      "text": "Powerful Gatherings, Proven Outcomes"
+    },
+    {
+      "tag": "h3",
+      "text": "B2B Summit North America"
+    },
+    {
+      "tag": "h3",
+      "text": "B2C Forum West"
+    },
+    {
+      "tag": "h3",
+      "text": "B2C Forum EMEA"
+    },
+    {
+      "tag": "h3",
+      "text": "B2C Forum East"
+    },
+    {
+      "tag": "h3",
+      "text": "AI Forum Singapore"
+    },
+    {
+      "tag": "h3",
+      "text": "AI Forum Sydney"
+    },
+    {
+      "tag": "h3",
+      "text": "Technology & Innovation Forum EMEA"
+    },
+    {
+      "tag": "h3",
+      "text": "B2B Summit EMEA"
+    },
+    {
+      "tag": "h3",
+      "text": "Technology & Innovation Forum"
+    },
+    {
+      "tag": "h3",
+      "text": "Security & Risk Forum"
+    },
+    {
+      "tag": "h2",
+      "text": "Want The Latest Forrester News?"
+    }
+  ],
+  "body": [
+    "AI is reshaping who holds control and what it costs. See what Forrester predicts for 2027 and uncover the risks, opportunities, and unexpected shifts that could shape your decisions in the year ahead.",
+    "Success in business doesn’t come with a manual — especially in today’s fast-evolving world. But you’re not alone. Countless executives have faced the same challenges you’re navigating, from crafting winning strategies to investing in cutting-edge technologies and attracting the customers who matter most. The difference? They partnered with Forrester.",
+    "Through a unique continuous guidance model that blends research, consulting, and live events, we ensure you stay ahead of every curve. Equipped with the latest trends, innovations, and data, our tailored interactions empower you to act swiftly and decisively.",
+    "With insights drawn from surveying over 500,000 consumers, executives, and tech leaders annually, Forrester consultants and analysts are unrivaled in understanding the challenges you face. Whatever hurdles you encounter, we’ve seen them — and solved them.",
+    "Learn more about how Forrester can help you stay ahead of the curve.",
+    "It’s not just about the stats and the benchmarks and the research. Forrester integrates themselves into our organization. We’re one team trying to understand how we drive our initiatives forward together. — Jen BurnsSVP, Commercial Operations & Marketing, Dun & Bradstreet",
+    "It’s not just about the stats and the benchmarks and the research. Forrester integrates themselves into our organization. We’re one team trying to understand how we drive our initiatives forward together.",
+    "When you choose a research partner, you need support that aligns the enterprise, accelerates your function, and advances you as a leader.",
+    "Helping leaders align priorities across the organization — from AI and risk management to sustainability and trust.",
+    "Helping teams move critical initiatives forward faster with actionable research, tools, and expert guidance.",
+    "Helping professionals grow at every stage of their career through certifications, events, and executive partnership.",
+    "Rely on Forrester for value in all seasons and at all moments — from strategy to execution to career growth.",
+    "Get trusted Forrester research, data, and advice in the tools you use every day. Ask questions, validate ideas, and share insights with colleagues without disrupting your workflow.",
+    "When organizations aim to conquer the complexity of today’s market, they turn to Forrester. Sixty-one of the Fortune 100 trust us to provide strategic clarity, operational alignment, and innovative solutions that accelerate growth.",
+    "Our services align enterprises to act fast and effectively across critical functions, empowering teams throughout your organization, such as:",
+    "Technology: Data, AI & Analytics; Security & Risk; Technology Architecture & Delivery; Technology Executives",
+    "B2B: Marketing; Product; Revenue",
+    "Consumer: Customer Experience; Digital Business; Marketing",
+    "Forrester Decisions delivers measurable impact, boasting a 259% ROI and revenue growth accelerations of 4%.",
+    "At the core of how we deliver this value is Forrester Decisions — our integrated model for turning insight into action.",
+    "With Forrester Decisions, you gain the actionable guidance you need to drive strategic initiatives with confidence and deliver better outcomes faster. Our proven methodology accelerates growth by delivering data, insights, and expert support exactly when you need it.",
+    "Benefits for your business include:",
+    "Risk-free decisions, backed by data and expert validation.",
+    "Faster execution and streamlined alignment across teams for speedier impact.",
+    "Maximized growth, with insights designed to unlock lasting value and drive results.",
+    "Analyst guidance sessions",
+    "Survey data from more than 500,000 respondents",
+    "Forrester Wave™ evaluations and market landscapes",
+    "Buyer Insights analysis",
+    "Industry forecasts",
+    "Streamlined research reports powered by Forrester AI",
+    "The Forrester Take weekly newsletter",
+    "Budget Planning Guides and toolkits",
+    "Strategic models and frameworks",
+    "Detailed assessments",
+    "Certification programs",
+    "Initiative blueprints",
+    "Live events and conferences",
+    "Peer discussions",
+    "Client-only webinars",
+    "Executive Leadership Exchange",
+    "Women’s Leadership Program",
+    "In today’s AI-driven buying journey, content plays a more critical role than ever—shaping visibility, credibility, and buyer trust at every stage. In addition to the Forrester research offerings, Forrester also provides advisory and customized demand generation solutions — including Total Economic Impact™ and Thought Leadership studies and content — that help you create a competitive strategy for your market, and then educate your customers on critical trends, build trust, and showcase the ROI and impact your solution delivers using a proven, data-driven economic methodology.",
+    "Led by Forrester Consulting, commissioned Demand Generation consulting engagements are based on custom research. They are distinct from Forrester Decisions and Forrester Market Insights research while adhering to the same rigorous objectivity and integrity standards. Buyers Trust Forrester",
+    "83% of buyers found commissioned Forrester content helpful for both research and final decision-making",
+    "79% of global decision-makers have consumed Forrester-commissioned content during their purchasing journey",
+    "75% of buyers are more likely to trust content that is backed up by objective, third-party content or data.",
+    "Forrester’s consultants are knowledgeable and very much dedicated to delivering on what they promised in a timely manner. — Majed Al-GhanemiCIO and Deputy COO, Saudi Awwal Bank",
+    "Forrester’s consultants are knowledgeable and very much dedicated to delivering on what they promised in a timely manner.",
+    "Nothing accelerates innovation like face-to-face collaboration. Forrester events are carefully curated experiences designed to connect you with thought leaders, analysts, and peers who share your ambitions.",
+    "At our events, you’ll:",
+    "Be inspired by thought-provoking keynotes.",
+    "Forge meaningful connections with industry leaders.",
+    "Gain personalized insights in analyst one-on-ones.",
+    "Head home with action plans from hands-on sessions.",
+    "Find an event near you below or join us online.",
+    "May 2-4, 2027, Phoenix",
+    "May 24-25, 2027, San Francisco",
+    "June 7-8, 2027, Amsterdam",
+    "June 28-29, 2027, New York City",
+    "August 19, 2027, Singapore",
+    "August 24, 2027, Sydney",
+    "September 27-28, 2027, London",
+    "September 29-October 1, 2027, London",
+    "November 9-10, 2027, Chicago",
+    "November 16-17, 2027, Washington DC",
+    "Sign up for our Insights At Work Newsletter and get exclusive updates delivered directly to your inbox."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Who We Serve",
+      "href": "#"
+    },
+    {
+      "label": "What We Offer",
+      "href": "#"
+    },
+    {
+      "label": "How We Think",
+      "href": "#"
+    },
+    {
+      "label": "Who We Are",
+      "href": "#"
+    },
+    {
+      "label": "Events",
+      "href": "#"
+    },
+    {
+      "label": "Log In",
+      "href": "/login"
+    },
+    {
+      "label": "Talk To Sales",
+      "href": "/become-a-client"
+    },
+    {
+      "label": "Home",
+      "href": "https://www.forrester.com"
+    },
+    {
+      "label": "Visit The Hub",
+      "href": "/predictions/"
+    },
+    {
+      "label": "Become A Client",
+      "href": "/become-a-client/"
+    },
+    {
+      "label": "Learn More",
+      "href": "/research/forrester-decisions/"
+    },
+    {
+      "label": "Explore Forrester AI Where You Work",
+      "href": "/research/ai-where-you-work/"
+    },
+    {
+      "label": "Data, AI & Analytics",
+      "href": "/technology/data-ai-leaders/"
+    },
+    {
+      "label": "Security & Risk",
+      "href": "/technology/"
+    },
+    {
+      "label": "Technology Architecture & Delivery",
+      "href": "/technology/architecture-delivery/"
+    },
+    {
+      "label": "Technology Executives",
+      "href": "/technology/"
+    },
+    {
+      "label": "Marketing",
+      "href": "/b2b-marketing/"
+    },
+    {
+      "label": "Product",
+      "href": "/product-management/"
+    },
+    {
+      "label": "Revenue",
+      "href": "/sales/"
+    },
+    {
+      "label": "Customer Experience",
+      "href": "/customer-experience/"
+    },
+    {
+      "label": "Digital Business",
+      "href": "/digital-business/"
+    },
+    {
+      "label": "Marketing",
+      "href": "/b2c-marketing/"
+    },
+    {
+      "label": "Read The Full ROI Report",
+      "href": "/research/roi-forrester-decisions/"
+    },
+    {
+      "label": "Learn More About Forrester Decisions",
+      "href": "/research/"
+    },
+    {
+      "label": "objectivity and integrity standards",
+      "href": "/about-us/objectivity/"
+    },
+    {
+      "label": "Explore Advisory And Demand Generation Offerings",
+      "href": "/consulting/"
+    },
+    {
+      "label": "B2B Summit North America May 2-4, 2027, Phoenix May 2-42027",
+      "href": "https://www.forrester.com/event/b2b-summit-north-america/"
+    },
+    {
+      "label": "B2C Forum West May 24-25, 2027, San Francisco May 24-252027",
+      "href": "https://www.forrester.com/event/b2c-west/"
+    },
+    {
+      "label": "B2C Forum EMEA June 7-8, 2027, Amsterdam June 7-82027",
+      "href": "https://www.forrester.com/event/b2c-emea/"
+    },
+    {
+      "label": "B2C Forum East June 28-29, 2027, New York City June 28-292027",
+      "href": "https://www.forrester.com/event/b2c-east/"
+    },
+    {
+      "label": "AI Forum Singapore August 19, 2027, Singapore August 192027",
+      "href": "https://www.forrester.com/event/singapore-forum/"
+    },
+    {
+      "label": "AI Forum Sydney August 24, 2027, Sydney August 242027",
+      "href": "https://www.forrester.com/event/sydney-forum/"
+    },
+    {
+      "label": "Technology & Innovation Forum EMEA September 27-28, 2027, London September 27-282027",
+      "href": "https://www.forrester.com/event/technology-innovation-emea/"
+    },
+    {
+      "label": "B2B Summit EMEA September 29-October 1, 2027, London September 29-October 12027",
+      "href": "https://www.forrester.com/event/b2b-emea/"
+    },
+    {
+      "label": "Technology & Innovation Forum November 9-10, 2027, Chicago November 9-102027",
+      "href": "https://www.forrester.com/event/technology-innovation/"
+    },
+    {
+      "label": "Security & Risk Forum November 16-17, 2027, Washington DC November 16-172027",
+      "href": "https://www.forrester.com/event/security-risk/"
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "3",
+      "href": null
+    },
+    {
+      "label": "4",
+      "href": null
+    },
+    {
+      "label": "5",
+      "href": null
+    },
+    {
+      "label": "6",
+      "href": null
+    },
+    {
+      "label": "7",
+      "href": null
+    },
+    {
+      "label": "ChatGPT OpenAI",
+      "href": "https://chat.openai.com/?q=As+a+business+leader%2C+explain+what+it%E2%80%99s+like+to+work+with+Forrester.+%0D%0ADescribe+the+experience+of+using+Forrester+research+and+data%2C+working+with+analysts%2C+and+using+Forrester+AI+to+support+important+decisions+%E2%80%94+and+how+this+differs+from+public+AI+tools."
+    },
+    {
+      "label": "Perplexity Perplexity",
+      "href": "https://www.perplexity.ai/?q=As+a+business+leader%2C+explain+what+it%E2%80%99s+like+to+work+with+Forrester.+%0D%0ADescribe+the+experience+of+using+Forrester+research+and+data%2C+working+with+analysts%2C+and+using+Forrester+AI+to+support+important+decisions+%E2%80%94+and+how+this+differs+from+public+AI+tools."
+    },
+    {
+      "label": "Analyst Briefings",
+      "href": "https://www.forrester.com/help/analyst-briefing/"
+    },
+    {
+      "label": "Newsroom",
+      "href": "https://www.forrester.com/press-newsroom/"
+    },
+    {
+      "label": "Complimentary Webinars",
+      "href": "https://www.forrester.com/webinars"
+    },
+    {
+      "label": "Contact Us",
+      "href": "https://www.forrester.com/contact-us/"
+    },
+    {
+      "label": "Investor Information",
+      "href": "https://investor.forrester.com"
+    },
+    {
+      "label": "Careers",
+      "href": "https://www.forrester.com/careers/"
+    },
+    {
+      "label": "Policies",
+      "href": "https://www.forrester.com/policies/"
+    },
+    {
+      "label": "Podcasts",
+      "href": "/podcasts"
+    },
+    {
+      "label": "Fraud Alerts",
+      "href": "https://www.forrester.com/about-us/fraud-alerts/"
+    },
+    {
+      "label": "Brand",
+      "href": "https://www.forrester.com/brand/platform/"
+    },
+    {
+      "label": "UK Slavery Statement",
+      "href": "/policies#statement"
+    },
+    {
+      "label": "Terms of use",
+      "href": "/policies/terms-of-use/"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/policies/privacy-policy/"
+    },
+    {
+      "label": "Cookie Settings",
+      "href": null
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/forrester-research"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/user/ForresterResearch"
+    }
+  ],
+  "links": [
+    "https://www.forrester.com/bold/#main",
+    "https://www.forrester.com/bold/",
+    "https://www.forrester.com/bold/#",
+    "https://www.forrester.com/technology/data-ai-leaders/",
+    "https://www.forrester.com/technology/security-risk/",
+    "https://www.forrester.com/technology/architecture-delivery/",
+    "https://www.forrester.com/technology/",
+    "https://www.forrester.com/b2b-marketing/",
+    "https://www.forrester.com/b2b-marketing/demand-abm/",
+    "https://www.forrester.com/product-management/",
+    "https://www.forrester.com/revenue/",
+    "https://www.forrester.com/b2c-marketing/",
+    "https://www.forrester.com/customer-experience/",
+    "https://www.forrester.com/digital-business/",
+    "https://www.forrester.com/financial-services/",
+    "https://www.forrester.com/government/",
+    "https://www.forrester.com/healthcare/",
+    "https://www.forrester.com/high-tech/",
+    "https://www.forrester.com/retail/",
+    "https://www.forrester.com/research/forrester-decisions/",
+    "https://www.forrester.com/research/wave/",
+    "https://www.forrester.com/research/forrester-ai/",
+    "https://www.forrester.com/research/forrester-market-insights/",
+    "https://www.forrester.com/consulting/",
+    "https://www.forrester.com/bold/create-content-that-fuels-demand/",
+    "https://www.forrester.com/research/ai-access/",
+    "https://www.forrester.com/research/",
+    "https://www.forrester.com/events/",
+    "https://www.forrester.com/events/marketing/",
+    "https://www.forrester.com/events/b2c/",
+    "https://www.forrester.com/events/technology/",
+    "https://www.forrester.com/events/sponsorship/",
+    "https://www.forrester.com/about-us/forrester-awards/",
+    "https://www.forrester.com/research/analyst-relations-council/",
+    "https://www.forrester.com/certification/",
+    "https://www.forrester.com/research/reprints/",
+    "https://www.forrester.com/ai/",
+    "https://www.forrester.com/blogs/",
+    "https://www.forrester.com/client-stories/",
+    "https://www.forrester.com/podcasts",
+    "https://www.forrester.com/predictions/",
+    "https://www.forrester.com/webinars/",
+    "https://www.forrester.com/technology/aegis-framework/",
+    "https://www.forrester.com/bold/b2b-gtm-strategy/",
+    "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/",
+    "https://www.forrester.com/b2c-marketing/b2c-marketing-transformation/",
+    "https://www.forrester.com/bold/cross-functional-alignment/",
+    "https://www.forrester.com/bold/customer-obsession/",
+    "https://www.forrester.com/technology/emerging-technology/",
+    "https://www.forrester.com/technology/generative-ai/",
+    "https://www.forrester.com/technology/risk-management/",
+    "https://www.forrester.com/technology/technology-strategy/",
+    "https://www.forrester.com/zero-trust/",
+    "https://www.forrester.com/about-us/",
+    "https://www.forrester.com/executive-leadership/",
+    "https://www.forrester.com/our-board/",
+    "https://www.forrester.com/press-newsroom/",
+    "https://www.forrester.com/careers/",
+    "https://investor.forrester.com/",
+    "https://www.forrester.com/login",
+    "https://www.forrester.com/become-a-client",
+    "https://www.forrester.com/",
+    "https://www.forrester.com/become-a-client/",
+    "https://www.forrester.com/research/ai-where-you-work/",
+    "https://www.forrester.com/sales/",
+    "https://www.forrester.com/research/roi-forrester-decisions/",
+    "https://www.forrester.com/about-us/objectivity/",
+    "https://www.forrester.com/event/b2b-summit-north-america/",
+    "https://www.forrester.com/event/b2c-west/",
+    "https://www.forrester.com/event/b2c-emea/",
+    "https://www.forrester.com/event/b2c-east/",
+    "https://www.forrester.com/event/singapore-forum/",
+    "https://www.forrester.com/event/sydney-forum/",
+    "https://www.forrester.com/event/technology-innovation-emea/",
+    "https://www.forrester.com/event/b2b-emea/",
+    "https://www.forrester.com/event/technology-innovation/",
+    "https://www.forrester.com/event/security-risk/",
+    "https://chat.openai.com/?q=As+a+business+leader%2C+explain+what+it%E2%80%99s+like+to+work+with+Forrester.+%0D%0ADescribe+the+experience+of+using+Forrester+research+and+data%2C+working+with+analysts%2C+and+using+Forrester+AI+to+support+important+decisions+%E2%80%94+and+how+this+differs+from+public+AI+tools.",
+    "https://www.perplexity.ai/?q=As+a+business+leader%2C+explain+what+it%E2%80%99s+like+to+work+with+Forrester.+%0D%0ADescribe+the+experience+of+using+Forrester+research+and+data%2C+working+with+analysts%2C+and+using+Forrester+AI+to+support+important+decisions+%E2%80%94+and+how+this+differs+from+public+AI+tools.",
+    "https://www.forrester.com/help/analyst-briefing/",
+    "https://www.forrester.com/webinars",
+    "https://www.forrester.com/contact-us/",
+    "https://www.forrester.com/policies/",
+    "https://www.forrester.com/about-us/fraud-alerts/",
+    "https://www.forrester.com/brand/platform/",
+    "https://www.forrester.com/policies#statement",
+    "https://www.forrester.com/policies/terms-of-use/",
+    "https://www.forrester.com/policies/privacy-policy/",
+    "https://www.linkedin.com/company/forrester-research",
+    "https://www.youtube.com/user/ForresterResearch"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://go.forrester.com/wp-content/themes/forrester/assets/static/forrester_logo.svg",
+        "alt": "Forrester Logo",
+        "w": 300,
+        "h": 48
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2026/09/Predictions2027_Hero_1050x788.png",
+        "alt": "",
+        "w": 1050,
+        "h": 788
+      },
+      {
+        "src": "https://stg-go.forrester.com/wp-content/uploads/2025/05/500000-Survey-Respondents.webp",
+        "alt": "",
+        "w": 1800,
+        "h": 439
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2026/11/Forrester-AI-Slack-Home-page-hero-background-1536x576.webp",
+        "alt": "",
+        "w": 1439,
+        "h": 539
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2026/11/Forrester-AI-Slack-Home-page-image-720x540-1-640x480.webp",
+        "alt": "",
+        "w": 533,
+        "h": 399
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2026/04/Forrester-Decisions-image@2x-576x480.webp",
+        "alt": "",
+        "w": 480,
+        "h": 400
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/05/Inform-Your-Perspective-640x325.webp",
+        "alt": "",
+        "w": 370,
+        "h": 187
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/05/Sharpen-Your-Skills-640x325.webp",
+        "alt": "",
+        "w": 370,
+        "h": 187
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/05/Develop-Authentic-Connections-640x325.webp",
+        "alt": "",
+        "w": 370,
+        "h": 187
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_7_evening_activities-768x579.webp",
+        "alt": "",
+        "w": 650,
+        "h": 490
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_1_Keynote2x-768x579.webp",
+        "alt": "",
+        "w": 650,
+        "h": 490
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_2_Analyst_1-1-768x579.webp",
+        "alt": "",
+        "w": 650,
+        "h": 490
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_3_Awards-768x579.webp",
+        "alt": "",
+        "w": 650,
+        "h": 490
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_7_evening_activities-768x579.webp",
+        "alt": "",
+        "w": 650,
+        "h": 490
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_1_Keynote2x-768x579.webp",
+        "alt": "",
+        "w": 650,
+        "h": 490
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_2_Analyst_1-1-768x579.webp",
+        "alt": "",
+        "w": 650,
+        "h": 490
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_3_Awards-768x579.webp",
+        "alt": "",
+        "w": 650,
+        "h": 490
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_7_evening_activities-768x579.webp",
+        "alt": "",
+        "w": 650,
+        "h": 490
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/themes/forrester/assets/static/forrester_logo.svg",
+        "alt": "Forrester Logo",
+        "w": 300,
+        "h": 48
+      },
+      {
+        "src": "https://go.forrester.com/wp-content/themes/forrester/assets/static/forrester_logo.svg",
+        "alt": "Forrester Logo",
+        "w": 300,
+        "h": 48
+      }
+    ],
+    "allImgCount": 27,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--wp--preset--aspect-ratio--square": "1",
+    "--wp--preset--aspect-ratio--4-3": "4/3",
+    "--wp--preset--aspect-ratio--3-4": "3/4",
+    "--wp--preset--aspect-ratio--3-2": "3/2",
+    "--wp--preset--aspect-ratio--2-3": "2/3",
+    "--wp--preset--aspect-ratio--16-9": "16/9",
+    "--wp--preset--aspect-ratio--9-16": "9/16",
+    "--wp--preset--color--black": "#000000",
+    "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+    "--wp--preset--color--white": "#ffffff",
+    "--wp--preset--color--pale-pink": "#f78da7",
+    "--wp--preset--color--vivid-red": "#cf2e2e",
+    "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+    "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+    "--wp--preset--color--light-green-cyan": "#7bdcb5",
+    "--wp--preset--color--vivid-green-cyan": "#00d084",
+    "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+    "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+    "--wp--preset--color--vivid-purple": "#9b51e0",
+    "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+    "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+    "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+    "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+    "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+    "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%)",
+    "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+    "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+    "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+    "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+    "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+    "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+    "--wp--preset--font-size--small": "13px",
+    "--wp--preset--font-size--medium": "20px",
+    "--wp--preset--font-size--large": "36px",
+    "--wp--preset--font-size--x-large": "42px",
+    "--wp--preset--spacing--20": "0.44rem",
+    "--wp--preset--spacing--30": "0.67rem",
+    "--wp--preset--spacing--40": "1rem",
+    "--wp--preset--spacing--50": "1.5rem",
+    "--wp--preset--spacing--60": "2.25rem",
+    "--wp--preset--spacing--70": "3.38rem",
+    "--wp--preset--spacing--80": "5.06rem",
+    "--wp--preset--shadow--natural": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+    "--wp--preset--shadow--deep": "12px 12px 50px rgba(0, 0, 0, 0.4)",
+    "--wp--preset--shadow--sharp": "6px 6px 0px rgba(0, 0, 0, 0.2)",
+    "--wp--preset--shadow--outlined": "6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0)",
+    "--wp--preset--shadow--crisp": "6px 6px 0px rgb(0, 0, 0)"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 28,
+    "mainTextLen": 10506,
+    "realImageCount": 20,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage",
+    "pageSize": {
+      "w": 2745,
+      "h": 8976
+    }
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/9aaa5c19-25f5-4113-a95b-17bcd8c33295/9aaa5c19-25f5-4113-a95b-17bcd8c33295.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/9aaa5c19-25f5-4113-a95b-17bcd8c33295/018deae7-fe7b-7e30-b38b-e35ecdc47f6f/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202401.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 12694,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202401.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202401.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3017,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_ng",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 4,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pixel-config.reddit.com",
+        "path": "/pixels/a2_hh0g9sfjwqfw/config",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 491,
+        "hits": 1,
+        "example": "https://pixel-config.reddit.com/pixels/a2_hh0g9sfjwqfw/config",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "app.qualified.com",
+        "path": "/w/{n}/c2pm6UmLFpqKykqE/visitor_events",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 17,
+        "example": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://alb.reddit.com/rp",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "app.qualified.com",
+        "path": "/w/{n}/c2pm6UmLFpqKykqE/cookie_consent_policy",
+        "query": [
+          "hostname"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/cookie_consent_policy",
+        "sameSite": false
+      },
+      {
+        "method": "HEAD",
+        "host": "ingest.quantummetric.com",
+        "path": "/horizon/d",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ingest.quantummetric.com/horizon/d",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "collect.forrester.com",
+        "path": "/g/collect",
+        "query": [
+          "_et",
+          "_eu",
+          "_ng",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "ep.device_type",
+          "ep.onetrust_active_groups",
+          "ep.page_platform",
+          "ep.post_author",
+          "ep.post_date",
+          "ep.post_subtype",
+          "ep.post_type",
+          "ep.user_data._tag_mode",
+          "frm",
+          "gaf",
+          "gap.sstd",
+          "gcd",
+          "gdid",
+          "gtm",
+          "ir",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://collect.forrester.com/g/collect",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_ng",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 4,
+        "example": "https://www.google.com/rmkt/collect/1050577862/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "events.api.boomtrain.com",
+        "path": "/event/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://events.api.boomtrain.com/event/track",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "o209747.ingest.us.sentry.io",
+        "path": "/api/{hash}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://o209747.ingest.us.sentry.io/api/4508915056574464/envelope/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "app.qualified.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://app.qualified.com/cdn-cgi/rum",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ingest.quantummetric.com",
+        "path": "/horizon/forrester",
+        "query": [
+          "N",
+          "P",
+          "S",
+          "T",
+          "U",
+          "b",
+          "s",
+          "t",
+          "u",
+          "v",
+          "z"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 90,
+        "hits": 7,
+        "example": "https://ingest.quantummetric.com/horizon/forrester",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ingest.quantummetric.com",
+        "path": "/resource-loader/forrester/hash-check",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 2,
+        "hits": 2,
+        "example": "https://ingest.quantummetric.com/resource-loader/forrester/hash-check",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.forrester.com",
+        "path": "/rb_bf34414eoq",
+        "query": [
+          "app",
+          "bp",
+          "crc",
+          "en",
+          "end",
+          "flavor",
+          "modifiedSince",
+          "sn",
+          "svrid",
+          "type",
+          "vi"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 129,
+        "hits": 2,
+        "example": "https://www.forrester.com/rb_bf34414eoq",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "app.qualified.com",
+        "path": "/w/{n}/c2pm6UmLFpqKykqE/messages",
+        "query": [
+          "uuid"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/messages",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "js.qualified.com",
+        "count": 5
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 4
+      },
+      {
+        "host": "img.en25.com",
+        "count": 3
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 3
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "cdn-0.d41.co",
+        "count": 1
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 1
+      },
+      {
+        "host": "www.redditstatic.com",
+        "count": 1
+      },
+      {
+        "host": "live.rezync.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.quantummetric.com",
+        "count": 1
+      },
+      {
+        "host": "c1.rfihub.net",
+        "count": 1
+      },
+      {
+        "host": "ws.zoominfo.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.boomtrain.com",
+        "count": 1
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 1
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "count": 1
+      },
+      {
+        "host": "assets.qualified.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [
+      {
+        "id": "wp-emoji-settings",
+        "type": "application/json",
+        "bytes": 250,
+        "topLevelKeys": [
+          "baseUrl",
+          "ext",
+          "svgUrl",
+          "svgExt",
+          "source"
+        ]
+      }
+    ],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "wordpress"
+    ],
+    "forms": [
+      {
+        "action": "https://www.forrester.com/allSearch",
+        "hasAction": true,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "q"
+        ],
+        "search": true
+      },
+      {
+        "action": "https://www.forrester.com/bold/",
+        "hasAction": false,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 3,
+        "fieldNames": [
+          "email",
+          "country",
+          "optin"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 21,
+      "thirdPartyScriptHosts": 16,
+      "inlineDataBlobs": 1,
+      "forms": 2,
+      "searchForms": 1,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/bold.png",
+  "renderedHtml": "pages/bold.html"
+}

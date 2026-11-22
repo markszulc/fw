@@ -1,0 +1,763 @@
+{
+  "slug": "bold",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-banner",
+    "two-column-intro",
+    "quote",
+    "three-col-features",
+    "ai-band",
+    "trusted-by",
+    "eyebrow-tab",
+    "three-card-grid",
+    "event-list",
+    "image-carousel",
+    "newsletter-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "hero",
+    "block",
+    "block",
+    "block",
+    "block",
+    "block",
+    "block",
+    "block",
+    "block",
+    "block",
+    "block",
+    "block"
+  ],
+  "canonShas": {
+    "header": "4d893761ab17",
+    "footer": "103d6447ca68",
+    "css": "4affafcd1ec4"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Forrester Helps Organizations Thrive Through Volatility",
+    "description": "Forrester is a leading global market research company that helps organizations exceed customer demands and excel with technology. Learn how Forrester can help.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Forrester Helps Organizations Thrive Through Volatility",
+    "description": "Forrester is a leading global market research company that helps organizations exceed customer demands and excel with technology. Learn how Forrester can help.",
+    "url": "https://www.forrester.com/bold/"
+  },
+  "migratedAt": "2026-11-22T09:51:58Z",
+  "designMdSha": "de2e9b024c43",
+  "designJsonSha": "d96a0e0e8ac5",
+  "sourceCurrentSha": "119c86742141",
+  "sourceProposedSha": "bdfa8cec9f8b",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "pixel-gate-1440"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "rendered from the approved prototype; strings verbatim from current/pages/bold.json except the footer CTA label updated to the source's current server HTML (journal)",
+    "pixel-gate-1440": "5.26%, height delta 1px, clipped 0, content n/a (stardust/replica/gates/prototypes-1440/summary.md) [prototype regime]",
+    "pixel-gate-360": "FAIL: offsets: 25 step(s), 32px total — +1px at y=115, +1px at y=2028, −2px at y=2720, −1px at y=5383, −1px at y=5418, −1px at y=5453, … 19 more (bound 8px) — aligned 4.33% (unaligned 7.58%), offsets 32px, height delta -2px, clipped 0, content n/a (stardust/replica/gates/prototypes-360/summary.md) [prototype regime]",
+    "content-count": "OPEN: content-diff: 117 (24 structural 🔴) — looks-same 🔴 24 · nothing-lost 🟡 0 · accepted 🟢 2 (owner 0, auto 2) · advisory 93 (gate3-360.log)",
+    "delivery-lint": "FAIL: 0 P0 · 3 P1 · 1 P2 (delivery-lint --path /bold)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 10,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.forrester.com/technology/data-ai-leaders/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/security-risk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/architecture-delivery/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/b2b-marketing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/b2b-marketing/demand-abm/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/product-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/revenue/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/b2c-marketing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/customer-experience/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/digital-business/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/financial-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/government/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/healthcare/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/high-tech/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/retail/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/forrester-decisions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/wave/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/research/forrester-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/forrester-market-insights/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/consulting/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/bold/create-content-that-fuels-demand/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/ai-access/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/marketing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/b2c/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/sponsorship/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/about-us/forrester-awards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/analyst-relations-council/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/certification/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/reprints/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/blogs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/client-stories/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/podcasts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/predictions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/webinars/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/aegis-framework/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/bold/b2b-gtm-strategy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/b2c-marketing/b2c-marketing-transformation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/bold/cross-functional-alignment/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/bold/customer-obsession/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/emerging-technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/generative-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/risk-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/technology-strategy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/zero-trust/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/about-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/executive-leadership/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/our-board/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/press-newsroom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/marketing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/b2c/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/sponsorship/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/webinars/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/about-us/forrester-awards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/login",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/become-a-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/login",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/data-ai-leaders/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/security-risk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/architecture-delivery/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/b2b-marketing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/b2b-marketing/demand-abm/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/product-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/revenue/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/b2c-marketing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/customer-experience/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/digital-business/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/financial-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/government/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/healthcare/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/high-tech/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/retail/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/forrester-decisions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/wave/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/research/forrester-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/forrester-market-insights/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/consulting/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/bold/create-content-that-fuels-demand/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/ai-access/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/marketing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/b2c/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/sponsorship/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/about-us/forrester-awards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/analyst-relations-council/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/certification/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/research/reprints/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/blogs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/client-stories/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/podcasts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/predictions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/webinars/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/aegis-framework/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/bold/b2b-gtm-strategy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/b2c-marketing/b2c-marketing-transformation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/bold/cross-functional-alignment/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/bold/customer-obsession/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/emerging-technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/generative-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/risk-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/technology/technology-strategy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/zero-trust/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/about-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/executive-leadership/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/our-board/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/press-newsroom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/marketing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/b2c/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/events/sponsorship/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/webinars/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/about-us/forrester-awards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/become-a-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/predictions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/become-a-client/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/research/forrester-decisions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/research/ai-where-you-work/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/technology/data-ai-leaders/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/technology/architecture-delivery/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/b2b-marketing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/product-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sales/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer-experience/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/digital-business/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/b2c-marketing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/research/roi-forrester-decisions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/research/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-us/objectivity/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/consulting/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/event/b2b-summit-north-america/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/event/b2c-west/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/event/b2c-emea/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/event/b2c-east/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/event/singapore-forum/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/event/sydney-forum/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/event/technology-innovation-emea/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/event/b2b-emea/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/event/technology-innovation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/event/security-risk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/help/analyst-briefing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/press-newsroom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/webinars",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/policies/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/podcasts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/about-us/fraud-alerts/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.forrester.com/brand/platform/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/policies#statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/become-a-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/policies/terms-of-use/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/policies/privacy-policy/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "bold/index.html",
+  "outputPathDefault": null,
+  "sidecar": "bold/_meta.json",
+  "driverVersion": "1"
+}

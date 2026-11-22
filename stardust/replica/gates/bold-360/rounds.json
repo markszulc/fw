@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-22T09:38:28.646Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-22T09:45:43.660Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-22T09:47:09.400Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "cap reached: iter3 pixel 3.48% Δh 0 PASS, units PASS, clipped 0; 3 content-diff reds = live CTA label drift after the extract (content-diff-iter3.txt); footer crop 8.7% = Qualified widget (R-02) + drifted CTA label",
+          "at": "2026-11-22T09:47:44.925Z",
+          "counted": 3
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-22T10:26:04.476Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-22T10:30:29.051Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-22T10:33:59.879Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3 aligned 5.81% (<10%), height delta 8px; residual offsets 204px (bound 150) from dropped spacer paragraphs + live lazy images not painted at capture; header band 0%, footer band 11.33% = Qualified chat card (R-02) + personalised CTA label (live 'Get Started' vs server HTML 'Talk To Sales')",
+          "at": "2026-11-22T10:34:17.658Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-22T10-36-58-901Z",
+          "at": "2026-11-22T10:36:58.901Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-22T10-47-37-240Z",
+          "at": "2026-11-22T10:47:37.240Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-22T10-51-13-500Z",
+          "at": "2026-11-22T10:51:13.500Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-22T11-05-57-298Z",
+          "at": "2026-11-22T11:05:57.298Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-22T11-10-13-764Z",
+          "at": "2026-11-22T11:10:13.764Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-22T10:36:58.902Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.forrester.com",
+    "eds": "https://main--94144fc1--aemcoder.aem.page",
+    "edsHostOverride": "https://main--94144fc1--aemcoder.aem.page",
+    "only": [
+      "bold"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 1,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 1,
+    "referenceUnstable": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "bold",
+      "path": "/bold",
+      "template": "bold",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 17.76,
+      "textPct": 19.02,
+      "heightDelta": 12,
+      "originH": 14994,
+      "edsH": 14982,
+      "alignedPct": 6.29,
+      "alignedUsed": true,
+      "totalShift": 228,
+      "steps": [
+        {
+          "y": 114,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 2028,
+          "shift": -1,
+          "cumulative": -2
+        },
+        {
+          "y": 2198,
+          "shift": 1,
+          "cumulative": -1
+        },
+        {
+          "y": 2345,
+          "shift": 40,
+          "cumulative": 39
+        },
+        {
+          "y": 2723,
+          "shift": 40,
+          "cumulative": 79
+        },
+        {
+          "y": 5384,
+          "shift": 1,
+          "cumulative": 80
+        },
+        {
+          "y": 5418,
+          "shift": 1,
+          "cumulative": 81
+        },
+        {
+          "y": 5452,
+          "shift": 1,
+          "cumulative": 82
+        },
+        {
+          "y": 5486,
+          "shift": 1,
+          "cumulative": 83
+        },
+        {
+          "y": 5521,
+          "shift": 1,
+          "cumulative": 84
+        },
+        {
+          "y": 5769,
+          "shift": 1,
+          "cumulative": 85
+        },
+        {
+          "y": 6017,
+          "shift": 2,
+          "cumulative": 87
+        }
+      ],
+      "offsetBound": 150,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "units"
+      ],
+      "unwaived": [
+        "pixel",
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 30 step(s), 228px total — −1px at y=114, −1px at y=2028, +1px at y=2198, +40px at y=2345, +40px at y=2723, +1px at y=5384, … 24 more (bound 150px)",
+        "units off 0 hidden 0 missing 0 — 4 selector error(s): .event-cal__event=.event-cal__event — no visible unit on the served side (10 / 0 DOM matches); #research ~ .two-column-content .row:nth-child(2) > .two-column__item=#research  — no visible unit on the served side (3 / 0 DOM matches) (fix the family's selector in stardust/replica/units.json)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 5,
+      "unitsRecorded": null,
+      "units": {
+        "units": 11,
+        "within": 11,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 4,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/bold-360",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "500-1000:23.8%",
+        "3500-4000:39.2%",
+        "4000-4500:30.4%",
+        "4500-5000:52.7%",
+        "5000-5500:37.2%",
+        "7000-7500:18.2%",
+        "7500-8000:22.5%",
+        "8000-8500:29.1%",
+        "8500-9000:29.3%",
+        "9000-9500:23.9%",
+        "10000-10500:17.9%",
+        "13000-13500:33.2%",
+        "13500-14000:18.4%",
+        "14500-14982:27.2%"
+      ],
+      "error": null
+    }
+  ]
+}

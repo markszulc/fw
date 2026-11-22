@@ -1,0 +1,233 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-22T09:52:13.683Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-22T11:13:35.771Z",
+  "blocks": [
+    {
+      "id": "ai-band",
+      "label": "ai-band",
+      "kind": "module",
+      "signature": "module:ai-band",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "tc",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "event-list",
+      "label": "event-list",
+      "kind": "module",
+      "signature": "module:event-list",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "event-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "eyebrow-tab",
+      "label": "eyebrow-tab",
+      "kind": "module",
+      "signature": "module:eyebrow-tab",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "tc",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-banner",
+      "label": "hero-banner",
+      "kind": "module",
+      "signature": "module:hero-banner",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "image-carousel",
+      "label": "image-carousel",
+      "kind": "module",
+      "signature": "module:image-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "newsletter-form",
+      "label": "newsletter-form",
+      "kind": "module",
+      "signature": "module:newsletter-form",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "newsletter",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "quote",
+      "label": "quote",
+      "kind": "module",
+      "signature": "module:quote",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "tc",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "three-card-grid",
+      "label": "three-card-grid",
+      "kind": "module",
+      "signature": "module:three-card-grid",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "tc",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "three-col-features",
+      "label": "three-col-features",
+      "kind": "module",
+      "signature": "module:three-col-features",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "tc",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "trusted-by",
+      "label": "trusted-by",
+      "kind": "module",
+      "signature": "module:trusted-by",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "tc",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "two-column-intro",
+      "label": "two-column-intro",
+      "kind": "module",
+      "signature": "module:two-column-intro",
+      "source": null,
+      "usedByTemplates": [
+        "bold"
+      ],
+      "usedByPages": [
+        "bold"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "tc",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

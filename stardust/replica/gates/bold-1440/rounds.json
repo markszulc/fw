@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-22T09:33:18.471Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-22T09:35:33.168Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-22T09:43:39.163Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "cap reached: iter2 pixel 5.26% Δh 1 PASS, iter3 offsets from live font-race line-box variance (reference UNSTABLE twice, reference-unstable.json heights 8976/8981); 3 content-diff reds = live CTA label drift after the extract (content-diff-iter3.txt); footer crop dominated by Qualified widget (R-02) not removable by click-dismiss",
+          "at": "2026-11-22T09:47:44.897Z",
+          "counted": 3
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-22T10:25:28.069Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-22T10:30:02.853Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-22T10:33:37.962Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3 aligned 2.18% (<10%), height delta -34px; residual offsets (98px, bound 90): source empty spacer paragraphs dropped by the DA pipeline (sec2/7/8 emulated in CSS, sub-row rounding remains), eyebrow/h2 margin rounding; header band 0.51%, footer band 4.58% = Qualified chat card on the live side (R-02)",
+          "at": "2026-11-22T10:34:17.631Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-22T10-36-31-503Z",
+          "at": "2026-11-22T10:36:31.503Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-22T10-40-36-080Z",
+          "at": "2026-11-22T10:40:36.080Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-22T10-42-58-770Z",
+          "at": "2026-11-22T10:42:58.770Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-22T10-44-42-485Z",
+          "at": "2026-11-22T10:44:42.485Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-22T10-49-16-910Z",
+          "at": "2026-11-22T10:49:16.911Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-22T11-01-12-929Z",
+          "at": "2026-11-22T11:01:12.929Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

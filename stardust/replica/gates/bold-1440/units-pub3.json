@@ -1,0 +1,868 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-22T10:33:04.980Z",
+  "tol": 4,
+  "n": 11,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.forrester.com/bold/",
+  "at": "2026-11-22T09:43:17.139Z",
+  "docH": 8981
+ },
+ "eds": {
+  "url": "https://main--94144fc1--aemcoder.aem.page/bold",
+  "at": "2026-11-22T10:33:04.893Z",
+  "docH": 9009
+ },
+ "results": [
+  {
+   "sel": ".event-cal__event=.event-cal__event",
+   "family": "event-row",
+   "required": true,
+   "originMatches": 10,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the served side (10 / 0 DOM matches)"
+  },
+  {
+   "sel": "#research ~ .two-column-content .row:nth-child(2) > .two-column__item=#research > .l-container > .l-row:nth-child(2) > .tc",
+   "family": "research-card",
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the served side (3 / 0 DOM matches)"
+  },
+  {
+   "sel": ".two-column__item--text_block.col-md-4 > .two-column__header=.tc.l-col--md-4 > .tc__header",
+   "family": "value-card",
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the served side (3 / 0 DOM matches)"
+  },
+  {
+   "sel": ".fbs-img-carousel .slick-dots li=.carousel__dots li",
+   "family": "carousel-dot",
+   "required": false,
+   "originMatches": 7,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the served side (7 / 0 DOM matches)"
+  },
+  {
+   "sel": "#menu-footer > li=.footer-menu > li",
+   "family": "footer-link",
+   "required": true,
+   "originMatches": 11,
+   "edsMatches": 11,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-103658"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:analyst briefings",
+       "role": "link",
+       "text": "analyst briefings",
+       "edsText": "analyst briefings",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 117,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 117,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 120,
+       "y": 8665,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 120,
+       "y": 8693,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-160735"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:newsroom",
+       "role": "link",
+       "text": "newsroom",
+       "edsText": "newsroom",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 76,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 76,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 420,
+       "y": 8665,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 420,
+       "y": 8693,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-160814"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:complimentary webinars",
+       "role": "link",
+       "text": "complimentary webinars",
+       "edsText": "complimentary webinars",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 176,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 176,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 8665,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 720,
+       "y": 8693,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-103657"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:contact us",
+       "role": "link",
+       "text": "contact us",
+       "edsText": "contact us",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 77,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 77,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1020,
+       "y": 8665,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 1020,
+       "y": 8693,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-1696"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:investor information",
+       "role": "link",
+       "text": "investor information",
+       "edsText": "investor information",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 139,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 139,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 120,
+       "y": 8696,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 120,
+       "y": 8724,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-172170"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:careers",
+       "role": "link",
+       "text": "careers",
+       "edsText": "careers",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 55,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 55,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 420,
+       "y": 8696,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 420,
+       "y": 8724,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-84385"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:policies",
+       "role": "link",
+       "text": "policies",
+       "edsText": "policies",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 54,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 54,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 8696,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 720,
+       "y": 8724,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-221762"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:podcasts",
+       "role": "link",
+       "text": "podcasts",
+       "edsText": "podcasts",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 63,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 63,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1020,
+       "y": 8696,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 1020,
+       "y": 8724,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-97538"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:fraud alerts",
+       "role": "link",
+       "text": "fraud alerts",
+       "edsText": "fraud alerts",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 85,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 85,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 120,
+       "y": 8726,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 120,
+       "y": 8754,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-146409"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:brand",
+       "role": "link",
+       "text": "brand",
+       "edsText": "brand",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 42,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 42,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 420,
+       "y": 8726,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 420,
+       "y": 8754,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-84386"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:uk slavery statement",
+       "role": "link",
+       "text": "uk slavery statement",
+       "edsText": "uk slavery statement",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 152,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 152,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 8726,
+       "w": 300,
+       "h": 22
+      },
+      "eds": {
+       "x": 720,
+       "y": 8754,
+       "w": 300,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 11,
+  "within": 11,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 4,
+  "requiredOff": 0
+ }
+}

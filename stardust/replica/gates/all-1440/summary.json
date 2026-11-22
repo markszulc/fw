@@ -1,0 +1,319 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-22T11:01:12.931Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.forrester.com",
+    "eds": "https://main--94144fc1--aemcoder.aem.live",
+    "edsHostOverride": null,
+    "only": null
+  },
+  "totals": {
+    "pages": 2,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 1,
+    "fail": 2,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 2,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 2,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 2,
+    "referenceUnstable": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "bold",
+      "path": "/bold",
+      "template": "bold",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.24,
+      "textPct": 12.5,
+      "heightDelta": -28,
+      "originH": 8981,
+      "edsH": 9009,
+      "alignedPct": 2.85,
+      "alignedUsed": true,
+      "totalShift": 110,
+      "steps": [
+        {
+          "y": 114,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 1388,
+          "shift": 10,
+          "cumulative": 9
+        },
+        {
+          "y": 3293,
+          "shift": 4,
+          "cumulative": 13
+        },
+        {
+          "y": 3427,
+          "shift": 2,
+          "cumulative": 15
+        },
+        {
+          "y": 4459,
+          "shift": -34,
+          "cumulative": -19
+        },
+        {
+          "y": 4738,
+          "shift": 16,
+          "cumulative": -3
+        },
+        {
+          "y": 4787,
+          "shift": -1,
+          "cumulative": -4
+        },
+        {
+          "y": 5141,
+          "shift": 1,
+          "cumulative": -3
+        },
+        {
+          "y": 5837,
+          "shift": -2,
+          "cumulative": -5
+        },
+        {
+          "y": 5971,
+          "shift": -1,
+          "cumulative": -6
+        },
+        {
+          "y": 6745,
+          "shift": 36,
+          "cumulative": 30
+        },
+        {
+          "y": 8979,
+          "shift": -2,
+          "cumulative": 28
+        }
+      ],
+      "offsetBound": 90,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "units"
+      ],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 12 step(s), 110px total — −1px at y=114, +10px at y=1388, +4px at y=3293, +2px at y=3427, −34px at y=4459, +16px at y=4738, … 6 more (bound 90px)",
+        "units off 16 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "unitsDeclared": 5,
+      "unitsRecorded": null,
+      "units": {
+        "units": 34,
+        "within": 48,
+        "off": 16,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 16
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "pass-with-override",
+        "reason": "published 1440: aligned 2.85% (≤10%), Δh -28 (≤5%), clipped 0, content 0 missing/hidden; residual offsets 110px vs bound 90 = source empty spacer paragraphs dropped by the DA pipeline + eyebrow/h2 margin rounding (accept-residual at the 3-round cap, gates/bold-1440/rounds.json published); units: event-row date box = <time> text node vs <p> (paint identical), research-card image/heading = source floats the image INSIDE the h2 so the paired boxes differ by structure (eds.png vs origin.png crop 4200-5300: same order, image 19px higher)",
+        "waives": [
+          "pixel",
+          "units"
+        ]
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/bold-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "4500-5000:18.8%",
+        "7000-7500:20.7%",
+        "7500-8000:37.7%",
+        "8000-8500:21.5%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "template": "landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.44,
+      "textPct": 11.55,
+      "heightDelta": -33,
+      "originH": 8976,
+      "edsH": 9009,
+      "alignedPct": 2.29,
+      "alignedUsed": true,
+      "totalShift": 99,
+      "steps": [
+        {
+          "y": 1387,
+          "shift": 10,
+          "cumulative": 10
+        },
+        {
+          "y": 1641,
+          "shift": -1,
+          "cumulative": 9
+        },
+        {
+          "y": 4469,
+          "shift": -31,
+          "cumulative": -22
+        },
+        {
+          "y": 4741,
+          "shift": 16,
+          "cumulative": -6
+        },
+        {
+          "y": 4820,
+          "shift": -1,
+          "cumulative": -7
+        },
+        {
+          "y": 6742,
+          "shift": 40,
+          "cumulative": 33
+        }
+      ],
+      "offsetBound": 90,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "units"
+      ],
+      "unwaived": [
+        "pixel",
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 6 step(s), 99px total — +10px at y=1387, −1px at y=1641, −31px at y=4469, +16px at y=4741, −1px at y=4820, +40px at y=6742 (bound 90px)",
+        "units off 16 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "unitsDeclared": 5,
+      "unitsRecorded": null,
+      "units": {
+        "units": 34,
+        "within": 48,
+        "off": 16,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 16
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/index",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "4500-5000:20.7%",
+        "7000-7500:21.2%",
+        "7500-8000:40.1%",
+        "8000-8500:24.2%"
+      ],
+      "error": null
+    }
+  ]
+}

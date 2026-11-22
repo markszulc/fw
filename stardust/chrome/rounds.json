@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "compare-1",
+          "at": "2026-11-22T10:10:09.485Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "compare-2",
+          "at": "2026-11-22T10:16:24.323Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "compare-3",
+          "at": "2026-11-22T10:28:11.312Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

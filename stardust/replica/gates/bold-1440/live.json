@@ -1,0 +1,11 @@
+{
+  "writtenBy": "gate.sh --gate-against-baseline",
+  "origin": "baseline",
+  "url": "https://www.forrester.com/bold/",
+  "width": 1440,
+  "at": "2026-11-22T10:22:35.976Z",
+  "originBaseline": {
+    "capturedAt": "2026-11-22T10:22:35.976Z",
+    "height": 8981
+  }
+}

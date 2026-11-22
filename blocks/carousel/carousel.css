@@ -1,0 +1,195 @@
+/* carousel — image carousel band; values lifted from the approved prototype (bold.css). */
+/* stylelint-disable no-descending-specificity -- cascade order lifted verbatim from the prototype */
+
+.carousel {
+  position: relative;
+  padding: 40px 0;
+  overflow-x: clip; /* R-03 */
+}
+
+.carousel.gray {
+  background-color: var(--c-gray-light);
+}
+
+.carousel .carousel-wrap {
+  position: relative;
+}
+
+.carousel .carousel-slider {
+  position: relative;
+  display: block;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.carousel .carousel-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+@media (width >= 1440px) {
+  .carousel .carousel-list {
+    margin-right: -100vw;
+  }
+}
+
+.carousel .carousel-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 35000px;
+  transform: translate3d(-330px, 0, 0);
+}
+
+@media (width >= 768px) {
+  .carousel .carousel-track {
+    transform: translate3d(-680px, 0, 0);
+  }
+}
+
+.carousel .carousel-track::before,
+.carousel .carousel-track::after {
+  display: table;
+  content: "";
+}
+
+.carousel .carousel-track::after {
+  clear: both;
+}
+
+.carousel .carousel-slide {
+  float: left;
+  height: 300px;
+  min-height: 1px;
+  margin: 0;
+  width: calc(100vw - 30px);
+}
+
+.carousel .carousel-frame {
+  position: relative;
+  display: block;
+  width: min-content;
+  height: inherit;
+}
+
+.carousel .carousel-frame picture {
+  display: block;
+  height: 100%;
+}
+
+.carousel .carousel-slide img {
+  display: block;
+  width: auto;
+  height: 100%;
+  max-width: none;
+}
+
+@media (width >= 576px) {
+  .carousel .carousel-slide {
+    width: 546px;
+  }
+}
+
+@media (width >= 768px) {
+  .carousel .carousel-slide {
+    height: 490px;
+    margin: 0 10px;
+    width: auto;
+  }
+
+  .carousel .carousel-frame {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+.carousel .carousel-arrow {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.carousel .carousel-arrow::before,
+.carousel .carousel-arrow::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.carousel .carousel-arrow::before {
+  width: 10px;
+  height: 10px;
+  border-left: 3px solid var(--c-black);
+  border-bottom: 3px solid var(--c-black);
+  transform: rotate(45deg);
+  top: 10px;
+  left: 0;
+}
+
+.carousel .carousel-arrow::after {
+  width: 100%;
+  height: 4px;
+  background: var(--c-black);
+  top: 13px;
+  left: 0;
+}
+
+.carousel .carousel-arrow-prev {
+  left: 0;
+}
+
+.carousel .carousel-arrow-next {
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.carousel .carousel-dots {
+  list-style: none;
+  display: flex;
+  margin: 20px 50px 0;
+  position: relative;
+}
+
+.carousel .carousel-dots li {
+  flex: 1;
+  position: relative;
+}
+
+.carousel .carousel-dots li::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 13px;
+  left: 0;
+  background: var(--c-black);
+  transition: background-color 0.3s;
+  pointer-events: none;
+}
+
+.carousel .carousel-dots li.slick-active::after {
+  background-color: var(--c-teal);
+}
+
+.carousel .carousel-dots button {
+  font-size: 0;
+  width: 100%;
+  height: 30px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.carousel .carousel-count {
+  text-align: right;
+  margin-right: 50px;
+}

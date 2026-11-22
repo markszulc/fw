@@ -1,0 +1,5 @@
+{"t":"2026-11-22T10:20:30.460Z","path":"/bold","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-11-22T10:20:43.202Z","path":"/bold","step":"verify","ok":true}
+{"t":"2026-11-22T10:55:43.026Z","path":"/nav","step":"verify","ok":true}
+{"t":"2026-11-22T10:55:43.203Z","path":"/footer","step":"verify","ok":true}
+{"t":"2026-11-22T11:12:44.779Z","path":"/bold","step":"verify","ok":true}

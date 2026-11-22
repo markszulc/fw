@@ -1,0 +1,51 @@
+{
+  "round": "iter2",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/bold-360/diff-iter2.png",
+    "json": "stardust/replica/gates/bold-360/pixel-iter2.json",
+    "pct": 3.48,
+    "alignedPct": 3.48,
+    "alignedUsed": false,
+    "totalShift": 0,
+    "steps": [],
+    "offsetBound": null,
+    "maskedRows": 0,
+    "noiseFloor": null,
+    "reason": null
+  },
+  "reference": {
+    "origin": "live"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/content-diff-iter2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/visual-diff-iter2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/chrome-parity-iter2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/clip-iter2.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-360/units-iter2.txt"
+    },
+    "header-contract": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-360/header-contract-iter2.txt"
+    }
+  },
+  "structural": 3,
+  "nothingLost": 0,
+  "at": "2026-11-22T09:45:43.634Z"
+}

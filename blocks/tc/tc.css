@@ -1,0 +1,361 @@
+/* tc — two-column module band; values lifted from the approved prototype (bold.css). */
+/* stylelint-disable no-descending-specificity -- cascade order lifted verbatim from the prototype */
+
+.tc {
+  position: relative;
+  padding: 40px 0;
+}
+
+.tc.tp-double {
+  padding-top: 80px;
+}
+
+.tc.gray {
+  background-color: var(--c-gray-light);
+}
+
+.tc.light {
+  color: var(--c-white);
+}
+
+.tc .tc-bg {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+.tc .tc-bg picture {
+  display: flex;
+  width: 100%;
+}
+
+.tc .tc-bg img {
+  object-fit: cover;
+  object-position: center center;
+  min-height: 100%;
+}
+
+.tc > .l-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* eyebrow tab (section label) */
+.tc .eyebrow-tab {
+  margin-bottom: 30px;
+}
+
+.tc .eyebrow-tab h2 {
+  display: flex;
+  text-transform: uppercase;
+  max-width: 75%;
+  color: var(--c-black);
+  font-size: 1rem;
+  line-height: 1.0625;
+}
+
+.tc .eyebrow-tab h2 span {
+  display: block;
+  padding: 14px 20px 14px 14px;
+  background: var(--c-lime);
+}
+
+@media (width >= 576px) {
+  .tc .eyebrow-tab {
+    margin-bottom: 68px;
+  }
+}
+
+@media (width >= 577px) {
+  .tc .eyebrow-tab h2::before {
+    display: block;
+    content: "";
+    width: 60px;
+    background: var(--c-lime);
+  }
+
+  .tc .eyebrow-tab h2 span {
+    padding-left: 0;
+  }
+}
+
+@media (width >= 768px) {
+  .tc .eyebrow-tab h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (width >= 1921px) {
+  .tc .eyebrow-tab {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+  }
+
+  .tc .eyebrow-tab h2::before {
+    margin-left: -70px;
+  }
+}
+
+/* columns */
+.tc .tc-col {
+  margin: 40px 0;
+}
+
+.tc .tc-col.tc-full {
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .tc .tc-row-first > .tc-col {
+    margin-top: 0;
+  }
+
+  .tc .tc-row-last > .tc-col {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .tc .l-row-divider {
+    position: relative;
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+
+  .tc .l-row-divider > .tc-col {
+    position: static;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .tc .l-row-divider > .tc-col + .tc-col::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 1px;
+    height: 200px;
+    background-color: var(--c-black);
+    transform: translate(-30px, -50%);
+  }
+}
+
+.tc .tc-fwrow {
+  margin-bottom: 40px;
+}
+
+.tc .tc-fwrow.tc-fwrow-mb0 {
+  margin-bottom: 0;
+}
+
+.tc .tc-full h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 2.625rem;
+  line-height: 2.875rem;
+}
+
+@media (width >= 768px) {
+  .tc .tc-full h2 {
+    font-size: 2.875rem;
+    line-height: 3.25rem;
+  }
+}
+
+.tc .tc-col h3 {
+  font-size: 1.375rem;
+  line-height: 1.4545;
+  margin-bottom: 20px;
+}
+
+.tc .tc-col h3::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 6px;
+  background: currentcolor;
+  margin-top: 24px;
+}
+
+.tc.light .tc-col h3 {
+  font-size: 2rem;
+  line-height: 1.0625;
+  font-weight: 700;
+}
+
+@media (width >= 768px) {
+  .tc .tc-col h3 {
+    font-size: 2rem;
+    line-height: 1.0625;
+  }
+
+  .tc.light .tc-col h3 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+}
+
+.tc .tc-body p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  line-height: 1.4375rem;
+}
+
+.tc .tc-body ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
+/* sibling spacing (1em, as the source's collapsed p/ul margins) without positional selectors */
+.tc .tc-body * + p,
+.tc .tc-body * + ul {
+  margin-top: 1em;
+}
+
+.tc .tc-body li + li {
+  margin-top: 0.5em;
+}
+
+.tc .tc-body h2 {
+  margin: 0 0 0.5em;
+}
+
+.tc .tc-body * + h2 {
+  margin-top: 1em;
+}
+
+/* the source's empty spacer paragraphs (dropped by the content pipeline) as spacing */
+.tc.divider .tc-row-first .tc-fwrow {
+  padding-bottom: 62px;
+}
+
+.tc.divider .l-row-divider .tc-body {
+  padding-bottom: 39px;
+}
+
+.tc.divider .l-row-divider .tc-body-lead {
+  padding-bottom: 56px;
+}
+
+.tc.eyebrow:not(.gray, .tp-double) .l-col-md-4.tc-col-1 .tc-body,
+.tc.eyebrow.tp-double .l-col-md-6.tc-col-1 .tc-body {
+  padding-bottom: 39px;
+}
+
+.tc .tc-body.tc-body-lead p {
+  font-size: 1.375rem;
+  letter-spacing: 0.54px;
+  line-height: 2.125rem;
+}
+
+.tc .tc-image {
+  text-align: center;
+}
+
+.tc .tc-image img {
+  max-height: 400px;
+  width: auto;
+  margin: 0 auto;
+}
+
+@media (width >= 768px) {
+  .tc .js-scroll-fx {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all 0.5s;
+  }
+
+  .tc .js-scroll-fx.in-view {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* CTAs */
+.tc .cta-group {
+  position: relative;
+  z-index: 1;
+}
+
+.tc .cta-group-row {
+  margin-top: 20px;
+}
+
+.tc .cta-group-row p {
+  margin: 0;
+}
+
+@media (width >= 992px) {
+  .tc .cta-group-row,
+  .tc .cta-group-row .cta-button p {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.tc .cta-tertiary-wrap a:any-link {
+  display: flex;
+  align-items: center;
+  color: var(--c-black);
+  text-decoration: none;
+  background: none;
+}
+
+.tc .cta-tertiary-wrap a:any-link::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+  flex: 23px 0 0;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: var(--c-yellow) url("data:image/svg+xml,%3Csvg width='11' height='7' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke='%23000' fill='none' fill-rule='evenodd'%3E%3Cpath d='M.5 3.5h9' stroke-linecap='square'/%3E%3Cpath d='M7.5.5l3 3-3 3'/%3E%3C/g%3E%3C/svg%3E") center center / 11px 7px no-repeat;
+  transition: transform 0.3s;
+}
+
+.tc .cta-tertiary-wrap a:any-link:hover::after {
+  transform: translateX(10px);
+}
+
+/* quotes */
+.tc .quote {
+  color: var(--c-green-dark);
+}
+
+.tc .quote-body p {
+  font-family: var(--font-quote);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  text-indent: -0.33em;
+  margin-top: 0;
+  margin-bottom: 40px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+.tc .quote-body p::before {
+  content: open-quote;
+}
+
+.tc .quote-body p::after {
+  content: close-quote;
+}
+
+@media (width >= 768px) {
+  .tc .quote-body p {
+    font-size: 2rem;
+    line-height: 2.375rem;
+  }
+}
+
+.tc .quote-cite p {
+  margin: 0;
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.3333;
+}

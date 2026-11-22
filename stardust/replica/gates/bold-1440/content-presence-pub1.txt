@@ -1,0 +1,42 @@
+[live-session] waiting to pace live navigations to www.forrester.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 1440px (chrome) — origin https://www.forrester.com/bold/ (docH 8976, 173 items, HTTP 200) vs served https://main--94144fc1--aemcoder.aem.page/bold (docH 8576, 175 items, HTTP 200)
+scope: main#main vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 1 | explore our 2027 predictions | 1/1 | 0/0 | 1/1 | 0/0 | - |
+| 2 | empowering leaders. driving results. tog | 1/1 | 0/0 | 7/6 | 1/1 | - |
+| 3 | value at every altitude | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 4 | enterprise alignment | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 5 | functional acceleration | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 6 | individual advancement | 1/1 | 0/0 | 4/4 | 1/1 | - |
+| 7 | bring forrester ai into the way you work | 1/1 | 0/0 | 1/1 | 0/0 | - |
+| 8 | trusted by industry leaders | 11/11 | 0/0 | 7/7 | 0/0 | - |
+| 9 | research | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 10 | forrester decisions: deliver better outc | 0/0 | 0/0 | 5/5 | 0/3 | COUNT IMAGES |
+| 11 | inform your perspective | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 12 | sharpen your skills | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 13 | develop authentic connections | 1/1 | 0/0 | 17/17 | 3/0 | COUNT IMAGES |
+| 14 | consulting | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 15 | turn insights into measurable outcomes | 2/2 | 0/0 | 8/7 | 0/0 | - |
+| 16 | events | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 17 | powerful gatherings, proven outcomes | 2/2 | 0/0 | 7/7 | 0/0 | - |
+| 18 | b2b summit north america | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 19 | ai forum sydney | 2/2 | 0/0 | 0/0 | 0/0 | - |
+| 20 | b2c forum west | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 21 | technology & innovation forum emea | 2/2 | 0/0 | 0/0 | 0/0 | - |
+| 22 | b2c forum emea | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 23 | b2b summit emea | 2/2 | 0/0 | 0/0 | 0/0 | - |
+| 24 | b2c forum east | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 25 | technology & innovation forum | 2/2 | 0/0 | 0/0 | 0/0 | - |
+| 26 | ai forum singapore | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 27 | security & risk forum | 0/0 | 7/9 | 2/0 | 2/2 | EXTRA LINK |
+| 28 | want the latest forrester news? | 0/0 | 1/1 | 4/4 | 0/0 | - |
+  🟡 COUNT IMAGES: band "forrester decisions: deliver better outcomes faster": 0 origin → 3 served visible
+  🟡 COUNT IMAGES: band "develop authentic connections": 3 origin → 0 served visible
+  🟡 EXTRA LINK: "previous" served in band "security & risk forum", no origin link or button
+  🟡 EXTRA LINK: "next" served in band "security & risk forum", no origin link or button
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 2 / count deltas 2
+Findings: 4 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/bold-1440/content-presence-pub1.json

@@ -1,0 +1,19 @@
+[live-session] waiting to pace live navigations to main--94144fc1--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 420 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.forrester.com/bold/ (live side from cache stardust/replica/gates/bold-1440/chrome-live.json, probed 2026-11-22T09:18:51.316Z — delete the file to re-probe)
+  build: https://main--94144fc1--aemcoder.aem.page/bold
+
+■ header: ✓ parity — 7 paired of 7/7 texts, 1/1 icons
+  region live:  header#masthead.site-header.js-site-header — outermost <header>, box 0,0 1440×90; selector #masthead
+  region build: header.header-wrapper — outermost <header>, box 0,0 1440×90; selector body > header
+
+■ footer: 4 delta(s) — 16 paired of 16/16 texts, 5/5 icons
+  region live:  footer.site-footer.js-site-footer — outermost <footer>, box 0,8380 1440×596; selector #page > footer
+  region build: footer.footer-wrapper — outermost <footer>, box 0,7974 1440×596; selector body > footer
+  advisory     REGION OFFSET: page Δy -406px (8380→7974) — the region sits at another page y as one block (the page above is another height); the main content gate owns that height (--strict-region-offset fails it here)
+  PAIR         "Ask AI About Working With Forrester"  tag <div> → <p>; paddingRight 15px → 0px; paddingLeft 15px → 0px; Δx +15px (120→135); Δw -30px (1200→1170); Δh -180px (202→22)
+  PAIR         "© 2026 Forrester Research, Inc. and/or i"  tag <div> → <p>; paddingRight 15px → 0px; paddingLeft 15px → 0px; Δx +15px (120→135); Δw -30px (1200→1170)
+  MISSING      "OpenAI"  live svg title "OpenAI" on <a> is in no channel of the build (visible text, hidden text, aria-label/title/alt) — an accessible name was lost
+  ICON         "ChatGPT OpenAI"  icon #0 near "ChatGPT OpenAI": signature "viewBox=0 0 24 24 paths=1" → "openai.svg"
+
+✗ 4 delta(s), 1 advisory group(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

@@ -1,0 +1,46 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-22T09:52:09.728Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.forrester.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "94144fc1",
+      "ref": "main"
+    },
+    "liveHost": "main--94144fc1--aemcoder.aem.live",
+    "previewHost": "main--94144fc1--aemcoder.aem.page"
+  },
+  "scope": {
+    "pages": 2,
+    "discovered": 2,
+    "capped": false,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-22T11:13:35.804Z",
+    "pages": {
+      "total": 2,
+      "verified": 2,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 11,
+      "converted": 11,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  },
+  "publish": {
+    "decision": "publish",
+    "by": "run brief (owner decision, made before the run)"
+  }
+}

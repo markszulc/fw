@@ -1,0 +1,569 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-22T09:17:54.805Z",
+  "url": "https://www.forrester.com/bold/",
+  "width": 1440,
+  "main": "#main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.forrester.com/bold/",
+  "width": 1440,
+  "viewport": 1440,
+  "docHeight": 8976,
+  "scrollWidth": 2745,
+  "root": "#main",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": true,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "proxima-nova, Arial, sans-serif",
+    "n": 154
+   },
+   {
+    "stack": "Arial",
+    "n": 7
+   },
+   {
+    "stack": "\"Ivar Display\", Ivar, \"Georgia serif\"",
+    "n": 2
+   }
+  ],
+  "loadedFaces": [
+   "proxima-nova 700 normal",
+   "proxima-nova 700 italic",
+   "proxima-nova 600 normal",
+   "proxima-nova 400 normal",
+   "proxima-nova 400 italic",
+   "Ivar Display 400 normal",
+   "Inter 400 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "16/22.4 400 proxima-nova",
+    "fontSize": 16,
+    "lineHeight": 22.4,
+    "fontWeight": "400",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 78,
+    "roles": {
+     "link": 43,
+     "div": 3,
+     "p": 1,
+     "li": 27,
+     "label": 3,
+     "button": 1
+    },
+    "sample": "Who We Serve"
+   },
+   {
+    "key": "22/34 400 proxima-nova",
+    "fontSize": 22,
+    "lineHeight": 34,
+    "fontWeight": "400",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 18,
+    "roles": {
+     "p": 8,
+     "link": 10
+    },
+    "sample": "Learn more about how Forrester can help you stay ahead of the curve."
+   },
+   {
+    "key": "16/23 400 proxima-nova",
+    "fontSize": 16,
+    "lineHeight": 23,
+    "fontWeight": "400",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 17,
+    "roles": {
+     "p": 16,
+     "link": 1
+    },
+    "sample": "Success in business doesn’t come with a manual — especially in today’s fast-evo…"
+   },
+   {
+    "key": "24/30 700 proxima-nova",
+    "fontSize": 24,
+    "lineHeight": 30,
+    "fontWeight": "700",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 10,
+    "roles": {
+     "h3": 10
+    },
+    "sample": "B2B Summit North America"
+   },
+   {
+    "key": "0/0 400 Arial",
+    "fontSize": 0,
+    "lineHeight": 0,
+    "fontWeight": "400",
+    "fontFamily": "Arial",
+    "textTransform": "none",
+    "n": 7,
+    "roles": {
+     "button": 7
+    },
+    "sample": "1"
+   },
+   {
+    "key": "46/52 700 proxima-nova",
+    "fontSize": 46,
+    "lineHeight": 52,
+    "fontWeight": "700",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "h2": 6
+    },
+    "sample": "Empowering Leaders. Driving Results. Together."
+   },
+   {
+    "key": "32/34 700 proxima-nova",
+    "fontSize": 32,
+    "lineHeight": 34,
+    "fontWeight": "700",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "h3": 3,
+     "h2": 3
+    },
+    "sample": "Enterprise Alignment"
+   },
+   {
+    "key": "16/16 700 proxima-nova uppercase",
+    "fontSize": 16,
+    "lineHeight": 16,
+    "fontWeight": "700",
+    "fontFamily": "proxima-nova",
+    "textTransform": "uppercase",
+    "n": 6,
+    "roles": {
+     "link": 6
+    },
+    "sample": "Visit The Hub"
+   },
+   {
+    "key": "32/34 700 proxima-nova uppercase",
+    "fontSize": 32,
+    "lineHeight": 34,
+    "fontWeight": "700",
+    "fontFamily": "proxima-nova",
+    "textTransform": "uppercase",
+    "n": 3,
+    "roles": {
+     "h2": 3
+    },
+    "sample": "Research"
+   },
+   {
+    "key": "32/38 400 Ivar Display",
+    "fontSize": 32,
+    "lineHeight": 38,
+    "fontWeight": "400",
+    "fontFamily": "Ivar Display",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "p": 2
+    },
+    "sample": "It’s not just about the stats and the benchmarks and the research. Forrester in…"
+   },
+   {
+    "key": "18/24 400 proxima-nova",
+    "fontSize": 18,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "cite": 2
+    },
+    "sample": "— Jen Burns SVP, Commercial Operations & Marketing, Dun & Bradstreet"
+   },
+   {
+    "key": "18/25.2 400 proxima-nova",
+    "fontSize": 18,
+    "lineHeight": 25.2,
+    "fontWeight": "400",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "field": 2
+    },
+    "sample": "Enter your business email address"
+   },
+   {
+    "key": "0/0 400 proxima-nova",
+    "fontSize": 0,
+    "lineHeight": 0,
+    "fontWeight": "400",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "span": 2
+    },
+    "sample": "Previous"
+   },
+   {
+    "key": "62/68.2 700 proxima-nova",
+    "fontSize": 62,
+    "lineHeight": 68.2,
+    "fontWeight": "700",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h1": 1
+    },
+    "sample": "Explore Our 2027 Predictions"
+   },
+   {
+    "key": "52/57.2 700 proxima-nova",
+    "fontSize": 52,
+    "lineHeight": 57.2,
+    "fontWeight": "700",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h2": 1
+    },
+    "sample": "Want The Latest Forrester News?"
+   },
+   {
+    "key": "48/51 700 proxima-nova",
+    "fontSize": 48,
+    "lineHeight": 51,
+    "fontWeight": "700",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h3": 1
+    },
+    "sample": "Bring Forrester AI Into The Way You Work"
+   },
+   {
+    "key": "16/22.4 400 Arial",
+    "fontSize": 16,
+    "lineHeight": 22.4,
+    "fontWeight": "400",
+    "fontFamily": "Arial",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "q"
+   },
+   {
+    "key": "16/22.4 600 proxima-nova",
+    "fontSize": 16,
+    "lineHeight": 22.4,
+    "fontWeight": "600",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Home"
+   },
+   {
+    "key": "16/23 700 proxima-nova",
+    "fontSize": 16,
+    "lineHeight": 23,
+    "fontWeight": "700",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "Benefits for your business include:"
+   },
+   {
+    "key": "16/16 700 Arial uppercase",
+    "fontSize": 16,
+    "lineHeight": 16,
+    "fontWeight": "700",
+    "fontFamily": "Arial",
+    "textTransform": "uppercase",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "Sign Up For The Newsletter"
+   },
+   {
+    "key": "14/19.6 400 proxima-nova",
+    "fontSize": 14,
+    "lineHeight": 19.6,
+    "fontWeight": "400",
+    "fontFamily": "proxima-nova",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "div": 1
+    },
+    "sample": "© 2026 Forrester Research, Inc. and/or its subsidiaries. All rights reserved."
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(31, 39, 51)",
+    "n": 113
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 38
+   },
+   {
+    "color": "rgb(0, 0, 0)",
+    "n": 11
+   },
+   {
+    "color": "rgb(0, 61, 45)",
+    "n": 4
+   },
+   {
+    "color": "rgba(0, 0, 0, 0)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 60,
+   "right": 135,
+   "content": 1245,
+   "leftCommon": {
+    "x": 135,
+    "n": 54
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":90,"background":"rgb(0, 0, 0)","paddingTop":0,"paddingBottom":0,"selectorHint":"header#masthead.site-header.js-site-header","firstText":"Who We Serve"},
+  {"i":1,"region":"header","y":90,"h":526,"background":"rgb(0, 86, 63)","paddingTop":0,"paddingBottom":0,"selectorHint":"header.forr-banner.core-banner","firstText":"Home > Forrester"},
+  {"i":2,"region":"main","y":616,"h":726,"background":"none","paddingTop":40,"paddingBottom":40,"selectorHint":"section.page-block.page-block--two_columns","firstText":"Empowering Leaders. Driving Results. Together."},
+  {"i":3,"region":"main","y":1342,"h":359,"background":"none","paddingTop":40,"paddingBottom":40,"selectorHint":"section.page-block.page-block--two_col_stacked","firstText":"It’s not just about the stats and the benchmarks and the re…"},
+  {"i":4,"region":"main","y":1701,"h":624,"background":"none","paddingTop":40,"paddingBottom":40,"selectorHint":"section.page-block.page-block--two_columns","firstText":"Value At Every Altitude"},
+  {"i":5,"region":"main","y":2325,"h":490,"background":"none","paddingTop":40,"paddingBottom":40,"selectorHint":"section.page-block.page-block--two_columns","firstText":"Bring Forrester AI Into The Way You Work"},
+  {"i":6,"region":"main","y":2815,"h":1127,"background":"rgb(242, 242, 242)","paddingTop":40,"paddingBottom":40,"selectorHint":"section.page-block.page-block--two_columns","firstText":"Trusted By Industry Leaders"},
+  {"i":7,"region":"main","y":3942,"h":1343,"background":"none","paddingTop":40,"paddingBottom":40,"selectorHint":"section.page-block.page-block--two_columns","firstText":"Research"},
+  {"i":8,"region":"main","y":5285,"h":887,"background":"none","paddingTop":80,"paddingBottom":40,"selectorHint":"section.page-block.page-block--two_columns","firstText":"Consulting"},
+  {"i":9,"region":"main","y":6172,"h":530,"background":"rgb(242, 242, 242)","paddingTop":40,"paddingBottom":40,"selectorHint":"section.page-block.page-block--two_columns","firstText":"Events"},
+  {"i":10,"region":"main","y":6702,"h":567,"background":"rgb(242, 242, 242)","paddingTop":40,"paddingBottom":80,"selectorHint":"section.page-block.page-block--event_calendar","firstText":"B2B Summit North America"},
+  {"i":11,"region":"main","y":7269,"h":643,"background":"rgb(242, 242, 242)","paddingTop":40,"paddingBottom":40,"selectorHint":"section.page-block.page-block--img_carousel","firstText":"Previous"},
+  {"i":12,"region":"main","y":7912,"h":468,"background":"rgb(0, 86, 63)","paddingTop":40,"paddingBottom":80,"selectorHint":"section.page-block.page-block--eloqua_form","firstText":"Want The Latest Forrester News?"},
+  {"i":13,"region":"footer","y":8380,"h":596,"background":"rgb(49, 49, 49)","paddingTop":30,"paddingBottom":30,"selectorHint":"footer.site-footer.js-site-footer","firstText":"Ask AI About Working With Forrester"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Forrester Logo","x":15,"y":30,"w":180,"h":30,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[300,48],"src":"https://go.forrester.com/wp-content/themes/forrester/assets/static/forrester_logo.svg","href":"https://www.forrester.com/bold/","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Who We Serve","x":260,"y":33,"w":103,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"#","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"What We Offer","x":393,"y":33,"w":102,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"#","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"How We Think","x":526,"y":33,"w":102,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"#","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Who We Are","x":657,"y":33,"w":88,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"#","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Events","x":775,"y":33,"w":47,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"#","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"control","tag":"input","role":"field","text":"q","x":1177,"y":33,"w":23,"h":23,"fontFamily":"Arial","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgba(0, 0, 0, 0)","lines":1},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Log In","x":1230,"y":34,"w":43,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/login","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Talk To Sales","x":1303,"y":23,"w":122,"h":44,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/become-a-client","scroll":"fixed 0"},
+  {"section":1,"region":"header","kind":"text","tag":"div","role":null,"text":"Home > Forrester","x":120,"y":110,"w":1200,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"header","kind":"control","tag":"a","role":"link","text":"Home","x":135,"y":109,"w":43,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.forrester.com"},
+  {"section":1,"region":"header","kind":"image","tag":"img","role":null,"text":"","x":634,"y":130,"w":806,"h":446,"fit":"contain","shape":{"pos":"50% 50%"},"natural":[1050,788],"src":"https://go.forrester.com/wp-content/uploads/2026/09/Predictions2027_Hero_1050x788.png"},
+  {"section":1,"region":"header","kind":"text","tag":"h1","role":"h1","text":"Explore Our 2027 Predictions","x":135,"y":192,"w":536,"h":166,"fontFamily":"proxima-nova","fontSize":62,"lineHeight":68.2,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":1,"region":"header","kind":"text","tag":"p","role":null,"text":"AI is reshaping who holds control and what it costs. See what Forrester predict…","x":135,"y":399,"w":536,"h":67,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":1,"region":"header","kind":"control","tag":"a","role":"link","text":"Visit The Hub","x":135,"y":496,"w":188,"h":60,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(0, 0, 0)","lines":1,"href":"/predictions/"},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Empowering Leaders. Driving Results. Together.","x":135,"y":656,"w":1070,"h":52,"fontFamily":"proxima-nova","fontSize":46,"lineHeight":52,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Success in business doesn’t come with a manual — especially in today’s fast-evo…","x":135,"y":800,"w":760,"h":92,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":4},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Through a unique continuous guidance model that blends research, consulting, an…","x":135,"y":908,"w":760,"h":69,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"With insights drawn from surveying over 500,000 consumers, executives, and tech…","x":135,"y":993,"w":760,"h":69,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":3},
+  {"section":2,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":135,"y":1078,"w":760,"h":185,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[1800,439],"src":"https://stg-go.forrester.com/wp-content/uploads/2025/05/500000-Survey-Respondents.webp"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Learn more about how Forrester can help you stay ahead of the curve.","x":955,"y":951,"w":350,"h":102,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":3},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Become A Client","x":955,"y":1129,"w":145,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(0, 0, 0)","lines":1,"href":"/become-a-client/"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"It’s not just about the stats and the benchmarks and the research. Forrester in…","x":135,"y":1382,"w":570,"h":190,"fontFamily":"Ivar Display","fontSize":32,"lineHeight":38,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(0, 61, 45)","lines":5},
+  {"section":3,"region":"main","kind":"text","tag":"cite","role":null,"text":"— Jen Burns SVP, Commercial Operations & Marketing, Dun & Bradstreet","x":135,"y":1611,"w":474,"h":50,"fontFamily":"proxima-nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(0, 61, 45)","lines":2},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Value At Every Altitude","x":135,"y":1741,"w":870,"h":52,"fontFamily":"proxima-nova","fontSize":46,"lineHeight":52,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"When you choose a research partner, you need support that aligns the enterprise…","x":135,"y":1813,"w":870,"h":46,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Enterprise Alignment","x":135,"y":1939,"w":370,"h":64,"fontFamily":"proxima-nova","fontSize":32,"lineHeight":34,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Helping leaders align priorities across the organization — from AI and risk man…","x":135,"y":2023,"w":370,"h":69,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Functional Acceleration","x":535,"y":1939,"w":370,"h":64,"fontFamily":"proxima-nova","fontSize":32,"lineHeight":34,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Helping teams move critical initiatives forward faster with actionable research…","x":535,"y":2023,"w":370,"h":69,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Individual Advancement","x":935,"y":1939,"w":370,"h":64,"fontFamily":"proxima-nova","fontSize":32,"lineHeight":34,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Helping professionals grow at every stage of their career through certification…","x":935,"y":2023,"w":370,"h":69,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Rely on Forrester for value in all seasons and at all moments — from strategy t…","x":135,"y":2142,"w":870,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":135,"y":2185,"w":188,"h":60,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(0, 0, 0)","lines":1,"href":"/research/forrester-decisions/"},
+  {"section":5,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":0,"y":2325,"w":1440,"h":490,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[1439,539],"src":"https://go.forrester.com/wp-content/uploads/2026/11/Forrester-AI-Slack-Home-page-hero-background-1536x576.webp"},
+  {"section":5,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Bring Forrester AI Into The Way You Work","x":135,"y":2415,"w":570,"h":132,"fontFamily":"proxima-nova","fontSize":48,"lineHeight":51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":5,"region":"main","kind":"text","tag":"p","role":null,"text":"Get trusted Forrester research, data, and advice in the tools you use every day…","x":135,"y":2587,"w":570,"h":69,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Explore Forrester AI Where You Work","x":135,"y":2676,"w":371,"h":60,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(0, 0, 0)","lines":1,"href":"/research/ai-where-you-work/"},
+  {"section":6,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Trusted By Industry Leaders","x":135,"y":2855,"w":1070,"h":52,"fontFamily":"proxima-nova","fontSize":46,"lineHeight":52,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":6,"region":"main","kind":"text","tag":"p","role":null,"text":"When organizations aim to conquer the complexity of today’s market, they turn t…","x":135,"y":2967,"w":570,"h":174,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":5},
+  {"section":6,"region":"main","kind":"text","tag":"p","role":null,"text":"Our services align enterprises to act fast and effectively across critical func…","x":135,"y":3163,"w":570,"h":102,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":3},
+  {"section":6,"region":"main","kind":"text","tag":"p","role":null,"text":"Technology: Data, AI & Analytics; Security & Risk; Technology Architecture & De…","x":135,"y":3287,"w":570,"h":103,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":3},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Data, AI & Analytics","x":267,"y":3288,"w":198,"h":33,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"/technology/data-ai-leaders/"},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Security & Risk","x":477,"y":3288,"w":151,"h":33,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"/technology/"},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Technology Architecture & Delivery","x":135,"y":3322,"w":357,"h":33,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"/technology/architecture-delivery/"},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Technology Executives","x":135,"y":3322,"w":485,"h":67,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2,"href":"/technology/"},
+  {"section":6,"region":"main","kind":"text","tag":"p","role":null,"text":"B2B: Marketing; Product; Revenue","x":135,"y":3412,"w":570,"h":35,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Marketing","x":191,"y":3413,"w":101,"h":33,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"/b2b-marketing/"},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Product","x":304,"y":3413,"w":79,"h":33,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"/product-management/"},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Revenue","x":394,"y":3413,"w":89,"h":33,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"/sales/"},
+  {"section":6,"region":"main","kind":"text","tag":"p","role":null,"text":"Consumer: Customer Experience; Digital Business; Marketing","x":135,"y":3469,"w":570,"h":69,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Customer Experience","x":254,"y":3470,"w":218,"h":33,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"/customer-experience/"},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Digital Business","x":484,"y":3470,"w":161,"h":33,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"/digital-business/"},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Marketing","x":135,"y":3504,"w":101,"h":33,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"/b2c-marketing/"},
+  {"section":6,"region":"main","kind":"text","tag":"p","role":null,"text":"Forrester Decisions delivers measurable impact, boasting a 259% ROI and revenue…","x":135,"y":3560,"w":570,"h":102,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":3},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Read The Full ROI Report","x":135,"y":3682,"w":260,"h":62,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(0, 0, 0)","lines":1,"href":"/research/roi-forrester-decisions/"},
+  {"section":6,"region":"main","kind":"text","tag":"p","role":null,"text":"At the core of how we deliver this value is Forrester Decisions — our integrate…","x":135,"y":3794,"w":870,"h":68,"fontFamily":"proxima-nova","fontSize":22,"lineHeight":34,"fontWeight":"400","letterSpacing":0.54,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":7,"region":"main","kind":"text","tag":"span","role":"h2","text":"Research","x":60,"y":3982,"w":185,"h":62,"fontFamily":"proxima-nova","fontSize":32,"lineHeight":34,"fontWeight":"700","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(0, 0, 0)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Forrester Decisions: Deliver Better Outcomes Faster","x":135,"y":4112,"w":1070,"h":104,"fontFamily":"proxima-nova","fontSize":46,"lineHeight":52,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":null,"text":"With Forrester Decisions, you gain the actionable guidance you need to drive st…","x":135,"y":4236,"w":1070,"h":46,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":null,"text":"Benefits for your business include:","x":135,"y":4298,"w":1070,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"700","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Risk-free decisions, backed by data and expert validation.","x":151,"y":4337,"w":1054,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Faster execution and streamlined alignment across teams for speedier impact.","x":151,"y":4367,"w":1054,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Maximized growth, with insights designed to unlock lasting value and drive resu…","x":151,"y":4398,"w":1054,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":135,"y":4532,"w":370,"h":188,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,187],"src":"https://go.forrester.com/wp-content/uploads/2025/05/Inform-Your-Perspective-640x325.webp"},
+  {"section":7,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Inform Your Perspective","x":135,"y":4532,"w":370,"h":238,"fontFamily":"proxima-nova","fontSize":32,"lineHeight":34,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Analyst guidance sessions","x":151,"y":4786,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Survey data from more than 500,000 respondents","x":151,"y":4817,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Forrester Wave™ evaluations and market landscapes","x":151,"y":4847,"w":354,"h":45,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Buyer Insights analysis","x":151,"y":4900,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Industry forecasts","x":151,"y":4930,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Streamlined research reports powered by Forrester AI","x":151,"y":4961,"w":354,"h":45,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"The Forrester Take weekly newsletter","x":151,"y":5013,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":535,"y":4532,"w":370,"h":188,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,187],"src":"https://go.forrester.com/wp-content/uploads/2025/05/Sharpen-Your-Skills-640x325.webp"},
+  {"section":7,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Sharpen Your Skills","x":535,"y":4532,"w":370,"h":238,"fontFamily":"proxima-nova","fontSize":32,"lineHeight":34,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Budget Planning Guides and toolkits","x":551,"y":4786,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Strategic models and frameworks","x":551,"y":4817,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Detailed assessments","x":551,"y":4847,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Certification programs","x":551,"y":4878,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Initiative blueprints","x":551,"y":4908,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":935,"y":4532,"w":370,"h":188,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,187],"src":"https://go.forrester.com/wp-content/uploads/2025/05/Develop-Authentic-Connections-640x325.webp"},
+  {"section":7,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Develop Authentic Connections","x":935,"y":4532,"w":370,"h":272,"fontFamily":"proxima-nova","fontSize":32,"lineHeight":34,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Live events and conferences","x":951,"y":4820,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Peer discussions","x":951,"y":4851,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Client-only webinars","x":951,"y":4881,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Executive Leadership Exchange","x":951,"y":4912,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"Women’s Leadership Program","x":951,"y":4942,"w":354,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":7,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More About Forrester Decisions","x":135,"y":5145,"w":381,"h":60,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(0, 0, 0)","lines":1,"href":"/research/"},
+  {"section":8,"region":"main","kind":"text","tag":"span","role":"h2","text":"Consulting","x":60,"y":5365,"w":220,"h":62,"fontFamily":"proxima-nova","fontSize":32,"lineHeight":34,"fontWeight":"700","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(0, 0, 0)","lines":1},
+  {"section":8,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Turn Insights Into Measurable Outcomes","x":135,"y":5495,"w":1070,"h":52,"fontFamily":"proxima-nova","fontSize":46,"lineHeight":52,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"In today’s AI-driven buying journey, content plays a more critical role than ev…","x":135,"y":5567,"w":1070,"h":115,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":5},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Led by Forrester Consulting, commissioned Demand Generation consulting engageme…","x":135,"y":5732,"w":570,"h":115,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":5},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"objectivity and integrity standards","x":273,"y":5801,"w":250,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"/about-us/objectivity/"},
+  {"section":8,"region":"main","kind":"text","tag":"li","role":null,"text":"83% of buyers found commissioned Forrester content helpful for both research an…","x":151,"y":5863,"w":554,"h":45,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":8,"region":"main","kind":"text","tag":"li","role":null,"text":"79% of global decision-makers have consumed Forrester-commissioned content duri…","x":151,"y":5916,"w":554,"h":45,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":8,"region":"main","kind":"text","tag":"li","role":null,"text":"75% of buyers are more likely to trust content that is backed up by objective, …","x":151,"y":5968,"w":554,"h":45,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Explore Advisory And Demand Generation Offerings","x":135,"y":6072,"w":500,"h":60,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(0, 0, 0)","lines":1,"href":"/consulting/"},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Forrester’s consultants are knowledgeable and very much dedicated to delivering…","x":735,"y":5831,"w":570,"h":114,"fontFamily":"Ivar Display","fontSize":32,"lineHeight":38,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(0, 61, 45)","lines":3},
+  {"section":8,"region":"main","kind":"text","tag":"cite","role":null,"text":"— Majed Al-Ghanemi CIO and Deputy COO, Saudi Awwal Bank","x":735,"y":5984,"w":328,"h":50,"fontFamily":"proxima-nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(0, 61, 45)","lines":2},
+  {"section":9,"region":"main","kind":"text","tag":"span","role":"h2","text":"Events","x":60,"y":6212,"w":140,"h":62,"fontFamily":"proxima-nova","fontSize":32,"lineHeight":34,"fontWeight":"700","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(0, 0, 0)","lines":1},
+  {"section":9,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Powerful Gatherings, Proven Outcomes","x":135,"y":6342,"w":1070,"h":52,"fontFamily":"proxima-nova","fontSize":46,"lineHeight":52,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":9,"region":"main","kind":"text","tag":"p","role":null,"text":"Nothing accelerates innovation like face-to-face collaboration. Forrester event…","x":135,"y":6414,"w":1070,"h":46,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":2},
+  {"section":9,"region":"main","kind":"text","tag":"p","role":null,"text":"At our events, you’ll:","x":135,"y":6470,"w":570,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":9,"region":"main","kind":"text","tag":"li","role":null,"text":"Be inspired by thought-provoking keynotes.","x":151,"y":6509,"w":554,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":9,"region":"main","kind":"text","tag":"li","role":null,"text":"Forge meaningful connections with industry leaders.","x":151,"y":6540,"w":554,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":9,"region":"main","kind":"text","tag":"li","role":null,"text":"Gain personalized insights in analyst one-on-ones.","x":151,"y":6570,"w":554,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":9,"region":"main","kind":"text","tag":"li","role":null,"text":"Head home with action plans from hands-on sessions.","x":151,"y":6600,"w":554,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":9,"region":"main","kind":"text","tag":"p","role":null,"text":"Find an event near you below or join us online.","x":135,"y":6639,"w":570,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1},
+  {"section":10,"region":"main","kind":"text","tag":"h3","role":"h3","text":"B2B Summit North America","x":135,"y":6753,"w":300,"h":30,"fontFamily":"proxima-nova","fontSize":24,"lineHeight":30,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/b2b-summit-north-america/"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":"link","text":"Phoenix","x":135,"y":6783,"w":300,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/b2b-summit-north-america/"},
+  {"section":10,"region":"main","kind":"text","tag":"time","role":"link","text":"May 2-4 2027","x":631,"y":6753,"w":64,"h":68,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":2,"href":"https://www.forrester.com/event/b2b-summit-north-america/"},
+  {"section":10,"region":"main","kind":"text","tag":"h3","role":"h3","text":"B2C Forum West","x":135,"y":6842,"w":183,"h":30,"fontFamily":"proxima-nova","fontSize":24,"lineHeight":30,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/b2c-west/"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":"link","text":"San Francisco","x":135,"y":6872,"w":183,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/b2c-west/"},
+  {"section":10,"region":"main","kind":"text","tag":"time","role":"link","text":"May 24-25 2027","x":612,"y":6842,"w":83,"h":68,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":2,"href":"https://www.forrester.com/event/b2c-west/"},
+  {"section":10,"region":"main","kind":"text","tag":"h3","role":"h3","text":"B2C Forum EMEA","x":135,"y":6932,"w":194,"h":30,"fontFamily":"proxima-nova","fontSize":24,"lineHeight":30,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/b2c-emea/"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":"link","text":"Amsterdam","x":135,"y":6962,"w":194,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/b2c-emea/"},
+  {"section":10,"region":"main","kind":"text","tag":"time","role":"link","text":"June 7-8 2027","x":628,"y":6932,"w":67,"h":68,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":2,"href":"https://www.forrester.com/event/b2c-emea/"},
+  {"section":10,"region":"main","kind":"text","tag":"h3","role":"h3","text":"B2C Forum East","x":135,"y":7021,"w":176,"h":30,"fontFamily":"proxima-nova","fontSize":24,"lineHeight":30,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/b2c-east/"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":"link","text":"New York City","x":135,"y":7051,"w":176,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/b2c-east/"},
+  {"section":10,"region":"main","kind":"text","tag":"time","role":"link","text":"June 28-29 2027","x":607,"y":7021,"w":88,"h":68,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":2,"href":"https://www.forrester.com/event/b2c-east/"},
+  {"section":10,"region":"main","kind":"text","tag":"h3","role":"h3","text":"AI Forum Singapore","x":135,"y":7110,"w":217,"h":30,"fontFamily":"proxima-nova","fontSize":24,"lineHeight":30,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/singapore-forum/"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":"link","text":"Singapore","x":135,"y":7140,"w":217,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/singapore-forum/"},
+  {"section":10,"region":"main","kind":"text","tag":"time","role":"link","text":"August 19 2027","x":618,"y":7110,"w":77,"h":68,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":2,"href":"https://www.forrester.com/event/singapore-forum/"},
+  {"section":10,"region":"main","kind":"text","tag":"h3","role":"h3","text":"AI Forum Sydney","x":745,"y":6753,"w":186,"h":30,"fontFamily":"proxima-nova","fontSize":24,"lineHeight":30,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/sydney-forum/"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":"link","text":"Sydney","x":745,"y":6783,"w":186,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/sydney-forum/"},
+  {"section":10,"region":"main","kind":"text","tag":"time","role":"link","text":"August 24 2027","x":1225,"y":6753,"w":80,"h":68,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":2,"href":"https://www.forrester.com/event/sydney-forum/"},
+  {"section":10,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Technology & Innovation Forum EMEA","x":745,"y":6842,"w":415,"h":30,"fontFamily":"proxima-nova","fontSize":24,"lineHeight":30,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/technology-innovation-emea/"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":"link","text":"London","x":745,"y":6872,"w":415,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/technology-innovation-emea/"},
+  {"section":10,"region":"main","kind":"text","tag":"time","role":"link","text":"September 27-28 2027","x":1174,"y":6842,"w":131,"h":68,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":2,"href":"https://www.forrester.com/event/technology-innovation-emea/"},
+  {"section":10,"region":"main","kind":"text","tag":"h3","role":"h3","text":"B2B Summit EMEA","x":745,"y":6932,"w":207,"h":30,"fontFamily":"proxima-nova","fontSize":24,"lineHeight":30,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/b2b-emea/"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":"link","text":"London","x":745,"y":6962,"w":207,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/b2b-emea/"},
+  {"section":10,"region":"main","kind":"text","tag":"time","role":"link","text":"September 29-October 1 2027","x":1123,"y":6932,"w":182,"h":68,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":2,"href":"https://www.forrester.com/event/b2b-emea/"},
+  {"section":10,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Technology & Innovation Forum","x":745,"y":7021,"w":344,"h":30,"fontFamily":"proxima-nova","fontSize":24,"lineHeight":30,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/technology-innovation/"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":"link","text":"Chicago","x":745,"y":7051,"w":344,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/technology-innovation/"},
+  {"section":10,"region":"main","kind":"text","tag":"time","role":"link","text":"November 9-10 2027","x":1189,"y":7021,"w":116,"h":68,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":2,"href":"https://www.forrester.com/event/technology-innovation/"},
+  {"section":10,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Security & Risk Forum","x":745,"y":7110,"w":239,"h":30,"fontFamily":"proxima-nova","fontSize":24,"lineHeight":30,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/security-risk/"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":"link","text":"Washington DC","x":745,"y":7140,"w":239,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":1,"href":"https://www.forrester.com/event/security-risk/"},
+  {"section":10,"region":"main","kind":"text","tag":"time","role":"link","text":"November 16-17 2027","x":1184,"y":7110,"w":121,"h":68,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":2,"href":"https://www.forrester.com/event/security-risk/"},
+  {"section":11,"region":"main","kind":"text","tag":"span","role":null,"text":"Previous","x":135,"y":7820,"w":30,"h":30,"fontFamily":"proxima-nova","fontSize":0,"lineHeight":0,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":0},
+  {"section":11,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":135,"y":7309,"w":650,"h":490,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[650,490],"src":"https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_1_Keynote2x-768x579.webp"},
+  {"section":11,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":805,"y":7309,"w":650,"h":490,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[650,490],"src":"https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_2_Analyst_1-1-768x579.webp"},
+  {"section":11,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":1475,"y":7309,"w":650,"h":490,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[650,490],"src":"https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_3_Awards-768x579.webp"},
+  {"section":11,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":2145,"y":7309,"w":650,"h":490,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[0,0],"src":"https://go.forrester.com/wp-content/uploads/2025/04/Carousel_image_4_Industry_Influencers.webp"},
+  {"section":11,"region":"main","kind":"text","tag":"span","role":null,"text":"Next","x":1275,"y":7820,"w":30,"h":30,"fontFamily":"proxima-nova","fontSize":0,"lineHeight":0,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(31, 39, 51)","lines":0},
+  {"section":11,"region":"main","kind":"control","tag":"button","role":"button","text":"1","x":185,"y":7820,"w":153,"h":30,"fontFamily":"Arial","fontSize":0,"lineHeight":0,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(31, 39, 51)","lines":0},
+  {"section":11,"region":"main","kind":"control","tag":"button","role":"button","text":"2","x":338,"y":7820,"w":153,"h":30,"fontFamily":"Arial","fontSize":0,"lineHeight":0,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(31, 39, 51)","lines":0},
+  {"section":11,"region":"main","kind":"control","tag":"button","role":"button","text":"3","x":491,"y":7820,"w":153,"h":30,"fontFamily":"Arial","fontSize":0,"lineHeight":0,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(31, 39, 51)","lines":0},
+  {"section":11,"region":"main","kind":"control","tag":"button","role":"button","text":"4","x":644,"y":7820,"w":153,"h":30,"fontFamily":"Arial","fontSize":0,"lineHeight":0,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(31, 39, 51)","lines":0},
+  {"section":11,"region":"main","kind":"control","tag":"button","role":"button","text":"5","x":796,"y":7820,"w":153,"h":30,"fontFamily":"Arial","fontSize":0,"lineHeight":0,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(31, 39, 51)","lines":0},
+  {"section":11,"region":"main","kind":"control","tag":"button","role":"button","text":"6","x":949,"y":7820,"w":153,"h":30,"fontFamily":"Arial","fontSize":0,"lineHeight":0,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(31, 39, 51)","lines":0},
+  {"section":11,"region":"main","kind":"control","tag":"button","role":"button","text":"7","x":1102,"y":7820,"w":153,"h":30,"fontFamily":"Arial","fontSize":0,"lineHeight":0,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(31, 39, 51)","lines":0},
+  {"section":11,"region":"main","kind":"text","tag":"div","role":null,"text":"1/7","x":135,"y":7850,"w":1120,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"right","color":"rgb(31, 39, 51)","lines":1},
+  {"section":12,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Want The Latest Forrester News?","x":135,"y":7952,"w":570,"h":114,"fontFamily":"proxima-nova","fontSize":52,"lineHeight":57.2,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":12,"region":"main","kind":"text","tag":"p","role":null,"text":"Sign up for our Insights At Work Newsletter and get exclusive updates delivered…","x":135,"y":8152,"w":570,"h":46,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0.4,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":12,"region":"main","kind":"text","tag":"label","role":null,"text":"Business Email Address*","x":735,"y":7952,"w":570,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":12,"region":"main","kind":"control","tag":"input","role":"field","text":"Enter your business email address","x":735,"y":7983,"w":570,"h":42,"fontFamily":"proxima-nova","fontSize":18,"lineHeight":25.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":12,"region":"main","kind":"text","tag":"label","role":null,"text":"Country*","x":735,"y":8055,"w":61,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":12,"region":"main","kind":"control","tag":"select","role":"field","text":"Country","x":735,"y":8085,"w":570,"h":42,"fontFamily":"proxima-nova","fontSize":18,"lineHeight":25.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":12,"region":"main","kind":"text","tag":"label","role":null,"text":"Yes, I’d like to receive Forrester’s Insights At Work newsletter and receive oc…","x":735,"y":8157,"w":570,"h":45,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":12,"region":"main","kind":"control","tag":"input","role":"field","text":"Sign Up For The Newsletter","x":735,"y":8240,"w":570,"h":60,"fontFamily":"Arial","fontSize":16,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"uppercase","textAlign":"center","color":"rgb(0, 0, 0)","lines":1},
+  {"section":13,"region":"footer","kind":"text","tag":"div","role":null,"text":"Ask AI About Working With Forrester","x":120,"y":8450,"w":1200,"h":202,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":2},
+  {"section":13,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":683,"y":8500,"w":25,"h":25,"fit":"fill","shape":{"pos":"50% 50%"},"href":"https://chat.openai.com/?q=As+a+business+leader%2C+explain+what+it%E2%80%99s+like+to+work+with+Forrester.+%0D%0ADescribe+the+experience+of+using+Forrester+research+and+data%2C+working+with+analysts%2C+and+using+Forrester+AI+to+support+important+decisions+%E2%80%94+and+how+this+differs+from+public+AI+tools."},
+  {"section":13,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":733,"y":8500,"w":25,"h":25,"fit":"fill","shape":{"pos":"50% 50%"},"href":"https://www.perplexity.ai/?q=As+a+business+leader%2C+explain+what+it%E2%80%99s+like+to+work+with+Forrester.+%0D%0ADescribe+the+experience+of+using+Forrester+research+and+data%2C+working+with+analysts%2C+and+using+Forrester+AI+to+support+important+decisions+%E2%80%94+and+how+this+differs+from+public+AI+tools."},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Analyst Briefings","x":135,"y":8659,"w":117,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.forrester.com/help/analyst-briefing/"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Newsroom","x":435,"y":8659,"w":76,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.forrester.com/press-newsroom/"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Complimentary Webinars","x":735,"y":8659,"w":176,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.forrester.com/webinars"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Contact Us","x":1035,"y":8659,"w":77,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.forrester.com/contact-us/"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Investor Information","x":135,"y":8689,"w":139,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://investor.forrester.com"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Careers","x":435,"y":8689,"w":55,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.forrester.com/careers/"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Policies","x":735,"y":8689,"w":54,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.forrester.com/policies/"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Podcasts","x":1035,"y":8689,"w":63,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/podcasts"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Fraud Alerts","x":135,"y":8720,"w":85,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.forrester.com/about-us/fraud-alerts/"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Brand","x":435,"y":8720,"w":42,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.forrester.com/brand/platform/"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"UK Slavery Statement","x":735,"y":8720,"w":152,"h":23,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/policies#statement"},
+  {"section":13,"region":"footer","kind":"image","tag":"img","role":null,"text":"Forrester Logo","x":142,"y":8775,"w":257,"h":41,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[300,48],"src":"https://go.forrester.com/wp-content/themes/forrester/assets/static/forrester_logo.svg"},
+  {"section":13,"region":"footer","kind":"text","tag":"div","role":null,"text":"© 2026 Forrester Research, Inc. and/or its subsidiaries. All rights reserved.","x":120,"y":8926,"w":1200,"h":20,"fontFamily":"proxima-nova","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":1},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms of use","x":135,"y":8881,"w":89,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/policies/terms-of-use/"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy Policy","x":254,"y":8881,"w":96,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/policies/privacy-policy/"},
+  {"section":13,"region":"footer","kind":"control","tag":"button","role":"button","text":"Cookie Settings","x":380,"y":8881,"w":111,"h":22,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"LinkedIn","x":1215,"y":8872,"w":40,"h":40,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.linkedin.com/company/forrester-research"},
+  {"section":13,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1223,"y":8882,"w":24,"h":20,"fit":"fill","shape":{"pos":"50% 50%"},"href":"https://www.linkedin.com/company/forrester-research"},
+  {"section":13,"region":"footer","kind":"control","tag":"a","role":"link","text":"YouTube","x":1265,"y":8872,"w":40,"h":40,"fontFamily":"proxima-nova","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.youtube.com/user/ForresterResearch"},
+  {"section":13,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1273,"y":8882,"w":24,"h":20,"fit":"fill","shape":{"pos":"50% 50%"},"href":"https://www.youtube.com/user/ForresterResearch"}
+ ]
+}

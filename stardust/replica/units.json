@@ -1,0 +1,7 @@
+{
+  "event-row": {"origin": ".event-cal__event", "build": ".event-cal__event", "eds": ".event-cal-event", "n": 10, "required": true, "pages": ["bold"], "templates": ["landing"]},
+  "research-card": {"origin": "#research ~ .two-column-content .row:nth-child(2) > .two-column__item", "build": "#research > .l-container > .l-row:nth-child(2) > .tc", "eds": ".tc:has(#research) > .l-container > .l-row:nth-child(2) > .tc-col", "n": 3, "required": true, "pages": ["bold"], "templates": ["landing"]},
+  "value-card": {"origin": ".two-column__item--text_block.col-md-4 > .two-column__header", "build": ".tc.l-col--md-4 > .tc__header", "eds": ".tc.narrow .tc-col.l-col-md-4 > h3", "n": 3, "required": true, "pages": ["bold"], "templates": ["landing"]},
+  "carousel-dot": {"origin": ".fbs-img-carousel .slick-dots li", "build": ".carousel__dots li", "eds": ".carousel-dots li", "n": 7, "required": false, "pages": ["bold"], "templates": ["landing"]},
+  "footer-link": {"origin": "#menu-footer > li", "build": ".footer-menu > li", "eds": ".footer-menu > li", "n": 11, "required": true, "pages": ["bold"], "templates": ["landing"]}
+}

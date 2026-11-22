@@ -1,0 +1,101 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/bold-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/bold-1440/pixel-pub2.json",
+    "pct": 15.19,
+    "alignedPct": 3.55,
+    "alignedUsed": true,
+    "totalShift": 192,
+    "steps": [
+      {
+        "y": 1388,
+        "shift": 10,
+        "cumulative": 10
+      },
+      {
+        "y": 4464,
+        "shift": -32,
+        "cumulative": -22
+      },
+      {
+        "y": 4717,
+        "shift": -16,
+        "cumulative": -38
+      },
+      {
+        "y": 4803,
+        "shift": -16,
+        "cumulative": -54
+      },
+      {
+        "y": 5063,
+        "shift": -39,
+        "cumulative": -93
+      },
+      {
+        "y": 5817,
+        "shift": -20,
+        "cumulative": -113
+      },
+      {
+        "y": 6033,
+        "shift": -19,
+        "cumulative": -132
+      },
+      {
+        "y": 6996,
+        "shift": -24,
+        "cumulative": -156
+      },
+      {
+        "y": 7280,
+        "shift": -16,
+        "cumulative": -172
+      }
+    ],
+    "offsetBound": 90,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 9 step(s), 192px total — +10px at y=1388, −32px at y=4464, −16px at y=4717, −16px at y=4803, −39px at y=5063, −20px at y=5817, … 3 more (bound 90px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-22T10:22:35.976Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-1440/units-pub2.txt"
+    }
+  },
+  "structural": 24,
+  "nothingLost": 0,
+  "at": "2026-11-22T10:30:02.828Z"
+}

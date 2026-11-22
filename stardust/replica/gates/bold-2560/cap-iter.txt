@@ -1,0 +1,22 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.forrester.com/bold/
+  modules  12 sections: capped 1200 ×11 · full-bleed ×1
+  contentMaxWidth 1200px (module) · shellMaxWidth fluid · root #main
+build  http://localhost:8791/bold-proposed.html
+  modules  12 sections: capped 1200 ×11 · full-bleed ×1
+  contentMaxWidth 1200px (module) · shellMaxWidth fluid · root #main
+rows
+  ✓ content cap: live 1200px = build 1200px (±20, shared module cap)
+  ✓ module 1/12: full-bleed on both
+  ✓ module 2/12: 1200px = 1200px
+  ✓ module 3/12: 1200px = 1200px
+  ✓ module 4/12: 1200px = 1200px
+  ✓ module 5/12: 1200px = 1200px
+  ✓ module 6/12: 1200px = 1200px
+  ✓ module 7/12: 1200px = 1200px
+  ✓ module 8/12: 1200px = 1200px
+  ✓ module 9/12: 1200px = 1200px
+  ✓ module 10/12: 1200px = 1200px
+  ✓ module 11/12: 1200px = 1200px
+  ✓ module 12/12: 1200px = 1200px
+cap-probe: PASS at 2560 — 0 of 13 rows failed (evidence stardust/replica/gates/bold-2560/cap-iter.json)

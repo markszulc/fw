@@ -1,0 +1,15 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.forrester.com/bold/ (live side from cache stardust/replica/gates/bold-360/chrome-live.json, probed 2026-11-22T09:19:08.285Z — delete the file to re-probe)
+  build: http://localhost:8791/bold-proposed.html
+
+■ header: ✓ parity — 0 paired of 0/0 texts, 1/1 icons
+  region live:  header#masthead.site-header.js-site-header — outermost <header>, box 0,0 360×90; selector #masthead
+  region build: header#masthead.site-header.js-site-header — outermost <header>, box 0,0 360×90; selector #masthead
+  advisory     REST STATE: 8 live / 8 build text(s) inside panels not shown at rest left out (live: opacity:0 8; build: opacity:0 8) — --strict-names counts them
+
+■ footer: ✓ parity — 17 paired of 17/17 texts, 5/5 icons
+  region live:  footer.site-footer.js-site-footer — outermost <footer>, box 0,13937 360×1055; selector #page > footer
+  region build: footer.site-footer — outermost <footer>, box 0,13460 360×1055; selector body > div > footer
+  advisory     REGION OFFSET: page Δy -477px (13937→13460) — the region sits at another page y as one block (the page above is another height); the main content gate owns that height (--strict-region-offset fails it here)
+
+✓ chrome parity within tolerance, 2 advisory group(s) — run crop-compare (pass bar item 5) to confirm in pixels.

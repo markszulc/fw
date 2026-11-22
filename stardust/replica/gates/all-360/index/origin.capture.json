@@ -1,0 +1,26 @@
+{
+  "writtenBy": "gate-all.mjs",
+  "copiedFrom": "stardust/replica/gates/all-360/index/baseline.png",
+  "fixedLayers": {
+    "capture": "once",
+    "count": 6,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 16,
+    "intervals": 7,
+    "chains": 9,
+    "delays": [
+      2000,
+      3500,
+      5000,
+      8132.948890997405,
+      20000,
+      30000,
+      86400000
+    ]
+  },
+  "fontsFailed": [],
+  "deadFaces": []
+}

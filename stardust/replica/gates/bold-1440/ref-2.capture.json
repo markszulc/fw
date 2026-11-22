@@ -1,0 +1,33 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.forrester.com/bold/",
+  "width": 1440,
+  "vh": 900,
+  "height": 8981,
+  "chunks": 10,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 6,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 17,
+    "intervals": 7,
+    "chains": 10,
+    "delays": [
+      2000,
+      3500,
+      5000,
+      7670.964057586908,
+      20000,
+      30000,
+      86400000
+    ]
+  },
+  "at": "2026-11-22T10:23:20.026Z"
+}

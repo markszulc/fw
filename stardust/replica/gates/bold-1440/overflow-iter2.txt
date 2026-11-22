@@ -1,0 +1,8 @@
+measure  http://localhost:8791/bold-proposed.html
+  widths 1440 · 1 selector(s) · 1 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   8975
+  html
+       x     0  y      0  w  1440  h  8975  vis  "Skip to content Who We Serve What We Of…"
+      display: block

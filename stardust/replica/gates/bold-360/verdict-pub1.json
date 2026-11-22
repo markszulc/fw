@@ -1,0 +1,116 @@
+{
+  "round": "pub1",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/bold-360/diff-pub1.png",
+    "json": "stardust/replica/gates/bold-360/pixel-pub1.json",
+    "pct": 29.28,
+    "alignedPct": 24.69,
+    "alignedUsed": true,
+    "totalShift": 1317,
+    "steps": [
+      {
+        "y": 1126,
+        "shift": -62,
+        "cumulative": -62
+      },
+      {
+        "y": 1952,
+        "shift": -39,
+        "cumulative": -101
+      },
+      {
+        "y": 2803,
+        "shift": -12,
+        "cumulative": -113
+      },
+      {
+        "y": 3059,
+        "shift": -16,
+        "cumulative": -129
+      },
+      {
+        "y": 3684,
+        "shift": -48,
+        "cumulative": -177
+      },
+      {
+        "y": 4514,
+        "shift": -32,
+        "cumulative": -209
+      },
+      {
+        "y": 6258,
+        "shift": -20,
+        "cumulative": -229
+      },
+      {
+        "y": 6898,
+        "shift": -16,
+        "cumulative": -245
+      },
+      {
+        "y": 7341,
+        "shift": -32,
+        "cumulative": -277
+      },
+      {
+        "y": 7875,
+        "shift": 277,
+        "cumulative": 0
+      },
+      {
+        "y": 13096,
+        "shift": -397,
+        "cumulative": -397
+      },
+      {
+        "y": 14628,
+        "shift": -366,
+        "cumulative": -763
+      }
+    ],
+    "offsetBound": 150,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 24.69% (unaligned 29.28%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-22T10:22:50.609Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-360/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-360/units-pub1.txt"
+    }
+  },
+  "structural": 25,
+  "nothingLost": 0,
+  "at": "2026-11-22T10:26:04.445Z"
+}

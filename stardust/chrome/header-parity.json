@@ -1,0 +1,171 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-22T10:28:11.316Z",
+ "source": "https://www.forrester.com/bold/",
+ "build": "https://main--94144fc1--aemcoder.aem.page/bold",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "stage": "published",
+ "round": {
+  "label": "compare-3",
+  "kind": "fix"
+ },
+ "counts": {
+  "error": 10,
+  "warn": 2,
+  "decided": 0,
+  "classed": 10
+ },
+ "findings": [
+  {
+   "key": "link-text@390 (header)",
+   "width": 390,
+   "path": "(header)",
+   "id": "link-text",
+   "severity": "warn",
+   "detail": "1 link(s) paired by address, with text on one side only: /bold (\"Forrester Logo\" on the build only)"
+  },
+  {
+   "key": "link-text@1440 (header)",
+   "width": 1440,
+   "path": "(header)",
+   "id": "link-text",
+   "severity": "warn",
+   "detail": "1 link(s) paired by address, with text on one side only: /bold (\"Forrester Logo\" on the build only)"
+  },
+  {
+   "key": "panel-visual@390 Show Menu [click]",
+   "width": 390,
+   "path": "Show Menu",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 15.0% (bar 2%; source 390×754, build 390×754; texture 96% thick)",
+   "classed": {
+    "class": "owner",
+    "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+   }
+  },
+  {
+   "key": "panel-visual@390 Show Menu > Who We Serve [key]",
+   "width": 390,
+   "path": "Show Menu > Who We Serve",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.3% (bar 2%; source 330×215, build 330×214; texture 56% thick)",
+   "classed": {
+    "class": "accept-residual",
+    "reason": "sub-pixel row offset (source drawer rows 53.25px pitch vs build 53.4px, ≤1px) in an otherwise identical drawer list; structure, links, motion and keyboard paths match"
+   }
+  },
+  {
+   "key": "panel-visual@390 Show Menu > Who We Serve > B2B [key]",
+   "width": 390,
+   "path": "Show Menu > Who We Serve > B2B",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 3.0% (bar 2%; source 330×214, build 330×214; texture 66% thick)",
+   "classed": {
+    "class": "accept-residual",
+    "reason": "sub-pixel row offset (source drawer rows 53.25px pitch vs build 53.4px, ≤1px) in an otherwise identical drawer list; structure, links, motion and keyboard paths match"
+   }
+  },
+  {
+   "key": "panel-visual@390 Show Menu > Who We Serve > INDUSTRIES [key]",
+   "width": 390,
+   "path": "Show Menu > Who We Serve > INDUSTRIES",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 24.9% (bar 2%; source 330×267, build 330×267; texture 95% thick)",
+   "classed": {
+    "class": "owner",
+    "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+   }
+  },
+  {
+   "key": "panel-visual@390 Show Menu > What We Offer [key]",
+   "width": 390,
+   "path": "Show Menu > What We Offer",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 19.3% (bar 2%; source 330×428, build 330×427; texture 82% thick)",
+   "classed": {
+    "class": "owner",
+    "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+   }
+  },
+  {
+   "key": "panel-visual@390 Show Menu > How We Think [key]",
+   "width": 390,
+   "path": "Show Menu > How We Think",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.6% (bar 2%; source 330×108, build 330×107; texture 12% thick)",
+   "classed": {
+    "class": "accept-residual",
+    "reason": "sub-pixel row offset (source drawer rows 53.25px pitch vs build 53.4px, ≤1px) in an otherwise identical drawer list; structure, links, motion and keyboard paths match"
+   }
+  },
+  {
+   "key": "panel-visual@390 Show Menu > How We Think > RESOURCES [key]",
+   "width": 390,
+   "path": "Show Menu > How We Think > RESOURCES",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 21.1% (bar 2%; source 330×320, build 330×320; texture 94% thick)",
+   "classed": {
+    "class": "owner",
+    "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+   }
+  },
+  {
+   "key": "panel-visual@390 Show Menu > How We Think > FEATURED TOPICS [key]",
+   "width": 390,
+   "path": "Show Menu > How We Think > FEATURED TOPICS",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 31.3% (bar 2%; source 330×404, build 330×404; texture 94% thick)",
+   "classed": {
+    "class": "owner",
+    "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+   }
+  },
+  {
+   "key": "panel-visual@390 Show Menu > Who We Are [key]",
+   "width": 390,
+   "path": "Show Menu > Who We Are",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 20.4% (bar 2%; source 330×320, build 330×320; texture 95% thick)",
+   "classed": {
+    "class": "owner",
+    "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+   }
+  },
+  {
+   "key": "panel-visual@390 Show Menu > Events [key]",
+   "width": 390,
+   "path": "Show Menu > Events",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 10.4% (bar 2%; source 330×214, build 330×214; texture 92% thick)",
+   "classed": {
+    "class": "owner",
+    "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+   }
+  }
+ ]
+}

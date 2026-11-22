@@ -1,0 +1,327 @@
+{
+  "a": "stardust/replica/gates/bold-1440/live.png",
+  "b": "stardust/replica/gates/bold-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 8576,
+    "mode": "overlap"
+  },
+  "heightDelta": 405,
+  "differingPixels": 3306957,
+  "pct": 26.78,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/bold-1440/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 8.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 5.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 32.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 44.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 21.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 5.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 24.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 28
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 10.3
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 9.8
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 9.8
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 18.7
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 78.8
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 82.6
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 75.5
+    },
+    {
+      "y0": 8500,
+      "y1": 8576,
+      "pct": 1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 7.92,
+    "differingPixels": 1024474,
+    "compared": {
+      "width": 1440,
+      "height": 8981,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 745,
+        "shift": -62,
+        "cumulative": -62
+      },
+      {
+        "y": 1330,
+        "shift": -29,
+        "cumulative": -91
+      },
+      {
+        "y": 1792,
+        "shift": -16,
+        "cumulative": -107
+      },
+      {
+        "y": 2003,
+        "shift": -16,
+        "cumulative": -123
+      },
+      {
+        "y": 2162,
+        "shift": -16,
+        "cumulative": -139
+      },
+      {
+        "y": 3646,
+        "shift": -20,
+        "cumulative": -159
+      },
+      {
+        "y": 4203,
+        "shift": -16,
+        "cumulative": -175
+      },
+      {
+        "y": 4464,
+        "shift": -32,
+        "cumulative": -207
+      },
+      {
+        "y": 4717,
+        "shift": -16,
+        "cumulative": -223
+      },
+      {
+        "y": 4803,
+        "shift": -16,
+        "cumulative": -239
+      },
+      {
+        "y": 5063,
+        "shift": -39,
+        "cumulative": -278
+      },
+      {
+        "y": 5542,
+        "shift": -16,
+        "cumulative": -294
+      },
+      {
+        "y": 6001,
+        "shift": -55,
+        "cumulative": -349
+      },
+      {
+        "y": 6392,
+        "shift": -16,
+        "cumulative": -365
+      },
+      {
+        "y": 7261,
+        "shift": -35,
+        "cumulative": -400
+      },
+      {
+        "y": 8976,
+        "shift": -5,
+        "cumulative": -405
+      }
+    ],
+    "maxOffset": 405,
+    "totalShift": 405,
+    "insertedRows": 0,
+    "deletedRows": 405,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 12.9,
+        "unaligned": 3.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 6.1,
+        "unaligned": 8.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 3.7,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 8.2,
+        "unaligned": 32.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 7.2,
+        "unaligned": 44.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.4,
+        "unaligned": 21.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 4.1,
+        "unaligned": 5.6
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 10.1,
+        "unaligned": 24.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 6.7,
+        "unaligned": 28
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 8.3,
+        "unaligned": 10.3
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 4.6,
+        "unaligned": 9.8
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 14.7,
+        "unaligned": 9.8
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 3.3,
+        "unaligned": 18.7
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 17.7,
+        "unaligned": 78.8
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 20,
+        "unaligned": 82.6
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 6.2,
+        "unaligned": 75.5
+      },
+      {
+        "y0": 8500,
+        "y1": 8981,
+        "pct": 8.2,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/bold-1440/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 90,
+    "totalShift": 405,
+    "pass": false
+  },
+  "reason": "offsets: 16 step(s), 405px total — −62px at y=745, −29px at y=1330, −16px at y=1792, −16px at y=2003, −16px at y=2162, −20px at y=3646, … 10 more (bound 90px)"
+}

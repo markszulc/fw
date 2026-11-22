@@ -1,0 +1,198 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-22T10:56:41.142Z"
+  },
+  "method": "rows from stardust/dynamic-features.md (11 triaged); checks replayed on the published origin; martech appended from stardust/martech-contract.json",
+  "features": [
+    {
+      "id": "chrome-menu",
+      "feature": "header mega menus (5 hover panels)",
+      "class": "M",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "mega panels counted on /bold; header contract 1440 closed at the published cap",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/bold",
+          "selector": "header .site-nav-menu .mega",
+          "min": 4
+        }
+      ]
+    },
+    {
+      "id": "chrome-drawer",
+      "feature": "mobile drawer, nested levels",
+      "class": "M",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "drawer toggle present; header contract 390 closed at the published cap",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/bold",
+          "selector": "header input#mobile-menu",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "chrome-search",
+      "feature": "header search box (GET /allSearch?q)",
+      "class": "S",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "2 search forms (desktop + drawer) submit to the source /allSearch",
+      "owner": "D1: a native results page is outside this run (two-page scope); search keeps answering on www.forrester.com/allSearch",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/bold",
+          "selector": "form.header-search[action*=\"allSearch\"]",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "m-filter-icon",
+      "feature": "\"Filter Icon\" popup in the search panel",
+      "class": "M",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "the filter UI lives on the source results page the header search hands off to (D1)",
+      "owner": "follows D1 (native search)",
+      "checks": []
+    },
+    {
+      "id": "f-newsletter",
+      "feature": "newsletter form (email, country, opt-in)",
+      "class": "F",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "form renders email + country + opt-in + submit; submission held client-side until the owner wires the endpoint",
+      "owner": "D2: Eloqua submission endpoint / credentials belong to the owner",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/bold",
+          "selector": ".newsletter form input[name=email]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/bold",
+          "selector": ".newsletter form select[name=country] option",
+          "min": 100
+        }
+      ]
+    },
+    {
+      "id": "cr-eloqua-confirm",
+      "feature": "form confirmation copy",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "confirmation slot authored in the block",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/bold",
+          "selector": ".newsletter .newsletter-confirm",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "fbs-img-carousel",
+      "feature": "events photo carousel (dots, autoplay)",
+      "class": "M",
+      "pages": 1,
+      "disposition": "client-only",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "7 dots, slides rendered",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/bold",
+          "selector": ".carousel .carousel-dots li",
+          "min": 7
+        }
+      ]
+    },
+    {
+      "id": "x-sign-in",
+      "feature": "sign-in / account links",
+      "class": "X",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "links point at www.forrester.com/login",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/bold",
+          "selector": "header a[href*=\"forrester.com/login\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "i18n-ai",
+      "feature": "/ai/ locale variants",
+      "class": "I18N",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "links stay absolute to the source",
+      "owner": "D4: locale trees outside scope",
+      "checks": []
+    },
+    {
+      "id": "a-datalayer",
+      "feature": "dataLayer object from the CMS",
+      "class": "A",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "covered by the martech contract (all parts off)",
+      "owner": "D3: tagging plan / data-layer pushes",
+      "checks": []
+    },
+    {
+      "id": "page-health",
+      "feature": "no uncaught errors",
+      "class": "—",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/bold",
+            "/"
+          ]
+        }
+      ]
+    }
+  ]
+}

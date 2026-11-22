@@ -1,0 +1,3748 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-22T11:10:10.291Z",
+  "tol": 4,
+  "n": 11,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.forrester.com/bold/",
+  "at": "2026-11-22T09:45:14.022Z",
+  "docH": 14994
+ },
+ "eds": {
+  "url": "https://main--94144fc1--aemcoder.aem.live/bold",
+  "at": "2026-11-22T11:10:10.197Z",
+  "docH": 14982
+ },
+ "results": [
+  {
+   "sel": ".event-cal__event=.event-cal-event",
+   "family": null,
+   "required": true,
+   "originMatches": 10,
+   "edsMatches": 10,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event"
+     },
+     "eds": {
+      "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event"
+     },
+     "rows": [
+      {
+       "key": "heading:b2b summit north america",
+       "role": "heading",
+       "text": "b2b summit north america",
+       "edsText": "b2b summit north america",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30,
+        "sel": "h3#b2b-summit-north-america",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/700",
+        "eds": "24/30/700"
+       }
+      },
+      {
+       "key": "text:phoenix",
+       "role": "text",
+       "text": "phoenix",
+       "edsText": "phoenix",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "text:may 2-4, 2027,",
+       "role": "text",
+       "text": "may 2-4, 2027,",
+       "edsText": "may 2-4, 2027,",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 107,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 40,
+        "w": 107,
+        "h": 23,
+        "sel": "time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 11723,
+       "w": 330,
+       "h": 90
+      },
+      "eds": {
+       "x": 15,
+       "y": 11714,
+       "w": 330,
+       "h": 90
+      },
+      "dx": 0,
+      "dy": -9,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event"
+     },
+     "eds": {
+      "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event"
+     },
+     "rows": [
+      {
+       "key": "heading:b2c forum west",
+       "role": "heading",
+       "text": "b2c forum west",
+       "edsText": "b2c forum west",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30,
+        "sel": "h3#b2c-forum-west",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/700",
+        "eds": "24/30/700"
+       }
+      },
+      {
+       "key": "text:san francisco",
+       "role": "text",
+       "text": "san francisco",
+       "edsText": "san francisco",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "text:may 24-25, 2027,",
+       "role": "text",
+       "text": "may 24-25, 2027,",
+       "edsText": "may 24-25, 2027,",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 126,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 40,
+        "w": 126,
+        "h": 23,
+        "sel": "time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 11813,
+       "w": 330,
+       "h": 90
+      },
+      "eds": {
+       "x": 15,
+       "y": 11803,
+       "w": 330,
+       "h": 90
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event"
+     },
+     "eds": {
+      "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event"
+     },
+     "rows": [
+      {
+       "key": "heading:b2c forum emea",
+       "role": "heading",
+       "text": "b2c forum emea",
+       "edsText": "b2c forum emea",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30,
+        "sel": "h3#b2c-forum-emea",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/700",
+        "eds": "24/30/700"
+       }
+      },
+      {
+       "key": "text:amsterdam",
+       "role": "text",
+       "text": "amsterdam",
+       "edsText": "amsterdam",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "text:june 7-8, 2027,",
+       "role": "text",
+       "text": "june 7-8, 2027,",
+       "edsText": "june 7-8, 2027,",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 112,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 40,
+        "w": 112,
+        "h": 23,
+        "sel": "time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 11902,
+       "w": 330,
+       "h": 90
+      },
+      "eds": {
+       "x": 15,
+       "y": 11892,
+       "w": 330,
+       "h": 90
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event"
+     },
+     "eds": {
+      "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event"
+     },
+     "rows": [
+      {
+       "key": "heading:b2c forum east",
+       "role": "heading",
+       "text": "b2c forum east",
+       "edsText": "b2c forum east",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30,
+        "sel": "h3#b2c-forum-east",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/700",
+        "eds": "24/30/700"
+       }
+      },
+      {
+       "key": "text:new york city",
+       "role": "text",
+       "text": "new york city",
+       "edsText": "new york city",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "text:june 28-29, 2027,",
+       "role": "text",
+       "text": "june 28-29, 2027,",
+       "edsText": "june 28-29, 2027,",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 131,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 40,
+        "w": 131,
+        "h": 23,
+        "sel": "time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 11992,
+       "w": 330,
+       "h": 90
+      },
+      "eds": {
+       "x": 15,
+       "y": 11982,
+       "w": 330,
+       "h": 90
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event"
+     },
+     "eds": {
+      "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event"
+     },
+     "rows": [
+      {
+       "key": "heading:ai forum singapore",
+       "role": "heading",
+       "text": "ai forum singapore",
+       "edsText": "ai forum singapore",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30,
+        "sel": "h3#ai-forum-singapore",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/700",
+        "eds": "24/30/700"
+       }
+      },
+      {
+       "key": "text:singapore",
+       "role": "text",
+       "text": "singapore",
+       "edsText": "singapore",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "text:august 19, 2027,",
+       "role": "text",
+       "text": "august 19, 2027,",
+       "edsText": "august 19, 2027,",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 119,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 40,
+        "w": 119,
+        "h": 23,
+        "sel": "time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 12081,
+       "w": 330,
+       "h": 90
+      },
+      "eds": {
+       "x": 15,
+       "y": 12071,
+       "w": 330,
+       "h": 90
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event"
+     },
+     "eds": {
+      "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event"
+     },
+     "rows": [
+      {
+       "key": "heading:ai forum sydney",
+       "role": "heading",
+       "text": "ai forum sydney",
+       "edsText": "ai forum sydney",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30,
+        "sel": "h3#ai-forum-sydney",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/700",
+        "eds": "24/30/700"
+       }
+      },
+      {
+       "key": "text:sydney",
+       "role": "text",
+       "text": "sydney",
+       "edsText": "sydney",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "text:august 24, 2027,",
+       "role": "text",
+       "text": "august 24, 2027,",
+       "edsText": "august 24, 2027,",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 123,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 40,
+        "w": 123,
+        "h": 23,
+        "sel": "time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 12170,
+       "w": 330,
+       "h": 90
+      },
+      "eds": {
+       "x": 15,
+       "y": 12161,
+       "w": 330,
+       "h": 90
+      },
+      "dx": 0,
+      "dy": -9,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event"
+     },
+     "eds": {
+      "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event"
+     },
+     "rows": [
+      {
+       "key": "heading:technology & innovation forum emea",
+       "role": "heading",
+       "text": "technology & innovation forum emea",
+       "edsText": "technology & innovation forum emea",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 60
+       },
+       "eds": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 60,
+        "sel": "h3#technology--innovation-forum-emea",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/700",
+        "eds": "24/30/700"
+       }
+      },
+      {
+       "key": "text:london",
+       "role": "text",
+       "text": "london",
+       "edsText": "london",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 71,
+        "w": 330,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 71,
+        "w": 330,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "text:september 27-28, 2027,",
+       "role": "text",
+       "text": "september 27-28, 2027,",
+       "edsText": "september 27-28, 2027,",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 71,
+        "w": 174,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 70,
+        "w": 174,
+        "h": 23,
+        "sel": "time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 12260,
+       "w": 330,
+       "h": 120
+      },
+      "eds": {
+       "x": 15,
+       "y": 12250,
+       "w": 330,
+       "h": 120
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event"
+     },
+     "eds": {
+      "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event"
+     },
+     "rows": [
+      {
+       "key": "heading:b2b summit emea",
+       "role": "heading",
+       "text": "b2b summit emea",
+       "edsText": "b2b summit emea",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30,
+        "sel": "h3#b2b-summit-emea",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/700",
+        "eds": "24/30/700"
+       }
+      },
+      {
+       "key": "text:london",
+       "role": "text",
+       "text": "london",
+       "edsText": "london",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "text:september 29-october 1, 2027,",
+       "role": "text",
+       "text": "september 29-october 1, 2027,",
+       "edsText": "september 29-october 1, 2027,",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 223,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 40,
+        "w": 223,
+        "h": 23,
+        "sel": "time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 12379,
+       "w": 330,
+       "h": 90
+      },
+      "eds": {
+       "x": 15,
+       "y": 12369,
+       "w": 330,
+       "h": 90
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event"
+     },
+     "eds": {
+      "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event"
+     },
+     "rows": [
+      {
+       "key": "heading:technology & innovation forum",
+       "role": "heading",
+       "text": "technology & innovation forum",
+       "edsText": "technology & innovation forum",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 60
+       },
+       "eds": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 60,
+        "sel": "h3#technology--innovation-forum",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/700",
+        "eds": "24/30/700"
+       }
+      },
+      {
+       "key": "text:chicago",
+       "role": "text",
+       "text": "chicago",
+       "edsText": "chicago",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 71,
+        "w": 330,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 71,
+        "w": 330,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "text:november 9-10, 2027,",
+       "role": "text",
+       "text": "november 9-10, 2027,",
+       "edsText": "november 9-10, 2027,",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 71,
+        "w": 158,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 70,
+        "w": 158,
+        "h": 23,
+        "sel": "time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 12468,
+       "w": 330,
+       "h": 120
+      },
+      "eds": {
+       "x": 15,
+       "y": 12459,
+       "w": 330,
+       "h": 120
+      },
+      "dx": 0,
+      "dy": -9,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event"
+     },
+     "eds": {
+      "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event"
+     },
+     "rows": [
+      {
+       "key": "heading:security & risk forum",
+       "role": "heading",
+       "text": "security & risk forum",
+       "edsText": "security & risk forum",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 11,
+        "w": 330,
+        "h": 30,
+        "sel": "h3#security--risk-forum",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/700",
+        "eds": "24/30/700"
+       }
+      },
+      {
+       "key": "text:washington dc",
+       "role": "text",
+       "text": "washington dc",
+       "edsText": "washington dc",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 41,
+        "w": 330,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "text:november 16-17, 2027,",
+       "role": "text",
+       "text": "november 16-17, 2027,",
+       "edsText": "november 16-17, 2027,",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 41,
+        "w": 161,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 40,
+        "w": 161,
+        "h": 23,
+        "sel": "time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 12588,
+       "w": 330,
+       "h": 90
+      },
+      "eds": {
+       "x": 15,
+       "y": 12578,
+       "w": 330,
+       "h": 90
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#research ~ .two-column-content .row:nth-child(2) > .two-column__item=.tc:has(#research) > .l-container > .l-row:nth-child(2) > .tc-col",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container > div.row.align-items-start > div.two-column__item.two-column__item--text_block"
+     },
+     "eds": {
+      "path": "div.l-container > div.l-row.l-row-start > div.tc-col.tc-col-1"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignleft.size-full#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 32,
+        "w": 330,
+        "h": 168
+       },
+       "eds": {
+        "x": 15,
+        "y": 0,
+        "w": 330,
+        "h": 23,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -32,
+       "dw": 0,
+       "dh": -145,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/400",
+        "eds": "16/23/400"
+       }
+      },
+      {
+       "key": "heading:inform your perspective",
+       "role": "heading",
+       "text": "inform your perspective",
+       "edsText": "inform your perspective",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 32,
+        "w": 330,
+        "h": 252
+       },
+       "eds": {
+        "x": 15,
+        "y": 200,
+        "w": 330,
+        "h": 68,
+        "sel": "h2#inform-your-perspective",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 168,
+       "dw": 0,
+       "dh": -184,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "32/34/700",
+        "eds": "32/34/700"
+       }
+      },
+      {
+       "key": "text:analyst guidance sessions",
+       "role": "text",
+       "text": "analyst guidance sessions",
+       "edsText": "analyst guidance sessions",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 300,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 284,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:survey data from more than 500,000 respo",
+       "role": "text",
+       "text": "survey data from more than 500,000 respondents",
+       "edsText": "survey data from more than 500,000 respondents",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 330,
+        "w": 314,
+        "h": 45
+       },
+       "eds": {
+        "x": 31,
+        "y": 314,
+        "w": 314,
+        "h": 45,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:forrester wave™ evaluations and market l",
+       "role": "text",
+       "text": "forrester wave™ evaluations and market landscapes",
+       "edsText": "forrester wave™ evaluations and market landscapes",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 383,
+        "w": 314,
+        "h": 45
+       },
+       "eds": {
+        "x": 31,
+        "y": 367,
+        "w": 314,
+        "h": 45,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:buyer insights analysis",
+       "role": "text",
+       "text": "buyer insights analysis",
+       "edsText": "buyer insights analysis",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 436,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 420,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:industry forecasts",
+       "role": "text",
+       "text": "industry forecasts",
+       "edsText": "industry forecasts",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 466,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 450,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:streamlined research reports powered by ",
+       "role": "text",
+       "text": "streamlined research reports powered by forrester ai",
+       "edsText": "streamlined research reports powered by forrester ai",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 497,
+        "w": 314,
+        "h": 45
+       },
+       "eds": {
+        "x": 31,
+        "y": 481,
+        "w": 314,
+        "h": 45,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:the forrester take weekly newsletter",
+       "role": "text",
+       "text": "the forrester take weekly newsletter",
+       "edsText": "the forrester take weekly newsletter",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 549,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 533,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 15,
+       "y": 0,
+       "w": 330,
+       "h": 168,
+       "absY": 7458,
+       "hidden": false,
+       "fs": 16,
+       "lh": 23,
+       "fw": "400",
+       "color": "rgb(31, 39, 51)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 7373,
+       "w": 360,
+       "h": 611
+      },
+      "eds": {
+       "x": 0,
+       "y": 7458,
+       "w": 360,
+       "h": 595
+      },
+      "dx": 0,
+      "dy": 85,
+      "dw": 0,
+      "dh": -16
+     },
+     "summary": {
+      "elements": 9,
+      "within": 0,
+      "off": 2,
+      "displaced": 7,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container > div.row.align-items-start > div.two-column__item.two-column__item--text_block"
+     },
+     "eds": {
+      "path": "div.l-container > div.l-row.l-row-start > div.tc-col.tc-col-2"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignleft.size-full#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 32,
+        "w": 330,
+        "h": 168
+       },
+       "eds": {
+        "x": 15,
+        "y": 0,
+        "w": 330,
+        "h": 23,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -32,
+       "dw": 0,
+       "dh": -145,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/400",
+        "eds": "16/23/400"
+       }
+      },
+      {
+       "key": "heading:sharpen your skills",
+       "role": "heading",
+       "text": "sharpen your skills",
+       "edsText": "sharpen your skills",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 32,
+        "w": 330,
+        "h": 218
+       },
+       "eds": {
+        "x": 15,
+        "y": 200,
+        "w": 330,
+        "h": 34,
+        "sel": "h2#sharpen-your-skills",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 168,
+       "dw": 0,
+       "dh": -184,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "32/34/700",
+        "eds": "32/34/700"
+       }
+      },
+      {
+       "key": "text:budget planning guides and toolkits",
+       "role": "text",
+       "text": "budget planning guides and toolkits",
+       "edsText": "budget planning guides and toolkits",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 266,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 250,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:strategic models and frameworks",
+       "role": "text",
+       "text": "strategic models and frameworks",
+       "edsText": "strategic models and frameworks",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 296,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 280,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:detailed assessments",
+       "role": "text",
+       "text": "detailed assessments",
+       "edsText": "detailed assessments",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 327,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 311,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:certification programs",
+       "role": "text",
+       "text": "certification programs",
+       "edsText": "certification programs",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 357,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 341,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:initiative blueprints",
+       "role": "text",
+       "text": "initiative blueprints",
+       "edsText": "initiative blueprints",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 387,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 371,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 15,
+       "y": 0,
+       "w": 330,
+       "h": 168,
+       "absY": 8133,
+       "hidden": false,
+       "fs": 16,
+       "lh": 23,
+       "fw": "400",
+       "color": "rgb(31, 39, 51)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 8064,
+       "w": 360,
+       "h": 410
+      },
+      "eds": {
+       "x": 0,
+       "y": 8133,
+       "w": 360,
+       "h": 394
+      },
+      "dx": 0,
+      "dy": 69,
+      "dw": 0,
+      "dh": -16
+     },
+     "summary": {
+      "elements": 7,
+      "within": 0,
+      "off": 2,
+      "displaced": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container > div.row.align-items-start > div.two-column__item.two-column__item--text_block"
+     },
+     "eds": {
+      "path": "div.l-container > div.l-row.l-row-start > div.tc-col.tc-col-3"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignleft.size-full#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 32,
+        "w": 330,
+        "h": 168
+       },
+       "eds": {
+        "x": 15,
+        "y": 0,
+        "w": 330,
+        "h": 23,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -32,
+       "dw": 0,
+       "dh": -145,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/400",
+        "eds": "16/23/400"
+       }
+      },
+      {
+       "key": "heading:develop authentic connections",
+       "role": "heading",
+       "text": "develop authentic connections",
+       "edsText": "develop authentic connections",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 32,
+        "w": 330,
+        "h": 252
+       },
+       "eds": {
+        "x": 15,
+        "y": 200,
+        "w": 330,
+        "h": 68,
+        "sel": "h2#develop-authentic-connections",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 168,
+       "dw": 0,
+       "dh": -184,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "32/34/700",
+        "eds": "32/34/700"
+       }
+      },
+      {
+       "key": "text:live events and conferences",
+       "role": "text",
+       "text": "live events and conferences",
+       "edsText": "live events and conferences",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 300,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 284,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:peer discussions",
+       "role": "text",
+       "text": "peer discussions",
+       "edsText": "peer discussions",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 330,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 314,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:client-only webinars",
+       "role": "text",
+       "text": "client-only webinars",
+       "edsText": "client-only webinars",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 361,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 345,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:executive leadership exchange",
+       "role": "text",
+       "text": "executive leadership exchange",
+       "edsText": "executive leadership exchange",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 391,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 375,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:women’s leadership program",
+       "role": "text",
+       "text": "women’s leadership program",
+       "edsText": "women’s leadership program",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 421,
+        "w": 314,
+        "h": 22
+       },
+       "eds": {
+        "x": 31,
+        "y": 405,
+        "w": 314,
+        "h": 22,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -16,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       },
+       "displaced": true
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 15,
+       "y": 0,
+       "w": 330,
+       "h": 168,
+       "absY": 8607,
+       "hidden": false,
+       "fs": 16,
+       "lh": 23,
+       "fw": "400",
+       "color": "rgb(31, 39, 51)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 8553,
+       "w": 360,
+       "h": 444
+      },
+      "eds": {
+       "x": 0,
+       "y": 8607,
+       "w": 360,
+       "h": 428
+      },
+      "dx": 0,
+      "dy": 54,
+      "dw": 0,
+      "dh": -16
+     },
+     "summary": {
+      "elements": 7,
+      "within": 0,
+      "off": 2,
+      "displaced": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".two-column__item--text_block.col-md-4 > .two-column__header=.tc.narrow .tc-col.l-col-md-4 > h3",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.row.align-items-start > div.two-column__item.two-column__item--text_block > h3.two-column__header"
+     },
+     "eds": {
+      "path": "div.l-row.l-row-start > div.tc-col.tc-col-1 > h3#enterprise-alignment"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 2997,
+       "w": 330,
+       "h": 62
+      },
+      "eds": {
+       "x": 15,
+       "y": 3076,
+       "w": 330,
+       "h": 62
+      },
+      "dx": 0,
+      "dy": 79,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.row.align-items-start > div.two-column__item.two-column__item--text_block > h3.two-column__header"
+     },
+     "eds": {
+      "path": "div.l-row.l-row-start > div.tc-col.tc-col-2 > h3#functional-acceleration"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 3228,
+       "w": 330,
+       "h": 62
+      },
+      "eds": {
+       "x": 15,
+       "y": 3307,
+       "w": 330,
+       "h": 62
+      },
+      "dx": 0,
+      "dy": 79,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.row.align-items-start > div.two-column__item.two-column__item--text_block > h3.two-column__header"
+     },
+     "eds": {
+      "path": "div.l-row.l-row-start > div.tc-col.tc-col-3 > h3#individual-advancement"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 3459,
+       "w": 330,
+       "h": 62
+      },
+      "eds": {
+       "x": 15,
+       "y": 3538,
+       "w": 330,
+       "h": 62
+      },
+      "dx": 0,
+      "dy": 79,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".fbs-img-carousel .slick-dots li=.carousel-dots li",
+   "family": null,
+   "required": true,
+   "originMatches": 7,
+   "edsMatches": 7,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.fbs-img-carousel__slick.js-fbs-img-carousel > ul.slick-dots > li.slick-active"
+     },
+     "eds": {
+      "path": "div.carousel-slider > ul.carousel-dots > li.slick-active"
+     },
+     "rows": [
+      {
+       "key": "button:1",
+       "role": "button",
+       "text": "1",
+       "edsText": "1",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 33,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 33,
+        "h": 30,
+        "sel": "button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "0/0/400",
+        "eds": "0/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 65,
+       "y": 13117,
+       "w": 33,
+       "h": 32
+      },
+      "eds": {
+       "x": 65,
+       "y": 13107,
+       "w": 33,
+       "h": 31
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.fbs-img-carousel__slick.js-fbs-img-carousel > ul.slick-dots > li"
+     },
+     "eds": {
+      "path": "div.carousel-slider > ul.carousel-dots > li"
+     },
+     "rows": [
+      {
+       "key": "button:2",
+       "role": "button",
+       "text": "2",
+       "edsText": "2",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 33,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 33,
+        "h": 30,
+        "sel": "button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "0/0/400",
+        "eds": "0/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 98,
+       "y": 13117,
+       "w": 33,
+       "h": 32
+      },
+      "eds": {
+       "x": 98,
+       "y": 13107,
+       "w": 33,
+       "h": 31
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.fbs-img-carousel__slick.js-fbs-img-carousel > ul.slick-dots > li"
+     },
+     "eds": {
+      "path": "div.carousel-slider > ul.carousel-dots > li"
+     },
+     "rows": [
+      {
+       "key": "button:3",
+       "role": "button",
+       "text": "3",
+       "edsText": "3",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 33,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 33,
+        "h": 30,
+        "sel": "button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "0/0/400",
+        "eds": "0/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 131,
+       "y": 13117,
+       "w": 33,
+       "h": 32
+      },
+      "eds": {
+       "x": 131,
+       "y": 13107,
+       "w": 33,
+       "h": 31
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.fbs-img-carousel__slick.js-fbs-img-carousel > ul.slick-dots > li"
+     },
+     "eds": {
+      "path": "div.carousel-slider > ul.carousel-dots > li"
+     },
+     "rows": [
+      {
+       "key": "button:4",
+       "role": "button",
+       "text": "4",
+       "edsText": "4",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 33,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 33,
+        "h": 30,
+        "sel": "button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "0/0/400",
+        "eds": "0/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 164,
+       "y": 13117,
+       "w": 33,
+       "h": 32
+      },
+      "eds": {
+       "x": 164,
+       "y": 13107,
+       "w": 33,
+       "h": 31
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.fbs-img-carousel__slick.js-fbs-img-carousel > ul.slick-dots > li"
+     },
+     "eds": {
+      "path": "div.carousel-slider > ul.carousel-dots > li"
+     },
+     "rows": [
+      {
+       "key": "button:5",
+       "role": "button",
+       "text": "5",
+       "edsText": "5",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 33,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 33,
+        "h": 30,
+        "sel": "button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "0/0/400",
+        "eds": "0/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 196,
+       "y": 13117,
+       "w": 33,
+       "h": 32
+      },
+      "eds": {
+       "x": 196,
+       "y": 13107,
+       "w": 33,
+       "h": 31
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.fbs-img-carousel__slick.js-fbs-img-carousel > ul.slick-dots > li"
+     },
+     "eds": {
+      "path": "div.carousel-slider > ul.carousel-dots > li"
+     },
+     "rows": [
+      {
+       "key": "button:6",
+       "role": "button",
+       "text": "6",
+       "edsText": "6",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 33,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 33,
+        "h": 30,
+        "sel": "button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "0/0/400",
+        "eds": "0/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 229,
+       "y": 13117,
+       "w": 33,
+       "h": 32
+      },
+      "eds": {
+       "x": 229,
+       "y": 13107,
+       "w": 33,
+       "h": 31
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.fbs-img-carousel__slick.js-fbs-img-carousel > ul.slick-dots > li"
+     },
+     "eds": {
+      "path": "div.carousel-slider > ul.carousel-dots > li"
+     },
+     "rows": [
+      {
+       "key": "button:7",
+       "role": "button",
+       "text": "7",
+       "edsText": "7",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 33,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 33,
+        "h": 30,
+        "sel": "button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "0/0/400",
+        "eds": "0/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 262,
+       "y": 13117,
+       "w": 33,
+       "h": 32
+      },
+      "eds": {
+       "x": 262,
+       "y": 13107,
+       "w": 33,
+       "h": 31
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#menu-footer > li=.footer-menu > li",
+   "family": null,
+   "required": true,
+   "originMatches": 11,
+   "edsMatches": 11,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-103658"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:analyst briefings",
+       "role": "link",
+       "text": "analyst briefings",
+       "edsText": "analyst briefings",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 117,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 117,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14275,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14264,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -11,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-160735"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:newsroom",
+       "role": "link",
+       "text": "newsroom",
+       "edsText": "newsroom",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 76,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 76,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14306,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14294,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -12,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-160814"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:complimentary webinars",
+       "role": "link",
+       "text": "complimentary webinars",
+       "edsText": "complimentary webinars",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 176,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 176,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14336,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14325,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -11,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-103657"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:contact us",
+       "role": "link",
+       "text": "contact us",
+       "edsText": "contact us",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 77,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 77,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14367,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14355,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -12,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-1696"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:investor information",
+       "role": "link",
+       "text": "investor information",
+       "edsText": "investor information",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 139,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 139,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14397,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14385,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -12,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-172170"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:careers",
+       "role": "link",
+       "text": "careers",
+       "edsText": "careers",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 55,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 55,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14427,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14416,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -11,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-84385"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:policies",
+       "role": "link",
+       "text": "policies",
+       "edsText": "policies",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 54,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 54,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14458,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14446,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -12,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-221762"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:podcasts",
+       "role": "link",
+       "text": "podcasts",
+       "edsText": "podcasts",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 63,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 63,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14488,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14477,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -11,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-97538"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:fraud alerts",
+       "role": "link",
+       "text": "fraud alerts",
+       "edsText": "fraud alerts",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 85,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 85,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14519,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14507,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -12,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-146409"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:brand",
+       "role": "link",
+       "text": "brand",
+       "edsText": "brand",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 42,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 42,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14549,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14537,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -12,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.container > ul#menu-footer > li#menu-item-84386"
+     },
+     "eds": {
+      "path": "div.l-container > ul.footer-menu.l-row > li"
+     },
+     "rows": [
+      {
+       "key": "link:uk slavery statement",
+       "role": "link",
+       "text": "uk slavery statement",
+       "edsText": "uk slavery statement",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 152,
+        "h": 22
+       },
+       "eds": {
+        "x": 15,
+        "y": -1,
+        "w": 152,
+        "h": 23,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 14579,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": 0,
+       "y": 14568,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -11,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 34,
+  "within": 48,
+  "off": 6,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 6
+ }
+}

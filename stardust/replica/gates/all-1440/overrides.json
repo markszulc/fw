@@ -1,0 +1,18 @@
+{
+  "bold": {
+    "verdict": "pass-with-override",
+    "reason": "published 1440: aligned 2.85% (≤10%), Δh -28 (≤5%), clipped 0, content 0 missing/hidden; residual offsets 110px vs bound 90 = source empty spacer paragraphs dropped by the DA pipeline + eyebrow/h2 margin rounding (accept-residual at the 3-round cap, gates/bold-1440/rounds.json published); units: event-row date box = <time> text node vs <p> (paint identical), research-card image/heading = source floats the image INSIDE the h2 so the paired boxes differ by structure (eds.png vs origin.png crop 4200-5300: same order, image 19px higher)",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  },
+  "index": {
+    "verdict": "pass-with-override",
+    "reason": "/ is the redirect to /bold on both sides (source 302, EDS 301): the same document as bold. published 1440: aligned 2.29% (≤10%), Δh -33, clipped 0, content 0 missing/hidden; offsets 99px vs bound 90 and research-card/event-date unit pairing = the same residuals as bold (accept-residual at the cap, gates/bold-1440/rounds.json published)",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  }
+}

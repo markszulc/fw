@@ -1,0 +1,8 @@
+measure  http://localhost:8791/bold-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight  14514
+  html
+       x     0  y      0  w   360  h 14514  vis  "Skip to content Show Menu Log In Search…"
+      display: block

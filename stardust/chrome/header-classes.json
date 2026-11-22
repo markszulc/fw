@@ -1,0 +1,54 @@
+{
+ "decisions": [
+  {
+   "finding": "panel-visual@390 Show Menu [click]",
+   "class": "owner",
+   "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+  },
+  {
+   "finding": "panel-visual@390 Show Menu > Who We Serve > INDUSTRIES [key]",
+   "class": "owner",
+   "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+  },
+  {
+   "finding": "panel-visual@390 Show Menu > What We Offer [key]",
+   "class": "owner",
+   "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+  },
+  {
+   "finding": "panel-visual@390 Show Menu > How We Think > RESOURCES [key]",
+   "class": "owner",
+   "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+  },
+  {
+   "finding": "panel-visual@390 Show Menu > How We Think > FEATURED TOPICS [key]",
+   "class": "owner",
+   "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+  },
+  {
+   "finding": "panel-visual@390 Show Menu > Who We Are [key]",
+   "class": "owner",
+   "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+  },
+  {
+   "finding": "panel-visual@390 Show Menu > Events [key]",
+   "class": "owner",
+   "reason": "source crop is overlaid by the Qualified chat card (third-party tag, register R-02; martech contract off on the build) — only the site owner can enable/judge it; build drawer content matches"
+  },
+  {
+   "finding": "panel-visual@390 Show Menu > Who We Serve [key]",
+   "class": "accept-residual",
+   "reason": "sub-pixel row offset (source drawer rows 53.25px pitch vs build 53.4px, ≤1px) in an otherwise identical drawer list; structure, links, motion and keyboard paths match"
+  },
+  {
+   "finding": "panel-visual@390 Show Menu > Who We Serve > B2B [key]",
+   "class": "accept-residual",
+   "reason": "sub-pixel row offset (source drawer rows 53.25px pitch vs build 53.4px, ≤1px) in an otherwise identical drawer list; structure, links, motion and keyboard paths match"
+  },
+  {
+   "finding": "panel-visual@390 Show Menu > How We Think [key]",
+   "class": "accept-residual",
+   "reason": "sub-pixel row offset (source drawer rows 53.25px pitch vs build 53.4px, ≤1px) in an otherwise identical drawer list; structure, links, motion and keyboard paths match"
+  }
+ ]
+}

@@ -1,0 +1,1180 @@
+[live-session] waiting to pace live navigations to www.forrester.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 929 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/bold-360/vdiff-iter1/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: Inform-Your-Perspective.webp rendered 330x168 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Sharpen-Your-Skills.webp rendered 330x168 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Develop-Authentic-Connections.webp rendered 330x168 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_7_evening_activities.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_1_Keynote2x-scaled.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_2_Analyst_1-1.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_3_Awards.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_4_Industry_Influencers.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_5_Teamsend.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_6_Marketplace.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_7_evening_activities.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_1_Keynote2x-scaled.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_2_Analyst_1-1.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_3_Awards.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_4_Industry_Influencers.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_5_Teamsend.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_6_Marketplace.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Carousel_image_7_evening_activities.webp rendered 398x300 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • FLUSH-LEFT TEXT: <h2> "Research" sits at left 0px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <h2> "Consulting" sits at left 0px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <h2> "Events" sits at left 0px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 13849,
+  "textLen": 10129,
+  "images": [
+   {
+    "src": "forrester_logo.svg",
+    "natural": "300x48",
+    "rendered": "180x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Predictions2027_Hero_1050x788-640x480.png",
+    "natural": "360x270",
+    "rendered": "360x220",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "500000-Survey-Respondents.webp",
+    "natural": "1800x439",
+    "rendered": "330x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Forrester-AI-Slack-Home-page-hero-background-640x240.webp",
+    "natural": "360x135",
+    "rendered": "360x813",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Forrester-AI-Slack-Home-page-image-720x540-1-1024x768.webp",
+    "natural": "0x0",
+    "rendered": "330x248",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Forrester-Decisions-image@2x-1024x853.webp",
+    "natural": "0x0",
+    "rendered": "330x275",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Inform-Your-Perspective.webp",
+    "natural": "0x0",
+    "rendered": "330x168",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Sharpen-Your-Skills.webp",
+    "natural": "0x0",
+    "rendered": "330x168",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Develop-Authentic-Connections.webp",
+    "natural": "0x0",
+    "rendered": "330x168",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_7_evening_activities.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_1_Keynote2x-scaled.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_2_Analyst_1-1.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_3_Awards.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_4_Industry_Influencers.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_5_Teamsend.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_6_Marketplace.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_7_evening_activities.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_1_Keynote2x-scaled.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_2_Analyst_1-1.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_3_Awards.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_4_Industry_Influencers.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_5_Teamsend.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_6_Marketplace.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_7_evening_activities.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "forrester_logo.svg",
+    "natural": "300x48",
+    "rendered": "257x41",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "forrester_logo.svg",
+    "natural": "300x48",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Forrester_black_RGB_narrow.png",
+    "natural": "856x307",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Explore Our 2027 Predictions",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Empowering Leaders. Driving Resu",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Value At Every Altitude",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Enterprise Alignment",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "22px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Functional Acceleration",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "22px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Individual Advancement",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "22px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bring Forrester AI Into The Way ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Trusted By Industry Leaders",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Research",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "16px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Forrester Decisions: Deliver Bet",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Inform Your Perspective",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "32px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Sharpen Your Skills",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "32px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Develop Authentic Connections",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "32px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Consulting",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "16px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Turn Insights Into Measurable Ou",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Events",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "16px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Powerful Gatherings, Proven Outc",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "B2B Summit North America",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "B2C Forum West",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "B2C Forum EMEA",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "B2C Forum East",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Forum Singapore",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Forum Sydney",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Technology & Innovation Forum EM",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "B2B Summit EMEA",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Technology & Innovation Forum",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Security & Risk Forum",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Want The Latest Forrester News?",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Thanks for signing up.",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Visit The Hub",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Learn More",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Explore Forrester AI Whe",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Read The Full ROI Report",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Research",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Learn More About Forrest",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Consulting",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Explore Advisory And Dem",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "h2",
+    "text": "Research",
+    "left": 0
+   },
+   {
+    "tag": "h2",
+    "text": "Consulting",
+    "left": 0
+   },
+   {
+    "tag": "h2",
+    "text": "Events",
+    "left": 0
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "core-banner__copy",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "two-column__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "two-column__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "two-column__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "two-col-quote",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "two-column__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "two-column__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "two-column__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "two-column__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "two-column__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "two-column__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "col-md-11",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 13370,
+  "textLen": 10129,
+  "images": [
+   {
+    "src": "logo.svg",
+    "natural": "300x48",
+    "rendered": "180x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Predictions2027_Hero_1050x788-640x480.png",
+    "natural": "360x270",
+    "rendered": "360x220",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "500000-Survey-Respondents.webp",
+    "natural": "1800x439",
+    "rendered": "330x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Forrester-AI-Slack-Home-page-hero-background-640x240.webp",
+    "natural": "360x135",
+    "rendered": "360x587",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Forrester-AI-Slack-Home-page-image-720x540-1-1024x768.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Forrester-Decisions-image@2x-1024x853.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Inform-Your-Perspective.webp",
+    "natural": "0x0",
+    "rendered": "330x168",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Sharpen-Your-Skills.webp",
+    "natural": "0x0",
+    "rendered": "330x168",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Develop-Authentic-Connections.webp",
+    "natural": "0x0",
+    "rendered": "330x168",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_7_evening_activities.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_1_Keynote2x-scaled.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_2_Analyst_1-1.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_3_Awards.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_4_Industry_Influencers.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_5_Teamsend.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_6_Marketplace.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_7_evening_activities.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_1_Keynote2x-scaled.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_2_Analyst_1-1.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_3_Awards.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_4_Industry_Influencers.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_5_Teamsend.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_6_Marketplace.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Carousel_image_7_evening_activities.webp",
+    "natural": "0x0",
+    "rendered": "398x300",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "logo.svg",
+    "natural": "300x48",
+    "rendered": "257x41",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo.svg",
+    "natural": "300x48",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Explore Our 2027 Predictions",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Empowering Leaders. Driving Resu",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Value At Every Altitude",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Enterprise Alignment",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "22px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Functional Acceleration",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "22px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Individual Advancement",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "22px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bring Forrester AI Into The Way ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Trusted By Industry Leaders",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Research",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Forrester Decisions: Deliver Bet",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Inform Your Perspective",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "32px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Sharpen Your Skills",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "32px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Develop Authentic Connections",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "32px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Consulting",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Turn Insights Into Measurable Ou",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Events",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Powerful Gatherings, Proven Outc",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "42px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "B2B Summit North America",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "B2C Forum West",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "B2C Forum EMEA",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "B2C Forum East",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Forum Singapore",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Forum Sydney",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Technology & Innovation Forum EM",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "B2B Summit EMEA",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Technology & Innovation Forum",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Security & Risk Forum",
+    "color": "rgb(31, 39, 51)",
+    "fontSize": "24px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Want The Latest Forrester News?",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Thanks for signing up.",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "proxima-nova",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Visit The Hub",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Learn More",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Explore Forrester AI Whe",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Read The Full ROI Report",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Research",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Learn More About Forrest",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Consulting",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Explore Advisory And Dem",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "h2",
+    "text": "Research",
+    "left": 0
+   },
+   {
+    "tag": "h2",
+    "text": "Consulting",
+    "left": 0
+   },
+   {
+    "tag": "h2",
+    "text": "Events",
+    "left": 0
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "hero__copy",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "tc__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "tc__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "tc__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "quote",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "tc__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "tc__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "tc__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "tc__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "tc__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "tc__body",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "l-col",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ }
+}

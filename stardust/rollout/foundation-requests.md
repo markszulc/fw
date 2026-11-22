@@ -1,0 +1,1 @@
+- 2026-11-22 C-deliver bold: footer.js — set loading=eager on the footer icon images (AI prompt + social icons); lazy icons are still unloaded when full-page gate captures run, so the "Ask AI" icons read as missing on the build (gate bold pub2, 1440 and 360). — APPLIED at C-final (e1c03e1)

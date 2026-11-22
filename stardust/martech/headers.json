@@ -1,0 +1,15 @@
+{
+ "cache-control": "public, max-age=1800",
+ "server": "nginx",
+ "server-timing": "dtTrId;desc=\"ca2e99299a18f2e7d4e18b1b8bd9b560\", dtSInfo;desc=\"0\", dtRpid;desc=\"685919154\"",
+ "strict-transport-security": "max-age=31536000; includeSubDomains",
+ "via": "1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+ "x-cache": "MISS, HIT, MISS, MISS, MISS",
+ "x-cache-hits": "0, 58, 0, 0, 0",
+ "x-oneagent-js-injection": "true",
+ "x-pantheon-styx-hostname": "styx-us-a-79f85bbb9f-jzv6c",
+ "x-ruxit-js-agent": "true",
+ "x-served-by": "cache-chi-kigq8000147-CHI, cache-iad-kcgs7200028-IAD, cache-iad-kiad7000126-IAD, cache-iad-kcgs7270025-IAD, cache-den-kden1300084-DEN",
+ "x-styx-req-id": "de7a6d6b-e652-11f1-a633-526e165294a0",
+ "x-timer": "S1795339004.825769,VS0,VE85"
+}

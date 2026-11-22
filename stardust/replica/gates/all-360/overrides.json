@@ -1,0 +1,18 @@
+{
+  "bold": {
+    "verdict": "pass-with-override",
+    "reason": "published 360: aligned 5.81% (≤10%), Δh +8, clipped 0, content 0 missing/hidden; residual offsets 204px vs bound 150 = DA-dropped spacer paragraphs + mobile margin rounding (accept-residual at the 3-round cap, gates/bold-360/rounds.json published); units: research-card image/heading only — source floats the image INSIDE the h2, so the paired boxes differ by structure, not paint",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  },
+  "index": {
+    "verdict": "pass-with-override",
+    "reason": "/ is the redirect to /bold on both sides (source 302, EDS 301): the same document as bold. published 360: aligned 6.49% (≤10%), Δh +6, clipped 0, content 0 missing/hidden; offsets 224px vs bound 150 and research-card unit pairing = the same residuals as bold (accept-residual at the cap, gates/bold-360/rounds.json published)",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-22T09:52:09.728Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-22T11:13:35.804Z",
+  "templates": [
+    {
+      "id": "bold",
+      "representativeSlug": "bold",
+      "pages": [
+        "bold"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "ai-band",
+        "event-list",
+        "eyebrow-tab",
+        "hero-banner",
+        "image-carousel",
+        "newsletter-form",
+        "quote",
+        "three-card-grid",
+        "three-col-features",
+        "trusted-by",
+        "two-column-intro"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "landing",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

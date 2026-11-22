@@ -1,0 +1,108 @@
+{
+  "round": "iter1",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/bold-360/diff-iter1.png",
+    "json": "stardust/replica/gates/bold-360/pixel-iter1.json",
+    "pct": 7.58,
+    "alignedPct": 4.33,
+    "alignedUsed": true,
+    "totalShift": 32,
+    "steps": [
+      {
+        "y": 115,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 2028,
+        "shift": 1,
+        "cumulative": 2
+      },
+      {
+        "y": 2720,
+        "shift": -2,
+        "cumulative": 0
+      },
+      {
+        "y": 5383,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 5418,
+        "shift": -1,
+        "cumulative": -2
+      },
+      {
+        "y": 5453,
+        "shift": -1,
+        "cumulative": -3
+      },
+      {
+        "y": 5488,
+        "shift": -1,
+        "cumulative": -4
+      },
+      {
+        "y": 5524,
+        "shift": -1,
+        "cumulative": -5
+      },
+      {
+        "y": 5773,
+        "shift": -1,
+        "cumulative": -6
+      },
+      {
+        "y": 5931,
+        "shift": -1,
+        "cumulative": -7
+      },
+      {
+        "y": 6023,
+        "shift": -1,
+        "cumulative": -8
+      },
+      {
+        "y": 7229,
+        "shift": 2,
+        "cumulative": -6
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": null,
+    "reason": "offsets: 25 step(s), 32px total — +1px at y=115, +1px at y=2028, −2px at y=2720, −1px at y=5383, −1px at y=5418, −1px at y=5453, … 19 more (bound 8px)"
+  },
+  "reference": {
+    "origin": "live"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/content-diff-iter1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/visual-diff-iter1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/chrome-parity-iter1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/clip-iter1.txt"
+    },
+    "header-contract": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-360/header-contract-iter1.txt"
+    }
+  },
+  "structural": 3,
+  "nothingLost": 0,
+  "at": "2026-11-22T09:38:28.616Z"
+}

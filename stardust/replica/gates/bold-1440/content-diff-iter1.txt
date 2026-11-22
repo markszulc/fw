@@ -1,0 +1,43 @@
+
+Content diff @ 1440px (profile "generic", roots: #main, header, footer)
+root "#main"
+  source: 402 text nodes — 26 headings, 0 eyebrows, 29 CTAs, 347 body; 23 img
+  build: 400 text nodes — 25 headings, 0 eyebrows, 29 CTAs, 346 body; 23 img
+  editable texts (outermost h*/p/ul/ol): source 75 / build 73
+  attributes (placeholder/aria-label/title): source 8 / build 8; icons: source 0 / build 0
+root "header"
+  source: 167 text nodes — 0 headings, 0 eyebrows, 164 CTAs, 3 body; 1 img
+  build: 155 text nodes — 0 headings, 0 eyebrows, 152 CTAs, 3 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 2; icons: source 0 / build 0
+root "footer"
+  source: 17 text nodes — 0 headings, 0 eyebrows, 14 CTAs, 3 body; 2 img
+  build: 17 text nodes — 0 headings, 0 eyebrows, 14 CTAs, 3 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 4 / build 4
+
+Findings: 23 (16 structural 🔴)
+Tiers: looks-same 🔴 16 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 7
+  🔴 MISSING HEADING [#main]: source heading "Thanks for signing up." has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Get Started" → /become-a-client has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Get Started" → /become-a-client has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Talk To Sales" → /become-a-client has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 EXTRA [header]: build cta "Talk To Sales" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Talk To Sales" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Get Started" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [#main]: source body "Stay tuned for updates from the Forrester blogs."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [#main]: build has 73 outermost editable element(s) vs 75 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Mobile" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

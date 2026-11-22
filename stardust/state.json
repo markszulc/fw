@@ -1,0 +1,119 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:prototype",
+    "writtenAt": "2026-11-22T09:51:35Z",
+    "stardustVersion": "0.46.0"
+  },
+  "site": {
+    "originUrl": "https://www.forrester.com",
+    "deployUrl": null,
+    "extractedAt": "2026-11-22T09:08:40.132Z",
+    "pageCap": null,
+    "totalDiscovered": 2,
+    "crawled": 2
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-22T09:08:40.132Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "bold",
+      "url": "https://www.forrester.com/bold/",
+      "title": "Forrester Helps Organizations Thrive Through Volatility",
+      "type": "landing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-22T09:08:40.132Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-22T09:47:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-22T09:51:35Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/bold.json",
+      "prototypePath": "stardust/prototypes/bold-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "index",
+      "url": "https://www.forrester.com/",
+      "title": "Forrester Helps Organizations Thrive Through Volatility",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-22T09:08:40.132Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirectsTo": "https://www.forrester.com/bold",
+      "sourceStatus": 302
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-22T09:51:58Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/bold/",
+        "outputPath": "bold/index.html",
+        "slug": "bold",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 10,
+    "bundledAssets": [
+      "bold.css",
+      "bold.js",
+      "canon.css",
+      "favicon.png",
+      "fonts/ivardisplay-italic-webfont.woff2",
+      "fonts/ivardisplay-medium-webfont.woff2",
+      "fonts/ivardisplay-regular-webfont.woff2",
+      "fonts/ivartext-regular-webfont.woff2",
+      "icon-search.svg",
+      "logo.svg"
+    ],
+    "pages": [
+      {
+        "slug": "bold",
+        "file": "stardust/migrated/bold/index.html",
+        "assetsBundled": 10
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-22T09:51:58Z",
+      "rendered": [
+        "bold"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-22T11:10:13.765Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.forrester.com",
+    "eds": "https://main--94144fc1--aemcoder.aem.live",
+    "edsHostOverride": null,
+    "only": null
+  },
+  "totals": {
+    "pages": 2,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 2,
+    "fail": 2,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 2,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 2,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 2,
+    "referenceUnstable": 0,
+    "passWithOverrides": 2
+  },
+  "rows": [
+    {
+      "slug": "bold",
+      "path": "/bold",
+      "template": "bold",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 16.94,
+      "textPct": 18.12,
+      "heightDelta": 8,
+      "originH": 14994,
+      "edsH": 14986,
+      "alignedPct": 5.81,
+      "alignedUsed": true,
+      "totalShift": 204,
+      "steps": [
+        {
+          "y": 2345,
+          "shift": 40,
+          "cumulative": 40
+        },
+        {
+          "y": 2723,
+          "shift": 40,
+          "cumulative": 80
+        },
+        {
+          "y": 7341,
+          "shift": -32,
+          "cumulative": 48
+        },
+        {
+          "y": 8050,
+          "shift": -16,
+          "cumulative": 32
+        },
+        {
+          "y": 8179,
+          "shift": 1,
+          "cumulative": 33
+        },
+        {
+          "y": 8569,
+          "shift": -17,
+          "cumulative": 16
+        },
+        {
+          "y": 8774,
+          "shift": 16,
+          "cumulative": 32
+        },
+        {
+          "y": 11282,
+          "shift": -40,
+          "cumulative": -8
+        },
+        {
+          "y": 11723,
+          "shift": 1,
+          "cumulative": -7
+        },
+        {
+          "y": 11811,
+          "shift": -1,
+          "cumulative": -8
+        }
+      ],
+      "offsetBound": 150,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "units"
+      ],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 10 step(s), 204px total — +40px at y=2345, +40px at y=2723, −32px at y=7341, −16px at y=8050, +1px at y=8179, −17px at y=8569, … 4 more (bound 150px)",
+        "units off 6 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 5,
+      "unitsRecorded": null,
+      "units": {
+        "units": 34,
+        "within": 48,
+        "off": 6,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 6
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "pass-with-override",
+        "reason": "published 360: aligned 5.81% (≤10%), Δh +8, clipped 0, content 0 missing/hidden; residual offsets 204px vs bound 150 = DA-dropped spacer paragraphs + mobile margin rounding (accept-residual at the 3-round cap, gates/bold-360/rounds.json published); units: research-card image/heading only — source floats the image INSIDE the h2, so the paired boxes differ by structure, not paint",
+        "waives": [
+          "pixel",
+          "units"
+        ]
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/bold-360",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "500-1000:21.7%",
+        "3500-4000:39.2%",
+        "4000-4500:30.5%",
+        "4500-5000:52.7%",
+        "5000-5500:37.3%",
+        "7000-7500:18%",
+        "7500-8000:21.8%",
+        "8000-8500:27.7%",
+        "8500-9000:26.8%",
+        "9000-9500:22.1%",
+        "10000-10500:17.8%",
+        "13000-13500:31.1%",
+        "14500-14986:26.7%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "template": "landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 16.71,
+      "textPct": 18.95,
+      "heightDelta": 6,
+      "originH": 14992,
+      "edsH": 14986,
+      "alignedPct": 6.49,
+      "alignedUsed": true,
+      "totalShift": 224,
+      "steps": [
+        {
+          "y": 2028,
+          "shift": 2,
+          "cumulative": 2
+        },
+        {
+          "y": 2344,
+          "shift": 39,
+          "cumulative": 41
+        },
+        {
+          "y": 2602,
+          "shift": 39,
+          "cumulative": 80
+        },
+        {
+          "y": 5383,
+          "shift": -1,
+          "cumulative": 79
+        },
+        {
+          "y": 5418,
+          "shift": -1,
+          "cumulative": 78
+        },
+        {
+          "y": 5453,
+          "shift": -1,
+          "cumulative": 77
+        },
+        {
+          "y": 5488,
+          "shift": -1,
+          "cumulative": 76
+        },
+        {
+          "y": 5524,
+          "shift": -1,
+          "cumulative": 75
+        },
+        {
+          "y": 5773,
+          "shift": -1,
+          "cumulative": 74
+        },
+        {
+          "y": 6022,
+          "shift": -2,
+          "cumulative": 72
+        },
+        {
+          "y": 7168,
+          "shift": 1,
+          "cumulative": 73
+        },
+        {
+          "y": 7229,
+          "shift": 1,
+          "cumulative": 74
+        }
+      ],
+      "offsetBound": 150,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "units"
+      ],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 29 step(s), 224px total — +2px at y=2028, +39px at y=2344, +39px at y=2602, −1px at y=5383, −1px at y=5418, −1px at y=5453, … 23 more (bound 150px)",
+        "units off 6 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 5,
+      "unitsRecorded": null,
+      "units": {
+        "units": 34,
+        "within": 48,
+        "off": 6,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 6
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "pass-with-override",
+        "reason": "/ is the redirect to /bold on both sides (source 302, EDS 301): the same delivered document, gated with the same residuals as bold — published 360: aligned 5.81% (≤10%), Δh +8, clipped 0, content 0 missing/hidden; residual offsets 204px vs bound 150 = DA-dropped spacer paragraphs + mobile margin rounding (accept-residual at the 3-round cap, gates/bold-360/rounds.json published); units: research-card image/heading only — source floats the image INSIDE the h2, so the paired boxes differ by structure, not paint",
+        "waives": [
+          "pixel",
+          "units"
+        ]
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/index",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "500-1000:23.3%",
+        "3500-4000:39.2%",
+        "4000-4500:30.5%",
+        "4500-5000:52.7%",
+        "5000-5500:36.9%",
+        "6500-7000:15.1%",
+        "7000-7500:17.3%",
+        "7500-8000:21.2%",
+        "8000-8500:25.2%",
+        "8500-9000:21.4%",
+        "9000-9500:20.4%",
+        "10000-10500:17.5%",
+        "13000-13500:30%",
+        "14500-14986:26.4%"
+      ],
+      "error": null
+    }
+  ]
+}

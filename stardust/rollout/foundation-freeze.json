@@ -1,0 +1,32 @@
+{
+  "frozenAt": "2026-11-22T10:38:00.231Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "7f47ec4551d6f2263bc15a316c8eadd51710f101671bdf839fd6288b7c8f44c0",
+    "blocks/footer/footer.js": "9303c624df41035b4211b4f060b92ad86ed1de9f7de701d7966f63382dcec84a",
+    "blocks/header/header.css": "7b0eb1ccccdb63f4515bea17e4914b38539c974ecad0dfabd362dbab1ff25ef7",
+    "blocks/header/header.js": "056c4d7121a1722028546e7fb8ff0391047b10c4f671a89a9b48ec971fce4b95",
+    "fonts/LICENSING.md": "b2525c430bb9b00fbd2e2e9eb72390bba8c8ed8d1981fd75ffc945bde43ed25e",
+    "fonts/ivardisplay-italic-webfont.woff2": "01bd2d6fddf092c293408328530408c21c6a1d967202e4d71f92037011ecb6a6",
+    "fonts/ivardisplay-medium-webfont.woff2": "85da2a97eee4cf430504f7f24ff013d4bd4456a49707fd8ff33636234fc448a5",
+    "fonts/ivardisplay-regular-webfont.woff2": "1f8a085908228fcf0191bcaa80c019549dd2664458fba1653f3c99b2edda1788",
+    "fonts/ivartext-regular-webfont.woff2": "0409eac7eaf804782002d6c4161a06f41385993afd18d927fec98e8af658b3c5",
+    "head.html": "c2605cc05493a1a63625d1c5793406421a1d315d342bc2f57de8f4cdf323f6b4",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "adb99456faaa0ca53b387b5bd9377c9bfbb58bb386de32c117d1d4779970fffa",
+    "scripts/consented.js": "8a6e80585bf898985ae3fa0012dc370a19f4e366ca6922d92b80b319bcf281aa",
+    "scripts/martech.js": "628cc7267a4cb3c93266ab3563089f8f324b9a36270a27ae4f1b30e4e9896f63",
+    "scripts/scripts.js": "ef3c564eae66673eb7df3e75764b48011838b1904b0774ebfcf1047590a78c13",
+    "styles/fonts.css": "68206ac7f0a5102c11544a9d9460bdebe6fc046c49c7ef9642bdcf158282f415",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "31e3273a62a28501f38a9050bc8c40ee69728016f599735fe3c4888d4e15f5ba"
+  }
+}

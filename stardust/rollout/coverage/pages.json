@@ -1,0 +1,114 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-22T09:52:09.728Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-22T11:13:35.804Z",
+  "pages": [
+    {
+      "slug": "bold",
+      "path": "/bold",
+      "title": "Forrester Helps Organizations Thrive Through Volatility",
+      "templateId": "bold",
+      "source": {
+        "migratedHtml": "stardust/migrated/bold/index.html",
+        "metaJson": "stardust/migrated/bold/_meta.json",
+        "sourceHash": "sha256:eaa3e1d69c8d0e845d4ccc354ac6f884d25ca3ea68eb3e95f0f4a90a2e329365",
+        "sourceUrl": "https://www.forrester.com/bold/"
+      },
+      "blocks": [
+        "hero-banner",
+        "two-column-intro",
+        "quote",
+        "three-col-features",
+        "ai-band",
+        "trusted-by",
+        "eyebrow-tab",
+        "three-card-grid",
+        "event-list",
+        "image-carousel",
+        "newsletter-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--94144fc1--aemcoder.aem.live/bold",
+        "deployedAt": "2026-11-22T10:31:42.938Z",
+        "verifiedAt": "2026-11-22T11:13:35.804Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.94,
+          "heightDelta": 8,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [
+            "offsets: 10 step(s), 204px total — +40px at y=2345, +40px at y=2723, −32px at y=7341, −16px at y=8050, +1px at y=8179, −17px at y=8569, … 4 more (bound 150px)",
+            "units off 6 hidden 0 missing 0"
+          ],
+          "override": "pass-with-override",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-22T11:10:17.614Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Forrester Helps Organizations Thrive Through Volatility",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ffc40866b0c42b45c7f65288effb29b7a8dd56ff6641e25fe158f024dd27335e",
+        "currentStatePath": "stardust/current/pages/index.json",
+        "sourceUrl": "https://www.forrester.com/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--94144fc1--aemcoder.aem.live/",
+        "deployedAt": "2026-11-22T10:55:30.550Z",
+        "verifiedAt": "2026-11-22T11:13:35.804Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.71,
+          "heightDelta": 6,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [
+            "offsets: 29 step(s), 224px total — +2px at y=2028, +39px at y=2344, +39px at y=2602, −1px at y=5383, −1px at y=5418, −1px at y=5453, … 23 more (bound 150px)",
+            "units off 6 hidden 0 missing 0"
+          ],
+          "override": "pass-with-override",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-22T11:10:17.614Z"
+        }
+      }
+    }
+  ]
+}

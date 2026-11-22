@@ -1,0 +1,26 @@
+{
+ "units": {
+  "plan": {
+   "status": "done",
+   "kind": "plan",
+   "templates": [
+    "landing"
+   ],
+   "pages": 1,
+   "startedAt": "2026-11-22T09:52:02.591Z",
+   "endedAt": "2026-11-22T09:52:02.591Z",
+   "verdict": "1 template; archetype bold from approved prototype; index = source 302 to /bold (redirect, no page)"
+  },
+  "landing": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "landing"
+   ],
+   "pages": 0,
+   "verdict": "rendered 0, unchanged 0, refused 0, passthrough 0 — no siblings",
+   "startedAt": "2026-11-22T10:37:18.414Z",
+   "endedAt": "2026-11-22T10:37:18.414Z"
+  }
+ }
+}

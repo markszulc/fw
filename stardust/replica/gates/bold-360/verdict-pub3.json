@@ -1,0 +1,106 @@
+{
+  "round": "pub3",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/bold-360/diff-pub3.png",
+    "json": "stardust/replica/gates/bold-360/pixel-pub3.json",
+    "pct": 16.94,
+    "alignedPct": 5.81,
+    "alignedUsed": true,
+    "totalShift": 204,
+    "steps": [
+      {
+        "y": 2345,
+        "shift": 40,
+        "cumulative": 40
+      },
+      {
+        "y": 2723,
+        "shift": 40,
+        "cumulative": 80
+      },
+      {
+        "y": 7341,
+        "shift": -32,
+        "cumulative": 48
+      },
+      {
+        "y": 8050,
+        "shift": -16,
+        "cumulative": 32
+      },
+      {
+        "y": 8179,
+        "shift": 1,
+        "cumulative": 33
+      },
+      {
+        "y": 8569,
+        "shift": -17,
+        "cumulative": 16
+      },
+      {
+        "y": 8774,
+        "shift": 16,
+        "cumulative": 32
+      },
+      {
+        "y": 11282,
+        "shift": -40,
+        "cumulative": -8
+      },
+      {
+        "y": 11723,
+        "shift": 1,
+        "cumulative": -7
+      },
+      {
+        "y": 11811,
+        "shift": -1,
+        "cumulative": -8
+      }
+    ],
+    "offsetBound": 150,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 10 step(s), 204px total — +40px at y=2345, +40px at y=2723, −32px at y=7341, −16px at y=8050, +1px at y=8179, −17px at y=8569, … 4 more (bound 150px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-22T10:22:50.609Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-360/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-360/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-360/units-pub3.txt"
+    }
+  },
+  "structural": 24,
+  "nothingLost": 0,
+  "at": "2026-11-22T10:33:59.852Z"
+}

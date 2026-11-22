@@ -1,0 +1,168 @@
+/* newsletter — signup band; values lifted from the approved prototype (bold.css). */
+/* stylelint-disable no-descending-specificity -- cascade order lifted verbatim from the prototype */
+
+.newsletter {
+  position: relative;
+  padding: 40px 0;
+}
+
+.newsletter.green {
+  background-color: var(--c-green);
+  color: var(--c-white);
+}
+
+.newsletter.bp-double {
+  padding-bottom: 80px;
+}
+
+.newsletter .newsletter-body {
+  margin-bottom: 20px;
+}
+
+.newsletter .newsletter-body h2 {
+  position: relative;
+  font-size: 1.375rem;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+@media (width >= 768px) {
+  .newsletter .newsletter-body h2 {
+    font-size: 3.25rem;
+  }
+}
+
+.newsletter .newsletter-content {
+  position: relative;
+  padding-top: 45px;
+}
+
+.newsletter .newsletter-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 9px;
+  background-color: var(--c-white);
+}
+
+.newsletter .newsletter-content p {
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  line-height: 1.4375rem;
+}
+
+.newsletter .form-row {
+  display: flex;
+  margin-top: 30px;
+}
+
+.newsletter .form-row-stack {
+  margin-top: 0;
+  flex-direction: column;
+}
+
+.newsletter .form-row-checkbox {
+  flex-wrap: wrap;
+}
+
+.newsletter .form-item {
+  flex: 1 0 0;
+  position: relative;
+}
+
+.newsletter .form-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter .form-label p {
+  margin: 0;
+}
+
+.newsletter .form-input {
+  width: 100%;
+  height: 42px;
+  border: 0;
+  border-bottom: 1px solid var(--c-white);
+  border-radius: 0;
+  padding: 8px 20px;
+  background: var(--c-green-input);
+  color: var(--c-white);
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.newsletter .form-input:focus {
+  outline: 0;
+  border-bottom: 2px solid var(--c-white);
+}
+
+.newsletter .form-input::placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.newsletter .form-input-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 25 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 .097L12.453 12 24 0' stroke='%23FFF' fill='none'/%3E%3C/svg%3E");
+  background-position: calc(100% - 20px) 13px;
+  background-repeat: no-repeat;
+  background-size: 25px 12px;
+}
+
+.newsletter .form-input-select option {
+  color: var(--c-black);
+  background-color: var(--c-white);
+}
+
+.newsletter .form-checkbox {
+  clip-path: inset(50%);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.newsletter .form-checkbox + .form-label {
+  display: flex;
+  cursor: pointer;
+}
+
+.newsletter .form-checkbox + .form-label::before {
+  content: "";
+  flex: 28px 0 0;
+  display: block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--c-white);
+  margin-right: 24px;
+}
+
+.newsletter .form-checkbox:checked + .form-label::before {
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 17 13' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 5.635L6.237 11 16 1' stroke='%23FFF' stroke-width='2' fill='none'/%3E%3C/svg%3E") center center / 17px 13px no-repeat;
+}
+
+.newsletter .form-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 188px;
+  min-height: 60px;
+  padding: 20px;
+  border: 0;
+  background: var(--c-yellow);
+  color: var(--c-black);
+  line-height: 1;
+  font-family: arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.newsletter .newsletter-confirm {
+  display: none;
+}

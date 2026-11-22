@@ -1,0 +1,145 @@
+{
+  "live": "stardust/replica/motion/bold-live.json",
+  "build": "stardust/replica/motion/bold-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 2,
+  "counts": {
+    "behaviors": 18,
+    "parity": 11,
+    "missing": 2,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 3,
+    "advisory": 2
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "parity",
+      "note": "Δheight 30px, restore at y≤60, 300ms",
+      "line": "motion header scroll-morph: parity (Δheight 30px, restore at y≤60, 300ms)"
+    },
+    {
+      "cls": "widget",
+      "name": ".fbs-img-carousel .slick-next → .carousel__arrow--next",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .fbs-img-carousel .slick-next → .carousel__arrow--next: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": "#menu-item-71210 > a → .site-nav__menu > li:first-child > a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #menu-item-71210 > a → .site-nav__menu > li:first-child > a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".forr-cta.-primary → .cta--primary",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .forr-cta.-primary → .cta--primary: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 0ms",
+      "line": "motion transition background-color: parity (2 event(s) on live, 2 on build, 0ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "bottom",
+      "state": "parity",
+      "note": "15 event(s) on live, 15 on build, 300ms",
+      "line": "motion transition bottom: parity (15 event(s) on live, 15 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "height",
+      "state": "parity",
+      "note": "5 event(s) on live, 3 on build, 300ms",
+      "line": "motion transition height: parity (5 event(s) on live, 3 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "18 event(s) on live, 18 on build, 500ms",
+      "line": "motion transition opacity: parity (18 event(s) on live, 18 on build, 500ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "padding-bottom",
+      "state": "parity",
+      "note": "18 event(s) on live, 18 on build, 300ms",
+      "line": "motion transition padding-bottom: parity (18 event(s) on live, 18 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "padding-top",
+      "state": "parity",
+      "note": "18 event(s) on live, 18 on build, 300ms",
+      "line": "motion transition padding-top: parity (18 event(s) on live, 18 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "17 event(s) on live, 17 on build, 500ms",
+      "line": "motion transition transform: parity (17 event(s) on live, 17 on build, 500ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "visibility",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 300ms",
+      "line": "motion transition visibility: parity (2 event(s) on live, 2 on build, 300ms)"
+    },
+    {
+      "cls": "class",
+      "name": "in-view",
+      "state": "parity",
+      "note": "added 8× on live, 8× on build",
+      "line": "motion class in-view: parity (added 8× on live, 8× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-scrolled",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class is-scrolled: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-active",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class slick-active: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-current",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class slick-current: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-active",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-active: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "class",
+      "name": "is-current",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-current: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    }
+  ]
+}

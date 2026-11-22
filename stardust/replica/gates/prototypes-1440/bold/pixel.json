@@ -1,0 +1,255 @@
+{
+  "a": "stardust/replica/gates/prototypes-1440/bold/origin.png",
+  "b": "stardust/replica/gates/prototypes-1440/bold/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 8975,
+    "mode": "overlap"
+  },
+  "heightDelta": 1,
+  "differingPixels": 680067,
+  "pct": 5.26,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-1440/bold/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 5.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 8.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 5.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 5.5
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 2
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 3.7
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 5.1
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 0.7
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 4.9
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 1.7
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 13.6
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 5
+    },
+    {
+      "y0": 8500,
+      "y1": 8975,
+      "pct": 17.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 5.26,
+    "differingPixels": 680067,
+    "compared": {
+      "width": 1440,
+      "height": 8975,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 3.8,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 5.1,
+        "unaligned": 5.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 4.7,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 8.7,
+        "unaligned": 8.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 7.1,
+        "unaligned": 7.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 5.3,
+        "unaligned": 5.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 5.5,
+        "unaligned": 5.5
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 2,
+        "unaligned": 2
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 3.7,
+        "unaligned": 3.7
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 5.1,
+        "unaligned": 5.1
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 4.9,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 1.7,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 13.6,
+        "unaligned": 13.6
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 5,
+        "unaligned": 5
+      },
+      {
+        "y0": 8500,
+        "y1": 8975,
+        "pct": 17.5,
+        "unaligned": 17.5
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 5.27,
+      "steps": 1,
+      "totalShift": 1
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "http://localhost:8791/bold-proposed.html"
+  }
+}

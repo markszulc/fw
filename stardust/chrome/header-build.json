@@ -1,0 +1,2952 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--94144fc1--aemcoder.aem.page/bold",
+ "at": "2026-11-22T10:10:55.810Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Forrester Logo",
+     "key": "forrester logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#masthead>div:nth-of-type(1)>a",
+     "href": "https://main--94144fc1--aemcoder.aem.page/bold",
+     "expanded": null,
+     "rect": [
+      15,
+      30,
+      180,
+      30
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Show Menu",
+     "key": "show menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#masthead>div:nth-of-type(2)>label",
+     "expanded": null,
+     "rect": [
+      337,
+      30,
+      33,
+      23
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In",
+          "href": "https://www.forrester.com/login"
+         },
+         {
+          "text": "Who We Serve",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "What We Offer",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "How We Think",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "Who We Are",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "Events",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "Talk To Sales",
+          "href": "https://www.forrester.com/become-a-client"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         90,
+         390,
+         754
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "nav.drawer"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger"
+        },
+        {
+         "kind": "transition",
+         "prop": "top",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hamburger"
+        }
+       ],
+       "shot": "390-001-Show-Menu-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "",
+       "key": "",
+       "role": "input",
+       "kind": "search",
+       "sel": "#header-search-mobile",
+       "expanded": null,
+       "rect": [
+        93,
+        121,
+        23,
+        23
+       ],
+       "actions": {},
+       "search": {
+        "probe": "serve",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://www.forrester.com/allSearch?q={q}"
+       }
+      },
+      {
+       "name": "Who We Serve",
+       "key": "who we serve",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        30,
+        174,
+        330,
+        52
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "TECHNOLOGY",
+            "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+           },
+           {
+            "text": "B2B",
+            "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+           },
+           {
+            "text": "B2C",
+            "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+           },
+           {
+            "text": "INDUSTRIES",
+            "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           30,
+           226,
+           330,
+           214
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.nav-expand"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          }
+         ],
+         "shot": "390-002-Who-We-Serve-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null
+       },
+       "children": [
+        {
+         "name": "TECHNOLOGY",
+         "key": "technology",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+         "expanded": null,
+         "rect": [
+          30,
+          227,
+          300,
+          52
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Data, AI & Analytics",
+              "href": "https://www.forrester.com/technology/data-ai-leaders/"
+             },
+             {
+              "text": "Security & Risk",
+              "href": "https://www.forrester.com/technology/security-risk/"
+             },
+             {
+              "text": "Technology Architecture And Delivery",
+              "href": "https://www.forrester.com/technology/architecture-delivery/"
+             },
+             {
+              "text": "Technology",
+              "href": "https://www.forrester.com/technology/"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             30,
+             280,
+             330,
+             214
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "span.nav-expand"
+            }
+           ],
+           "shot": "390-003-TECHNOLOGY-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null
+         },
+         "children": []
+        },
+        {
+         "name": "B2B",
+         "key": "b2b",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>ul>li:nth-of-type(2)>a",
+         "expanded": null,
+         "rect": [
+          30,
+          281,
+          300,
+          52
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "B2B Marketing",
+              "href": "https://www.forrester.com/b2b-marketing/"
+             },
+             {
+              "text": "Demand & ABM",
+              "href": "https://www.forrester.com/b2b-marketing/demand-abm/"
+             },
+             {
+              "text": "Portfolio & Product",
+              "href": "https://www.forrester.com/product-management/"
+             },
+             {
+              "text": "Revenue Operations & Enablement",
+              "href": "https://www.forrester.com/revenue/"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             30,
+             333,
+             330,
+             214
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "span.nav-expand"
+            },
+            {
+             "kind": "transition",
+             "prop": "color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            }
+           ],
+           "shot": "390-004-B2B-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null
+         },
+         "children": []
+        },
+        {
+         "name": "B2C",
+         "key": "b2c",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>ul>li:nth-of-type(3)>a",
+         "expanded": null,
+         "rect": [
+          30,
+          334,
+          300,
+          52
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "B2C Marketing",
+              "href": "https://www.forrester.com/b2c-marketing/"
+             },
+             {
+              "text": "Customer Experience",
+              "href": "https://www.forrester.com/customer-experience/"
+             },
+             {
+              "text": "Digital Business",
+              "href": "https://www.forrester.com/digital-business/"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             30,
+             387,
+             330,
+             160
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "span.nav-expand"
+            }
+           ],
+           "shot": "390-005-B2C-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null
+         },
+         "children": []
+        },
+        {
+         "name": "INDUSTRIES",
+         "key": "industries",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(2)>ul>li>a",
+         "expanded": null,
+         "rect": [
+          30,
+          388,
+          300,
+          52
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Financial Services",
+              "href": "https://www.forrester.com/financial-services/"
+             },
+             {
+              "text": "Government",
+              "href": "https://www.forrester.com/government/"
+             },
+             {
+              "text": "Healthcare",
+              "href": "https://www.forrester.com/healthcare/"
+             },
+             {
+              "text": "High Tech",
+              "href": "https://www.forrester.com/high-tech/"
+             },
+             {
+              "text": "Retail & CPG",
+              "href": "https://www.forrester.com/retail/"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             30,
+             440,
+             330,
+             267
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "span.nav-expand"
+            }
+           ],
+           "shot": "390-006-INDUSTRIES-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "name": "What We Offer",
+       "key": "what we offer",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        30,
+        227,
+        330,
+        52
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Forrester Decisions",
+            "href": "https://www.forrester.com/research/forrester-decisions/"
+           },
+           {
+            "text": "Forrester Market Insights",
+            "href": "https://www.forrester.com/research/forrester-market-insights/"
+           },
+           {
+            "text": "AI Access",
+            "href": "https://www.forrester.com/research/ai-access/"
+           },
+           {
+            "text": "Signature Research",
+            "href": "https://www.forrester.com/research/"
+           },
+           {
+            "text": "Events",
+            "href": "https://www.forrester.com/events/"
+           },
+           {
+            "text": "Analyst Relations Council",
+            "href": "https://www.forrester.com/research/analyst-relations-council/"
+           },
+           {
+            "text": "Certification",
+            "href": "https://www.forrester.com/certification/"
+           },
+           {
+            "text": "Reprints",
+            "href": "https://www.forrester.com/research/reprints/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           30,
+           280,
+           330,
+           427
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.nav-expand"
+          }
+         ],
+         "shot": "390-007-What-We-Offer-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null
+       },
+       "children": [
+        {
+         "name": "Forrester Decisions",
+         "key": "forrester decisions",
+         "role": "link",
+         "kind": "link",
+         "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(2)>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+         "href": "https://www.forrester.com/research/forrester-decisions/",
+         "expanded": null,
+         "rect": [
+          30,
+          281,
+          300,
+          52
+         ],
+         "actions": {}
+        },
+        {
+         "name": "Forrester Market Insights",
+         "key": "forrester market insights",
+         "role": "link",
+         "kind": "link",
+         "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(2)>ul>li:nth-of-type(1)>ul>li:nth-of-type(2)>a",
+         "href": "https://www.forrester.com/research/forrester-market-insights/",
+         "expanded": null,
+         "rect": [
+          30,
+          334,
+          300,
+          52
+         ],
+         "actions": {}
+        },
+        {
+         "name": "Events",
+         "key": "events",
+         "role": "link",
+         "kind": "link",
+         "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(2)>ul>li:nth-of-type(2)>ul>li:nth-of-type(1)>a",
+         "href": "https://www.forrester.com/events/",
+         "expanded": null,
+         "rect": [
+          30,
+          494,
+          300,
+          52
+         ],
+         "actions": {}
+        }
+       ]
+      },
+      {
+       "name": "How We Think",
+       "key": "how we think",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(3)>a",
+       "expanded": null,
+       "rect": [
+        30,
+        281,
+        330,
+        52
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "RESOURCES",
+            "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+           },
+           {
+            "text": "FEATURED TOPICS",
+            "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           30,
+           333,
+           330,
+           107
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.nav-expand"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          }
+         ],
+         "shot": "390-008-How-We-Think-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null
+       },
+       "children": [
+        {
+         "name": "RESOURCES",
+         "key": "resources",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(3)>ul>li:nth-of-type(1)>ul>li>a",
+         "expanded": null,
+         "rect": [
+          30,
+          334,
+          300,
+          52
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "AI Into Action",
+              "href": "https://www.forrester.com/ai/"
+             },
+             {
+              "text": "Blog Posts",
+              "href": "https://www.forrester.com/blogs/"
+             },
+             {
+              "text": "Client Success Stories",
+              "href": "https://www.forrester.com/client-stories/"
+             },
+             {
+              "text": "Podcasts",
+              "href": "https://www.forrester.com/podcasts"
+             },
+             {
+              "text": "Predictions",
+              "href": "https://www.forrester.com/predictions/"
+             },
+             {
+              "text": "Webinars",
+              "href": "https://www.forrester.com/webinars/"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             30,
+             387,
+             330,
+             320
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "span.nav-expand"
+            },
+            {
+             "kind": "transition",
+             "prop": "color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            }
+           ],
+           "shot": "390-009-RESOURCES-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null
+         },
+         "children": []
+        },
+        {
+         "name": "FEATURED TOPICS",
+         "key": "featured topics",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(3)>ul>li:nth-of-type(2)>ul>li>a",
+         "expanded": null,
+         "rect": [
+          30,
+          388,
+          300,
+          52
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Agentic AI Security",
+              "href": "https://www.forrester.com/technology/aegis-framework/"
+             },
+             {
+              "text": "B2B GTM Strategy",
+              "href": "https://www.forrester.com/bold/b2b-gtm-strategy/"
+             },
+             {
+              "text": "B2B Marketing Strategy",
+              "href": "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/"
+             },
+             {
+              "text": "B2C Marketing Transformation",
+              "href": "https://www.forrester.com/b2c-marketing/b2c-marketing-transformation/"
+             },
+             {
+              "text": "Cross-Functional Alignment",
+              "href": "https://www.forrester.com/bold/cross-functional-alignment/"
+             },
+             {
+              "text": "Customer Obsession",
+              "href": "https://www.forrester.com/bold/customer-obsession/"
+             },
+             {
+              "text": "Emerging Technology",
+              "href": "https://www.forrester.com/technology/emerging-technology/"
+             },
+             {
+              "text": "Generative AI",
+              "href": "https://www.forrester.com/technology/generative-ai/"
+             },
+             {
+              "text": "Risk Management",
+              "href": "https://www.forrester.com/technology/risk-management/"
+             },
+             {
+              "text": "Technology Strategy",
+              "href": "https://www.forrester.com/technology/technology-strategy/"
+             },
+             {
+              "text": "Zero Trust Security",
+              "href": "https://www.forrester.com/zero-trust/"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             30,
+             440,
+             330,
+             404
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.site-nav-trigger"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-offset",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "outline-width",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "color",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a"
+            },
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "span.nav-expand"
+            }
+           ],
+           "shot": "390-010-FEATURED-TOPICS-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "name": "Who We Are",
+       "key": "who we are",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(4)>a",
+       "expanded": null,
+       "rect": [
+        30,
+        334,
+        330,
+        52
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "About Us",
+            "href": "https://www.forrester.com/about-us/"
+           },
+           {
+            "text": "Leadership",
+            "href": "https://www.forrester.com/executive-leadership/"
+           },
+           {
+            "text": "Board",
+            "href": "https://www.forrester.com/our-board/"
+           },
+           {
+            "text": "Newsroom",
+            "href": "https://www.forrester.com/press-newsroom/"
+           },
+           {
+            "text": "Careers",
+            "href": "https://www.forrester.com/careers/"
+           },
+           {
+            "text": "Investor Relations",
+            "href": "https://investor.forrester.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           30,
+           387,
+           330,
+           320
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.nav-expand"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          }
+         ],
+         "shot": "390-011-Who-We-Are-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null
+       },
+       "children": []
+      },
+      {
+       "name": "Events",
+       "key": "events",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(5)>a",
+       "expanded": null,
+       "rect": [
+        30,
+        388,
+        330,
+        52
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Events",
+            "href": "https://www.forrester.com/events/"
+           },
+           {
+            "text": "Event Sponsorship",
+            "href": "https://www.forrester.com/events/sponsorship/"
+           },
+           {
+            "text": "Webinars",
+            "href": "https://www.forrester.com/webinars/"
+           },
+           {
+            "text": "Awards",
+            "href": "https://www.forrester.com/about-us/forrester-awards/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           30,
+           440,
+           330,
+           214
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.nav-expand"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.site-nav-trigger"
+          }
+         ],
+         "shot": "390-012-Events-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null
+       },
+       "children": [
+        {
+         "name": "Events",
+         "key": "events",
+         "role": "link",
+         "kind": "link",
+         "sel": "#masthead>div:nth-of-type(2)>nav>ul>li:nth-of-type(5)>ul>li:nth-of-type(1)>a",
+         "href": "https://www.forrester.com/events/",
+         "expanded": null,
+         "rect": [
+          30,
+          441,
+          300,
+          52
+         ],
+         "actions": {}
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 90,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 60,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 60,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 90,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 12,
+   "truncated": null,
+   "loads": 1,
+   "requests": 22,
+   "maxRequests": 0,
+   "inputsSkipped": 0,
+   "watch": {
+    "status": "not-triggered"
+   }
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Forrester Logo",
+     "key": "forrester logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#masthead>div:nth-of-type(1)>a",
+     "href": "https://main--94144fc1--aemcoder.aem.page/bold",
+     "expanded": null,
+     "rect": [
+      15,
+      30,
+      180,
+      30
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Who We Serve",
+     "key": "who we serve",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#masthead>nav>ul>li:nth-of-type(1)>a",
+     "expanded": null,
+     "rect": [
+      260,
+      33,
+      103,
+      23
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "TECHNOLOGY",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "Data, AI & Analytics",
+          "href": "https://www.forrester.com/technology/data-ai-leaders/"
+         },
+         {
+          "text": "Security & Risk",
+          "href": "https://www.forrester.com/technology/security-risk/"
+         },
+         {
+          "text": "Technology Architecture And Delivery",
+          "href": "https://www.forrester.com/technology/architecture-delivery/"
+         },
+         {
+          "text": "Technology",
+          "href": "https://www.forrester.com/technology/"
+         },
+         {
+          "text": "B2B",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "B2B Marketing",
+          "href": "https://www.forrester.com/b2b-marketing/"
+         },
+         {
+          "text": "Demand & ABM",
+          "href": "https://www.forrester.com/b2b-marketing/demand-abm/"
+         },
+         {
+          "text": "Portfolio & Product",
+          "href": "https://www.forrester.com/product-management/"
+         },
+         {
+          "text": "Revenue Operations & Enablement",
+          "href": "https://www.forrester.com/revenue/"
+         },
+         {
+          "text": "B2C",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "B2C Marketing",
+          "href": "https://www.forrester.com/b2c-marketing/"
+         },
+         {
+          "text": "Customer Experience",
+          "href": "https://www.forrester.com/customer-experience/"
+         },
+         {
+          "text": "Digital Business",
+          "href": "https://www.forrester.com/digital-business/"
+         },
+         {
+          "text": "INDUSTRIES",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "Financial Services",
+          "href": "https://www.forrester.com/financial-services/"
+         },
+         {
+          "text": "Government",
+          "href": "https://www.forrester.com/government/"
+         },
+         {
+          "text": "Healthcare",
+          "href": "https://www.forrester.com/healthcare/"
+         },
+         {
+          "text": "High Tech",
+          "href": "https://www.forrester.com/high-tech/"
+         },
+         {
+          "text": "Retail & CPG",
+          "href": "https://www.forrester.com/retail/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         77,
+         90,
+         470,
+         588
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        }
+       ],
+       "shot": "1440-001-Who-We-Serve-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "TECHNOLOGY",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "Data, AI & Analytics",
+          "href": "https://www.forrester.com/technology/data-ai-leaders/"
+         },
+         {
+          "text": "Security & Risk",
+          "href": "https://www.forrester.com/technology/security-risk/"
+         },
+         {
+          "text": "Technology Architecture And Delivery",
+          "href": "https://www.forrester.com/technology/architecture-delivery/"
+         },
+         {
+          "text": "Technology",
+          "href": "https://www.forrester.com/technology/"
+         },
+         {
+          "text": "B2B",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "B2B Marketing",
+          "href": "https://www.forrester.com/b2b-marketing/"
+         },
+         {
+          "text": "Demand & ABM",
+          "href": "https://www.forrester.com/b2b-marketing/demand-abm/"
+         },
+         {
+          "text": "Portfolio & Product",
+          "href": "https://www.forrester.com/product-management/"
+         },
+         {
+          "text": "Revenue Operations & Enablement",
+          "href": "https://www.forrester.com/revenue/"
+         },
+         {
+          "text": "B2C",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "B2C Marketing",
+          "href": "https://www.forrester.com/b2c-marketing/"
+         },
+         {
+          "text": "Customer Experience",
+          "href": "https://www.forrester.com/customer-experience/"
+         },
+         {
+          "text": "Digital Business",
+          "href": "https://www.forrester.com/digital-business/"
+         },
+         {
+          "text": "INDUSTRIES",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "Financial Services",
+          "href": "https://www.forrester.com/financial-services/"
+         },
+         {
+          "text": "Government",
+          "href": "https://www.forrester.com/government/"
+         },
+         {
+          "text": "Healthcare",
+          "href": "https://www.forrester.com/healthcare/"
+         },
+         {
+          "text": "High Tech",
+          "href": "https://www.forrester.com/high-tech/"
+         },
+         {
+          "text": "Retail & CPG",
+          "href": "https://www.forrester.com/retail/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         77,
+         90,
+         470,
+         588
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        }
+       ],
+       "shot": "1440-002-Who-We-Serve-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "TECHNOLOGY",
+       "key": "technology",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        77,
+        114,
+        235,
+        31
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "B2B",
+       "key": "b2b",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>ul>li:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        77,
+        317,
+        235,
+        31
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "B2C",
+       "key": "b2c",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>ul>li:nth-of-type(3)>a",
+       "expanded": null,
+       "rect": [
+        77,
+        520,
+        235,
+        31
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "INDUSTRIES",
+       "key": "industries",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(2)>ul>li>a",
+       "expanded": null,
+       "rect": [
+        312,
+        114,
+        235,
+        31
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "What We Offer",
+     "key": "what we offer",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#masthead>nav>ul>li:nth-of-type(2)>a",
+     "expanded": null,
+     "rect": [
+      393,
+      33,
+      102,
+      23
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Forrester Decisions",
+          "href": "https://www.forrester.com/research/forrester-decisions/"
+         },
+         {
+          "text": "The Forrester Wave™",
+          "href": "https://www.forrester.com/research/wave/"
+         },
+         {
+          "text": "Forrester AI",
+          "href": "https://www.forrester.com/research/forrester-ai/"
+         },
+         {
+          "text": "Forrester Market Insights",
+          "href": "https://www.forrester.com/research/forrester-market-insights/"
+         },
+         {
+          "text": "Consulting",
+          "href": "https://www.forrester.com/consulting/"
+         },
+         {
+          "text": "Demand Generation",
+          "href": "https://www.forrester.com/bold/create-content-that-fuels-demand/"
+         },
+         {
+          "text": "AI Access",
+          "href": "https://www.forrester.com/research/ai-access/"
+         },
+         {
+          "text": "Signature Research",
+          "href": "https://www.forrester.com/research/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.forrester.com/events/"
+         },
+         {
+          "text": "B2B Events",
+          "href": "https://www.forrester.com/events/marketing/"
+         },
+         {
+          "text": "B2C Events",
+          "href": "https://www.forrester.com/events/b2c/"
+         },
+         {
+          "text": "Technology Events",
+          "href": "https://www.forrester.com/events/technology/"
+         },
+         {
+          "text": "Event Sponsorship",
+          "href": "https://www.forrester.com/events/sponsorship/"
+         },
+         {
+          "text": "Awards",
+          "href": "https://www.forrester.com/about-us/forrester-awards/"
+         },
+         {
+          "text": "Analyst Relations Council",
+          "href": "https://www.forrester.com/research/analyst-relations-council/"
+         },
+         {
+          "text": "Certification",
+          "href": "https://www.forrester.com/certification/"
+         },
+         {
+          "text": "Reprints",
+          "href": "https://www.forrester.com/research/reprints/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         210,
+         90,
+         470,
+         356
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        }
+       ],
+       "shot": "1440-003-What-We-Offer-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Forrester Decisions",
+          "href": "https://www.forrester.com/research/forrester-decisions/"
+         },
+         {
+          "text": "The Forrester Wave™",
+          "href": "https://www.forrester.com/research/wave/"
+         },
+         {
+          "text": "Forrester AI",
+          "href": "https://www.forrester.com/research/forrester-ai/"
+         },
+         {
+          "text": "Forrester Market Insights",
+          "href": "https://www.forrester.com/research/forrester-market-insights/"
+         },
+         {
+          "text": "Consulting",
+          "href": "https://www.forrester.com/consulting/"
+         },
+         {
+          "text": "Demand Generation",
+          "href": "https://www.forrester.com/bold/create-content-that-fuels-demand/"
+         },
+         {
+          "text": "AI Access",
+          "href": "https://www.forrester.com/research/ai-access/"
+         },
+         {
+          "text": "Signature Research",
+          "href": "https://www.forrester.com/research/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.forrester.com/events/"
+         },
+         {
+          "text": "B2B Events",
+          "href": "https://www.forrester.com/events/marketing/"
+         },
+         {
+          "text": "B2C Events",
+          "href": "https://www.forrester.com/events/b2c/"
+         },
+         {
+          "text": "Technology Events",
+          "href": "https://www.forrester.com/events/technology/"
+         },
+         {
+          "text": "Event Sponsorship",
+          "href": "https://www.forrester.com/events/sponsorship/"
+         },
+         {
+          "text": "Awards",
+          "href": "https://www.forrester.com/about-us/forrester-awards/"
+         },
+         {
+          "text": "Analyst Relations Council",
+          "href": "https://www.forrester.com/research/analyst-relations-council/"
+         },
+         {
+          "text": "Certification",
+          "href": "https://www.forrester.com/certification/"
+         },
+         {
+          "text": "Reprints",
+          "href": "https://www.forrester.com/research/reprints/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         210,
+         90,
+         470,
+         356
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        }
+       ],
+       "shot": "1440-004-What-We-Offer-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "How We Think",
+     "key": "how we think",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#masthead>nav>ul>li:nth-of-type(3)>a",
+     "expanded": null,
+     "rect": [
+      526,
+      33,
+      102,
+      23
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "RESOURCES",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "AI Into Action",
+          "href": "https://www.forrester.com/ai/"
+         },
+         {
+          "text": "Blog Posts",
+          "href": "https://www.forrester.com/blogs/"
+         },
+         {
+          "text": "Client Success Stories",
+          "href": "https://www.forrester.com/client-stories/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.forrester.com/podcasts"
+         },
+         {
+          "text": "Predictions",
+          "href": "https://www.forrester.com/predictions/"
+         },
+         {
+          "text": "Webinars",
+          "href": "https://www.forrester.com/webinars/"
+         },
+         {
+          "text": "FEATURED TOPICS",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "Agentic AI Security",
+          "href": "https://www.forrester.com/technology/aegis-framework/"
+         },
+         {
+          "text": "B2B GTM Strategy",
+          "href": "https://www.forrester.com/bold/b2b-gtm-strategy/"
+         },
+         {
+          "text": "B2B Marketing Strategy",
+          "href": "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/"
+         },
+         {
+          "text": "B2C Marketing Transformation",
+          "href": "https://www.forrester.com/b2c-marketing/b2c-marketing-transformation/"
+         },
+         {
+          "text": "Cross-Functional Alignment",
+          "href": "https://www.forrester.com/bold/cross-functional-alignment/"
+         },
+         {
+          "text": "Customer Obsession",
+          "href": "https://www.forrester.com/bold/customer-obsession/"
+         },
+         {
+          "text": "Emerging Technology",
+          "href": "https://www.forrester.com/technology/emerging-technology/"
+         },
+         {
+          "text": "Generative AI",
+          "href": "https://www.forrester.com/technology/generative-ai/"
+         },
+         {
+          "text": "Risk Management",
+          "href": "https://www.forrester.com/technology/risk-management/"
+         },
+         {
+          "text": "Technology Strategy",
+          "href": "https://www.forrester.com/technology/technology-strategy/"
+         },
+         {
+          "text": "Zero Trust Security",
+          "href": "https://www.forrester.com/zero-trust/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         342,
+         90,
+         470,
+         480
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        }
+       ],
+       "shot": "1440-005-How-We-Think-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "RESOURCES",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "AI Into Action",
+          "href": "https://www.forrester.com/ai/"
+         },
+         {
+          "text": "Blog Posts",
+          "href": "https://www.forrester.com/blogs/"
+         },
+         {
+          "text": "Client Success Stories",
+          "href": "https://www.forrester.com/client-stories/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.forrester.com/podcasts"
+         },
+         {
+          "text": "Predictions",
+          "href": "https://www.forrester.com/predictions/"
+         },
+         {
+          "text": "Webinars",
+          "href": "https://www.forrester.com/webinars/"
+         },
+         {
+          "text": "FEATURED TOPICS",
+          "href": "https://main--94144fc1--aemcoder.aem.page/bold#"
+         },
+         {
+          "text": "Agentic AI Security",
+          "href": "https://www.forrester.com/technology/aegis-framework/"
+         },
+         {
+          "text": "B2B GTM Strategy",
+          "href": "https://www.forrester.com/bold/b2b-gtm-strategy/"
+         },
+         {
+          "text": "B2B Marketing Strategy",
+          "href": "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/"
+         },
+         {
+          "text": "B2C Marketing Transformation",
+          "href": "https://www.forrester.com/b2c-marketing/b2c-marketing-transformation/"
+         },
+         {
+          "text": "Cross-Functional Alignment",
+          "href": "https://www.forrester.com/bold/cross-functional-alignment/"
+         },
+         {
+          "text": "Customer Obsession",
+          "href": "https://www.forrester.com/bold/customer-obsession/"
+         },
+         {
+          "text": "Emerging Technology",
+          "href": "https://www.forrester.com/technology/emerging-technology/"
+         },
+         {
+          "text": "Generative AI",
+          "href": "https://www.forrester.com/technology/generative-ai/"
+         },
+         {
+          "text": "Risk Management",
+          "href": "https://www.forrester.com/technology/risk-management/"
+         },
+         {
+          "text": "Technology Strategy",
+          "href": "https://www.forrester.com/technology/technology-strategy/"
+         },
+         {
+          "text": "Zero Trust Security",
+          "href": "https://www.forrester.com/zero-trust/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         342,
+         90,
+         470,
+         480
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        }
+       ],
+       "shot": "1440-006-How-We-Think-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "RESOURCES",
+       "key": "resources",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>nav>ul>li:nth-of-type(3)>ul>li:nth-of-type(1)>ul>li>a",
+       "expanded": null,
+       "rect": [
+        342,
+        114,
+        235,
+        31
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "FEATURED TOPICS",
+       "key": "featured topics",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#masthead>nav>ul>li:nth-of-type(3)>ul>li:nth-of-type(2)>ul>li>a",
+       "expanded": null,
+       "rect": [
+        577,
+        114,
+        235,
+        31
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Who We Are",
+     "key": "who we are",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#masthead>nav>ul>li:nth-of-type(4)>a",
+     "expanded": null,
+     "rect": [
+      657,
+      33,
+      88,
+      23
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "About Us",
+          "href": "https://www.forrester.com/about-us/"
+         },
+         {
+          "text": "Leadership",
+          "href": "https://www.forrester.com/executive-leadership/"
+         },
+         {
+          "text": "Board",
+          "href": "https://www.forrester.com/our-board/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.forrester.com/press-newsroom/"
+         },
+         {
+          "text": "Careers",
+          "href": "https://www.forrester.com/careers/"
+         },
+         {
+          "text": "Investor Relations",
+          "href": "https://investor.forrester.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         584,
+         90,
+         235,
+         254
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        }
+       ],
+       "shot": "1440-007-Who-We-Are-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "About Us",
+          "href": "https://www.forrester.com/about-us/"
+         },
+         {
+          "text": "Leadership",
+          "href": "https://www.forrester.com/executive-leadership/"
+         },
+         {
+          "text": "Board",
+          "href": "https://www.forrester.com/our-board/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.forrester.com/press-newsroom/"
+         },
+         {
+          "text": "Careers",
+          "href": "https://www.forrester.com/careers/"
+         },
+         {
+          "text": "Investor Relations",
+          "href": "https://investor.forrester.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         584,
+         90,
+         235,
+         254
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        }
+       ],
+       "shot": "1440-008-Who-We-Are-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Events",
+     "key": "events",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#masthead>nav>ul>li:nth-of-type(5)>a",
+     "expanded": null,
+     "rect": [
+      775,
+      33,
+      47,
+      23
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Events",
+          "href": "https://www.forrester.com/events/"
+         },
+         {
+          "text": "B2B Events",
+          "href": "https://www.forrester.com/events/marketing/"
+         },
+         {
+          "text": "B2C Events",
+          "href": "https://www.forrester.com/events/b2c/"
+         },
+         {
+          "text": "Technology Events",
+          "href": "https://www.forrester.com/events/technology/"
+         },
+         {
+          "text": "Event Sponsorship",
+          "href": "https://www.forrester.com/events/sponsorship/"
+         },
+         {
+          "text": "Webinars",
+          "href": "https://www.forrester.com/webinars/"
+         },
+         {
+          "text": "Awards",
+          "href": "https://www.forrester.com/about-us/forrester-awards/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         681,
+         90,
+         235,
+         276
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        }
+       ],
+       "shot": "1440-009-Events-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Events",
+          "href": "https://www.forrester.com/events/"
+         },
+         {
+          "text": "B2B Events",
+          "href": "https://www.forrester.com/events/marketing/"
+         },
+         {
+          "text": "B2C Events",
+          "href": "https://www.forrester.com/events/b2c/"
+         },
+         {
+          "text": "Technology Events",
+          "href": "https://www.forrester.com/events/technology/"
+         },
+         {
+          "text": "Event Sponsorship",
+          "href": "https://www.forrester.com/events/sponsorship/"
+         },
+         {
+          "text": "Webinars",
+          "href": "https://www.forrester.com/webinars/"
+         },
+         {
+          "text": "Awards",
+          "href": "https://www.forrester.com/about-us/forrester-awards/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         681,
+         90,
+         235,
+         276
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ul.mega"
+        }
+       ],
+       "shot": "1440-010-Events-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "input",
+     "kind": "search",
+     "sel": "#header-search-desktop",
+     "expanded": null,
+     "rect": [
+      1177,
+      33,
+      23,
+      23
+     ],
+     "actions": {},
+     "search": {
+      "probe": "serve",
+      "typeahead": {
+       "links": 0,
+       "options": 0
+      },
+      "submit": "https://main--94144fc1--aemcoder.aem.page/bold#"
+     }
+    },
+    {
+     "name": "Log In",
+     "key": "log in",
+     "role": "link",
+     "kind": "account",
+     "sel": "#masthead>nav>div>a:nth-of-type(1)",
+     "href": "https://www.forrester.com/login",
+     "expanded": null,
+     "rect": [
+      1230,
+      34,
+      43,
+      22
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Talk To Sales",
+     "key": "talk to sales",
+     "role": "link",
+     "kind": "link",
+     "sel": "#masthead>nav>div>a:nth-of-type(2)",
+     "href": "https://www.forrester.com/become-a-client",
+     "expanded": null,
+     "rect": [
+      1303,
+      23,
+      122,
+      44
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 90,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 60,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 60,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 90,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 10,
+   "truncated": null,
+   "loads": 2,
+   "requests": 43,
+   "maxRequests": 0,
+   "inputsSkipped": 0,
+   "watch": {
+    "status": "not-triggered"
+   }
+  }
+ },
+ "probe": "serve"
+}

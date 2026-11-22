@@ -1,0 +1,140 @@
+[live-session] waiting to pace live navigations to www.forrester.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 494 ms
+
+Content diff @ 360px (profile "generic", roots: #main, header, footer)
+⚠ root "#main": source has it, build fell back to <main> — both sides measured at <main> (aligned)
+root "#main" — build: "#main" absent, fell back to <main>
+  source: 402 text nodes — 26 headings, 3 eyebrows, 29 CTAs, 344 body; 23 img
+  build: 410 text nodes — 26 headings, 3 eyebrows, 19 CTAs, 362 body; 23 img
+  editable texts (outermost h*/p/ul/ol): source 75 / build 96
+  attributes (placeholder/aria-label/title): source 8 / build 27; icons: source 0 / build 0
+root "header"
+  source: 167 text nodes — 0 headings, 0 eyebrows, 164 CTAs, 3 body; 1 img
+  build: 167 text nodes — 0 headings, 0 eyebrows, 164 CTAs, 3 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 30; icons: source 0 / build 0
+root "footer"
+  source: 17 text nodes — 0 headings, 0 eyebrows, 14 CTAs, 3 body; 2 img
+  build: 17 text nodes — 0 headings, 0 eyebrows, 14 CTAs, 3 body; 6 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 6
+  attributes (placeholder/aria-label/title): source 0 / build 1; icons: source 4 / build 4
+  accepted (invisible, nothing lost): 2 SAME ICON — "Perplexity ↔ perplexity.svg", "0 0 34 28 / 1 shape(s) ↔ youtube.svg"
+
+Findings: 117 (24 structural 🔴)
+Tiers: looks-same 🔴 24 · nothing-lost 🟡 0 · accepted 🟢 2 (owner 0, auto 2) · advisory 93
+  🔴 MISSING CTA [#main]: source cta "May 2-4 2027" → https://www.forrester.com/event/b2b-summit-north-america/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main]: source cta "May 24-25 2027" → https://www.forrester.com/event/b2c-west/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main]: source cta "June 7-8 2027" → https://www.forrester.com/event/b2c-emea/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main]: source cta "June 28-29 2027" → https://www.forrester.com/event/b2c-east/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main]: source cta "August 19 2027" → https://www.forrester.com/event/singapore-forum/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main]: source cta "August 24 2027" → https://www.forrester.com/event/sydney-forum/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main]: source cta "September 27-28 2027" → https://www.forrester.com/event/technology-innovation-emea/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main]: source cta "September 29-October 1 2027" → https://www.forrester.com/event/b2b-emea/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main]: source cta "November 9-10 2027" → https://www.forrester.com/event/technology-innovation/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main]: source cta "November 16-17 2027" → https://www.forrester.com/event/security-risk/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Get Started" → /become-a-client has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Blank" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Get Started" → /become-a-client has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 FONT FORK [#main]: 1 matched line(s) render a DIFFERENT face: body "1": source Arial vs build proxima-nova (-41%). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟠 EXTRA [header]: build cta "Column 1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 2" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 2" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 2" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Talk To Sales" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 2" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 2" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Column 2" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Talk To Sales" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [#main]: source body "—"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "SVP, Commercial Operations & Marketing, Dun & Br"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "—"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "CIO and Deputy COO, Saudi Awwal Bank"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [#main]: build body "— SVP, Commercial Operations & Marketing, Dun & " has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "— CIO and Deputy COO, Saudi Awwal Bank" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "2027" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "May 2-4" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "2027" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "May 24-25" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "2027" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "June 7-8" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "2027" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "June 28-29" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "2027" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "August 19" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "2027" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "August 24" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "2027" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "September 27-28" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "2027" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "September 29-October 1" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "2027" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "November 9-10" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "2027" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main]: build body "November 16-17" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA TITLE [#main]: build <a> title="Home" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Visit The Hub" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Become A Client" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Learn More" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Explore Forrester AI Where You Work" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Data, AI & Analytics" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Security & Risk" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Technology Architecture & Delivery" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Technology Executives" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Marketing" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Product" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Revenue" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Customer Experience" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Digital Business" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Marketing" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Read The Full ROI Report" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Learn More About Forrester Decisions" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="objectivity and integrity standards" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <a> title="Explore Advisory And Demand Generation Offerings" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Forrester Decisions" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Forrester Market Insights" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="AI Access" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Signature Research" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Events" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Analyst Relations Council" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Certification" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Reprints" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Events" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Event Sponsorship" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Webinars" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Awards" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Log In" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Talk To Sales" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Mobile" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Log In" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Forrester Decisions" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Forrester Market Insights" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="AI Access" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Signature Research" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Events" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Analyst Relations Council" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Certification" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Reprints" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Events" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Event Sponsorship" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Webinars" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Awards" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Talk To Sales" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Talk To Sales" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON KIND [footer]: source inline svg OpenAI (25×25) vs build image openai.svg (25×25) at "chatgpt". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [footer]: source inline svg 0 0 34 28 / 1 shape(s) (24×20) vs build image linkedin.svg (24×20) at "linkedin". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.

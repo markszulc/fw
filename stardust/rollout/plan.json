@@ -1,0 +1,81 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-22T09:52:13.734Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-22T09:52:13.734Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "bold",
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "bold",
+      "path": "/bold",
+      "templateId": "bold",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-banner",
+          "edsBlockName": "hero-banner"
+        },
+        {
+          "id": "two-column-intro",
+          "edsBlockName": "two-column-intro"
+        },
+        {
+          "id": "quote",
+          "edsBlockName": "quote"
+        },
+        {
+          "id": "three-col-features",
+          "edsBlockName": "three-col-features"
+        },
+        {
+          "id": "ai-band",
+          "edsBlockName": "ai-band"
+        },
+        {
+          "id": "trusted-by",
+          "edsBlockName": "trusted-by"
+        },
+        {
+          "id": "eyebrow-tab",
+          "edsBlockName": "eyebrow-tab"
+        },
+        {
+          "id": "three-card-grid",
+          "edsBlockName": "three-card-grid"
+        },
+        {
+          "id": "event-list",
+          "edsBlockName": "event-list"
+        },
+        {
+          "id": "image-carousel",
+          "edsBlockName": "image-carousel"
+        },
+        {
+          "id": "newsletter-form",
+          "edsBlockName": "newsletter-form"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    }
+  ]
+}

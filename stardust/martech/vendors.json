@@ -1,0 +1,34 @@
+{
+ "pages": 2,
+ "vendors": [
+  {
+   "host": "www.forrester.com",
+   "pages": 2,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "go.forrester.com",
+   "pages": 2,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "cdn-0.d41.co",
+   "pages": 2,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "dataLayer": 2,
+  "OneTrust": 2
+ },
+ "cspHosts": []
+}

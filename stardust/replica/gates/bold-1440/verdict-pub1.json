@@ -1,0 +1,116 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/bold-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/bold-1440/pixel-pub1.json",
+    "pct": 26.78,
+    "alignedPct": 7.92,
+    "alignedUsed": true,
+    "totalShift": 405,
+    "steps": [
+      {
+        "y": 745,
+        "shift": -62,
+        "cumulative": -62
+      },
+      {
+        "y": 1330,
+        "shift": -29,
+        "cumulative": -91
+      },
+      {
+        "y": 1792,
+        "shift": -16,
+        "cumulative": -107
+      },
+      {
+        "y": 2003,
+        "shift": -16,
+        "cumulative": -123
+      },
+      {
+        "y": 2162,
+        "shift": -16,
+        "cumulative": -139
+      },
+      {
+        "y": 3646,
+        "shift": -20,
+        "cumulative": -159
+      },
+      {
+        "y": 4203,
+        "shift": -16,
+        "cumulative": -175
+      },
+      {
+        "y": 4464,
+        "shift": -32,
+        "cumulative": -207
+      },
+      {
+        "y": 4717,
+        "shift": -16,
+        "cumulative": -223
+      },
+      {
+        "y": 4803,
+        "shift": -16,
+        "cumulative": -239
+      },
+      {
+        "y": 5063,
+        "shift": -39,
+        "cumulative": -278
+      },
+      {
+        "y": 5542,
+        "shift": -16,
+        "cumulative": -294
+      }
+    ],
+    "offsetBound": 90,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 16 step(s), 405px total — −62px at y=745, −29px at y=1330, −16px at y=1792, −16px at y=2003, −16px at y=2162, −20px at y=3646, … 10 more (bound 90px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-22T10:22:35.976Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/bold-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/bold-1440/units-pub1.txt"
+    }
+  },
+  "structural": 25,
+  "nothingLost": 0,
+  "at": "2026-11-22T10:25:28.043Z"
+}

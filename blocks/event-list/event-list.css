@@ -1,0 +1,81 @@
+/* event-list — event calendar band; values lifted from the approved prototype (bold.css). */
+/* stylelint-disable no-descending-specificity -- cascade order lifted verbatim from the prototype */
+
+.event-list {
+  position: relative;
+  padding: 40px 0;
+}
+
+.event-list.gray {
+  background-color: var(--c-gray-light);
+}
+
+.event-list.bp-double {
+  padding-bottom: 80px;
+}
+
+.event-list .event-cal-event {
+  display: block;
+  position: relative;
+  z-index: 1;
+  color: var(--c-text);
+  text-decoration: none;
+  padding: 10px 0 11px;
+  border-top: 1px solid var(--c-black);
+  margin-bottom: -1px;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.event-list .event-cal-event:hover {
+  border-top-color: var(--c-yellow-hover);
+  background: var(--c-yellow-hover);
+  z-index: 2;
+}
+
+.event-list .event-cal-body h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.event-list .event-cal-date p {
+  margin: 0;
+}
+
+.event-list .event-cal-date {
+  display: none;
+  padding-top: 6px;
+  padding-left: 5px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (width >= 768px) {
+  .event-list .event-cal-event {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .event-list .event-cal-body time {
+    display: none;
+  }
+
+  .event-list .event-cal-date {
+    display: block;
+  }
+}
+
+@media (width >= 992px) {
+  .event-list .event-cal {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .event-list .event-cal-list {
+    flex: 1 0 0;
+  }
+
+  .event-list .event-cal-list + .event-cal-list {
+    margin-left: 50px;
+  }
+}

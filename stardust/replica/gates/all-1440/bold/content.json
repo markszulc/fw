@@ -1,0 +1,8548 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-22T11:00:18.174Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.forrester.com/bold/",
+  "at": "2026-11-22T10:59:50.712Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8976,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "header#masthead > div.site-branding > a.js-home-link",
+    "x": 15,
+    "y": 30,
+    "w": 180,
+    "h": 30,
+    "text": "forrester logo",
+    "href": "/bold/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-branding > a.js-home-link > img.site-title",
+    "x": 15,
+    "y": 30,
+    "w": 180,
+    "h": 30,
+    "text": "forrester logo",
+    "file": "forrester_logo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-header > li#menu-item-71210 > a",
+    "x": 260,
+    "y": 33,
+    "w": 103,
+    "h": 23,
+    "text": "who we serve",
+    "href": "/bold/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-header > li#menu-item-71213 > a",
+    "x": 393,
+    "y": 33,
+    "w": 102,
+    "h": 23,
+    "text": "what we offer",
+    "href": "/bold/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-header > li#menu-item-181459 > a",
+    "x": 526,
+    "y": 33,
+    "w": 102,
+    "h": 23,
+    "text": "how we think",
+    "href": "/bold/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-header > li#menu-item-71214 > a",
+    "x": 657,
+    "y": 33,
+    "w": 88,
+    "h": 23,
+    "text": "who we are",
+    "href": "/bold/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-header > li#menu-item-275830 > a",
+    "x": 775,
+    "y": 33,
+    "w": 47,
+    "h": 23,
+    "text": "events",
+    "href": "/bold/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#site-nav > div.right-half > a.lr-link.js-logged-out",
+    "x": 1240,
+    "y": 34,
+    "w": 43,
+    "h": 22,
+    "text": "log in",
+    "href": "/login"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#site-nav > div.right-half > a.button.js-logged-out",
+    "x": 1313,
+    "y": 23,
+    "w": 112,
+    "h": 44,
+    "text": "get started",
+    "href": "/become-a-client"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "header.forr-banner.core-banner > div.breadcrumbs > div.container",
+    "x": 120,
+    "y": 110,
+    "w": 1200,
+    "h": 22,
+    "text": "> Forrester"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.breadcrumbs > div.container > a.breadcrumbs__link",
+    "x": 135,
+    "y": 109,
+    "w": 43,
+    "h": 23,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.core-banner__bg > div.core-banner__img.image-top-padding--40 > img.h-center.v-center",
+    "x": 634,
+    "y": 130,
+    "w": 806,
+    "h": 446,
+    "text": "",
+    "file": "Predictions2027_Hero_1050x788"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.core-banner__inner.forr-banner__copy > h1.core-banner__title",
+    "x": 135,
+    "y": 192,
+    "w": 536,
+    "h": 166,
+    "level": 1,
+    "text": "explore our 2027 predictions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.core-banner__inner.forr-banner__copy > div.core-banner__copy > p",
+    "x": 135,
+    "y": 399,
+    "w": 536,
+    "h": 67,
+    "text": "AI is reshaping who holds control and what it costs. See what Forrester predicts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.forr-ctas > div.forr-ctas__row > a.forr-cta.-primary",
+    "x": 135,
+    "y": 496,
+    "w": 188,
+    "h": 60,
+    "text": "visit the hub",
+    "href": "/predictions/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__fwrow.row > div.col-md-11 > h2.two-column__fwheader",
+    "x": 135,
+    "y": 656,
+    "w": 1070,
+    "h": 52,
+    "level": 2,
+    "text": "empowering leaders. driving results. together."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > p",
+    "x": 135,
+    "y": 800,
+    "w": 760,
+    "h": 92,
+    "text": "Success in business doesn’t come with a manual — especially in today’s fast-evol"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > p",
+    "x": 135,
+    "y": 908,
+    "w": 760,
+    "h": 69,
+    "text": "Through a that blends research, consulting, and live events, we ensure you stay "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > p",
+    "x": 135,
+    "y": 993,
+    "w": 760,
+    "h": 69,
+    "text": "With insights drawn from surveying over , Forrester consultants and analysts are"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > p > img.aligncenter.size-full",
+    "x": 135,
+    "y": 1078,
+    "w": 760,
+    "h": 185,
+    "text": "",
+    "file": "500000-Survey-Respondents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body.two-column__body--lead-p > p",
+    "x": 955,
+    "y": 951,
+    "w": 350,
+    "h": 102,
+    "text": "Learn more about how Forrester can help you stay ahead of the curve."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.forr-ctas > div.forr-ctas__row > a.forr-cta.-tertiary",
+    "x": 955,
+    "y": 1129,
+    "w": 145,
+    "h": 23,
+    "text": "become a client",
+    "href": "/become-a-client/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.twocol-stacked__block > blockquote.two-col-quote > p.two-col-quote__body",
+    "x": 135,
+    "y": 1382,
+    "w": 570,
+    "h": 190,
+    "text": "It’s not just about the stats and the benchmarks and the research. Forrester int"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote.two-col-quote > cite.two-col-quote__cite > strong",
+    "x": 155,
+    "y": 1611,
+    "w": 82,
+    "h": 26,
+    "text": "Jen Burns"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote.two-col-quote > cite.two-col-quote__cite > span",
+    "x": 135,
+    "y": 1636,
+    "w": 474,
+    "h": 26,
+    "text": "SVP, Commercial Operations & Marketing, Dun & Bradstreet"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__fwrow.row > div.col-md-9 > h2.two-column__fwheader",
+    "x": 135,
+    "y": 1741,
+    "w": 870,
+    "h": 52,
+    "level": 2,
+    "text": "value at every altitude"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-9 > div.two-column__body > p",
+    "x": 135,
+    "y": 1813,
+    "w": 870,
+    "h": 46,
+    "text": "When you choose a research partner, you need support that aligns the enterprise,"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row.align-items-start > div.two-column__item.two-column__item--text_block > h3.two-column__header",
+    "x": 135,
+    "y": 1939,
+    "w": 370,
+    "h": 64,
+    "level": 3,
+    "text": "enterprise alignment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > p",
+    "x": 135,
+    "y": 2023,
+    "w": 370,
+    "h": 69,
+    "text": "Helping leaders align priorities across the organization — from AI and risk mana"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row.align-items-start > div.two-column__item.two-column__item--text_block > h3.two-column__header",
+    "x": 535,
+    "y": 1939,
+    "w": 370,
+    "h": 64,
+    "level": 3,
+    "text": "functional acceleration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > p",
+    "x": 535,
+    "y": 2023,
+    "w": 370,
+    "h": 69,
+    "text": "Helping teams move critical initiatives forward faster with actionable research,"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row.align-items-start > div.two-column__item.two-column__item--text_block > h3.two-column__header",
+    "x": 935,
+    "y": 1939,
+    "w": 370,
+    "h": 64,
+    "level": 3,
+    "text": "individual advancement"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > p",
+    "x": 935,
+    "y": 2023,
+    "w": 370,
+    "h": 69,
+    "text": "Helping professionals grow at every stage of their career through certifications"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-9 > div.two-column__body > p",
+    "x": 135,
+    "y": 2142,
+    "w": 870,
+    "h": 23,
+    "text": "Rely on Forrester for value in all seasons and at all moments — from strategy to"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.forr-ctas > div.forr-ctas__row > a.forr-cta.-primary",
+    "x": 135,
+    "y": 2185,
+    "w": 188,
+    "h": 60,
+    "text": "learn more",
+    "href": "/research/forrester-decisions/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.page-block.page-block--two_columns > div.page-block__bg-img.bg-size-default > img.attachment-full.size-full",
+    "x": 0,
+    "y": 2325,
+    "w": 1440,
+    "h": 490,
+    "text": "",
+    "file": "Forrester-AI-Slack-Home-page-hero-backgr"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row.align-items-center > div.two-column__item.two-column__item--text_block > h3.two-column__header.two-column__header--lg",
+    "x": 135,
+    "y": 2415,
+    "w": 570,
+    "h": 132,
+    "level": 3,
+    "text": "bring forrester ai into the way you work"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > p",
+    "x": 135,
+    "y": 2587,
+    "w": 570,
+    "h": 69,
+    "text": "Get trusted Forrester research, data, and advice in the tools you use every day."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.forr-ctas > div.forr-ctas__row > a.forr-cta.-primary",
+    "x": 135,
+    "y": 2676,
+    "w": 371,
+    "h": 60,
+    "text": "explore forrester ai where you work",
+    "href": "/research/ai-where-you-work/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__fwrow.row > div.col-md-11 > h2.two-column__fwheader",
+    "x": 135,
+    "y": 2855,
+    "w": 1070,
+    "h": 52,
+    "level": 2,
+    "text": "trusted by industry leaders"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body.two-column__body--lead-p > p",
+    "x": 135,
+    "y": 2967,
+    "w": 570,
+    "h": 174,
+    "text": "When organizations aim to conquer the complexity of today’s market, they turn to"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body.two-column__body--lead-p > p",
+    "x": 135,
+    "y": 3163,
+    "w": 570,
+    "h": 102,
+    "text": "Our services align enterprises to act fast and effectively across critical funct"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body.two-column__body--lead-p > p",
+    "x": 135,
+    "y": 3287,
+    "w": 570,
+    "h": 103,
+    "text": "; ; ;"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body.two-column__body--lead-p > p > a",
+    "x": 267,
+    "y": 3288,
+    "w": 198,
+    "h": 33,
+    "text": "data, ai & analytics",
+    "href": "/technology/data-ai-leaders/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body.two-column__body--lead-p > p > a",
+    "x": 477,
+    "y": 3288,
+    "w": 151,
+    "h": 33,
+    "text": "security & risk",
+    "href": "/technology/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body.two-column__body--lead-p > p > a",
+    "x": 135,
+    "y": 3322,
+    "w": 357,
+    "h": 33,
+    "text": "technology architecture & delivery",
+    "href": "/technology/architecture-delivery/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body.two-column__body--lead-p > p > a",
+    "x": 135,
+    "y": 3322,
+    "w": 485,
+    "h": 67,
+    "text": "technology executives",
+    "href": "/technology/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body.two-column__body--lead-p > p",
+    "x": 135,
+    "y": 3412,
+    "w": 570,
+    "h": 35,
+    "text": "; ;"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body.two-column__body--lead-p > p > a",
+    "x": 191,
+    "y": 3413,
+    "w": 101,
+    "h": 33,
+    "text": "marketing",
+    "href": "/b2b-marketing/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body.two-column__body--lead-p > p > a",
+    "x": 304,
+    "y": 3413,
+    "w": 79,
+    "h": 33,
+    "text": "product",
+    "href": "/product-management/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body.two-column__body--lead-p > p > a",
+    "x": 394,
+    "y": 3413,
+    "w": 89,
+    "h": 33,
+    "text": "revenue",
+    "href": "/sales/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body.two-column__body--lead-p > p",
+    "x": 135,
+    "y": 3469,
+    "w": 570,
+    "h": 69,
+    "text": "; ;"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body.two-column__body--lead-p > p > a",
+    "x": 254,
+    "y": 3470,
+    "w": 218,
+    "h": 33,
+    "text": "customer experience",
+    "href": "/customer-experience/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body.two-column__body--lead-p > p > a",
+    "x": 484,
+    "y": 3470,
+    "w": 161,
+    "h": 33,
+    "text": "digital business",
+    "href": "/digital-business/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body.two-column__body--lead-p > p > a",
+    "x": 135,
+    "y": 3504,
+    "w": 101,
+    "h": 33,
+    "text": "marketing",
+    "href": "/b2c-marketing/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body.two-column__body--lead-p > p",
+    "x": 135,
+    "y": 3560,
+    "w": 570,
+    "h": 102,
+    "text": "Forrester Decisions delivers measurable impact, boasting a 259% ROI and revenue "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.forr-ctas > div.forr-ctas__row > a.forr-cta.-secondary",
+    "x": 135,
+    "y": 3682,
+    "w": 260,
+    "h": 62,
+    "text": "read the full roi report",
+    "href": "/research/roi-forrester-decisions/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-9 > div.two-column__body.two-column__body--lead-p > p",
+    "x": 135,
+    "y": 3794,
+    "w": 870,
+    "h": 68,
+    "text": "At the core of how we deliver this value is Forrester Decisions — our integrated"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.page-block.page-block--two_columns > div.page-block__title.container > h2",
+    "x": 0,
+    "y": 3982,
+    "w": 1080,
+    "h": 62,
+    "level": 2,
+    "text": "research"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-block__title.container > h2 > span",
+    "x": 60,
+    "y": 3982,
+    "w": 185,
+    "h": 62,
+    "text": "Research"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__fwrow.row > div.col-md-11 > h2.two-column__fwheader",
+    "x": 135,
+    "y": 4112,
+    "w": 1070,
+    "h": 104,
+    "level": 2,
+    "text": "forrester decisions: deliver better outcomes faster"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-11 > div.two-column__body > p",
+    "x": 135,
+    "y": 4236,
+    "w": 1070,
+    "h": 46,
+    "text": "With Forrester Decisions, you gain the actionable guidance you need to drive str"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > p > strong",
+    "x": 135,
+    "y": 4298,
+    "w": 263,
+    "h": 23,
+    "text": "Benefits for your business include:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 4337,
+    "w": 1054,
+    "h": 22,
+    "text": "backed by data and expert validation."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 4367,
+    "w": 1054,
+    "h": 22,
+    "text": "and streamlined alignment across teams for speedier impact."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 4398,
+    "w": 1054,
+    "h": 22,
+    "text": "with insights designed to unlock lasting value and drive results."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > p > img.alignleft.size-full",
+    "x": 135,
+    "y": 4532,
+    "w": 370,
+    "h": 188,
+    "text": "",
+    "file": "Inform-Your-Perspective-640x325"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > h2",
+    "x": 135,
+    "y": 4532,
+    "w": 370,
+    "h": 238,
+    "level": 2,
+    "text": "inform your perspective"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 4786,
+    "w": 354,
+    "h": 22,
+    "text": "Analyst guidance sessions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 4817,
+    "w": 354,
+    "h": 22,
+    "text": "Survey data from more than 500,000 respondents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 4847,
+    "w": 354,
+    "h": 45,
+    "text": "Forrester Wave™ evaluations and market landscapes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 4900,
+    "w": 354,
+    "h": 22,
+    "text": "Buyer Insights analysis"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 4930,
+    "w": 354,
+    "h": 22,
+    "text": "Industry forecasts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 4961,
+    "w": 354,
+    "h": 45,
+    "text": "Streamlined research reports powered by Forrester AI"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 5013,
+    "w": 354,
+    "h": 22,
+    "text": "The Forrester Take weekly newsletter"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > p > img.alignleft.size-full",
+    "x": 535,
+    "y": 4532,
+    "w": 370,
+    "h": 188,
+    "text": "",
+    "file": "Sharpen-Your-Skills-640x325"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > h2",
+    "x": 535,
+    "y": 4532,
+    "w": 370,
+    "h": 238,
+    "level": 2,
+    "text": "sharpen your skills"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 551,
+    "y": 4786,
+    "w": 354,
+    "h": 22,
+    "text": "Budget Planning Guides and toolkits"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 551,
+    "y": 4817,
+    "w": 354,
+    "h": 22,
+    "text": "Strategic models and frameworks"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 551,
+    "y": 4847,
+    "w": 354,
+    "h": 22,
+    "text": "Detailed assessments"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 551,
+    "y": 4878,
+    "w": 354,
+    "h": 22,
+    "text": "Certification programs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 551,
+    "y": 4908,
+    "w": 354,
+    "h": 22,
+    "text": "Initiative blueprints"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > p > img.alignleft.size-full",
+    "x": 935,
+    "y": 4532,
+    "w": 370,
+    "h": 188,
+    "text": "",
+    "file": "Develop-Authentic-Connections-640x325"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > h2",
+    "x": 935,
+    "y": 4532,
+    "w": 370,
+    "h": 272,
+    "level": 2,
+    "text": "develop authentic connections"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 951,
+    "y": 4820,
+    "w": 354,
+    "h": 22,
+    "text": "Live events and conferences"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 951,
+    "y": 4851,
+    "w": 354,
+    "h": 22,
+    "text": "Peer discussions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 951,
+    "y": 4881,
+    "w": 354,
+    "h": 22,
+    "text": "Client-only webinars"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 951,
+    "y": 4912,
+    "w": 354,
+    "h": 22,
+    "text": "Executive Leadership Exchange"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 951,
+    "y": 4942,
+    "w": 354,
+    "h": 22,
+    "text": "Women’s Leadership Program"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.forr-ctas > div.forr-ctas__row > a.forr-cta.-primary",
+    "x": 135,
+    "y": 5145,
+    "w": 381,
+    "h": 60,
+    "text": "learn more about forrester decisions",
+    "href": "/research/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.page-block.page-block--two_columns > div.page-block__title.container > h2",
+    "x": 0,
+    "y": 5365,
+    "w": 1080,
+    "h": 62,
+    "level": 2,
+    "text": "consulting"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-block__title.container > h2 > span",
+    "x": 60,
+    "y": 5365,
+    "w": 220,
+    "h": 62,
+    "text": "Consulting"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__fwrow.row > div.col-md-11 > h2.two-column__fwheader",
+    "x": 135,
+    "y": 5495,
+    "w": 1070,
+    "h": 52,
+    "level": 2,
+    "text": "turn insights into measurable outcomes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-11 > div.two-column__body > p",
+    "x": 135,
+    "y": 5567,
+    "w": 1070,
+    "h": 115,
+    "text": "In today’s AI-driven buying journey, content plays a more critical role than eve"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > p",
+    "x": 135,
+    "y": 5732,
+    "w": 570,
+    "h": 115,
+    "text": "Led by Forrester Consulting, commissioned Demand Generation consulting engagemen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > p > a",
+    "x": 273,
+    "y": 5801,
+    "w": 250,
+    "h": 23,
+    "text": "objectivity and integrity standards",
+    "href": "/about-us/objectivity/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 5863,
+    "w": 554,
+    "h": 45,
+    "text": "of buyers found commissioned Forrester content helpful for both research and fin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 5916,
+    "w": 554,
+    "h": 45,
+    "text": "of global decision-makers have consumed Forrester-commissioned content during th"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 5968,
+    "w": 554,
+    "h": 45,
+    "text": "of buyers are more likely to trust content that is backed up by objective, third"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.forr-ctas > div.forr-ctas__row > a.forr-cta.-primary",
+    "x": 135,
+    "y": 6072,
+    "w": 500,
+    "h": 60,
+    "text": "explore advisory and demand generation offerings",
+    "href": "/consulting/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--quote_block > blockquote.two-col-quote > p.two-col-quote__body",
+    "x": 735,
+    "y": 5831,
+    "w": 570,
+    "h": 114,
+    "text": "Forrester’s consultants are knowledgeable and very much dedicated to delivering "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote.two-col-quote > cite.two-col-quote__cite > strong",
+    "x": 755,
+    "y": 5984,
+    "w": 152,
+    "h": 26,
+    "text": "Majed Al-Ghanemi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote.two-col-quote > cite.two-col-quote__cite > span",
+    "x": 735,
+    "y": 6008,
+    "w": 328,
+    "h": 26,
+    "text": "CIO and Deputy COO, Saudi Awwal Bank"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.page-block.page-block--two_columns > div.page-block__title.container > h2",
+    "x": 0,
+    "y": 6212,
+    "w": 1080,
+    "h": 62,
+    "level": 2,
+    "text": "events"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-block__title.container > h2 > span",
+    "x": 60,
+    "y": 6212,
+    "w": 140,
+    "h": 62,
+    "text": "Events"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__fwrow.row > div.col-md-11 > h2.two-column__fwheader",
+    "x": 135,
+    "y": 6342,
+    "w": 1070,
+    "h": 52,
+    "level": 2,
+    "text": "powerful gatherings, proven outcomes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-11 > div.two-column__body > p",
+    "x": 135,
+    "y": 6414,
+    "w": 1070,
+    "h": 46,
+    "text": "Nothing accelerates innovation like face-to-face collaboration. Forrester events"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > p",
+    "x": 135,
+    "y": 6470,
+    "w": 570,
+    "h": 23,
+    "text": "At our events, you’ll:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 6509,
+    "w": 554,
+    "h": 22,
+    "text": "Be inspired by keynotes."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 6540,
+    "w": 554,
+    "h": 22,
+    "text": "Forge with industry leaders."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 6570,
+    "w": 554,
+    "h": 22,
+    "text": "Gain in analyst one-on-ones."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__body > ul > li",
+    "x": 151,
+    "y": 6600,
+    "w": 554,
+    "h": 22,
+    "text": "Head home with from hands-on sessions."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-column__item.two-column__item--text_block > div.two-column__body > p",
+    "x": 135,
+    "y": 6639,
+    "w": 570,
+    "h": 23,
+    "text": "Find an event near you below or join us online."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event",
+    "x": 135,
+    "y": 6742,
+    "w": 560,
+    "h": 90,
+    "text": "b2b summit north america phoenix may 2-4 2027",
+    "href": "/event/b2b-summit-north-america/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal__event > div.event-cal__event-body > h3.event-cal__event-title",
+    "x": 135,
+    "y": 6753,
+    "w": 300,
+    "h": 30,
+    "level": 3,
+    "text": "b2b summit north america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event",
+    "x": 135,
+    "y": 6831,
+    "w": 560,
+    "h": 90,
+    "text": "b2c forum west san francisco may 24-25 2027",
+    "href": "/event/b2c-west/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal__event > div.event-cal__event-body > h3.event-cal__event-title",
+    "x": 135,
+    "y": 6842,
+    "w": 183,
+    "h": 30,
+    "level": 3,
+    "text": "b2c forum west"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event",
+    "x": 135,
+    "y": 6921,
+    "w": 560,
+    "h": 90,
+    "text": "b2c forum emea amsterdam june 7-8 2027",
+    "href": "/event/b2c-emea/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal__event > div.event-cal__event-body > h3.event-cal__event-title",
+    "x": 135,
+    "y": 6932,
+    "w": 194,
+    "h": 30,
+    "level": 3,
+    "text": "b2c forum emea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event",
+    "x": 135,
+    "y": 7010,
+    "w": 560,
+    "h": 90,
+    "text": "b2c forum east new york city june 28-29 2027",
+    "href": "/event/b2c-east/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal__event > div.event-cal__event-body > h3.event-cal__event-title",
+    "x": 135,
+    "y": 7021,
+    "w": 176,
+    "h": 30,
+    "level": 3,
+    "text": "b2c forum east"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event",
+    "x": 135,
+    "y": 7099,
+    "w": 560,
+    "h": 90,
+    "text": "ai forum singapore singapore august 19 2027",
+    "href": "/event/singapore-forum/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal__event > div.event-cal__event-body > h3.event-cal__event-title",
+    "x": 135,
+    "y": 7110,
+    "w": 217,
+    "h": 30,
+    "level": 3,
+    "text": "ai forum singapore"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event",
+    "x": 745,
+    "y": 6742,
+    "w": 560,
+    "h": 90,
+    "text": "ai forum sydney sydney august 24 2027",
+    "href": "/event/sydney-forum/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal__event > div.event-cal__event-body > h3.event-cal__event-title",
+    "x": 745,
+    "y": 6753,
+    "w": 186,
+    "h": 30,
+    "level": 3,
+    "text": "ai forum sydney"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event",
+    "x": 745,
+    "y": 6831,
+    "w": 560,
+    "h": 90,
+    "text": "technology & innovation forum emea london september 27-28 2027",
+    "href": "/event/technology-innovation-emea/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal__event > div.event-cal__event-body > h3.event-cal__event-title",
+    "x": 745,
+    "y": 6842,
+    "w": 415,
+    "h": 30,
+    "level": 3,
+    "text": "technology & innovation forum emea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event",
+    "x": 745,
+    "y": 6921,
+    "w": 560,
+    "h": 90,
+    "text": "b2b summit emea london september 29-october 1 2027",
+    "href": "/event/b2b-emea/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal__event > div.event-cal__event-body > h3.event-cal__event-title",
+    "x": 745,
+    "y": 6932,
+    "w": 207,
+    "h": 30,
+    "level": 3,
+    "text": "b2b summit emea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event",
+    "x": 745,
+    "y": 7010,
+    "w": 560,
+    "h": 90,
+    "text": "technology & innovation forum chicago november 9-10 2027",
+    "href": "/event/technology-innovation/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal__event > div.event-cal__event-body > h3.event-cal__event-title",
+    "x": 745,
+    "y": 7021,
+    "w": 344,
+    "h": 30,
+    "level": 3,
+    "text": "technology & innovation forum"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.container > div.event-cal__list > a.event-cal__event",
+    "x": 745,
+    "y": 7099,
+    "w": 560,
+    "h": 90,
+    "text": "security & risk forum washington dc november 16-17 2027",
+    "href": "/event/security-risk/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal__event > div.event-cal__event-body > h3.event-cal__event-title",
+    "x": 745,
+    "y": 7110,
+    "w": 239,
+    "h": 30,
+    "level": 3,
+    "text": "security & risk forum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fbs-img-carousel.container > div.fbs-img-carousel__slick.js-fbs-img-carousel > span.slick-arrow.slick-prev",
+    "x": 135,
+    "y": 7820,
+    "w": 30,
+    "h": 30,
+    "text": "Previous"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fbs-img-carousel__img.slick-slide > div.fbs-img-carousel__img--wrapper > img.attachment-full.size-full",
+    "x": -535,
+    "y": 7309,
+    "w": 650,
+    "h": 490,
+    "text": "",
+    "file": "Carousel_image_7_evening_activities-768x"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#slick-slide00 > div.fbs-img-carousel__img--wrapper > img.attachment-full.size-full",
+    "x": 135,
+    "y": 7309,
+    "w": 650,
+    "h": 490,
+    "text": "",
+    "file": "Carousel_image_1_Keynote2x-768x579"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#slick-slide01 > div.fbs-img-carousel__img--wrapper > img.attachment-full.size-full",
+    "x": 805,
+    "y": 7309,
+    "w": 650,
+    "h": 490,
+    "text": "",
+    "file": "Carousel_image_2_Analyst_1-1-768x579"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fbs-img-carousel.container > div.fbs-img-carousel__slick.js-fbs-img-carousel > span.slick-arrow.slick-next",
+    "x": 1275,
+    "y": 7820,
+    "w": 30,
+    "h": 30,
+    "text": "Next"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.slick-dots > li.slick-active > button#slick-slide-control00",
+    "x": 185,
+    "y": 7820,
+    "w": 153,
+    "h": 30,
+    "text": "1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.slick-dots > li > button#slick-slide-control01",
+    "x": 338,
+    "y": 7820,
+    "w": 153,
+    "h": 30,
+    "text": "2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.slick-dots > li > button#slick-slide-control02",
+    "x": 491,
+    "y": 7820,
+    "w": 153,
+    "h": 30,
+    "text": "3"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.slick-dots > li > button#slick-slide-control03",
+    "x": 644,
+    "y": 7820,
+    "w": 153,
+    "h": 30,
+    "text": "4"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.slick-dots > li > button#slick-slide-control04",
+    "x": 796,
+    "y": 7820,
+    "w": 153,
+    "h": 30,
+    "text": "5"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.slick-dots > li > button#slick-slide-control05",
+    "x": 949,
+    "y": 7820,
+    "w": 153,
+    "h": 30,
+    "text": "6"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.slick-dots > li > button#slick-slide-control06",
+    "x": 1102,
+    "y": 7820,
+    "w": 153,
+    "h": 30,
+    "text": "7"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.eloqua-form__body.col-md-6 > h2.eloqua-form__title",
+    "x": 135,
+    "y": 7952,
+    "w": 570,
+    "h": 114,
+    "level": 2,
+    "text": "want the latest forrester news?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.eloqua-form__body.col-md-6 > div.eloqua-form__body-content.body-copy > p",
+    "x": 135,
+    "y": 8152,
+    "w": 570,
+    "h": 46,
+    "text": "Sign up for our Insights At Work Newsletter and get exclusive updates delivered "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form#form2069 > div.forr-form__row.dropdown > label.forr-form__label",
+    "x": 735,
+    "y": 7952,
+    "w": 570,
+    "h": 22,
+    "text": "Business Email Address*"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.forr-form__row > div.forr-form__item > label.forr-form__label",
+    "x": 735,
+    "y": 8055,
+    "w": 61,
+    "h": 22,
+    "text": "Country*"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.forr-form__row > div.forr-form__item > select#countryField",
+    "x": 735,
+    "y": 8085,
+    "w": 570,
+    "h": 42,
+    "label": "country*",
+    "value": "country",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form#form2069 > div.forr-form__row.forr-form__row--checkbox > label.forr-form__label",
+    "x": 735,
+    "y": 8157,
+    "w": 570,
+    "h": 45,
+    "text": "Yes, I’d like to receive Forrester’s Insights At Work newsletter and receive occ"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form#form2069 > div.forr-form__row.forr-form__row--submit > input.forr-cta.-primary",
+    "x": 735,
+    "y": 8240,
+    "w": 570,
+    "h": 60,
+    "text": "sign up for the newsletter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.d-flex > div.col-12.ai-prompts",
+    "x": 120,
+    "y": 8450,
+    "w": 1200,
+    "h": 202,
+    "text": "Ask AI About Working With Forrester"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-share.ai > li > a",
+    "x": 675,
+    "y": 8492,
+    "w": 40,
+    "h": 40,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-share.ai > li > a",
+    "x": 725,
+    "y": 8492,
+    "w": 40,
+    "h": 40,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-103658 > a",
+    "x": 135,
+    "y": 8659,
+    "w": 117,
+    "h": 23,
+    "text": "analyst briefings",
+    "href": "/help/analyst-briefing/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-160735 > a",
+    "x": 435,
+    "y": 8659,
+    "w": 76,
+    "h": 23,
+    "text": "newsroom",
+    "href": "/press-newsroom/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-160814 > a",
+    "x": 735,
+    "y": 8659,
+    "w": 176,
+    "h": 23,
+    "text": "complimentary webinars",
+    "href": "/webinars"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-103657 > a",
+    "x": 1035,
+    "y": 8659,
+    "w": 77,
+    "h": 23,
+    "text": "contact us",
+    "href": "/contact-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-1696 > a",
+    "x": 135,
+    "y": 8689,
+    "w": 139,
+    "h": 23,
+    "text": "investor information",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-172170 > a",
+    "x": 435,
+    "y": 8689,
+    "w": 55,
+    "h": 23,
+    "text": "careers",
+    "href": "/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-84385 > a",
+    "x": 735,
+    "y": 8689,
+    "w": 54,
+    "h": 23,
+    "text": "policies",
+    "href": "/policies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-221762 > a",
+    "x": 1035,
+    "y": 8689,
+    "w": 63,
+    "h": 23,
+    "text": "podcasts",
+    "href": "/podcasts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-97538 > a",
+    "x": 135,
+    "y": 8720,
+    "w": 85,
+    "h": 23,
+    "text": "fraud alerts",
+    "href": "/about-us/fraud-alerts/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-146409 > a",
+    "x": 435,
+    "y": 8720,
+    "w": 42,
+    "h": 23,
+    "text": "brand",
+    "href": "/brand/platform/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#menu-footer > li#menu-item-84386 > a",
+    "x": 735,
+    "y": 8720,
+    "w": 152,
+    "h": 23,
+    "text": "uk slavery statement",
+    "href": "/policies"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-none > div.col-lg-3 > img.site-logo",
+    "x": 142,
+    "y": 8775,
+    "w": 257,
+    "h": 41,
+    "text": "forrester logo",
+    "file": "forrester_logo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.colophon > div.row.colophon__subfooter > div.col-12.colophon__copyright",
+    "x": 120,
+    "y": 8926,
+    "w": 1200,
+    "h": 20,
+    "text": "© 2026 Forrester Research, Inc. and/or its subsidiaries. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.colophon__util > div.colophon__spare-links > a",
+    "x": 135,
+    "y": 8881,
+    "w": 89,
+    "h": 22,
+    "text": "terms of use",
+    "href": "/policies/terms-of-use/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.colophon__util > div.colophon__spare-links > a",
+    "x": 254,
+    "y": 8881,
+    "w": 96,
+    "h": 22,
+    "text": "privacy policy",
+    "href": "/policies/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.colophon__util > div.colophon__spare-links > button#ot-sdk-btn",
+    "x": 380,
+    "y": 8881,
+    "w": 111,
+    "h": 22,
+    "text": "cookie settings"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.colophon__social.footer-social-share > li > a",
+    "x": 1215,
+    "y": 8872,
+    "w": 40,
+    "h": 40,
+    "text": "",
+    "href": "/company/forrester-research"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.colophon__social.footer-social-share > li > a",
+    "x": 1265,
+    "y": 8872,
+    "w": 40,
+    "h": 40,
+    "text": "",
+    "href": "/user/ForresterResearch"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 198,
+    "controls": 64,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--94144fc1--aemcoder.aem.live/bold",
+  "at": "2026-11-22T11:00:18.086Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9015,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#masthead > div.site-header-brand > a",
+    "x": 15,
+    "y": 30,
+    "w": 180,
+    "h": 30,
+    "text": "forrester logo",
+    "href": "/bold"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-forrester-logo > img.site-header-logo",
+    "x": 15,
+    "y": 30,
+    "w": 180,
+    "h": 30,
+    "text": "forrester logo",
+    "file": "forrester-logo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item.has-children > a.site-nav-trigger",
+    "x": 260,
+    "y": 34,
+    "w": 103,
+    "h": 22,
+    "text": "who we serve",
+    "href": "/bold"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item.has-children > a.site-nav-trigger",
+    "x": 393,
+    "y": 34,
+    "w": 102,
+    "h": 22,
+    "text": "what we offer",
+    "href": "/bold"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item.has-children > a.site-nav-trigger",
+    "x": 526,
+    "y": 34,
+    "w": 102,
+    "h": 22,
+    "text": "how we think",
+    "href": "/bold"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item.has-children > a.site-nav-trigger",
+    "x": 657,
+    "y": 34,
+    "w": 88,
+    "h": 22,
+    "text": "who we are",
+    "href": "/bold"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item.has-children > a.site-nav-trigger",
+    "x": 775,
+    "y": 34,
+    "w": 47,
+    "h": 22,
+    "text": "events",
+    "href": "/bold"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-right > a.site-nav-login",
+    "x": 1230,
+    "y": 34,
+    "w": 43,
+    "h": 22,
+    "text": "log in",
+    "href": "/login"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-right > a.site-nav-button",
+    "x": 1303,
+    "y": 23,
+    "w": 122,
+    "h": 44,
+    "text": "talk to sales",
+    "href": "/become-a-client"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.breadcrumbs > div.l-container > p",
+    "x": 135,
+    "y": 110,
+    "w": 1170,
+    "h": 23,
+    "text": "> Forrester"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-container > p > a",
+    "x": 135,
+    "y": 110,
+    "w": 43,
+    "h": 23,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-img > picture > img",
+    "x": 634,
+    "y": 130,
+    "w": 806,
+    "h": 447,
+    "text": "",
+    "file": "media_1fe9ac6cc10274fa9033e285f72a0a8924"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-container > div.hero-inner > h1#explore-our-2027-predictions",
+    "x": 135,
+    "y": 193,
+    "w": 536,
+    "h": 166,
+    "level": 1,
+    "text": "explore our 2027 predictions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-inner > div.hero-copy > p",
+    "x": 135,
+    "y": 400,
+    "w": 536,
+    "h": 67,
+    "text": "AI is reshaping who holds control and what it costs. See what Forrester predicts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-group-row > p.button-wrapper > a.button.primary",
+    "x": 135,
+    "y": 497,
+    "w": 188,
+    "h": 60,
+    "text": "visit the hub",
+    "href": "/predictions/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-fwrow.l-row > div.l-col.l-col-md-11 > h2#empowering-leaders-driving-results-together",
+    "x": 135,
+    "y": 657,
+    "w": 1070,
+    "h": 52,
+    "level": 2,
+    "text": "empowering leaders. driving results. together."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body > p",
+    "x": 135,
+    "y": 801,
+    "w": 760,
+    "h": 92,
+    "text": "Success in business doesn’t come with a manual — especially in today’s fast-evol"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body > p",
+    "x": 135,
+    "y": 909,
+    "w": 760,
+    "h": 69,
+    "text": "Through a that blends research, consulting, and live events, we ensure you stay "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body > p",
+    "x": 135,
+    "y": 994,
+    "w": 760,
+    "h": 69,
+    "text": "With insights drawn from surveying over , Forrester consultants and analysts are"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 135,
+    "y": 1079,
+    "w": 760,
+    "h": 185,
+    "text": "",
+    "file": "media_12891d506664b941d0532e2e83df0f3c87"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-2 > div.tc-body.tc-body-lead > p",
+    "x": 955,
+    "y": 952,
+    "w": 350,
+    "h": 102,
+    "text": "Learn more about how Forrester can help you stay ahead of the curve."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-tertiary-wrap > p > a",
+    "x": 955,
+    "y": 1130,
+    "w": 145,
+    "h": 23,
+    "text": "become a client",
+    "href": "/become-a-client/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote.quote > div.quote-body > p",
+    "x": 135,
+    "y": 1393,
+    "w": 570,
+    "h": 190,
+    "text": "It’s not just about the stats and the benchmarks and the research. Forrester int"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote.quote > div.quote-cite > p",
+    "x": 135,
+    "y": 1623,
+    "w": 570,
+    "h": 48,
+    "text": "— SVP, Commercial Operations & Marketing, Dun & Bradstreet"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-fwrow.l-row > div.l-col.l-col-md-9 > h2#value-at-every-altitude",
+    "x": 135,
+    "y": 1751,
+    "w": 870,
+    "h": 52,
+    "level": 2,
+    "text": "value at every altitude"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-col.l-col-md-9 > div.tc-body > p",
+    "x": 135,
+    "y": 1823,
+    "w": 870,
+    "h": 46,
+    "text": "When you choose a research partner, you need support that aligns the enterprise,"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-row.l-row-start > div.tc-col.tc-col-1 > h3#enterprise-alignment",
+    "x": 135,
+    "y": 1949,
+    "w": 370,
+    "h": 64,
+    "level": 3,
+    "text": "enterprise alignment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body > p",
+    "x": 135,
+    "y": 2033,
+    "w": 370,
+    "h": 69,
+    "text": "Helping leaders align priorities across the organization — from AI and risk mana"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-row.l-row-start > div.tc-col.tc-col-2 > h3#functional-acceleration",
+    "x": 535,
+    "y": 1949,
+    "w": 370,
+    "h": 64,
+    "level": 3,
+    "text": "functional acceleration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-2 > div.tc-body > p",
+    "x": 535,
+    "y": 2033,
+    "w": 370,
+    "h": 69,
+    "text": "Helping teams move critical initiatives forward faster with actionable research,"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-row.l-row-start > div.tc-col.tc-col-3 > h3#individual-advancement",
+    "x": 935,
+    "y": 1949,
+    "w": 370,
+    "h": 64,
+    "level": 3,
+    "text": "individual advancement"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-3 > div.tc-body > p",
+    "x": 935,
+    "y": 2033,
+    "w": 370,
+    "h": 69,
+    "text": "Helping professionals grow at every stage of their career through certifications"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-col.l-col-md-9 > div.tc-body > p",
+    "x": 135,
+    "y": 2152,
+    "w": 870,
+    "h": 23,
+    "text": "Rely on Forrester for value in all seasons and at all moments — from strategy to"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-button > p.button-wrapper > a.button.primary",
+    "x": 135,
+    "y": 2195,
+    "w": 188,
+    "h": 60,
+    "text": "learn more",
+    "href": "/research/forrester-decisions/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-bg > picture > img",
+    "x": 0,
+    "y": 2335,
+    "w": 1440,
+    "h": 490,
+    "text": "",
+    "file": "media_1877d97e4497395ed49a9709c212087fb5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-row.l-row-center > div.tc-col.tc-col-1 > h3#bring-forrester-ai-into-the-way-you-work",
+    "x": 135,
+    "y": 2425,
+    "w": 570,
+    "h": 132,
+    "level": 3,
+    "text": "bring forrester ai into the way you work"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body > p",
+    "x": 135,
+    "y": 2597,
+    "w": 570,
+    "h": 69,
+    "text": "Get trusted Forrester research, data, and advice in the tools you use every day."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-button > p.button-wrapper > a.button.primary",
+    "x": 135,
+    "y": 2686,
+    "w": 371,
+    "h": 60,
+    "text": "explore forrester ai where you work",
+    "href": "/research/ai-where-you-work/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-fwrow.l-row > div.l-col.l-col-md-9 > h2#trusted-by-industry-leaders",
+    "x": 135,
+    "y": 2865,
+    "w": 870,
+    "h": 52,
+    "level": 2,
+    "text": "trusted by industry leaders"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body.tc-body-lead > p",
+    "x": 135,
+    "y": 2977,
+    "w": 570,
+    "h": 170,
+    "text": "When organizations aim to conquer the complexity of today’s market, they turn to"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body.tc-body-lead > p",
+    "x": 135,
+    "y": 3169,
+    "w": 570,
+    "h": 102,
+    "text": "Our services align enterprises to act fast and effectively across critical funct"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body.tc-body-lead > p",
+    "x": 135,
+    "y": 3293,
+    "w": 570,
+    "h": 102,
+    "text": "; ; ;"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body.tc-body-lead > p > a",
+    "x": 267,
+    "y": 3294,
+    "w": 198,
+    "h": 31,
+    "text": "data, ai & analytics",
+    "href": "/technology/data-ai-leaders/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body.tc-body-lead > p > a",
+    "x": 477,
+    "y": 3294,
+    "w": 151,
+    "h": 31,
+    "text": "security & risk",
+    "href": "/technology/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body.tc-body-lead > p > a",
+    "x": 135,
+    "y": 3328,
+    "w": 357,
+    "h": 31,
+    "text": "technology architecture & delivery",
+    "href": "/technology/architecture-delivery/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body.tc-body-lead > p > a",
+    "x": 135,
+    "y": 3328,
+    "w": 485,
+    "h": 65,
+    "text": "technology executives",
+    "href": "/technology/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body.tc-body-lead > p",
+    "x": 135,
+    "y": 3417,
+    "w": 570,
+    "h": 34,
+    "text": "; ;"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body.tc-body-lead > p > a",
+    "x": 191,
+    "y": 3418,
+    "w": 101,
+    "h": 31,
+    "text": "marketing",
+    "href": "/b2b-marketing/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body.tc-body-lead > p > a",
+    "x": 304,
+    "y": 3418,
+    "w": 79,
+    "h": 31,
+    "text": "product",
+    "href": "/product-management/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body.tc-body-lead > p > a",
+    "x": 394,
+    "y": 3418,
+    "w": 89,
+    "h": 31,
+    "text": "revenue",
+    "href": "/sales/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body.tc-body-lead > p",
+    "x": 135,
+    "y": 3473,
+    "w": 570,
+    "h": 68,
+    "text": "; ;"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body.tc-body-lead > p > a",
+    "x": 254,
+    "y": 3474,
+    "w": 218,
+    "h": 31,
+    "text": "customer experience",
+    "href": "/customer-experience/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body.tc-body-lead > p > a",
+    "x": 484,
+    "y": 3474,
+    "w": 161,
+    "h": 31,
+    "text": "digital business",
+    "href": "/digital-business/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body.tc-body-lead > p > a",
+    "x": 135,
+    "y": 3508,
+    "w": 101,
+    "h": 31,
+    "text": "marketing",
+    "href": "/b2c-marketing/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body.tc-body-lead > p",
+    "x": 135,
+    "y": 3563,
+    "w": 570,
+    "h": 102,
+    "text": "Forrester Decisions delivers measurable impact, boasting a 259% ROI and revenue "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-button > p.button-wrapper > a.button.secondary",
+    "x": 135,
+    "y": 3685,
+    "w": 260,
+    "h": 62,
+    "text": "read the full roi report",
+    "href": "/research/roi-forrester-decisions/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-col.l-col-md-9 > div.tc-body.tc-body-lead > p",
+    "x": 135,
+    "y": 3797,
+    "w": 870,
+    "h": 68,
+    "text": "At the core of how we deliver this value is Forrester Decisions — our integrated"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc.eyebrow > div.eyebrow-tab > h2#research",
+    "x": 0,
+    "y": 3985,
+    "w": 1080,
+    "h": 62,
+    "level": 2,
+    "text": "research"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.eyebrow-tab > h2#research > span",
+    "x": 60,
+    "y": 3985,
+    "w": 185,
+    "h": 62,
+    "text": "Research"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-fwrow.l-row > div.l-col.l-col-md-11 > h2#forrester-decisions-deliver-better-outcomes-faster",
+    "x": 135,
+    "y": 4115,
+    "w": 1070,
+    "h": 104,
+    "level": 2,
+    "text": "forrester decisions: deliver better outcomes faster"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-col.l-col-md-11 > div.tc-body > p",
+    "x": 135,
+    "y": 4239,
+    "w": 1070,
+    "h": 46,
+    "text": "With Forrester Decisions, you gain the actionable guidance you need to drive str"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > p > strong",
+    "x": 135,
+    "y": 4301,
+    "w": 263,
+    "h": 23,
+    "text": "Benefits for your business include:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 4340,
+    "w": 1054,
+    "h": 23,
+    "text": "backed by data and expert validation."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 4372,
+    "w": 1054,
+    "h": 23,
+    "text": "and streamlined alignment across teams for speedier impact."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 4403,
+    "w": 1054,
+    "h": 23,
+    "text": "with insights designed to unlock lasting value and drive results."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 135,
+    "y": 4506,
+    "w": 370,
+    "h": 188,
+    "text": "",
+    "file": "media_1c93411f9f6765d15d8b857326e6162fd9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body > h2#inform-your-perspective",
+    "x": 135,
+    "y": 4727,
+    "w": 370,
+    "h": 34,
+    "level": 2,
+    "text": "inform your perspective"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 4777,
+    "w": 354,
+    "h": 22,
+    "text": "Analyst guidance sessions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 4807,
+    "w": 354,
+    "h": 22,
+    "text": "Survey data from more than 500,000 respondents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 4837,
+    "w": 354,
+    "h": 45,
+    "text": "Forrester Wave™ evaluations and market landscapes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 4890,
+    "w": 354,
+    "h": 22,
+    "text": "Buyer Insights analysis"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 4921,
+    "w": 354,
+    "h": 22,
+    "text": "Industry forecasts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 4951,
+    "w": 354,
+    "h": 45,
+    "text": "Streamlined research reports powered by Forrester AI"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 5004,
+    "w": 354,
+    "h": 22,
+    "text": "The Forrester Take weekly newsletter"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 535,
+    "y": 4506,
+    "w": 370,
+    "h": 188,
+    "text": "",
+    "file": "media_1106f4a549608552c4b8235b4fe2832d06"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-2 > div.tc-body > h2#sharpen-your-skills",
+    "x": 535,
+    "y": 4727,
+    "w": 370,
+    "h": 34,
+    "level": 2,
+    "text": "sharpen your skills"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 551,
+    "y": 4777,
+    "w": 354,
+    "h": 22,
+    "text": "Budget Planning Guides and toolkits"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 551,
+    "y": 4807,
+    "w": 354,
+    "h": 22,
+    "text": "Strategic models and frameworks"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 551,
+    "y": 4837,
+    "w": 354,
+    "h": 22,
+    "text": "Detailed assessments"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 551,
+    "y": 4868,
+    "w": 354,
+    "h": 22,
+    "text": "Certification programs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 551,
+    "y": 4898,
+    "w": 354,
+    "h": 22,
+    "text": "Initiative blueprints"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 935,
+    "y": 4506,
+    "w": 370,
+    "h": 188,
+    "text": "",
+    "file": "media_17e0da5e55881fd707e5d50d6b883c6e7a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-3 > div.tc-body > h2#develop-authentic-connections",
+    "x": 935,
+    "y": 4727,
+    "w": 370,
+    "h": 68,
+    "level": 2,
+    "text": "develop authentic connections"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 951,
+    "y": 4811,
+    "w": 354,
+    "h": 22,
+    "text": "Live events and conferences"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 951,
+    "y": 4841,
+    "w": 354,
+    "h": 22,
+    "text": "Peer discussions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 951,
+    "y": 4871,
+    "w": 354,
+    "h": 22,
+    "text": "Client-only webinars"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 951,
+    "y": 4902,
+    "w": 354,
+    "h": 22,
+    "text": "Executive Leadership Exchange"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 951,
+    "y": 4932,
+    "w": 354,
+    "h": 22,
+    "text": "Women’s Leadership Program"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-button > p.button-wrapper > a.button.primary",
+    "x": 135,
+    "y": 5135,
+    "w": 381,
+    "h": 60,
+    "text": "learn more about forrester decisions",
+    "href": "/research/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc.eyebrow > div.eyebrow-tab > h2#consulting",
+    "x": 0,
+    "y": 5355,
+    "w": 1080,
+    "h": 62,
+    "level": 2,
+    "text": "consulting"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.eyebrow-tab > h2#consulting > span",
+    "x": 60,
+    "y": 5355,
+    "w": 220,
+    "h": 62,
+    "text": "Consulting"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-fwrow.l-row > div.l-col.l-col-md-11 > h2#turn-insights-into-measurable-outcomes",
+    "x": 135,
+    "y": 5485,
+    "w": 1070,
+    "h": 52,
+    "level": 2,
+    "text": "turn insights into measurable outcomes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-col.l-col-md-11 > div.tc-body > p",
+    "x": 135,
+    "y": 5557,
+    "w": 1070,
+    "h": 115,
+    "text": "In today’s AI-driven buying journey, content plays a more critical role than eve"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-col.tc-col-1 > div.tc-body > p",
+    "x": 135,
+    "y": 5722,
+    "w": 570,
+    "h": 115,
+    "text": "Led by Forrester Consulting, commissioned Demand Generation consulting engagemen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > p > a",
+    "x": 273,
+    "y": 5791,
+    "w": 250,
+    "h": 22,
+    "text": "objectivity and integrity standards",
+    "href": "/about-us/objectivity/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 5853,
+    "w": 554,
+    "h": 46,
+    "text": "of buyers found commissioned Forrester content helpful for both research and fin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 5907,
+    "w": 554,
+    "h": 46,
+    "text": "of global decision-makers have consumed Forrester-commissioned content during th"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 5961,
+    "w": 554,
+    "h": 46,
+    "text": "of buyers are more likely to trust content that is backed up by objective, third"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-button > p.button-wrapper > a.button.primary",
+    "x": 135,
+    "y": 6065,
+    "w": 500,
+    "h": 60,
+    "text": "explore advisory and demand generation offerings",
+    "href": "/consulting/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote.quote > div.quote-body > p",
+    "x": 735,
+    "y": 5823,
+    "w": 570,
+    "h": 114,
+    "text": "Forrester’s consultants are knowledgeable and very much dedicated to delivering "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote.quote > div.quote-cite > p",
+    "x": 735,
+    "y": 5977,
+    "w": 570,
+    "h": 48,
+    "text": "— CIO and Deputy COO, Saudi Awwal Bank"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc.gray > div.eyebrow-tab > h2#events",
+    "x": 0,
+    "y": 6205,
+    "w": 1080,
+    "h": 62,
+    "level": 2,
+    "text": "events"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.eyebrow-tab > h2#events > span",
+    "x": 60,
+    "y": 6205,
+    "w": 140,
+    "h": 62,
+    "text": "Events"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-fwrow.l-row > div.l-col.l-col-md-11 > h2#powerful-gatherings-proven-outcomes",
+    "x": 135,
+    "y": 6335,
+    "w": 1070,
+    "h": 52,
+    "level": 2,
+    "text": "powerful gatherings, proven outcomes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-col.l-col-md-11 > div.tc-body > p",
+    "x": 135,
+    "y": 6407,
+    "w": 1070,
+    "h": 46,
+    "text": "Nothing accelerates innovation like face-to-face collaboration. Forrester events"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-col.l-col-md-11 > div.tc-body > p",
+    "x": 135,
+    "y": 6463,
+    "w": 1070,
+    "h": 23,
+    "text": "At our events, you’ll:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 6502,
+    "w": 1054,
+    "h": 23,
+    "text": "Be inspired by keynotes."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 6534,
+    "w": 1054,
+    "h": 23,
+    "text": "Forge with industry leaders."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 6565,
+    "w": 1054,
+    "h": 23,
+    "text": "Gain in analyst one-on-ones."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tc-body > ul > li",
+    "x": 151,
+    "y": 6597,
+    "w": 1054,
+    "h": 23,
+    "text": "Head home with from hands-on sessions."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-col.l-col-md-11 > div.tc-body > p",
+    "x": 135,
+    "y": 6636,
+    "w": 1070,
+    "h": 23,
+    "text": "Find an event near you below or join us online."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event",
+    "x": 135,
+    "y": 6779,
+    "w": 560,
+    "h": 90,
+    "text": "b2b summit north america phoenix may 2-4 2027",
+    "href": "/event/b2b-summit-north-america/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal-event > div.event-cal-body > h3#b2b-summit-north-america",
+    "x": 135,
+    "y": 6790,
+    "w": 300,
+    "h": 30,
+    "level": 3,
+    "text": "b2b summit north america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event",
+    "x": 135,
+    "y": 6868,
+    "w": 560,
+    "h": 90,
+    "text": "b2c forum west san francisco may 24-25 2027",
+    "href": "/event/b2c-west/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal-event > div.event-cal-body > h3#b2c-forum-west",
+    "x": 135,
+    "y": 6879,
+    "w": 183,
+    "h": 30,
+    "level": 3,
+    "text": "b2c forum west"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event",
+    "x": 135,
+    "y": 6958,
+    "w": 560,
+    "h": 90,
+    "text": "b2c forum emea amsterdam june 7-8 2027",
+    "href": "/event/b2c-emea/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal-event > div.event-cal-body > h3#b2c-forum-emea",
+    "x": 135,
+    "y": 6969,
+    "w": 194,
+    "h": 30,
+    "level": 3,
+    "text": "b2c forum emea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event",
+    "x": 135,
+    "y": 7047,
+    "w": 560,
+    "h": 90,
+    "text": "b2c forum east new york city june 28-29 2027",
+    "href": "/event/b2c-east/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal-event > div.event-cal-body > h3#b2c-forum-east",
+    "x": 135,
+    "y": 7058,
+    "w": 176,
+    "h": 30,
+    "level": 3,
+    "text": "b2c forum east"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event",
+    "x": 135,
+    "y": 7137,
+    "w": 560,
+    "h": 90,
+    "text": "ai forum singapore singapore august 19 2027",
+    "href": "/event/singapore-forum/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal-event > div.event-cal-body > h3#ai-forum-singapore",
+    "x": 135,
+    "y": 7148,
+    "w": 217,
+    "h": 30,
+    "level": 3,
+    "text": "ai forum singapore"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event",
+    "x": 745,
+    "y": 6779,
+    "w": 560,
+    "h": 90,
+    "text": "ai forum sydney sydney august 24 2027",
+    "href": "/event/sydney-forum/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal-event > div.event-cal-body > h3#ai-forum-sydney",
+    "x": 745,
+    "y": 6790,
+    "w": 186,
+    "h": 30,
+    "level": 3,
+    "text": "ai forum sydney"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event",
+    "x": 745,
+    "y": 6868,
+    "w": 560,
+    "h": 90,
+    "text": "technology & innovation forum emea london september 27-28 2027",
+    "href": "/event/technology-innovation-emea/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal-event > div.event-cal-body > h3#technology--innovation-forum-emea",
+    "x": 745,
+    "y": 6879,
+    "w": 415,
+    "h": 30,
+    "level": 3,
+    "text": "technology & innovation forum emea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event",
+    "x": 745,
+    "y": 6958,
+    "w": 560,
+    "h": 90,
+    "text": "b2b summit emea london september 29-october 1 2027",
+    "href": "/event/b2b-emea/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal-event > div.event-cal-body > h3#b2b-summit-emea",
+    "x": 745,
+    "y": 6969,
+    "w": 207,
+    "h": 30,
+    "level": 3,
+    "text": "b2b summit emea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event",
+    "x": 745,
+    "y": 7047,
+    "w": 560,
+    "h": 90,
+    "text": "technology & innovation forum chicago november 9-10 2027",
+    "href": "/event/technology-innovation/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal-event > div.event-cal-body > h3#technology--innovation-forum",
+    "x": 745,
+    "y": 7058,
+    "w": 344,
+    "h": 30,
+    "level": 3,
+    "text": "technology & innovation forum"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-cal.l-container > div.event-cal-list > a.event-cal-event",
+    "x": 745,
+    "y": 7137,
+    "w": 560,
+    "h": 90,
+    "text": "security & risk forum washington dc november 16-17 2027",
+    "href": "/event/security-risk/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.event-cal-event > div.event-cal-body > h3#security--risk-forum",
+    "x": 745,
+    "y": 7148,
+    "w": 239,
+    "h": 30,
+    "level": 3,
+    "text": "security & risk forum"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel-wrap.l-container > div.carousel-slider > span.carousel-arrow.carousel-arrow-prev",
+    "x": 135,
+    "y": 7858,
+    "w": 30,
+    "h": 30,
+    "text": "previous"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel-frame > picture > img",
+    "x": -535,
+    "y": 7346,
+    "w": 650,
+    "h": 490,
+    "text": "",
+    "file": "media_14ecdb65b6dcf2cdb540af89ba0332f661"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel-frame > picture > img",
+    "x": 135,
+    "y": 7346,
+    "w": 650,
+    "h": 490,
+    "text": "",
+    "file": "media_1b92591c54557bb363346ca2c35732a3bf"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel-frame > picture > img",
+    "x": 805,
+    "y": 7346,
+    "w": 650,
+    "h": 490,
+    "text": "",
+    "file": "media_1a6b6dc35645e23bd3c3b6de82bbb62b27"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel-wrap.l-container > div.carousel-slider > span.carousel-arrow.carousel-arrow-next",
+    "x": 1275,
+    "y": 7858,
+    "w": 30,
+    "h": 30,
+    "text": "next"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li.slick-active > button",
+    "x": 185,
+    "y": 7858,
+    "w": 153,
+    "h": 30,
+    "text": "1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button",
+    "x": 338,
+    "y": 7858,
+    "w": 153,
+    "h": 30,
+    "text": "2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button",
+    "x": 491,
+    "y": 7858,
+    "w": 153,
+    "h": 30,
+    "text": "3"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button",
+    "x": 644,
+    "y": 7858,
+    "w": 153,
+    "h": 30,
+    "text": "4"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button",
+    "x": 796,
+    "y": 7858,
+    "w": 153,
+    "h": 30,
+    "text": "5"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button",
+    "x": 949,
+    "y": 7858,
+    "w": 153,
+    "h": 30,
+    "text": "6"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button",
+    "x": 1102,
+    "y": 7858,
+    "w": 153,
+    "h": 30,
+    "text": "7"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.l-row > div.newsletter-body.l-col > h2#want-the-latest-forrester-news",
+    "x": 135,
+    "y": 7991,
+    "w": 570,
+    "h": 114,
+    "level": 2,
+    "text": "want the latest forrester news?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.newsletter-body.l-col > div.newsletter-content > p",
+    "x": 135,
+    "y": 8191,
+    "w": 570,
+    "h": 46,
+    "text": "Sign up for our Insights At Work Newsletter and get exclusive updates delivered "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-row.form-row-stack > div.form-label > p#nl-email-1-label",
+    "x": 735,
+    "y": 7991,
+    "w": 570,
+    "h": 22,
+    "text": "Business Email Address*"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-item > div.form-label > p#nl-country-2-label",
+    "x": 735,
+    "y": 8094,
+    "w": 61,
+    "h": 22,
+    "text": "Country*"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-row > div.form-item > select#nl-country-2",
+    "x": 735,
+    "y": 8124,
+    "w": 570,
+    "h": 42,
+    "label": "country*",
+    "value": "country",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.form-row.form-row-checkbox > label.form-label > p",
+    "x": 787,
+    "y": 8196,
+    "w": 518,
+    "h": 45,
+    "text": "Yes, I’d like to receive Forrester’s Insights At Work newsletter and receive occ"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.form > div.form-row.form-row-submit > input.form-submit",
+    "x": 735,
+    "y": 8279,
+    "w": 570,
+    "h": 60,
+    "text": "sign up for the newsletter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.l-row.l-row-justify-center > div.l-col.l-col-12 > p",
+    "x": 135,
+    "y": 8489,
+    "w": 1170,
+    "h": 22,
+    "text": "Ask AI About Working With Forrester"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.social.social-ai > li > a",
+    "x": 675,
+    "y": 8531,
+    "w": 40,
+    "h": 40,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-openai > img",
+    "x": 683,
+    "y": 8539,
+    "w": 25,
+    "h": 25,
+    "text": "",
+    "file": "openai"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.social.social-ai > li > a",
+    "x": 725,
+    "y": 8531,
+    "w": 40,
+    "h": 40,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-perplexity > img",
+    "x": 733,
+    "y": 8539,
+    "w": 25,
+    "h": 25,
+    "text": "",
+    "file": "perplexity"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 135,
+    "y": 8699,
+    "w": 117,
+    "h": 22,
+    "text": "analyst briefings",
+    "href": "/help/analyst-briefing/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 435,
+    "y": 8699,
+    "w": 76,
+    "h": 22,
+    "text": "newsroom",
+    "href": "/press-newsroom/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 735,
+    "y": 8699,
+    "w": 176,
+    "h": 22,
+    "text": "complimentary webinars",
+    "href": "/webinars"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 1035,
+    "y": 8699,
+    "w": 77,
+    "h": 22,
+    "text": "contact us",
+    "href": "/contact-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 135,
+    "y": 8730,
+    "w": 139,
+    "h": 22,
+    "text": "investor information",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 435,
+    "y": 8730,
+    "w": 55,
+    "h": 22,
+    "text": "careers",
+    "href": "/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 735,
+    "y": 8730,
+    "w": 54,
+    "h": 22,
+    "text": "policies",
+    "href": "/policies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 1035,
+    "y": 8730,
+    "w": 63,
+    "h": 22,
+    "text": "podcasts",
+    "href": "/podcasts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 135,
+    "y": 8760,
+    "w": 85,
+    "h": 22,
+    "text": "fraud alerts",
+    "href": "/about-us/fraud-alerts/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 435,
+    "y": 8760,
+    "w": 42,
+    "h": 22,
+    "text": "brand",
+    "href": "/brand/platform/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-menu.l-row > li > a",
+    "x": 735,
+    "y": 8760,
+    "w": 152,
+    "h": 22,
+    "text": "uk slavery statement",
+    "href": "/policies"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "p.site-footer-logo > span.icon.icon-forrester-logo > img",
+    "x": 142,
+    "y": 8814,
+    "w": 257,
+    "h": 41,
+    "text": "forrester logo",
+    "file": "forrester-logo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.l-row.colophon-subfooter > div.l-col.l-col-12 > p",
+    "x": 135,
+    "y": 8965,
+    "w": 1170,
+    "h": 20,
+    "text": "© 2026 Forrester Research, Inc. and/or its subsidiaries. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.colophon-links > li > a",
+    "x": 135,
+    "y": 8920,
+    "w": 89,
+    "h": 22,
+    "text": "terms of use",
+    "href": "/policies/terms-of-use/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.colophon-links > li > a",
+    "x": 254,
+    "y": 8920,
+    "w": 96,
+    "h": 22,
+    "text": "privacy policy",
+    "href": "/policies/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.colophon-links > li > button.colophon-cookie",
+    "x": 380,
+    "y": 8920,
+    "w": 111,
+    "h": 22,
+    "text": "cookie settings"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.social.colophon-social > li > a",
+    "x": 1215,
+    "y": 8911,
+    "w": 40,
+    "h": 40,
+    "text": "",
+    "href": "/company/forrester-research"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-linkedin > img",
+    "x": 1223,
+    "y": 8921,
+    "w": 24,
+    "h": 20,
+    "text": "",
+    "file": "linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.social.colophon-social > li > a",
+    "x": 1265,
+    "y": 8911,
+    "w": 40,
+    "h": 40,
+    "text": "",
+    "href": "/user/ForresterResearch"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-youtube > img",
+    "x": 1273,
+    "y": 8921,
+    "w": 24,
+    "h": 20,
+    "text": "",
+    "file": "youtube"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 198,
+    "controls": 66,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "explore our 2027 predictions",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "empowering leaders. driving results. together.",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 7,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "value at every altitude",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "enterprise alignment",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "functional acceleration",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "individual advancement",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 4,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "bring forrester ai into the way you work",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "trusted by industry leaders",
+   "variable": false,
+   "origin": {
+    "link": 11,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 11,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "research",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "forrester decisions: deliver better outcomes faster",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 11,
+   "heading": "inform your perspective",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "sharpen your skills",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "develop authentic connections",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 17,
+    "image": 3
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 17,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 14,
+   "heading": "consulting",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "turn insights into measurable outcomes",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "events",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "powerful gatherings, proven outcomes",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "b2b summit north america",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "ai forum sydney",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "b2c forum west",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 21,
+   "heading": "technology & innovation forum emea",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 22,
+   "heading": "b2c forum emea",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 23,
+   "heading": "b2b summit emea",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 24,
+   "heading": "b2c forum east",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 25,
+   "heading": "technology & innovation forum",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 26,
+   "heading": "ai forum singapore",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 27,
+   "heading": "security & risk forum",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 7,
+    "text": 2,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 9,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 1
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 28,
+   "heading": "want the latest forrester news?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"forrester decisions: deliver better outcomes faster\": 0 origin → 3 served visible",
+   "band": 10,
+   "origin": 0,
+   "eds": 3,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"develop authentic connections\": 3 origin → 0 served visible",
+   "band": 13,
+   "origin": 3,
+   "eds": 0,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"previous\" served in band \"security & risk forum\", no origin link or button",
+   "band": 27,
+   "n": 1,
+   "text": "previous"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"next\" served in band \"security & risk forum\", no origin link or button",
+   "band": 27,
+   "n": 1,
+   "text": "next"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 2,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 4,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 260,
+    "y": 33,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 393,
+    "y": 33,
+    "w": 102,
+    "h": 23
+   },
+   {
+    "x": 526,
+    "y": 33,
+    "w": 102,
+    "h": 23
+   },
+   {
+    "x": 657,
+    "y": 33,
+    "w": 88,
+    "h": 23
+   },
+   {
+    "x": 775,
+    "y": 33,
+    "w": 47,
+    "h": 23
+   },
+   {
+    "x": 1240,
+    "y": 33,
+    "w": 43,
+    "h": 23
+   },
+   {
+    "x": 1329,
+    "y": 33,
+    "w": 80,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 109,
+    "w": 43,
+    "h": 23
+   },
+   {
+    "x": 178,
+    "y": 109,
+    "w": 80,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 181,
+    "w": 496,
+    "h": 90
+   },
+   {
+    "x": 135,
+    "y": 250,
+    "w": 316,
+    "h": 90
+   },
+   {
+    "x": 135,
+    "y": 398,
+    "w": 495,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 420,
+    "w": 496,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 443,
+    "w": 392,
+    "h": 23
+   },
+   {
+    "x": 173,
+    "y": 514,
+    "w": 111,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 648,
+    "w": 992,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 800,
+    "w": 758,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 823,
+    "w": 711,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 846,
+    "w": 744,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 869,
+    "w": 387,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 908,
+    "w": 80,
+    "h": 23
+   },
+   {
+    "x": 215,
+    "y": 908,
+    "w": 268,
+    "h": 23
+   },
+   {
+    "x": 482,
+    "y": 908,
+    "w": 391,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 931,
+    "w": 715,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 954,
+    "w": 462,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 993,
+    "w": 300,
+    "h": 23
+   },
+   {
+    "x": 435,
+    "y": 993,
+    "w": 447,
+    "h": 23
+   },
+   {
+    "x": 882,
+    "y": 993,
+    "w": 4,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 1016,
+    "w": 742,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 1039,
+    "w": 448,
+    "h": 23
+   },
+   {
+    "x": 955,
+    "y": 951,
+    "w": 327,
+    "h": 33
+   },
+   {
+    "x": 955,
+    "y": 985,
+    "w": 312,
+    "h": 33
+   },
+   {
+    "x": 955,
+    "y": 1019,
+    "w": 62,
+    "h": 33
+   },
+   {
+    "x": 955,
+    "y": 1128,
+    "w": 117,
+    "h": 23
+   },
+   {
+    "x": 134,
+    "y": 1382,
+    "w": 569,
+    "h": 38
+   },
+   {
+    "x": 135,
+    "y": 1420,
+    "w": 449,
+    "h": 38
+   },
+   {
+    "x": 135,
+    "y": 1458,
+    "w": 530,
+    "h": 38
+   },
+   {
+    "x": 135,
+    "y": 1496,
+    "w": 532,
+    "h": 38
+   },
+   {
+    "x": 135,
+    "y": 1534,
+    "w": 332,
+    "h": 38
+   },
+   {
+    "x": 135,
+    "y": 1611,
+    "w": 20,
+    "h": 26
+   },
+   {
+    "x": 155,
+    "y": 1611,
+    "w": 82,
+    "h": 26
+   },
+   {
+    "x": 135,
+    "y": 1636,
+    "w": 474,
+    "h": 26
+   },
+   {
+    "x": 135,
+    "y": 1733,
+    "w": 479,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 1813,
+    "w": 830,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 1836,
+    "w": 191,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 1932,
+    "w": 306,
+    "h": 47
+   },
+   {
+    "x": 135,
+    "y": 2023,
+    "w": 307,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 2046,
+    "w": 350,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 2069,
+    "w": 170,
+    "h": 23
+   },
+   {
+    "x": 535,
+    "y": 1932,
+    "w": 343,
+    "h": 47
+   },
+   {
+    "x": 535,
+    "y": 2023,
+    "w": 340,
+    "h": 23
+   },
+   {
+    "x": 535,
+    "y": 2046,
+    "w": 359,
+    "h": 23
+   },
+   {
+    "x": 535,
+    "y": 2069,
+    "w": 72,
+    "h": 23
+   },
+   {
+    "x": 935,
+    "y": 1932,
+    "w": 351,
+    "h": 47
+   },
+   {
+    "x": 935,
+    "y": 2023,
+    "w": 368,
+    "h": 23
+   },
+   {
+    "x": 935,
+    "y": 2046,
+    "w": 302,
+    "h": 23
+   },
+   {
+    "x": 935,
+    "y": 2069,
+    "w": 163,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 2142,
+    "w": 791,
+    "h": 23
+   },
+   {
+    "x": 179,
+    "y": 2203,
+    "w": 100,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 2405,
+    "w": 484,
+    "h": 70
+   },
+   {
+    "x": 135,
+    "y": 2456,
+    "w": 405,
+    "h": 70
+   },
+   {
+    "x": 135,
+    "y": 2587,
+    "w": 549,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 2610,
+    "w": 512,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 2633,
+    "w": 244,
+    "h": 23
+   },
+   {
+    "x": 155,
+    "y": 2694,
+    "w": 331,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 2847,
+    "w": 582,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 2967,
+    "w": 539,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3002,
+    "w": 386,
+    "h": 33
+   },
+   {
+    "x": 521,
+    "y": 3002,
+    "w": 165,
+    "h": 32
+   },
+   {
+    "x": 135,
+    "y": 3037,
+    "w": 498,
+    "h": 32
+   },
+   {
+    "x": 135,
+    "y": 3072,
+    "w": 546,
+    "h": 32
+   },
+   {
+    "x": 135,
+    "y": 3107,
+    "w": 195,
+    "h": 32
+   },
+   {
+    "x": 135,
+    "y": 3163,
+    "w": 564,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3197,
+    "w": 561,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3231,
+    "w": 271,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3288,
+    "w": 126,
+    "h": 32
+   },
+   {
+    "x": 267,
+    "y": 3288,
+    "w": 198,
+    "h": 33
+   },
+   {
+    "x": 465,
+    "y": 3288,
+    "w": 12,
+    "h": 33
+   },
+   {
+    "x": 477,
+    "y": 3288,
+    "w": 151,
+    "h": 33
+   },
+   {
+    "x": 628,
+    "y": 3288,
+    "w": 6,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3322,
+    "w": 357,
+    "h": 33
+   },
+   {
+    "x": 492,
+    "y": 3322,
+    "w": 12,
+    "h": 33
+   },
+   {
+    "x": 504,
+    "y": 3322,
+    "w": 116,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3356,
+    "w": 108,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3413,
+    "w": 50,
+    "h": 32
+   },
+   {
+    "x": 191,
+    "y": 3413,
+    "w": 101,
+    "h": 33
+   },
+   {
+    "x": 292,
+    "y": 3413,
+    "w": 12,
+    "h": 33
+   },
+   {
+    "x": 304,
+    "y": 3413,
+    "w": 79,
+    "h": 33
+   },
+   {
+    "x": 383,
+    "y": 3413,
+    "w": 12,
+    "h": 33
+   },
+   {
+    "x": 394,
+    "y": 3413,
+    "w": 89,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3470,
+    "w": 113,
+    "h": 32
+   },
+   {
+    "x": 254,
+    "y": 3470,
+    "w": 218,
+    "h": 33
+   },
+   {
+    "x": 472,
+    "y": 3470,
+    "w": 12,
+    "h": 33
+   },
+   {
+    "x": 484,
+    "y": 3470,
+    "w": 161,
+    "h": 33
+   },
+   {
+    "x": 645,
+    "y": 3470,
+    "w": 6,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3504,
+    "w": 101,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3560,
+    "w": 488,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3594,
+    "w": 564,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3628,
+    "w": 61,
+    "h": 33
+   },
+   {
+    "x": 158,
+    "y": 3701,
+    "w": 214,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 3794,
+    "w": 803,
+    "h": 33
+   },
+   {
+    "x": 135,
+    "y": 3828,
+    "w": 366,
+    "h": 33
+   },
+   {
+    "x": 60,
+    "y": 3989,
+    "w": 165,
+    "h": 47
+   },
+   {
+    "x": 135,
+    "y": 4104,
+    "w": 941,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 4156,
+    "w": 131,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 4236,
+    "w": 1047,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 4259,
+    "w": 923,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 4298,
+    "w": 263,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4336,
+    "w": 140,
+    "h": 23
+   },
+   {
+    "x": 291,
+    "y": 4336,
+    "w": 266,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4366,
+    "w": 120,
+    "h": 23
+   },
+   {
+    "x": 271,
+    "y": 4366,
+    "w": 430,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4397,
+    "w": 138,
+    "h": 23
+   },
+   {
+    "x": 289,
+    "y": 4397,
+    "w": 444,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 4729,
+    "w": 346,
+    "h": 47
+   },
+   {
+    "x": 151,
+    "y": 4785,
+    "w": 185,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4816,
+    "w": 352,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4846,
+    "w": 281,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4869,
+    "w": 79,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4899,
+    "w": 159,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4929,
+    "w": 124,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4960,
+    "w": 291,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4982,
+    "w": 82,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 5012,
+    "w": 263,
+    "h": 23
+   },
+   {
+    "x": 535,
+    "y": 4729,
+    "w": 279,
+    "h": 47
+   },
+   {
+    "x": 551,
+    "y": 4785,
+    "w": 255,
+    "h": 23
+   },
+   {
+    "x": 551,
+    "y": 4816,
+    "w": 234,
+    "h": 23
+   },
+   {
+    "x": 551,
+    "y": 4846,
+    "w": 153,
+    "h": 23
+   },
+   {
+    "x": 551,
+    "y": 4877,
+    "w": 155,
+    "h": 23
+   },
+   {
+    "x": 551,
+    "y": 4907,
+    "w": 132,
+    "h": 23
+   },
+   {
+    "x": 935,
+    "y": 4729,
+    "w": 269,
+    "h": 47
+   },
+   {
+    "x": 935,
+    "y": 4763,
+    "w": 182,
+    "h": 47
+   },
+   {
+    "x": 951,
+    "y": 4819,
+    "w": 201,
+    "h": 23
+   },
+   {
+    "x": 951,
+    "y": 4850,
+    "w": 117,
+    "h": 23
+   },
+   {
+    "x": 951,
+    "y": 4880,
+    "w": 142,
+    "h": 23
+   },
+   {
+    "x": 951,
+    "y": 4911,
+    "w": 222,
+    "h": 23
+   },
+   {
+    "x": 951,
+    "y": 4941,
+    "w": 210,
+    "h": 23
+   },
+   {
+    "x": 155,
+    "y": 5163,
+    "w": 341,
+    "h": 23
+   },
+   {
+    "x": 60,
+    "y": 5372,
+    "w": 200,
+    "h": 47
+   },
+   {
+    "x": 135,
+    "y": 5487,
+    "w": 843,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 5567,
+    "w": 1045,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 5590,
+    "w": 1034,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 5613,
+    "w": 1062,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 5636,
+    "w": 1029,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 5659,
+    "w": 100,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 5732,
+    "w": 554,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 5755,
+    "w": 498,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 5778,
+    "w": 566,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 5801,
+    "w": 138,
+    "h": 23
+   },
+   {
+    "x": 273,
+    "y": 5801,
+    "w": 250,
+    "h": 23
+   },
+   {
+    "x": 523,
+    "y": 5801,
+    "w": 4,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 5824,
+    "w": 170,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 5862,
+    "w": 31,
+    "h": 23
+   },
+   {
+    "x": 182,
+    "y": 5862,
+    "w": 521,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 5884,
+    "w": 178,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 5915,
+    "w": 31,
+    "h": 23
+   },
+   {
+    "x": 182,
+    "y": 5915,
+    "w": 473,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 5937,
+    "w": 276,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 5967,
+    "w": 31,
+    "h": 23
+   },
+   {
+    "x": 182,
+    "y": 5967,
+    "w": 504,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 5990,
+    "w": 186,
+    "h": 23
+   },
+   {
+    "x": 155,
+    "y": 6090,
+    "w": 460,
+    "h": 23
+   },
+   {
+    "x": 734,
+    "y": 5831,
+    "w": 562,
+    "h": 38
+   },
+   {
+    "x": 735,
+    "y": 5869,
+    "w": 512,
+    "h": 38
+   },
+   {
+    "x": 735,
+    "y": 5907,
+    "w": 411,
+    "h": 38
+   },
+   {
+    "x": 735,
+    "y": 5984,
+    "w": 20,
+    "h": 26
+   },
+   {
+    "x": 755,
+    "y": 5984,
+    "w": 152,
+    "h": 26
+   },
+   {
+    "x": 735,
+    "y": 6008,
+    "w": 328,
+    "h": 26
+   },
+   {
+    "x": 60,
+    "y": 6219,
+    "w": 120,
+    "h": 47
+   },
+   {
+    "x": 135,
+    "y": 6334,
+    "w": 822,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 6414,
+    "w": 616,
+    "h": 23
+   },
+   {
+    "x": 751,
+    "y": 6414,
+    "w": 224,
+    "h": 23
+   },
+   {
+    "x": 975,
+    "y": 6414,
+    "w": 223,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 6437,
+    "w": 466,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 6470,
+    "w": 150,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 6508,
+    "w": 105,
+    "h": 23
+   },
+   {
+    "x": 256,
+    "y": 6508,
+    "w": 135,
+    "h": 23
+   },
+   {
+    "x": 391,
+    "y": 6508,
+    "w": 72,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 6539,
+    "w": 46,
+    "h": 23
+   },
+   {
+    "x": 197,
+    "y": 6539,
+    "w": 174,
+    "h": 23
+   },
+   {
+    "x": 370,
+    "y": 6539,
+    "w": 153,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 6569,
+    "w": 36,
+    "h": 23
+   },
+   {
+    "x": 187,
+    "y": 6569,
+    "w": 154,
+    "h": 23
+   },
+   {
+    "x": 341,
+    "y": 6569,
+    "w": 167,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 6599,
+    "w": 119,
+    "h": 23
+   },
+   {
+    "x": 270,
+    "y": 6599,
+    "w": 88,
+    "h": 23
+   },
+   {
+    "x": 358,
+    "y": 6599,
+    "w": 174,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 6639,
+    "w": 345,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 6750,
+    "w": 300,
+    "h": 35
+   },
+   {
+    "x": 135,
+    "y": 6782,
+    "w": 57,
+    "h": 23
+   },
+   {
+    "x": 636,
+    "y": 6758,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 658,
+    "y": 6780,
+    "w": 37,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 6839,
+    "w": 183,
+    "h": 35
+   },
+   {
+    "x": 135,
+    "y": 6871,
+    "w": 98,
+    "h": 23
+   },
+   {
+    "x": 617,
+    "y": 6847,
+    "w": 78,
+    "h": 23
+   },
+   {
+    "x": 658,
+    "y": 6870,
+    "w": 37,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 6929,
+    "w": 194,
+    "h": 35
+   },
+   {
+    "x": 135,
+    "y": 6961,
+    "w": 80,
+    "h": 23
+   },
+   {
+    "x": 633,
+    "y": 6937,
+    "w": 62,
+    "h": 23
+   },
+   {
+    "x": 658,
+    "y": 6959,
+    "w": 37,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 7018,
+    "w": 176,
+    "h": 35
+   },
+   {
+    "x": 135,
+    "y": 7050,
+    "w": 98,
+    "h": 23
+   },
+   {
+    "x": 612,
+    "y": 7026,
+    "w": 83,
+    "h": 23
+   },
+   {
+    "x": 658,
+    "y": 7048,
+    "w": 37,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 7107,
+    "w": 217,
+    "h": 35
+   },
+   {
+    "x": 135,
+    "y": 7139,
+    "w": 72,
+    "h": 23
+   },
+   {
+    "x": 623,
+    "y": 7115,
+    "w": 72,
+    "h": 23
+   },
+   {
+    "x": 658,
+    "y": 7138,
+    "w": 37,
+    "h": 23
+   },
+   {
+    "x": 745,
+    "y": 6750,
+    "w": 186,
+    "h": 35
+   },
+   {
+    "x": 745,
+    "y": 6782,
+    "w": 52,
+    "h": 23
+   },
+   {
+    "x": 1230,
+    "y": 6758,
+    "w": 75,
+    "h": 23
+   },
+   {
+    "x": 1268,
+    "y": 6780,
+    "w": 37,
+    "h": 23
+   },
+   {
+    "x": 745,
+    "y": 6839,
+    "w": 415,
+    "h": 35
+   },
+   {
+    "x": 745,
+    "y": 6871,
+    "w": 53,
+    "h": 23
+   },
+   {
+    "x": 1179,
+    "y": 6847,
+    "w": 126,
+    "h": 23
+   },
+   {
+    "x": 1268,
+    "y": 6870,
+    "w": 37,
+    "h": 23
+   },
+   {
+    "x": 745,
+    "y": 6929,
+    "w": 207,
+    "h": 35
+   },
+   {
+    "x": 745,
+    "y": 6961,
+    "w": 53,
+    "h": 23
+   },
+   {
+    "x": 1128,
+    "y": 6937,
+    "w": 177,
+    "h": 23
+   },
+   {
+    "x": 1268,
+    "y": 6959,
+    "w": 37,
+    "h": 23
+   },
+   {
+    "x": 745,
+    "y": 7018,
+    "w": 344,
+    "h": 35
+   },
+   {
+    "x": 745,
+    "y": 7050,
+    "w": 58,
+    "h": 23
+   },
+   {
+    "x": 1194,
+    "y": 7026,
+    "w": 111,
+    "h": 23
+   },
+   {
+    "x": 1268,
+    "y": 7048,
+    "w": 37,
+    "h": 23
+   },
+   {
+    "x": 745,
+    "y": 7107,
+    "w": 239,
+    "h": 35
+   },
+   {
+    "x": 745,
+    "y": 7139,
+    "w": 109,
+    "h": 23
+   },
+   {
+    "x": 1189,
+    "y": 7115,
+    "w": 116,
+    "h": 23
+   },
+   {
+    "x": 1268,
+    "y": 7138,
+    "w": 37,
+    "h": 23
+   },
+   {
+    "x": 1235,
+    "y": 7849,
+    "w": 7,
+    "h": 23
+   },
+   {
+    "x": 1242,
+    "y": 7849,
+    "w": 5,
+    "h": 23
+   },
+   {
+    "x": 1246,
+    "y": 7849,
+    "w": 9,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 7943,
+    "w": 381,
+    "h": 75
+   },
+   {
+    "x": 135,
+    "y": 8000,
+    "w": 382,
+    "h": 75
+   },
+   {
+    "x": 135,
+    "y": 8152,
+    "w": 515,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 8175,
+    "w": 233,
+    "h": 23
+   },
+   {
+    "x": 735,
+    "y": 7951,
+    "w": 172,
+    "h": 23
+   },
+   {
+    "x": 735,
+    "y": 8054,
+    "w": 61,
+    "h": 23
+   },
+   {
+    "x": 787,
+    "y": 8156,
+    "w": 511,
+    "h": 23
+   },
+   {
+    "x": 787,
+    "y": 8178,
+    "w": 426,
+    "h": 23
+   },
+   {
+    "x": 592,
+    "y": 8449,
+    "w": 257,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 8659,
+    "w": 117,
+    "h": 23
+   },
+   {
+    "x": 435,
+    "y": 8659,
+    "w": 76,
+    "h": 23
+   },
+   {
+    "x": 735,
+    "y": 8659,
+    "w": 176,
+    "h": 23
+   },
+   {
+    "x": 1035,
+    "y": 8659,
+    "w": 77,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 8689,
+    "w": 139,
+    "h": 23
+   },
+   {
+    "x": 435,
+    "y": 8689,
+    "w": 55,
+    "h": 23
+   },
+   {
+    "x": 735,
+    "y": 8689,
+    "w": 54,
+    "h": 23
+   },
+   {
+    "x": 1035,
+    "y": 8689,
+    "w": 63,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 8720,
+    "w": 85,
+    "h": 23
+   },
+   {
+    "x": 435,
+    "y": 8720,
+    "w": 42,
+    "h": 23
+   },
+   {
+    "x": 735,
+    "y": 8720,
+    "w": 152,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 8925,
+    "w": 455,
+    "h": 21
+   },
+   {
+    "x": 135,
+    "y": 8880,
+    "w": 89,
+    "h": 23
+   },
+   {
+    "x": 254,
+    "y": 8880,
+    "w": 96,
+    "h": 23
+   },
+   {
+    "x": 380,
+    "y": 8880,
+    "w": 111,
+    "h": 23
+   }
+  ],
+  "eds": [
+   {
+    "x": 260,
+    "y": 34,
+    "w": 103,
+    "h": 22
+   },
+   {
+    "x": 393,
+    "y": 34,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": 526,
+    "y": 34,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": 657,
+    "y": 34,
+    "w": 88,
+    "h": 22
+   },
+   {
+    "x": 775,
+    "y": 34,
+    "w": 47,
+    "h": 22
+   },
+   {
+    "x": 1230,
+    "y": 34,
+    "w": 43,
+    "h": 22
+   },
+   {
+    "x": 1319,
+    "y": 34,
+    "w": 90,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 110,
+    "w": 43,
+    "h": 23
+   },
+   {
+    "x": 178,
+    "y": 110,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 182,
+    "w": 496,
+    "h": 90
+   },
+   {
+    "x": 135,
+    "y": 251,
+    "w": 316,
+    "h": 90
+   },
+   {
+    "x": 135,
+    "y": 400,
+    "w": 495,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 422,
+    "w": 496,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 445,
+    "w": 392,
+    "h": 22
+   },
+   {
+    "x": 173,
+    "y": 515,
+    "w": 111,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 649,
+    "w": 992,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 801,
+    "w": 758,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 824,
+    "w": 711,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 847,
+    "w": 744,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 870,
+    "w": 387,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 909,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 215,
+    "y": 909,
+    "w": 268,
+    "h": 23
+   },
+   {
+    "x": 482,
+    "y": 909,
+    "w": 391,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 932,
+    "w": 715,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 955,
+    "w": 462,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 994,
+    "w": 300,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 994,
+    "w": 447,
+    "h": 23
+   },
+   {
+    "x": 882,
+    "y": 994,
+    "w": 4,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 1017,
+    "w": 742,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 1040,
+    "w": 448,
+    "h": 22
+   },
+   {
+    "x": 955,
+    "y": 953,
+    "w": 327,
+    "h": 31
+   },
+   {
+    "x": 955,
+    "y": 987,
+    "w": 312,
+    "h": 31
+   },
+   {
+    "x": 955,
+    "y": 1021,
+    "w": 62,
+    "h": 31
+   },
+   {
+    "x": 955,
+    "y": 1130,
+    "w": 117,
+    "h": 22
+   },
+   {
+    "x": 134,
+    "y": 1393,
+    "w": 569,
+    "h": 38
+   },
+   {
+    "x": 135,
+    "y": 1431,
+    "w": 449,
+    "h": 38
+   },
+   {
+    "x": 135,
+    "y": 1469,
+    "w": 530,
+    "h": 38
+   },
+   {
+    "x": 135,
+    "y": 1507,
+    "w": 532,
+    "h": 38
+   },
+   {
+    "x": 135,
+    "y": 1545,
+    "w": 332,
+    "h": 38
+   },
+   {
+    "x": 135,
+    "y": 1622,
+    "w": 20,
+    "h": 26
+   },
+   {
+    "x": 155,
+    "y": 1622,
+    "w": 82,
+    "h": 26
+   },
+   {
+    "x": 135,
+    "y": 1646,
+    "w": 474,
+    "h": 26
+   },
+   {
+    "x": 135,
+    "y": 1743,
+    "w": 479,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 1823,
+    "w": 830,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 1846,
+    "w": 191,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 1942,
+    "w": 306,
+    "h": 47
+   },
+   {
+    "x": 135,
+    "y": 2033,
+    "w": 307,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 2056,
+    "w": 350,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 2079,
+    "w": 170,
+    "h": 22
+   },
+   {
+    "x": 535,
+    "y": 1942,
+    "w": 343,
+    "h": 47
+   },
+   {
+    "x": 535,
+    "y": 2033,
+    "w": 340,
+    "h": 22
+   },
+   {
+    "x": 535,
+    "y": 2056,
+    "w": 359,
+    "h": 22
+   },
+   {
+    "x": 535,
+    "y": 2079,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 935,
+    "y": 1942,
+    "w": 351,
+    "h": 47
+   },
+   {
+    "x": 935,
+    "y": 2033,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 935,
+    "y": 2056,
+    "w": 302,
+    "h": 22
+   },
+   {
+    "x": 935,
+    "y": 2079,
+    "w": 163,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 2152,
+    "w": 791,
+    "h": 22
+   },
+   {
+    "x": 179,
+    "y": 2213,
+    "w": 100,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 2415,
+    "w": 484,
+    "h": 70
+   },
+   {
+    "x": 135,
+    "y": 2466,
+    "w": 405,
+    "h": 70
+   },
+   {
+    "x": 135,
+    "y": 2597,
+    "w": 549,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 2620,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 2643,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 155,
+    "y": 2704,
+    "w": 331,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 2857,
+    "w": 582,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 2978,
+    "w": 539,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3012,
+    "w": 386,
+    "h": 31
+   },
+   {
+    "x": 521,
+    "y": 3012,
+    "w": 165,
+    "h": 32
+   },
+   {
+    "x": 135,
+    "y": 3046,
+    "w": 498,
+    "h": 32
+   },
+   {
+    "x": 135,
+    "y": 3080,
+    "w": 546,
+    "h": 32
+   },
+   {
+    "x": 135,
+    "y": 3114,
+    "w": 195,
+    "h": 32
+   },
+   {
+    "x": 135,
+    "y": 3170,
+    "w": 564,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3204,
+    "w": 561,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3238,
+    "w": 271,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3294,
+    "w": 126,
+    "h": 32
+   },
+   {
+    "x": 267,
+    "y": 3294,
+    "w": 198,
+    "h": 31
+   },
+   {
+    "x": 465,
+    "y": 3294,
+    "w": 12,
+    "h": 31
+   },
+   {
+    "x": 477,
+    "y": 3294,
+    "w": 151,
+    "h": 31
+   },
+   {
+    "x": 628,
+    "y": 3294,
+    "w": 6,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3328,
+    "w": 357,
+    "h": 31
+   },
+   {
+    "x": 492,
+    "y": 3328,
+    "w": 12,
+    "h": 31
+   },
+   {
+    "x": 504,
+    "y": 3328,
+    "w": 116,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3362,
+    "w": 108,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3418,
+    "w": 50,
+    "h": 32
+   },
+   {
+    "x": 191,
+    "y": 3418,
+    "w": 101,
+    "h": 31
+   },
+   {
+    "x": 292,
+    "y": 3418,
+    "w": 12,
+    "h": 31
+   },
+   {
+    "x": 304,
+    "y": 3418,
+    "w": 79,
+    "h": 31
+   },
+   {
+    "x": 383,
+    "y": 3418,
+    "w": 12,
+    "h": 31
+   },
+   {
+    "x": 394,
+    "y": 3418,
+    "w": 89,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3474,
+    "w": 113,
+    "h": 32
+   },
+   {
+    "x": 254,
+    "y": 3474,
+    "w": 218,
+    "h": 31
+   },
+   {
+    "x": 472,
+    "y": 3474,
+    "w": 12,
+    "h": 31
+   },
+   {
+    "x": 484,
+    "y": 3474,
+    "w": 161,
+    "h": 31
+   },
+   {
+    "x": 645,
+    "y": 3474,
+    "w": 6,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3508,
+    "w": 101,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3564,
+    "w": 488,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3598,
+    "w": 564,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3632,
+    "w": 61,
+    "h": 31
+   },
+   {
+    "x": 158,
+    "y": 3704,
+    "w": 214,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 3798,
+    "w": 803,
+    "h": 31
+   },
+   {
+    "x": 135,
+    "y": 3832,
+    "w": 366,
+    "h": 31
+   },
+   {
+    "x": 60,
+    "y": 3992,
+    "w": 165,
+    "h": 47
+   },
+   {
+    "x": 135,
+    "y": 4107,
+    "w": 941,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 4159,
+    "w": 131,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 4239,
+    "w": 1047,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 4262,
+    "w": 923,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 4301,
+    "w": 263,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 4340,
+    "w": 140,
+    "h": 23
+   },
+   {
+    "x": 291,
+    "y": 4340,
+    "w": 266,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 4372,
+    "w": 120,
+    "h": 23
+   },
+   {
+    "x": 271,
+    "y": 4372,
+    "w": 430,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 4403,
+    "w": 138,
+    "h": 23
+   },
+   {
+    "x": 289,
+    "y": 4403,
+    "w": 444,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 4720,
+    "w": 346,
+    "h": 47
+   },
+   {
+    "x": 151,
+    "y": 4777,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 4807,
+    "w": 352,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 4837,
+    "w": 281,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 4860,
+    "w": 79,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 4890,
+    "w": 159,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 4921,
+    "w": 124,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 4951,
+    "w": 291,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 4973,
+    "w": 82,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 5004,
+    "w": 263,
+    "h": 22
+   },
+   {
+    "x": 535,
+    "y": 4720,
+    "w": 279,
+    "h": 47
+   },
+   {
+    "x": 551,
+    "y": 4777,
+    "w": 255,
+    "h": 22
+   },
+   {
+    "x": 551,
+    "y": 4807,
+    "w": 234,
+    "h": 22
+   },
+   {
+    "x": 551,
+    "y": 4837,
+    "w": 153,
+    "h": 22
+   },
+   {
+    "x": 551,
+    "y": 4868,
+    "w": 155,
+    "h": 22
+   },
+   {
+    "x": 551,
+    "y": 4898,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 935,
+    "y": 4720,
+    "w": 269,
+    "h": 47
+   },
+   {
+    "x": 935,
+    "y": 4754,
+    "w": 182,
+    "h": 47
+   },
+   {
+    "x": 951,
+    "y": 4811,
+    "w": 201,
+    "h": 22
+   },
+   {
+    "x": 951,
+    "y": 4841,
+    "w": 117,
+    "h": 22
+   },
+   {
+    "x": 951,
+    "y": 4871,
+    "w": 142,
+    "h": 22
+   },
+   {
+    "x": 951,
+    "y": 4902,
+    "w": 222,
+    "h": 22
+   },
+   {
+    "x": 951,
+    "y": 4932,
+    "w": 210,
+    "h": 22
+   },
+   {
+    "x": 155,
+    "y": 5153,
+    "w": 341,
+    "h": 23
+   },
+   {
+    "x": 60,
+    "y": 5362,
+    "w": 200,
+    "h": 47
+   },
+   {
+    "x": 135,
+    "y": 5477,
+    "w": 843,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 5557,
+    "w": 1045,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 5580,
+    "w": 1034,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 5603,
+    "w": 1062,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 5626,
+    "w": 1029,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 5649,
+    "w": 100,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 5722,
+    "w": 554,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 5745,
+    "w": 498,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 5768,
+    "w": 566,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 5791,
+    "w": 138,
+    "h": 22
+   },
+   {
+    "x": 273,
+    "y": 5791,
+    "w": 250,
+    "h": 22
+   },
+   {
+    "x": 523,
+    "y": 5791,
+    "w": 4,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 5814,
+    "w": 170,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 5853,
+    "w": 31,
+    "h": 23
+   },
+   {
+    "x": 182,
+    "y": 5853,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 5876,
+    "w": 178,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 5907,
+    "w": 31,
+    "h": 23
+   },
+   {
+    "x": 182,
+    "y": 5907,
+    "w": 473,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 5930,
+    "w": 276,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 5961,
+    "w": 31,
+    "h": 23
+   },
+   {
+    "x": 182,
+    "y": 5961,
+    "w": 504,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 5984,
+    "w": 186,
+    "h": 22
+   },
+   {
+    "x": 155,
+    "y": 6083,
+    "w": 460,
+    "h": 23
+   },
+   {
+    "x": 734,
+    "y": 5823,
+    "w": 562,
+    "h": 38
+   },
+   {
+    "x": 735,
+    "y": 5861,
+    "w": 512,
+    "h": 38
+   },
+   {
+    "x": 735,
+    "y": 5899,
+    "w": 411,
+    "h": 38
+   },
+   {
+    "x": 735,
+    "y": 5976,
+    "w": 20,
+    "h": 26
+   },
+   {
+    "x": 755,
+    "y": 5976,
+    "w": 152,
+    "h": 26
+   },
+   {
+    "x": 735,
+    "y": 6000,
+    "w": 328,
+    "h": 26
+   },
+   {
+    "x": 60,
+    "y": 6212,
+    "w": 120,
+    "h": 47
+   },
+   {
+    "x": 135,
+    "y": 6327,
+    "w": 822,
+    "h": 67
+   },
+   {
+    "x": 135,
+    "y": 6407,
+    "w": 616,
+    "h": 22
+   },
+   {
+    "x": 751,
+    "y": 6407,
+    "w": 224,
+    "h": 23
+   },
+   {
+    "x": 975,
+    "y": 6407,
+    "w": 223,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 6430,
+    "w": 466,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 6463,
+    "w": 150,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 6502,
+    "w": 105,
+    "h": 22
+   },
+   {
+    "x": 256,
+    "y": 6502,
+    "w": 135,
+    "h": 23
+   },
+   {
+    "x": 391,
+    "y": 6502,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 6534,
+    "w": 46,
+    "h": 22
+   },
+   {
+    "x": 197,
+    "y": 6534,
+    "w": 174,
+    "h": 23
+   },
+   {
+    "x": 370,
+    "y": 6534,
+    "w": 153,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 6565,
+    "w": 36,
+    "h": 22
+   },
+   {
+    "x": 187,
+    "y": 6565,
+    "w": 154,
+    "h": 23
+   },
+   {
+    "x": 341,
+    "y": 6565,
+    "w": 167,
+    "h": 22
+   },
+   {
+    "x": 151,
+    "y": 6597,
+    "w": 119,
+    "h": 22
+   },
+   {
+    "x": 270,
+    "y": 6597,
+    "w": 88,
+    "h": 23
+   },
+   {
+    "x": 358,
+    "y": 6597,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 6636,
+    "w": 345,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 6787,
+    "w": 300,
+    "h": 35
+   },
+   {
+    "x": 135,
+    "y": 6820,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 636,
+    "y": 6796,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 658,
+    "y": 6819,
+    "w": 37,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 6876,
+    "w": 183,
+    "h": 35
+   },
+   {
+    "x": 135,
+    "y": 6909,
+    "w": 98,
+    "h": 22
+   },
+   {
+    "x": 617,
+    "y": 6885,
+    "w": 78,
+    "h": 23
+   },
+   {
+    "x": 658,
+    "y": 6909,
+    "w": 37,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 6966,
+    "w": 194,
+    "h": 35
+   },
+   {
+    "x": 135,
+    "y": 6999,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 633,
+    "y": 6975,
+    "w": 62,
+    "h": 23
+   },
+   {
+    "x": 658,
+    "y": 6998,
+    "w": 37,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 7055,
+    "w": 176,
+    "h": 35
+   },
+   {
+    "x": 135,
+    "y": 7088,
+    "w": 98,
+    "h": 22
+   },
+   {
+    "x": 612,
+    "y": 7064,
+    "w": 83,
+    "h": 23
+   },
+   {
+    "x": 658,
+    "y": 7088,
+    "w": 37,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 7145,
+    "w": 217,
+    "h": 35
+   },
+   {
+    "x": 135,
+    "y": 7178,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 623,
+    "y": 7154,
+    "w": 72,
+    "h": 23
+   },
+   {
+    "x": 658,
+    "y": 7177,
+    "w": 37,
+    "h": 22
+   },
+   {
+    "x": 745,
+    "y": 6787,
+    "w": 186,
+    "h": 35
+   },
+   {
+    "x": 745,
+    "y": 6820,
+    "w": 52,
+    "h": 22
+   },
+   {
+    "x": 1230,
+    "y": 6796,
+    "w": 75,
+    "h": 23
+   },
+   {
+    "x": 1268,
+    "y": 6819,
+    "w": 37,
+    "h": 22
+   },
+   {
+    "x": 745,
+    "y": 6876,
+    "w": 415,
+    "h": 35
+   },
+   {
+    "x": 745,
+    "y": 6909,
+    "w": 53,
+    "h": 22
+   },
+   {
+    "x": 1179,
+    "y": 6885,
+    "w": 126,
+    "h": 23
+   },
+   {
+    "x": 1268,
+    "y": 6909,
+    "w": 37,
+    "h": 22
+   },
+   {
+    "x": 745,
+    "y": 6966,
+    "w": 207,
+    "h": 35
+   },
+   {
+    "x": 745,
+    "y": 6999,
+    "w": 53,
+    "h": 22
+   },
+   {
+    "x": 1128,
+    "y": 6975,
+    "w": 177,
+    "h": 23
+   },
+   {
+    "x": 1268,
+    "y": 6998,
+    "w": 37,
+    "h": 22
+   },
+   {
+    "x": 745,
+    "y": 7055,
+    "w": 344,
+    "h": 35
+   },
+   {
+    "x": 745,
+    "y": 7088,
+    "w": 58,
+    "h": 22
+   },
+   {
+    "x": 1194,
+    "y": 7064,
+    "w": 111,
+    "h": 23
+   },
+   {
+    "x": 1268,
+    "y": 7088,
+    "w": 37,
+    "h": 22
+   },
+   {
+    "x": 745,
+    "y": 7145,
+    "w": 239,
+    "h": 35
+   },
+   {
+    "x": 745,
+    "y": 7178,
+    "w": 109,
+    "h": 22
+   },
+   {
+    "x": 1189,
+    "y": 7154,
+    "w": 116,
+    "h": 23
+   },
+   {
+    "x": 1268,
+    "y": 7177,
+    "w": 37,
+    "h": 22
+   },
+   {
+    "x": 1235,
+    "y": 7888,
+    "w": 7,
+    "h": 23
+   },
+   {
+    "x": 1242,
+    "y": 7888,
+    "w": 5,
+    "h": 22
+   },
+   {
+    "x": 1246,
+    "y": 7888,
+    "w": 9,
+    "h": 23
+   },
+   {
+    "x": 135,
+    "y": 7982,
+    "w": 381,
+    "h": 75
+   },
+   {
+    "x": 135,
+    "y": 8040,
+    "w": 382,
+    "h": 75
+   },
+   {
+    "x": 135,
+    "y": 8191,
+    "w": 515,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 8214,
+    "w": 233,
+    "h": 22
+   },
+   {
+    "x": 735,
+    "y": 7991,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 735,
+    "y": 8094,
+    "w": 61,
+    "h": 22
+   },
+   {
+    "x": 787,
+    "y": 8196,
+    "w": 511,
+    "h": 22
+   },
+   {
+    "x": 787,
+    "y": 8218,
+    "w": 426,
+    "h": 22
+   },
+   {
+    "x": 592,
+    "y": 8489,
+    "w": 257,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 8699,
+    "w": 117,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 8699,
+    "w": 76,
+    "h": 22
+   },
+   {
+    "x": 735,
+    "y": 8699,
+    "w": 176,
+    "h": 22
+   },
+   {
+    "x": 1035,
+    "y": 8699,
+    "w": 77,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 8730,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 8730,
+    "w": 55,
+    "h": 22
+   },
+   {
+    "x": 735,
+    "y": 8730,
+    "w": 54,
+    "h": 22
+   },
+   {
+    "x": 1035,
+    "y": 8730,
+    "w": 63,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 8760,
+    "w": 85,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 8760,
+    "w": 42,
+    "h": 22
+   },
+   {
+    "x": 735,
+    "y": 8760,
+    "w": 152,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 8964,
+    "w": 455,
+    "h": 20
+   },
+   {
+    "x": 135,
+    "y": 8920,
+    "w": 89,
+    "h": 22
+   },
+   {
+    "x": 254,
+    "y": 8920,
+    "w": 96,
+    "h": 22
+   },
+   {
+    "x": 380,
+    "y": 8920,
+    "w": 111,
+    "h": 22
+   }
+  ]
+ }
+}

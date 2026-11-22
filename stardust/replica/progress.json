@@ -1,0 +1,217 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:replica (recreate + source-fidelity-gate)",
+  "writtenAt": "2026-11-22T09:52:00Z"
+ },
+ "types": {
+  "landing": {
+   "pageType": "landing",
+   "archetype": "bold",
+   "prototype": "stardust/prototypes/bold-proposed.html",
+   "css": [
+    "stardust/prototypes/canon.css",
+    "stardust/prototypes/bold.css"
+   ],
+   "js": "stardust/prototypes/bold.js",
+   "rounds": {
+    "360": 3,
+    "1440": 3,
+    "decision": "accept-residual (rounds.mjs decide, both widths)"
+   },
+   "gateOrigin": "--live-origin: reference.mjs freeze UNSTABLE twice at 1440 (heights 8976/8981, 67-69% rows shifted; gates/bold-1440/reference-unstable.json)",
+   "breakpoints": {
+    "360": {
+     "iterations": 3,
+     "finalRound": "iter3",
+     "result": {
+      "pixelPct": 3.48,
+      "heightDelta": 0,
+      "offsets": "none",
+      "gateAll": {
+       "pixelPct": 7.58,
+       "pixelAlignedPct": 4.33,
+       "offsets": "25 steps 32px",
+       "heightDelta": -2,
+       "verdict": "FAIL (offsets only — font race)",
+       "summary": "gates/prototypes-360/summary.md"
+      },
+      "structuralRed": 3,
+      "nothingLostYellow": 0,
+      "clipped": 0,
+      "overflow": "none (scrollWidth 360)",
+      "units": "34 compared, 0 off — PASS (iter2 'November 16-17, 2027,' Δw −5 fixed: trailing space inside <time>)",
+      "chromeParity": "header ✓, footer ✓ 17/17 (exit 0)",
+      "chromeCrop": {
+       "header": 1.83,
+       "footer": 8.7
+      },
+      "capProbe": "PASS at 2560",
+      "visualFlags": "21 advisory, justified",
+      "pass": false
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "IMAGE DID NOT LOAD ×18",
+       "why": "mirrors source loading=lazy"
+      },
+      {
+       "probe": "visual",
+       "flag": "FLUSH-LEFT eyebrow tabs",
+       "why": "mirrors live"
+      }
+     ],
+     "residuals": [
+      {
+       "region": "content",
+       "pct": null,
+       "cause": "live CTA label drift (see 1440)",
+       "evidence": "gates/bold-360/content-diff-iter3.txt",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer",
+       "pct": 8.7,
+       "cause": "Qualified chat bubble (R-02) repeated in every live chunk at viewport y≈450–900 + the drifted 'Talk To Sales' footer CTA label",
+       "evidence": "gates/bold-360/chrome-footer-diff.png",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "y 500–1000, 4000–4500, 13000–13500, 14500–14992",
+       "pct": 18.5,
+       "cause": "same Qualified bubble (R-02) in the live chunks; whole-page 3.48% PASS",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "y 5383–14991 (gate-all row)",
+       "pct": 4.33,
+       "cause": "font-race ±1px line steps (see 1440); the same build measured 0 offsets in iter2/iter3",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "image carousel at slide 1 (translate3d(-330px) = list width)",
+       "where": "image carousel",
+       "restoreAtDelivery": "same slick model as 1440 (non-variableWidth below 768px)"
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 3,
+     "finalRound": "iter3",
+     "result": {
+      "pixelPct": 7.88,
+      "pixelAlignedPct": 5.87,
+      "offsets": "6 steps, 17px (bound 8)",
+      "heightDelta": -5,
+      "bestRound": {
+       "label": "iter2",
+       "pixelPct": 5.26,
+       "heightDelta": 1,
+       "pass": true
+      },
+      "gateAll": {
+       "pixelPct": 5.26,
+       "heightDelta": 1,
+       "clipped": 0,
+       "verdict": "PASS",
+       "summary": "gates/prototypes-1440/summary.md"
+      },
+      "structuralRed": 3,
+      "nothingLostYellow": 0,
+      "clipped": 0,
+      "overflow": "none (scrollWidth 1440)",
+      "units": "34 compared, 0 off — PASS",
+      "chromeParity": "header ✓ 7/7, footer ✓ 16/16 (exit 0)",
+      "chromeCrop": {
+       "header": 1.3,
+       "footer": 14.87
+      },
+      "capProbe": "PASS at 2560 (0 of 13 rows failed; gates/bold-2560/cap-iter.json)",
+      "visualFlags": "21 advisory, justified",
+      "pass": false
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "IMAGE DID NOT LOAD ×18 (research images, carousel slides)",
+       "why": "mirrors the source's loading=lazy; stitched captures scroll them in and both sides render them"
+      },
+      {
+       "probe": "visual",
+       "flag": "FLUSH-LEFT TEXT ×3 (Research / Consulting / Events tabs)",
+       "why": "mirrors live: the eyebrow tab bleeds from x 0 (page-block__title max-width none, padding 0 ≤1920px)"
+      },
+      {
+       "probe": "content",
+       "flag": "🟡 EXTRA ARIA-LABEL ×2 (<nav> Main / Mobile)",
+       "why": "semantic improvement, look-neutral (role parity)"
+      },
+      {
+       "probe": "spec",
+       "flag": "2 carousel images beyond x 1440 'missing' in source-spec compare",
+       "why": "R-03: carousel section clips its own overflow; off-viewport, pixel-identical"
+      }
+     ],
+     "residuals": [
+      {
+       "region": "content",
+       "pct": null,
+       "cause": "live content drift after the 09:07 extract: header CTA 'Talk To Sales' now reads 'Get Started' (x2) and the footer mobile CTA 'Get Started' now reads 'Talk To Sales' (measure.mjs, 3 visits); prototype keeps bold.json verbatim",
+       "evidence": "gates/bold-1440/content-diff-iter3.txt",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer",
+       "pct": 14.87,
+       "cause": "third-party overlay R-02: the Qualified 'AI Digital Assistant' card renders in the live capture's last chunk — the --dismiss selectors are click targets and #qualified-multimodal-host is pointer-events:none, so it is never removed",
+       "evidence": "gates/bold-1440/chrome-footer-diff.png",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "y 3411–8976",
+       "pct": 5.87,
+       "cause": "font-race line-box variance on BOTH sides: lines mixing proxima-nova 400 + 700 (strong/b) settle ±1px per line nondeterministically (live captures 8976 vs 8981; build compare 8975–8981); iter2 PASS 5.26% Δh 1, iter3 17px offsets",
+       "evidence": "gates/bold-1440/reference-unstable.json, pixel-iter3.json",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "image carousel at slide 1 (track translate3d(-680px) = slide 0 offsetLeft)",
+       "where": "image carousel",
+       "restoreAtDelivery": "slick model: infinite, 1 per view, 300ms ease, prev/next + dots, '1/7' counter (implemented in bold.js); no autoplay on live"
+      }
+     ]
+    }
+   },
+   "portations": [
+    "header scroll morph: .is-scrolled at scrollTop > 100 (lifted from core.min.js)",
+    "mega menus: CSS :hover open (visibility/opacity .3s) as source; mobile drawer: checkbox toggle + .is-open sub-menu expand (core.min.js)",
+    ".js-scroll-fx in-view toggle while the box meets the viewport (core.min.js FORRSCROLLFX)",
+    "carousel slick model (core.min.js: dots, infinite, slidesToShow 1, variableWidth ≥768)"
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/bold-live.json — header scroll-morph (90→60px, 300ms), 95 transitions, classes in-view/is-scrolled/slick-active/slick-current; hover probes (mega trigger, primary CTA) and carousel-next poke sampled no change",
+    "implemented": "header is-scrolled morph, js-scroll-fx in-view (opacity/transform .5s), mega-menu visibility/opacity .3s, carousel slide (300ms ease) with slick-current/slick-active class names; motion-compare: 11 parity, slick-* MISSING resolved by renaming",
+    "dead": [
+     "hover: mega-menu trigger (no measured diff)",
+     "hover: .forr-cta.-primary (no measured diff at sample)",
+     "widget: carousel next (no sampled frame change on live)"
+    ],
+    "compare": "stardust/replica/motion/bold-compare.json"
+   },
+   "approval": {
+    "by": "hands-off",
+    "at": "2026-11-22T09:51:35.431Z",
+    "basis": "both widths at the 3-round cap with accept-residual recorded (rounds.mjs decide); pixel 1440 7.88% (iter2 5.26%), 360 3.48%; Δh ≤5; clipped 0; no overflow; chrome-parity pass; cap-probe PASS; residuals: client-side personalised header CTA label (live renders Get Started, server HTML Talk To Sales), Qualified widget not dismissable on the live side (R-02), ±1px font-load line jitter"
+   },
+   "contentFix": {
+    "at": "2026-11-22T09:51:35.432Z",
+    "what": "footer CTA label updated to the source server HTML (Talk To Sales) — the source changed it after the extract"
+   }
+  }
+ },
+ "siblings": {}
+}

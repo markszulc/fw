@@ -1,0 +1,53 @@
+origin: cached bold-1440-units (2026-11-22T09:43:17.139Z)
+[live-session] waiting to pace live navigations to main--94144fc1--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 1440px, tol 4px — https://www.forrester.com/bold/ vs https://main--94144fc1--aemcoder.aem.page/bold
+.event-cal__event=.event-cal__event: no visible unit on the served side (10 / 0 DOM matches)
+#research ~ .two-column-content .row:nth-child(2) > .two-column__item=#research > .l-container > .l-row:nth-child(2) > .tc: no visible unit on the served side (3 / 0 DOM matches)
+.two-column__item--text_block.col-md-4 > .two-column__header=.tc.l-col--md-4 > .tc__header: no visible unit on the served side (3 / 0 DOM matches)
+.fbs-img-carousel .slick-dots li=.carousel__dots li: no visible unit on the served side (7 / 0 DOM matches)
+unit 1 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 120,8665 300×22 vs served 120,8260 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "analyst briefings" | 15,0 117×22 | 15,0 117×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 420,8665 300×22 vs served 420,8260 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "newsroom" | 15,0 76×22 | 15,0 76×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 720,8665 300×22 vs served 720,8260 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "complimentary webinars" | 15,0 176×22 | 15,0 176×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 1020,8665 300×22 vs served 1020,8260 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "contact us" | 15,0 77×22 | 15,0 77×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 120,8696 300×22 vs served 120,8291 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "investor information" | 15,0 139×22 | 15,0 139×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 420,8696 300×22 vs served 420,8291 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "careers" | 15,0 55×22 | 15,0 55×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 7 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 720,8696 300×22 vs served 720,8291 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "policies" | 15,0 54×22 | 15,0 54×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 8 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 1020,8696 300×22 vs served 1020,8291 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "podcasts" | 15,0 63×22 | 15,0 63×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 9 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 120,8726 300×22 vs served 120,8321 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "fraud alerts" | 15,0 85×22 | 15,0 85×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 10 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 420,8726 300×22 vs served 420,8321 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "brand" | 15,0 42×22 | 15,0 42×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 11 of footer-link (required) #menu-footer > li=.footer-menu > li: origin 720,8726 300×22 vs served 720,8321 300×22 → Δx 0 Δy -405 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "uk slavery statement" | 15,0 152×22 | 15,0 152×22 | 0 | 0 | 0 | 0 | ✓ |
+Units: 11 compared; elements within 11, off 0, hidden 0, missing 0; 4 selector error(s) → FAIL
+json → stardust/replica/gates/bold-1440/units-pub1.json

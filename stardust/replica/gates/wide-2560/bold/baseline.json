@@ -1,0 +1,70 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-22T10:52:35.069Z",
+  "url": "https://www.forrester.com/bold/",
+  "width": 2560,
+  "vh": 900,
+  "height": 8981,
+  "settle": true,
+  "chunks": 10,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 6,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 16,
+    "intervals": 7,
+    "chains": 9,
+    "delays": [
+      2000,
+      3500,
+      5000,
+      13064.749100191224,
+      20000,
+      30000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 8976,
+    "pct": 2.05,
+    "heightDelta": -5
+  },
+  "captures": 2,
+  "heights": [
+    8981,
+    8981
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-22T10:53:20.615Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

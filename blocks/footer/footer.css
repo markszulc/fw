@@ -1,20 +1,245 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* stylelint-disable no-descending-specificity -- cascade order lifted verbatim from the approved prototype */
+
+/* Forrester footer — lifted from the approved prototype canon, rewritten mobile-first. */
+
+.footer .site-footer {
+  background-color: var(--c-footer);
+  color: var(--c-white);
+  padding: 30px 0;
+  text-align: left;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+.footer ul {
+  list-style: none;
 }
 
-footer .footer p {
+.footer p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+.footer a {
+  text-decoration: none;
+  color: var(--c-white);
+  transition: 0.5s ease-in-out;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: var(--c-yellow-hover);
+}
+
+/* logo */
+.footer .site-footer-logo {
+  display: block;
+  margin: 0 auto 15px;
+  width: 257px;
+}
+
+.footer .site-footer-logo .icon,
+.footer .site-footer-logo img {
+  display: block;
+  width: 257px;
+  height: 41px;
+}
+
+@media (width >= 768px) {
+  .footer .site-footer-logo {
+    margin-bottom: 30px;
+  }
+}
+
+.footer .site-footer-mobile-logo .l-row {
+  display: flex;
+}
+
+@media (width >= 768px) {
+  .footer .site-footer-mobile-logo .l-row {
+    display: none;
+  }
+}
+
+/* AI prompts + social icons */
+.footer .ai-prompts {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer .social {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.footer .social li + li {
+  margin-left: 10px;
+}
+
+.footer .social a {
+  cursor: pointer;
+  width: auto;
+  min-width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .social .icon {
+  display: block;
+  width: 24.29px;
+  height: 20px;
+}
+
+.footer .social a:hover .icon img,
+.footer .social a:focus .icon img {
+  filter: brightness(0) invert(1);
+}
+
+.footer .social-ai {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 20px auto 120px;
+}
+
+.footer .social-ai .icon {
+  width: 25px;
+  height: 25px;
+}
+
+/* footer menu */
+.footer .footer-menu {
+  margin-bottom: 2em;
+}
+
+.footer .footer-menu > li {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 0.5em;
+  text-align: left;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (width >= 768px) {
+  .footer .footer-menu > li {
+    text-align: inherit;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .footer .footer-menu > li a {
+    margin-bottom: 0.5em;
+  }
+}
+
+/* mobile CTA */
+.footer .site-footer-become-client {
+  margin: 50px auto 0;
+}
+
+.footer .site-footer-become-client .cta-secondary.cta-white {
+  color: var(--c-white);
+  border-color: var(--c-white);
+}
+
+@media (width >= 768px) {
+  .footer .site-footer-become-client {
+    display: none;
+  }
+}
+
+/* colophon */
+.footer .colophon {
+  margin-top: 30px;
+}
+
+.footer .colophon-logo-row {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .footer .colophon-logo-row {
+    display: flex;
+  }
+}
+
+.footer .colophon-copyright {
+  text-align: left;
+  font-size: 0.875rem;
+  margin-top: 1em;
+}
+
+.footer .colophon-cookie {
+  border: 0;
+  padding: 0;
+  background: none;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.footer .colophon-cookie:hover,
+.footer .colophon-cookie:focus {
+  background-color: transparent;
+  color: var(--c-yellow-hover);
+}
+
+.footer .colophon-subfooter {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.footer .colophon-util {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 20px;
+}
+
+.footer .colophon-social {
+  margin: 0;
+  padding-bottom: 50px;
+  border-bottom: 1px solid var(--c-rule);
+}
+
+.footer .colophon-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+@media (width >= 992px) {
+  .footer .colophon-subfooter {
+    align-items: center;
+    margin-top: 0;
+    padding-top: 25px;
+    border-top: 1px solid var(--c-rule);
+    text-align: inherit;
+    font-size: inherit;
+  }
+
+  .footer .colophon-util {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .footer .colophon-social {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .footer .colophon-links {
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 0;
   }
 }
